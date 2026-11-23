@@ -1,0 +1,546 @@
+{
+  "version": "0.2.0",
+  "created": "2026-11-11",
+  "status": "learning_blueprint_unofficial",
+  "disclaimer": "Peta belajar ini BUKAN kisi-kisi resmi. Disusun dari pola SKD 2024 (Permenpan-RB 6/2024, Kepmenpan-RB 321/2024) dan pemberitaan media. Perbarui setelah pengumuman resmi 2026.",
+  "sources": [
+    {
+      "id": "S-PERMENPAN-6-2024",
+      "tier": 2,
+      "title": "Permenpan-RB No. 6 Tahun 2024 (pengadaan ASN: tahapan administrasi, SKD, SKB; Pasal 26, 31, 34, 45)",
+      "verified_primary": false
+    },
+    {
+      "id": "S-KEPMEN-321-2024",
+      "tier": 2,
+      "title": "Kepmenpan-RB No. 321 Tahun 2024 (nilai ambang batas SKD)",
+      "verified_primary": false
+    },
+    {
+      "id": "S-MEDIA-2024-KISI",
+      "tier": 4,
+      "title": "CNN Indonesia 22 Agu 2024: Kisi-kisi materi CPNS 2024",
+      "verified_primary": false
+    },
+    {
+      "id": "S-MEDIA-2026-STATUS",
+      "tier": 4,
+      "title": "KemenPANRB siaran pers 378/HUMAS-MENPANRB/2026 (6 Nov 2026) via media",
+      "verified_primary": false
+    },
+    {
+      "id": "S-DETIK-KISI-2024",
+      "tier": 4,
+      "title": "detik.com: Daftar kisi-kisi SKD CPNS 2024 resmi KemenPANRB (merujuk Kepmenpan-RB 321/2024)",
+      "verified_primary": false
+    },
+    {
+      "id": "S-REPORT-2024",
+      "tier": 5,
+      "title": "Laporan peserta SKD CPNS 2024 (media sosial, via media): hanya jenis/topik, belum terverifikasi",
+      "verified_primary": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "TWK",
+      "name": "Tes Wawasan Kebangsaan",
+      "questions_in_exam": 30,
+      "topics": [
+        {
+          "id": "TWK-PIL-PANCASILA",
+          "name": "Pancasila",
+          "group": "Pilar negara",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Nilai tiap sila dan penerapannya dalam situasi sehari-hari",
+            "Sejarah perumusan (BPUPKI, PPKI, Piagam Jakarta)",
+            "Pancasila sebagai dasar negara, ideologi, pandangan hidup"
+          ],
+          "question_types": [
+            "konsep",
+            "penerapan situasi",
+            "penalaran kebangsaan"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta 2024 melaporkan penalaran nilai Pancasila dan peran BPUPKI/PPKI"
+        },
+        {
+          "id": "TWK-PIL-UUD1945",
+          "name": "UUD 1945",
+          "group": "Pilar negara",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Pasal kunci hak dan kewajiban warga negara",
+            "Lembaga negara dan kewenangannya (MPR, DPR, DPD, Presiden, MA, MK, KY, BPK)",
+            "Amandemen UUD 1945 dan isinya"
+          ],
+          "question_types": [
+            "hafalan pasal",
+            "penerapan",
+            "analisis lembaga"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi; pasal kunci dan lembaga negara"
+        },
+        {
+          "id": "TWK-PIL-NKRI",
+          "name": "NKRI",
+          "group": "Pilar negara",
+          "official_blueprint": true,
+          "priority": "medium",
+          "indicators": [
+            "Wawasan nusantara",
+            "Batas wilayah dan kedaulatan",
+            "Ketahanan nasional (ipoleksosbudhankam)",
+            "Otonomi daerah dan bentuk negara kesatuan"
+          ],
+          "question_types": [
+            "konsep",
+            "penerapan"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi"
+        },
+        {
+          "id": "TWK-PIL-BHINNEKA",
+          "name": "Bhinneka Tunggal Ika",
+          "group": "Pilar negara",
+          "official_blueprint": true,
+          "priority": "medium",
+          "indicators": [
+            "Toleransi dan keberagaman",
+            "Persatuan dalam perbedaan",
+            "Penerapan dalam konflik sosial/kerja"
+          ],
+          "question_types": [
+            "penerapan situasi"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi"
+        },
+        {
+          "id": "TWK-NAS",
+          "name": "Nasionalisme",
+          "group": "Nasionalisme",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Kepentingan nasional dan identitas nasional",
+            "Sejarah pergerakan nasional (Budi Utomo, Sumpah Pemuda, proklamasi)",
+            "Globalisasi dan ancaman terhadap identitas bangsa"
+          ],
+          "question_types": [
+            "sejarah",
+            "konsep",
+            "penerapan"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta 2024 melaporkan sejarah organisasi dan peristiwa kemerdekaan"
+        },
+        {
+          "id": "TWK-INT",
+          "name": "Integritas",
+          "group": "Integritas",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Kejujuran, ketangguhan, komitmen, konsistensi",
+            "Antikorupsi dan gratifikasi",
+            "Nilai dasar ASN (BerAKHLAK) dan kode etik ASN"
+          ],
+          "question_types": [
+            "konsep",
+            "kasus etika"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi"
+        },
+        {
+          "id": "TWK-BELA",
+          "name": "Bela negara",
+          "group": "Bela negara",
+          "official_blueprint": true,
+          "priority": "medium",
+          "indicators": [
+            "Dasar hukum bela negara",
+            "Bentuk dan nilai dasar bela negara",
+            "Ancaman (militer, nirmiliter, hibrida)"
+          ],
+          "question_types": [
+            "konsep",
+            "penerapan"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi"
+        },
+        {
+          "id": "TWK-BHS",
+          "name": "Bahasa negara",
+          "group": "Bahasa negara",
+          "official_blueprint": true,
+          "priority": "medium",
+          "indicators": [
+            "Kedudukan bahasa Indonesia sebagai bahasa persatuan",
+            "Ejaan (PUEBI/EYD) dan tata kalimat baku",
+            "Penggunaan bahasa Indonesia dalam situasi resmi"
+          ],
+          "question_types": [
+            "tata bahasa",
+            "ejaan",
+            "kalimat efektif"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta 2024 melaporkan gagasan utama, kesimpulan, dan makna kata"
+        },
+        {
+          "id": "TWK-SISTEM",
+          "name": "Sistem pemerintahan dan tata negara",
+          "group": "Pendukung",
+          "official_blueprint": false,
+          "priority": "medium",
+          "note": "Disebut sumber media sebagai bagian TWK; pendukung Pilar Negara. Verifikasi saat kisi-kisi 2026 keluar.",
+          "indicators": [
+            "Trias politika",
+            "Pemerintahan pusat dan daerah",
+            "Hubungan antarlembaga negara"
+          ],
+          "question_types": [
+            "konsep"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "pendukung pilar negara"
+        }
+      ]
+    },
+    {
+      "id": "TIU",
+      "name": "Tes Intelegensia Umum",
+      "questions_in_exam": 35,
+      "topics": [
+        {
+          "id": "TIU-VER-ANALOGI",
+          "name": "Analogi verbal",
+          "group": "Verbal",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Hubungan antarkata (sinonim, antonim, bagian-keseluruhan, sebab-akibat, fungsi)",
+            "Analogi kata sifat dan kata kerja"
+          ],
+          "question_types": [
+            "analogi"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi"
+        },
+        {
+          "id": "TIU-VER-SILOGISME",
+          "name": "Silogisme",
+          "group": "Verbal",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Silogisme kategorik (semua, sebagian, tidak ada)",
+            "Silogisme hipotetik (jika-maka)",
+            "Kesimpulan valid dan tidak valid"
+          ],
+          "question_types": [
+            "penarikan kesimpulan"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta 2024 melaporkan silogisme dua premis"
+        },
+        {
+          "id": "TIU-VER-ANALITIS",
+          "name": "Penalaran analitis",
+          "group": "Verbal",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Pengurutan dan penempatan (posisi, jadwal)",
+            "Logika kondisional dan pengelompokan",
+            "Penarikan kesimpulan dari pernyataan"
+          ],
+          "question_types": [
+            "logika"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi"
+        },
+        {
+          "id": "TIU-VER-BACAAN",
+          "name": "Pemahaman bacaan dan padanan kata",
+          "group": "Verbal",
+          "official_blueprint": false,
+          "priority": "low",
+          "note": "Ada di rancangan Anda dan beberapa sumber umum; tidak terkonfirmasi di daftar indikator 2024. Latihan pendukung.",
+          "indicators": [
+            "Ide pokok dan simpulan bacaan",
+            "Sinonim dan antonim"
+          ],
+          "question_types": [
+            "bacaan"
+          ],
+          "likelihood": "rendah",
+          "likelihood_basis": "tidak di daftar indikator; peserta melaporkan padanan kalimat"
+        },
+        {
+          "id": "TIU-NUM-BERHITUNG",
+          "name": "Berhitung",
+          "group": "Numerik",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Operasi hitung bilangan bulat, pecahan, desimal",
+            "Persentase",
+            "Perbandingan dan skala",
+            "Akar dan pangkat"
+          ],
+          "question_types": [
+            "hitungan cepat"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta melaporkan hitungan singkat"
+        },
+        {
+          "id": "TIU-NUM-DERET",
+          "name": "Deret angka",
+          "group": "Numerik",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Deret aritmetika dan geometri",
+            "Deret bertingkat",
+            "Deret selang-seling dan Fibonacci",
+            "Deret huruf"
+          ],
+          "question_types": [
+            "pola"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta 2024 melaporkan deret angka"
+        },
+        {
+          "id": "TIU-NUM-KUANTITATIF",
+          "name": "Perbandingan kuantitatif",
+          "group": "Numerik",
+          "official_blueprint": true,
+          "priority": "medium",
+          "indicators": [
+            "Membandingkan dua besaran (A > B, A = B, A < B, tidak dapat ditentukan)",
+            "Estimasi cepat tanpa hitung penuh"
+          ],
+          "question_types": [
+            "perbandingan"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi"
+        },
+        {
+          "id": "TIU-NUM-CERITA",
+          "name": "Soal cerita",
+          "group": "Numerik",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Kecepatan, jarak, waktu",
+            "Pekerjaan bersama",
+            "Umur",
+            "Untung-rugi, bunga",
+            "Campuran"
+          ],
+          "question_types": [
+            "cerita"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta melaporkan soal cerita"
+        },
+        {
+          "id": "TIU-NUM-TABEL",
+          "name": "Analisis tabel dan data",
+          "group": "Numerik",
+          "official_blueprint": false,
+          "priority": "medium",
+          "likelihood": "sedang",
+          "likelihood_basis": "dilaporkan peserta 2024 (belum terverifikasi); tidak ada di daftar indikator resmi",
+          "note": "Topik pendukung berbasis laporan peserta. Bentuk soal bisa berupa soal cerita/interpretasi data.",
+          "indicators": [
+            "Membaca nilai dari tabel",
+            "Persentase dan kenaikan antarperiode",
+            "Rata-rata dan selisih dari data tabel"
+          ],
+          "question_types": [
+            "interpretasi data"
+          ]
+        },
+        {
+          "id": "TIU-FIG-ANALOGI",
+          "name": "Analogi gambar",
+          "group": "Figural",
+          "official_blueprint": true,
+          "priority": "medium",
+          "indicators": [
+            "Perubahan bentuk, warna, jumlah, arah antara dua pasang gambar"
+          ],
+          "question_types": [
+            "figural"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta 2024 melaporkan figural cukup banyak"
+        },
+        {
+          "id": "TIU-FIG-KETIDAKSAMAAN",
+          "name": "Ketidaksamaan gambar",
+          "group": "Figural",
+          "official_blueprint": true,
+          "priority": "medium",
+          "indicators": [
+            "Menemukan gambar yang berbeda dari kelompoknya"
+          ],
+          "question_types": [
+            "figural"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta melaporkan figural cukup banyak"
+        },
+        {
+          "id": "TIU-FIG-SERIAL",
+          "name": "Serial gambar",
+          "group": "Figural",
+          "official_blueprint": true,
+          "priority": "medium",
+          "indicators": [
+            "Pola rotasi, pencerminan, penambahan/pengurangan elemen",
+            "Gambar lanjutan dari urutan"
+          ],
+          "question_types": [
+            "figural"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta melaporkan figural cukup banyak"
+        }
+      ]
+    },
+    {
+      "id": "TKP",
+      "name": "Tes Karakteristik Pribadi",
+      "questions_in_exam": 45,
+      "scoring_note": "Tiap opsi bernilai 1-5; dasar bobot tidak dipublikasikan. Pembahasan berbasis prinsip, bukan kunci pasti.",
+      "topics": [
+        {
+          "id": "TKP-PELAYANAN",
+          "name": "Pelayanan publik",
+          "group": "TKP",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Ramah, responsif, memenuhi kebutuhan dan kepuasan pengguna layanan",
+            "Menangani keluhan dan antrean",
+            "Pelayanan sesuai SOP"
+          ],
+          "question_types": [
+            "situasional"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; aspek utama TKP"
+        },
+        {
+          "id": "TKP-JEJARING",
+          "name": "Jejaring kerja",
+          "group": "TKP",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Membangun hubungan dan kolaborasi",
+            "Berbagi informasi",
+            "Koordinasi lintas unit"
+          ],
+          "question_types": [
+            "situasional"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi"
+        },
+        {
+          "id": "TKP-SOSBUD",
+          "name": "Sosial budaya",
+          "group": "TKP",
+          "official_blueprint": true,
+          "priority": "medium",
+          "indicators": [
+            "Beradaptasi pada masyarakat beragam suku, agama, budaya",
+            "Sikap terhadap perbedaan"
+          ],
+          "question_types": [
+            "situasional"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi"
+        },
+        {
+          "id": "TKP-TIK",
+          "name": "Teknologi informasi dan komunikasi",
+          "group": "TKP",
+          "official_blueprint": true,
+          "priority": "medium",
+          "indicators": [
+            "Memanfaatkan TIK untuk meningkatkan kinerja",
+            "Keamanan informasi",
+            "Belajar teknologi baru"
+          ],
+          "question_types": [
+            "situasional"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta melaporkan inovasi kantor dan keamanan informasi"
+        },
+        {
+          "id": "TKP-PROFESIONAL",
+          "name": "Profesionalisme",
+          "group": "TKP",
+          "official_blueprint": true,
+          "priority": "high",
+          "indicators": [
+            "Tanggung jawab dan kualitas kerja",
+            "Disiplin dan manajemen waktu",
+            "Inisiatif dan integritas dalam tugas"
+          ],
+          "question_types": [
+            "situasional"
+          ],
+          "likelihood": "tinggi",
+          "likelihood_basis": "indikator resmi; peserta melaporkan menyeimbangkan beban kerja"
+        },
+        {
+          "id": "TKP-ANTIRADIKAL",
+          "name": "Anti-radikalisme",
+          "group": "TKP",
+          "official_blueprint": true,
+          "priority": "medium",
+          "note": "Enam aspek TKP tercantum di dua sumber (detik/KemenPANRB-derived dan ringkasan indikator); satu halaman bimbel hanya menyebut lima karena materinya belum lengkap. Tetap verifikasi pada kisi-kisi 2026.",
+          "indicators": [
+            "Sikap terhadap paham yang bertentangan dengan Pancasila",
+            "Respons terhadap ajakan/ujaran intoleran"
+          ],
+          "question_types": [
+            "situasional"
+          ],
+          "likelihood": "sedang",
+          "likelihood_basis": "indikator resmi (enam aspek TKP pada dua sumber)"
+        }
+      ]
+    },
+    {
+      "id": "SKB",
+      "name": "Seleksi Kompetensi Bidang",
+      "questions_in_exam": null,
+      "status": "ditunda_sampai_jabatan_dipilih",
+      "topics": []
+    }
+  ],
+  "updated": "2026-11-12",
+  "likelihood_note": "Label 'likelihood' adalah PERKIRAAN belajar, bukan data resmi. Dasar: (1) indikator resmi 2024 yang konsisten di beberapa sumber, (2) laporan peserta 2024 yang belum terverifikasi. Tidak ada sumber resmi yang menerbitkan frekuensi soal per subtopik."
+}

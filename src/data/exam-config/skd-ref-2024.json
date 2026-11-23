@@ -1,0 +1,49 @@
+{
+  "id": "skd-ref-2024",
+  "label": "SKD referensi pola 2024 (BELUM terverifikasi untuk 2026)",
+  "status": "reference_unverified_2026",
+  "last_verified": null,
+  "note": "Angka berasal dari Kepmenpan-RB 321/2024 via pemberitaan/media. Jangan dianggap resmi untuk 2026 sampai ada pengumuman BKN/KemenPANRB. Saat pengumuman keluar, buat file baru (mis. skd-2026.json) dan JANGAN menimpa file ini.",
+  "total_questions": 110,
+  "duration_minutes": 100,
+  "duration_status": "dari 2 sumber media, perlu konfirmasi",
+  "sections": [
+    {
+      "category": "TWK",
+      "questions": 30,
+      "scoring": { "type": "right_wrong", "correct": 5, "wrong": 0, "blank": 0 },
+      "max_score": 150,
+      "threshold": 65
+    },
+    {
+      "category": "TIU",
+      "questions": 35,
+      "scoring": { "type": "right_wrong", "correct": 5, "wrong": 0, "blank": 0 },
+      "max_score": 175,
+      "threshold": 80
+    },
+    {
+      "category": "TKP",
+      "questions": 45,
+      "scoring": { "type": "weighted_options", "min_option": 1, "max_option": 5, "blank": 0 },
+      "max_score": 225,
+      "threshold": 166
+    }
+  ],
+  "max_total": 550,
+  "pass_rule": "Setiap subtes harus mencapai nilai ambang batas; lalu peringkat dalam kuota (maks 3x formasi pada 2024).",
+  "tie_break_order": ["TKP", "TIU", "TWK"],
+  "internal_targets_not_official": {
+    "mastered_accuracy": 0.85,
+    "seconds_per_question": { "TWK": 40, "TIU": 70, "TKP": 50 },
+    "comment": "Parameter belajar internal. Total 5.900 dtk (~98 menit) agar muat dalam 100 menit."
+  },
+  "needs_verification": [
+    "Jadwal dan tahapan seleksi 2026",
+    "Nilai ambang batas 2026 (umum dan formasi khusus)",
+    "Jumlah soal dan durasi SKD 2026",
+    "Bobot SKD:SKB (2024: 40:60) dan komponen SKB per instansi",
+    "Aspek TKP: 5 atau 6 (anti-radikalisme)?"
+  ],
+  "sources": ["S-PERMENPAN-6-2024", "S-KEPMEN-321-2024", "S-MEDIA-2026-STATUS"]
+}

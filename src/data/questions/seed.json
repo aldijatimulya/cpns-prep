@@ -1,0 +1,226 @@
+[
+  {
+    "id": "TIU-NUM-DERET-001", "category": "TIU", "topic_id": "TIU-NUM-DERET", "difficulty": 1,
+    "stem": "Tentukan angka berikutnya: 2, 5, 10, 17, 26, ...",
+    "options": [{"key":"A","text":"35"},{"key":"B","text":"36"},{"key":"C","text":"37"},{"key":"D","text":"38"},{"key":"E","text":"40"}],
+    "answer": "C",
+    "explanation": {
+      "quick": "Selisih antarsuku: 3, 5, 7, 9, lalu 11. Suku berikutnya 26 + 11 = 37.",
+      "detailed": "1) Tipe soal: deret bertingkat. 2) Hitung selisih: 5-2=3, 10-5=5, 17-10=7, 26-17=9. 3) Selisih membentuk deret ganjil naik 2, sehingga selisih berikutnya 11. 4) 26 + 11 = 37. Cek alternatif: suku ke-n = n² + 1 (1+1=2, 4+1=5, 9+1=10, 16+1=17, 25+1=26, 36+1=37). Hasil sama."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TIU-NUM-BERHITUNG-001", "category": "TIU", "topic_id": "TIU-NUM-BERHITUNG", "difficulty": 1,
+    "stem": "Berapakah hasil dari 25% × 480 + 15% × 200?",
+    "options": [{"key":"A","text":"130"},{"key":"B","text":"140"},{"key":"C","text":"150"},{"key":"D","text":"160"},{"key":"E","text":"170"}],
+    "answer": "C",
+    "explanation": {
+      "quick": "25% × 480 = 120; 15% × 200 = 30; total 150.",
+      "detailed": "1) Tipe: persentase. 2) 25% = 1/4, jadi 480/4 = 120. 3) 15% × 200 = 0,15 × 200 = 30. 4) 120 + 30 = 150. Strategi cepat: ubah persen umum ke pecahan (25% = 1/4, 10% = 1/10)."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TIU-NUM-CERITA-001", "category": "TIU", "topic_id": "TIU-NUM-CERITA", "difficulty": 2,
+    "stem": "Sebuah mobil menempuh 180 km dalam 2,5 jam. Dengan kecepatan yang sama, berapa waktu yang diperlukan untuk menempuh 288 km?",
+    "options": [{"key":"A","text":"3,5 jam"},{"key":"B","text":"4 jam"},{"key":"C","text":"4,5 jam"},{"key":"D","text":"5 jam"},{"key":"E","text":"5,5 jam"}],
+    "answer": "B",
+    "explanation": {
+      "quick": "Kecepatan = 180 / 2,5 = 72 km/jam. Waktu = 288 / 72 = 4 jam.",
+      "detailed": "1) Tipe: kecepatan-jarak-waktu. 2) v = s / t = 180 / 2,5 = 72 km/jam. 3) t = s / v = 288 / 72 = 4 jam. Cek: 72 × 4 = 288. Cara lain: perbandingan senilai, 180 : 2,5 = 288 : t, t = 2,5 × 288 / 180 = 4."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TIU-NUM-CERITA-002", "category": "TIU", "topic_id": "TIU-NUM-CERITA", "difficulty": 2,
+    "stem": "Umur ayah 4 kali umur anaknya. Lima tahun lagi jumlah umur keduanya 60 tahun. Berapa umur anak sekarang?",
+    "options": [{"key":"A","text":"8 tahun"},{"key":"B","text":"9 tahun"},{"key":"C","text":"10 tahun"},{"key":"D","text":"11 tahun"},{"key":"E","text":"12 tahun"}],
+    "answer": "C",
+    "explanation": {
+      "quick": "Misal anak = a, ayah = 4a. (a+5) + (4a+5) = 60, maka 5a = 50, a = 10.",
+      "detailed": "1) Tipe: soal umur. 2) Variabel: anak a, ayah 4a. 3) Lima tahun lagi keduanya bertambah 5: (a+5)+(4a+5) = 60. 4) 5a + 10 = 60, a = 10. Cek: ayah 40; 5 tahun lagi 45 + 15 = 60."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TIU-NUM-KUANTITATIF-001", "category": "TIU", "topic_id": "TIU-NUM-KUANTITATIF", "difficulty": 1,
+    "stem": "P = 3/8 dan Q = 0,4. Hubungan yang benar antara P dan Q adalah ...",
+    "options": [{"key":"A","text":"P > Q"},{"key":"B","text":"P < Q"},{"key":"C","text":"P = Q"},{"key":"D","text":"Hubungan P dan Q tidak dapat ditentukan"}],
+    "answer": "B",
+    "explanation": {
+      "quick": "3/8 = 0,375 dan Q = 0,4, jadi P < Q.",
+      "detailed": "1) Tipe: perbandingan kuantitatif. 2) Samakan bentuk: 3/8 = 0,375. 3) 0,375 < 0,4. Strategi: ubah ke bentuk yang sama sebelum membandingkan."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TIU-VER-SILOGISME-001", "category": "TIU", "topic_id": "TIU-VER-SILOGISME", "difficulty": 2,
+    "stem": "Semua pegawai negeri wajib menaati peraturan. Sebagian pegawai negeri adalah guru. Kesimpulan yang PASTI benar adalah ...",
+    "options": [
+      {"key":"A","text":"Semua guru wajib menaati peraturan"},
+      {"key":"B","text":"Sebagian guru wajib menaati peraturan"},
+      {"key":"C","text":"Tidak ada guru yang wajib menaati peraturan"},
+      {"key":"D","text":"Semua yang wajib menaati peraturan adalah guru"},
+      {"key":"E","text":"Sebagian guru tidak wajib menaati peraturan"}
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Guru yang juga pegawai negeri pasti wajib taat, jadi sebagian guru wajib taat.",
+      "detailed": "1) Tipe: silogisme kategorik. 2) Premis 1: pegawai negeri ⊂ wajib taat. Premis 2: ada irisan guru dan pegawai negeri. 3) Irisan itu otomatis berada di dalam kelompok wajib taat, maka sebagian guru wajib taat. 4) A salah karena tidak semua guru dijamin pegawai negeri. C dan E tidak bisa dipastikan. D membalik premis."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TIU-VER-ANALOGI-001", "category": "TIU", "topic_id": "TIU-VER-ANALOGI", "difficulty": 1,
+    "stem": "Dokter : Stetoskop = Petani : ...",
+    "options": [{"key":"A","text":"Sawah"},{"key":"B","text":"Cangkul"},{"key":"C","text":"Padi"},{"key":"D","text":"Pupuk"},{"key":"E","text":"Desa"}],
+    "answer": "B",
+    "explanation": {
+      "quick": "Hubungannya profesi dan alat kerjanya. Alat petani: cangkul.",
+      "detailed": "1) Tipe: analogi profesi-alat. 2) Dokter menggunakan stetoskop untuk memeriksa. 3) Padanan: petani menggunakan cangkul. Sawah adalah tempat, padi adalah hasil, pupuk adalah bahan."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TIU-VER-ANALITIS-001", "category": "TIU", "topic_id": "TIU-VER-ANALITIS", "difficulty": 1,
+    "stem": "Empat pegawai (P, Q, R, S) antre berurutan. P tepat di depan Q. R berada paling belakang. S berada paling depan. Siapa yang berada di urutan kedua dari depan?",
+    "options": [{"key":"A","text":"P"},{"key":"B","text":"Q"},{"key":"C","text":"R"},{"key":"D","text":"S"},{"key":"E","text":"Tidak dapat ditentukan"}],
+    "answer": "A",
+    "explanation": {
+      "quick": "S di depan, R di belakang, sisa P lalu Q (P di depan Q). Urutan: S, P, Q, R.",
+      "detailed": "1) Tipe: pengurutan. 2) Tetapkan posisi pasti: S = 1, R = 4. 3) Sisa posisi 2 dan 3 untuk P dan Q; P tepat di depan Q, maka P = 2, Q = 3. Urutan S-P-Q-R."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TWK-PIL-UUD1945-001", "category": "TWK", "topic_id": "TWK-PIL-UUD1945", "difficulty": 1,
+    "stem": "Pasal 1 ayat (2) UUD 1945 menyatakan bahwa kedaulatan berada di tangan rakyat dan ...",
+    "options": [
+      {"key":"A","text":"dilaksanakan oleh Presiden"},
+      {"key":"B","text":"dilaksanakan menurut Undang-Undang Dasar"},
+      {"key":"C","text":"dilaksanakan sepenuhnya oleh MPR"},
+      {"key":"D","text":"dijalankan oleh DPR dan DPD"},
+      {"key":"E","text":"dijalankan melalui pemilihan umum saja"}
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Setelah amandemen: 'Kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.'",
+      "detailed": "Sebelum amandemen kedaulatan dilakukan sepenuhnya oleh MPR. Setelah amandemen ketiga (2001), kedaulatan dilaksanakan menurut UUD, sehingga tidak lagi terpusat pada MPR. Opsi C adalah bunyi lama dan jebakan umum. Verifikasi ulang ke naskah UUD 1945 resmi sebelum menjadikan soal ini final."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TWK-PIL-PANCASILA-001", "category": "TWK", "topic_id": "TWK-PIL-PANCASILA", "difficulty": 1,
+    "stem": "Seorang pegawai melayani semua warga dengan sikap yang sama tanpa membedakan suku, agama, maupun status sosial. Sikap ini paling mencerminkan nilai sila ...",
+    "options": [
+      {"key":"A","text":"Ketuhanan Yang Maha Esa"},
+      {"key":"B","text":"Kemanusiaan yang adil dan beradab"},
+      {"key":"C","text":"Persatuan Indonesia"},
+      {"key":"D","text":"Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan"},
+      {"key":"E","text":"Keadilan sosial bagi seluruh rakyat Indonesia"}
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Memperlakukan semua orang setara dan manusiawi adalah inti sila kedua.",
+      "detailed": "Kata kunci: tanpa membedakan, sikap sama terhadap sesama manusia. Itu penghormatan martabat manusia, yaitu sila kedua. Sila kelima berkaitan dengan pemerataan keadilan sosial-ekonomi, bukan perilaku pelayanan individual."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TWK-NAS-001", "category": "TWK", "topic_id": "TWK-NAS", "difficulty": 1,
+    "stem": "Sumpah Pemuda diikrarkan pada tanggal ...",
+    "options": [{"key":"A","text":"20 Mei 1908"},{"key":"B","text":"28 Oktober 1928"},{"key":"C","text":"17 Agustus 1945"},{"key":"D","text":"1 Juni 1945"},{"key":"E","text":"18 Agustus 1945"}],
+    "answer": "B",
+    "explanation": {
+      "quick": "28 Oktober 1928 (Kongres Pemuda II).",
+      "detailed": "20 Mei 1908 = Kebangkitan Nasional (Budi Utomo). 1 Juni 1945 = pidato Soekarno tentang lahirnya Pancasila. 17 Agustus 1945 = proklamasi. 18 Agustus 1945 = pengesahan UUD 1945 oleh PPKI. Soal tanggal-tonggak sering menguji pembedaan lima peristiwa ini."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TWK-BHS-001", "category": "TWK", "topic_id": "TWK-BHS", "difficulty": 1,
+    "stem": "Kalimat yang baku dan efektif adalah ...",
+    "options": [
+      {"key":"A","text":"Para pegawai itu sudah menyelesaikan laporan tepat waktu."},
+      {"key":"B","text":"Para pegawai-pegawai itu sudah menyelesaikan laporan tepat waktu."},
+      {"key":"C","text":"Pegawai-pegawai itu telah selesai mengerjakan daripada laporan tepat waktu."},
+      {"key":"D","text":"Laporan sudah diselesaikan oleh para pegawai-pegawai tepat pada waktunya."},
+      {"key":"E","text":"Para pegawai itu menyelesaikan laporan tepat waktu sekali."}
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "'Para' sudah menyatakan jamak, jadi tidak boleh digandakan dengan 'pegawai-pegawai'.",
+      "detailed": "B dan D memakai bentuk jamak ganda (para + reduplikasi). C memakai 'daripada' secara tidak tepat. E memakai 'sekali' yang janggal setelah 'tepat waktu'. A efektif dan baku."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TWK-INT-001", "category": "TWK", "topic_id": "TWK-INT", "difficulty": 2,
+    "stem": "Setelah urusannya selesai, seorang warga memberikan sebuah bingkisan kepada ASN yang melayaninya sebagai tanda terima kasih. Sikap yang paling sesuai dengan prinsip integritas adalah ...",
+    "options": [
+      {"key":"A","text":"Menerima karena pemberian itu tidak mempengaruhi keputusan"},
+      {"key":"B","text":"Menerima dan membaginya dengan rekan kerja"},
+      {"key":"C","text":"Menolak dengan sopan dan, bila tidak dapat ditolak, melaporkannya ke unit pengendali gratifikasi"},
+      {"key":"D","text":"Menerima lalu menyimpannya tanpa memberi tahu siapa pun"},
+      {"key":"E","text":"Menerima asalkan nilainya kecil"}
+    ],
+    "answer": "C",
+    "explanation": {
+      "quick": "Menolak dengan sopan; jika tidak bisa, laporkan ke unit pengendali gratifikasi.",
+      "detailed": "Pemberian kepada penyelenggara layanan terkait jabatan berpotensi gratifikasi. Alasan 'tidak mempengaruhi keputusan' atau 'nilainya kecil' tidak menghilangkan potensi konflik kepentingan. Verifikasi ketentuan batas dan mekanisme pelaporan pada regulasi gratifikasi yang berlaku."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TKP-PELAYANAN-001", "category": "TKP", "topic_id": "TKP-PELAYANAN", "difficulty": 1,
+    "stem": "Anda bertugas di loket. Seorang warga datang marah-marah karena berkas ditolak akibat kurang satu dokumen. Yang Anda lakukan adalah ...",
+    "options": [
+      {"key":"A","text":"Menjelaskan dengan tenang kekurangan dokumennya, menunjukkan daftar persyaratan, dan membantu mencari solusi agar bisa melengkapinya","score":5},
+      {"key":"B","text":"Menjelaskan alasan penolakan sesuai aturan lalu mempersilakan warga kembali setelah melengkapi","score":4},
+      {"key":"C","text":"Meminta warga menenangkan diri dahulu sebelum dilayani","score":3},
+      {"key":"D","text":"Meminta rekan kerja menangani warga tersebut","score":2},
+      {"key":"E","text":"Membalas dengan nada tinggi agar warga paham aturan","score":1}
+    ],
+    "answer": null,
+    "explanation": {
+      "quick": "Skor tertinggi: tenang, jelas, dan membantu solusi tanpa melanggar aturan.",
+      "detailed": "Kompetensi: pelayanan publik. Prinsip: responsif dan empatik sambil patuh pada SOP. Bobot di atas adalah ILUSTRASI belajar karena dasar bobot resmi TKP tidak dipublikasikan."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TKP-PROFESIONAL-001", "category": "TKP", "topic_id": "TKP-PROFESIONAL", "difficulty": 1,
+    "stem": "Menjelang batas waktu pengumpulan laporan, Anda menyadari ada kesalahan data di laporan Anda. Yang Anda lakukan adalah ...",
+    "options": [
+      {"key":"A","text":"Segera memperbaiki data, memeriksa ulang, dan memberi tahu atasan bila ada risiko keterlambatan","score":5},
+      {"key":"B","text":"Memperbaiki data dan tetap mengumpulkan tepat waktu tanpa pemeriksaan ulang","score":4},
+      {"key":"C","text":"Mengumpulkan tepat waktu dan memperbaikinya jika ada yang menegur","score":2},
+      {"key":"D","text":"Meminta perpanjangan waktu tanpa memperbaiki dahulu","score":3},
+      {"key":"E","text":"Membiarkan karena yang penting terkumpul","score":1}
+    ],
+    "answer": null,
+    "explanation": {
+      "quick": "Tanggung jawab: perbaiki, verifikasi, komunikasikan risiko.",
+      "detailed": "Kompetensi: profesionalisme. Mengutamakan akurasi dan transparansi. Bobot hanya ilustrasi belajar."
+    },
+    "status": "draft", "source": "original", "verified": false
+  },
+  {
+    "id": "TKP-JEJARING-001", "category": "TKP", "topic_id": "TKP-JEJARING", "difficulty": 1,
+    "stem": "Proyek Anda membutuhkan data dari unit lain yang belum Anda kenal. Yang Anda lakukan adalah ...",
+    "options": [
+      {"key":"A","text":"Menghubungi unit tersebut, memperkenalkan diri, menjelaskan kebutuhan dan tenggat, serta menawarkan timbal balik informasi","score":5},
+      {"key":"B","text":"Meminta atasan menghubungi unit tersebut","score":3},
+      {"key":"C","text":"Mengirim surel singkat tanpa tindak lanjut","score":2},
+      {"key":"D","text":"Mencari data dari sumber lain sendiri tanpa memberi tahu unit tersebut","score":4},
+      {"key":"E","text":"Menunda proyek sampai ada yang menawarkan data","score":1}
+    ],
+    "answer": null,
+    "explanation": {
+      "quick": "Proaktif membangun hubungan kerja yang saling menguntungkan.",
+      "detailed": "Kompetensi: jejaring kerja. Inisiatif, komunikasi jelas, dan kolaborasi dua arah. Bobot hanya ilustrasi belajar."
+    },
+    "status": "draft", "source": "original", "verified": false
+  }
+]
