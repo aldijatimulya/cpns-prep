@@ -1,15 +1,55 @@
 import { useState } from 'react'
+import { Cloud, KeyRound, Settings as Cog, UserRound } from 'lucide-react'
+import PageHero from '../components/ui/PageHero'
+import { useAuth } from '../contexts/AuthContext'
 import { useStore } from '../contexts/StoreContext'
 import { curriculum, examConfig } from '../data'
 import { exportState } from '../services/storage'
 import { DEFAULT_MODEL, loadTutorConfig, saveTutorConfig } from '../services/tutor'
 
+const syncText = {
+  idle: 'Belum disinkronkan',
+  syncing: 'Menyimpan ke akun…',
+  saved: 'Semua perubahan tersimpan di akun Anda',
+  offline: 'Sedang offline. Perubahan tersimpan di perangkat dan dikirim saat online lagi',
+  error: 'Gagal menyimpan ke akun. Coba kirim ulang',
+}
+
 export default function Settings() {
-  const { state, reset, importBackup, setProfile, logout } = useStore()
-  const [pname, setPname] = useState(state.profile.name)
+  const { state, reset, importBackup, setProfile, logout, mode, sync, retrySync, email, profileName } = useStore()
+  const auth = useAuth()
+  const cloud = mode === 'cloud'
+  const [pname, setPname] = useState(profileName)
+  const [accMsg, setAccMsg] = useState('')
+  const [pw, setPw] = useState('')
+  const [pw2, setPw2] = useState('')
+  const [pwMsg, setPwMsg] = useState({ ok: false, text: '' })
   const [msg, setMsg] = useState('')
   const [tutor, setTutor] = useState(loadTutorConfig)
   const [tutorMsg, setTutorMsg] = useState('')
+
+  const saveName = async () => {
+    setAccMsg('')
+    try {
+      if (cloud) await auth.updateName(pname)
+      else setProfile(pname)
+      setAccMsg('Nama disimpan.')
+    } catch (err) {
+      setAccMsg(err.message)
+    }
+  }
+  const savePw = async (e) => {
+    e.preventDefault()
+    if (pw.length < 8) { setPwMsg({ ok: false, text: 'Password minimal 8 karakter.' }); return }
+    if (pw !== pw2) { setPwMsg({ ok: false, text: 'Konfirmasi password tidak sama.' }); return }
+    try {
+      await auth.updatePassword(pw)
+      setPw(''); setPw2('')
+      setPwMsg({ ok: true, text: 'Password diperbarui.' })
+    } catch (err) {
+      setPwMsg({ ok: false, text: err.message })
+    }
+  }
   const onImport = async (e) => {
     const f = e.target.files?.[0]
     e.target.value = ''
@@ -33,21 +73,48 @@ export default function Settings() {
 
   return (
     <>
-      <header className="page-head">
-        <h1>Pengaturan</h1>
-        <p>Data tersimpan di browser ini saja.</p>
-      </header>
+      <PageHero
+        art="calendar"
+        kicker={<><Cog size={16} aria-hidden="true" /> Pengaturan</>}
+        title="Pengaturan"
+        text={cloud ? 'Akun online: data belajar Anda tersimpan di akun dan bisa dibuka dari perangkat mana pun.' : 'Mode tamu: data tersimpan di browser ini saja.'}
+      />
       <section className="card form">
-        <h2>Profil</h2>
+        <h2><UserRound size={18} className="ico-teal" aria-hidden="true" /> Akun</h2>
+        {cloud && <p>Email: <b>{email}</b></p>}
+        {cloud && (
+          <p className={`sync-line ${sync}`} role="status">
+            <Cloud size={16} aria-hidden="true" /> {syncText[sync]}
+            {(sync === 'error' || sync === 'offline') && <button type="button" className="link-btn" onClick={retrySync}>Kirim ulang</button>}
+          </p>
+        )}
         <label>Nama panggilan
           <input value={pname} maxLength={40} onChange={(e) => setPname(e.target.value)} />
         </label>
         <div className="row actions">
-          <button className="btn" disabled={!pname.trim()} onClick={() => setProfile(pname)}>Simpan nama</button>
-          <button className="btn ghost" onClick={logout}>Keluar</button>
+          <button className="btn" disabled={!pname.trim()} onClick={saveName}>Simpan nama</button>
+          <button className="btn ghost" onClick={logout}>{cloud ? 'Keluar' : 'Ke halaman masuk / daftar'}</button>
         </div>
-        <p className="muted">Keluar tidak menghapus data belajar. Data tetap ada di browser ini.</p>
+        {accMsg && <p role="status">{accMsg}</p>}
+        <p className="muted">
+          {cloud
+            ? 'Keluar tidak menghapus data di akun. Masuk lagi dengan email yang sama untuk melanjutkan.'
+            : 'Buat akun dengan email agar riwayat latihan tersimpan online. Data tamu di browser ini bisa digabungkan ke akun setelah Anda masuk.'}
+        </p>
       </section>
+      {cloud && (
+        <form className="card form" onSubmit={savePw}>
+          <h2><KeyRound size={18} className="ico-teal" aria-hidden="true" /> Ganti password</h2>
+          <label>Password baru
+            <input type="password" autoComplete="new-password" minLength={8} value={pw} onChange={(e) => setPw(e.target.value)} />
+          </label>
+          <label>Ulangi password baru
+            <input type="password" autoComplete="new-password" minLength={8} value={pw2} onChange={(e) => setPw2(e.target.value)} />
+          </label>
+          <div className="row actions"><button className="btn" type="submit" disabled={!pw}>Perbarui password</button></div>
+          {pwMsg.text && <p role="status" className={pwMsg.ok ? '' : 'err-text'}>{pwMsg.text}</p>}
+        </form>
+      )}
       <section className="card">
         <h2>Data saya</h2>
         <p>{state.attempts.length} sesi · {state.bookmarks.length} soal ditandai · {Object.keys(state.notes).length} catatan</p>
@@ -59,11 +126,13 @@ export default function Settings() {
           </label>
           <button
             className="btn danger"
-            onClick={() => { if (window.confirm('Hapus semua riwayat, catatan, dan tanda? Tindakan ini tidak bisa dibatalkan.')) reset() }}
+            onClick={() => { if (window.confirm(cloud ? 'Hapus semua riwayat, catatan, dan tanda, termasuk yang tersimpan di akun online? Tindakan ini tidak bisa dibatalkan.' : 'Hapus semua riwayat, catatan, dan tanda? Tindakan ini tidak bisa dibatalkan.')) reset() }}
           >Hapus semua data</button>
         </div>
         {msg && <p role="status">{msg}</p>}
-        <p className="muted">Impor menggabungkan data tanpa menimpa yang ada, jadi aman untuk memindahkan progres antar perangkat. Membersihkan data browser akan menghapus riwayat. Unduh cadangan secara berkala.</p>
+        <p className="muted">
+          Impor menggabungkan data tanpa menimpa yang ada. {cloud ? 'Dengan akun online, data sudah tersimpan di server. Cadangan JSON tetap berguna sebagai salinan pribadi.' : 'Membersihkan data browser akan menghapus riwayat, jadi unduh cadangan secara berkala.'}
+        </p>
       </section>
       <section className="card form">
         <h2>Tutor AI (opsional)</h2>

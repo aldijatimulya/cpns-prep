@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { Bookmark } from 'lucide-react'
+import { Bookmark, Library } from 'lucide-react'
+import PageHero from '../components/ui/PageHero'
 import TutorPanel from '../components/TutorPanel'
 import { useStore } from '../contexts/StoreContext'
 import { categories, questions, topicById } from '../data'
@@ -32,10 +33,12 @@ export default function QuestionBank() {
 
   return (
     <>
-      <header className="page-head">
-        <h1>Bank Soal</h1>
-        <p>{list.length} dari {questions.length} soal. Terverifikasi oleh Anda: {verifiedCount}. Soal lain masih draft.</p>
-      </header>
+      <PageHero
+        art="books"
+        kicker={<><Library size={16} aria-hidden="true" /> Bank Soal</>}
+        title="Bank Soal"
+        text={`${list.length} dari ${questions.length} soal. Terverifikasi oleh Anda: ${verifiedCount}. Soal lain masih draft.`}
+      />
 
       <div className="chips" role="tablist" aria-label="Kategori">
         {['ALL', ...categories.map((c) => c.id)].map((id) => (

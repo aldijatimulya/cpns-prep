@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { CalendarDays } from 'lucide-react'
+import PageHero from '../components/ui/PageHero'
 import { useStore } from '../contexts/StoreContext'
 import { questions, topics } from '../data'
 import { dailyActivity, daysUntil, topicStats, pct, weakQuestionIds } from '../utils/stats'
@@ -22,10 +24,12 @@ export default function Plan() {
 
   return (
     <>
-      <header className="page-head">
-        <h1>Rencana belajar</h1>
-        <p>Atur tanggal ujian, target harian, dan daftar materi SKB Anda sendiri.</p>
-      </header>
+      <PageHero
+        art="calendar"
+        kicker={<><CalendarDays size={16} aria-hidden="true" /> Rencana Belajar</>}
+        title="Rencana Belajar"
+        text="Atur tanggal ujian, target harian, dan daftar materi SKB Anda sendiri."
+      />
 
       <section className="card form">
         <label>Tanggal ujian (isi setelah jadwal resmi terbit)

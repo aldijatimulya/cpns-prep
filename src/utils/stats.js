@@ -1,4 +1,4 @@
-import { masteredAccuracy, targetSeconds, topics } from '../data'
+import { masteredAccuracy, questions, targetSeconds, topics } from '../data'
 
 /** Agregasi per topik dari seluruh riwayat percobaan. */
 export function topicStats(attempts) {
@@ -153,4 +153,21 @@ export function daysUntil(dateStr, now = new Date()) {
   const t = new Date(`${dateStr}T00:00:00`)
   const n = new Date(now.getFullYear(), now.getMonth(), now.getDate())
   return Math.round((t - n) / 86400000)
+}
+
+export const CAT_GOAL = 5 // target internal jumlah simulasi CAT sebelum ujian (bukan standar resmi)
+
+/** Ringkasan progres: topik dicoba, soal unik dijawab, simulasi dikerjakan, dan rata-ratanya. */
+export function progressSummary(attempts) {
+  const stats = topicStats(attempts)
+  const tried = topics.filter((t) => stats[t.id].answered > 0).length
+  const answeredIds = new Set(attempts.flatMap((a) => a.items.filter((i) => i.chosen).map((i) => i.qid)))
+  const cats = attempts.filter((a) => a.kind === 'cat').length
+  const pMateri = topics.length ? tried / topics.length : 0
+  const pSoal = questions.length ? answeredIds.size / questions.length : 0
+  const pCat = Math.min(1, cats / CAT_GOAL)
+  return {
+    tried, totalTopics: topics.length, answeredIds, answered: answeredIds.size, totalQuestions: questions.length, cats,
+    pMateri, pSoal, pCat, pAll: (pMateri + pSoal + pCat) / 3,
+  }
 }

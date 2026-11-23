@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import TutorPanel from '../components/TutorPanel'
-import HeroArt from '../components/ui/HeroArt'
+import { ClipboardCheck } from 'lucide-react'
+import PageHero from '../components/ui/PageHero'
 import { useStore } from '../contexts/StoreContext'
 import { examConfig, isCorrect, maxPoints, pointsFor, questions, topicById } from '../data'
 import { catDurationSec, composeCat, thresholdFor } from '../utils/cat'
@@ -39,19 +40,18 @@ function CatSetup({ onStart }) {
 
   return (
     <>
-      <section className="hero sim">
-        <div className="hero-text">
-          <small className="hero-kicker">Simulasi</small>
-          <h1>Simulasi CAT</h1>
-          <p>Kerjakan satu set penuh dalam satu tarikan napas untuk melatih tempo dan ketahanan.</p>
-          <ul className="ticks">
-            <li>Waktu berjalan nyata, otomatis selesai saat habis</li>
-            <li>Penilaian otomatis per subtes</li>
-            <li>Pembahasan lengkap setelah selesai</li>
-          </ul>
-        </div>
-        <HeroArt />
-      </section>
+      <PageHero
+        art="monitor"
+        kicker={<><ClipboardCheck size={16} aria-hidden="true" /> Simulasi</>}
+        title="Simulasi CAT"
+        text="Kerjakan satu set penuh dalam satu tarikan napas untuk melatih tempo dan ketahanan."
+      >
+        <ul className="ticks">
+          <li>Waktu berjalan nyata, otomatis selesai saat habis</li>
+          <li>Penilaian otomatis per subtes</li>
+          <li>Pembahasan lengkap setelah selesai</li>
+        </ul>
+      </PageHero>
       <div className="banner" role="note">
         <p>
           Komposisi dan ambang batas memakai <strong>referensi pola 2024</strong> (belum resmi untuk 2026).
@@ -287,10 +287,12 @@ function CatResult({ result, onAgain }) {
 
   return (
     <>
-      <header className="page-head">
-        <h1>Hasil simulasi CAT</h1>
-        <p>Waktu {fmtTime(result.duration_sec)} · {result.items.filter((i) => i.chosen).length} dari {result.items.length} dijawab</p>
-      </header>
+      <PageHero
+        art="monitor"
+        kicker={<><ClipboardCheck size={16} aria-hidden="true" /> Simulasi selesai</>}
+        title="Hasil simulasi CAT"
+        text={`Waktu ${fmtTime(result.duration_sec)} · ${result.items.filter((i) => i.chosen).length} dari ${result.items.length} dijawab`}
+      />
 
       <section className="card">
         <h2>Skor per subtes</h2>

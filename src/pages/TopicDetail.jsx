@@ -1,4 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
+import { ArrowLeft, BookOpen } from 'lucide-react'
+import PageHero from '../components/ui/PageHero'
 import { useStore } from '../contexts/StoreContext'
 import { questionsForTopic, targetSeconds, topicById } from '../data'
 import { pct, topicStats } from '../utils/stats'
@@ -21,11 +23,13 @@ export default function TopicDetail() {
 
   return (
     <>
-      <p><Link to="/learn">← Materi</Link></p>
-      <header className="page-head">
-        <h1>{topic.name}</h1>
-        <p>{topic.category} · {topic.group} · prioritas {topic.priority}</p>
-      </header>
+      <PageHero
+        art="books"
+        kicker={<><BookOpen size={16} aria-hidden="true" /> {topic.category}</>}
+        title={topic.name}
+        text={`${topic.category} · ${topic.group} · prioritas ${topic.priority}`}
+        actions={<Link className="btn light" to="/learn"><ArrowLeft size={16} aria-hidden="true" /> Kembali ke Materi</Link>}
+      />
 
       {topic.note && <div className="banner" role="note"><p>{topic.note}</p></div>}
 

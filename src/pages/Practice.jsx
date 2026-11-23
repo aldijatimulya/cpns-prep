@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
+import { Timer } from 'lucide-react'
+import PageHero from '../components/ui/PageHero'
 import TutorPanel from '../components/TutorPanel'
 import { useStore } from '../contexts/StoreContext'
 import {
@@ -61,10 +63,12 @@ function Setup({ onStart }) {
 
   return (
     <>
-      <header className="page-head">
-        <h1>Latihan</h1>
-        <p>Pilih cakupan, lalu kerjakan dengan batas waktu agar terbiasa dengan tempo ujian.</p>
-      </header>
+      <PageHero
+        art="monitor"
+        kicker={<><Timer size={16} aria-hidden="true" /> Latihan</>}
+        title="Latihan Soal"
+        text="Pilih cakupan, lalu kerjakan dengan batas waktu agar terbiasa dengan tempo ujian."
+      />
       <div className="setup">
       <section className="card form">
         <label>Kategori
@@ -251,10 +255,12 @@ function Result({ result, onAgain }) {
 
   return (
     <>
-      <header className="page-head">
-        <h1>Hasil latihan</h1>
-        <p>Waktu {fmtTime(result.duration_sec)} · {answered} dari {result.items.length} dijawab</p>
-      </header>
+      <PageHero
+        art="monitor"
+        kicker={<><Timer size={16} aria-hidden="true" /> Latihan selesai</>}
+        title="Hasil latihan"
+        text={`Waktu ${fmtTime(result.duration_sec)} · ${answered} dari ${result.items.length} dijawab`}
+      />
       <section className="cards">
         <div className="card metric"><span>Skor</span><strong>{points} / {max}</strong></div>
         <div className="card metric"><span>Akurasi</span><strong>{pct(max ? points / max : null)}</strong></div>

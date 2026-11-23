@@ -1,13 +1,21 @@
-# CPNS Prep — MVP v2.0
+# CPNS Prep — MVP v3.0
 
 Alat bantu belajar pribadi untuk SKD CPNS. Bukan aplikasi resmi pemerintah.
 
 ## Menjalankan
 ```bash
 npm install
+cp .env.example .env   # isi URL dan anon key Supabase (opsional; tanpa ini hanya mode tamu)
 npm run dev        # pengembangan
 npm run build      # produksi (folder dist)
 ```
+
+## Baru di v3.0
+- Desain baru seragam di semua menu (sidebar teal, banner hero, kartu progres, tombol emas) mengikuti referensi
+- Akun email (daftar, masuk, lupa password, ganti password) lewat Supabase; riwayat, catatan, penanda, dan rencana tersimpan per akun dan tersinkron antar perangkat
+- Mode tamu tetap ada (data di browser)
+- Halaman Bantuan, notifikasi pengingat, pintasan Ctrl+K untuk pencarian
+- Setup akun online: `docs/05-panduan-update-dan-push-github.md` dan `docs/04-supabase-setup.sql`
 
 ## Yang sudah ada (v2.0)
 - Dashboard: statistik, prioritas belajar, status per topik (Not Started / Learning / Needs Improvement / Mastered)
@@ -36,10 +44,10 @@ Bank saat ini: `seed.json` (16 soal) + `bank-v1.json` (177 soal). Tambahkan file
 `src/data/exam-config/skd-ref-2024.json` berstatus referensi 2024. Saat aturan 2026 resmi keluar, buat file baru dan arahkan impor di `src/data/index.js`.
 
 ## Deploy GitHub Pages
-Push ke `main`; workflow `.github/workflows/deploy.yml` membangun dan mempublikasikan. Di Settings → Pages pilih Source: GitHub Actions. Router memakai hash (`#/`) sehingga tidak perlu pengaturan base path.
+Isi secrets `VITE_SUPABASE_URL` dan `VITE_SUPABASE_ANON_KEY` di GitHub (lihat panduan). Push ke `main`; workflow `.github/workflows/deploy.yml` membangun dan mempublikasikan. Di Settings → Pages pilih Source: GitHub Actions. Router memakai hash (`#/`) sehingga tidak perlu pengaturan base path.
 
 ## Catatan keamanan
 SVG soal dirender dengan `dangerouslySetInnerHTML`; hanya isi file soal milik sendiri yang boleh memuat SVG.
 
 ## Belum ada
-Supabase (skema siap di `docs/03-supabase-schema.sql`, belum terhubung; perlu proyek Anda), bank soal SKB (menunggu isi SKB resmi). Perangkat lain: ekspor JSON di Pengaturan.
+Bank soal SKB (menunggu isi SKB resmi). Login Google/Microsoft (bisa ditambah lewat Supabase Auth).
