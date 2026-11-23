@@ -1,5 +1,7 @@
 import { Suspense, lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Login from './pages/Login'
+import { useStore } from './contexts/StoreContext'
 import Layout from './components/layout/Layout'
 import Dashboard from './pages/Dashboard'
 import LearningCenter from './pages/LearningCenter'
@@ -11,6 +13,8 @@ const Plan = lazy(() => import('./pages/Plan'))
 import Settings from './pages/Settings'
 
 export default function App() {
+  const { state } = useStore()
+  if (!state.profile?.name) return <Login />
   return (
     <Suspense fallback={<p className="muted" role="status">Memuat…</p>}>
     <Routes>

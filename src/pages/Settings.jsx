@@ -5,7 +5,8 @@ import { exportState } from '../services/storage'
 import { DEFAULT_MODEL, loadTutorConfig, saveTutorConfig } from '../services/tutor'
 
 export default function Settings() {
-  const { state, reset, importBackup } = useStore()
+  const { state, reset, importBackup, setProfile, logout } = useStore()
+  const [pname, setPname] = useState(state.profile.name)
   const [msg, setMsg] = useState('')
   const [tutor, setTutor] = useState(loadTutorConfig)
   const [tutorMsg, setTutorMsg] = useState('')
@@ -36,6 +37,17 @@ export default function Settings() {
         <h1>Pengaturan</h1>
         <p>Data tersimpan di browser ini saja.</p>
       </header>
+      <section className="card form">
+        <h2>Profil</h2>
+        <label>Nama panggilan
+          <input value={pname} maxLength={40} onChange={(e) => setPname(e.target.value)} />
+        </label>
+        <div className="row actions">
+          <button className="btn" disabled={!pname.trim()} onClick={() => setProfile(pname)}>Simpan nama</button>
+          <button className="btn ghost" onClick={logout}>Keluar</button>
+        </div>
+        <p className="muted">Keluar tidak menghapus data belajar. Data tetap ada di browser ini.</p>
+      </section>
       <section className="card">
         <h2>Data saya</h2>
         <p>{state.attempts.length} sesi · {state.bookmarks.length} soal ditandai · {Object.keys(state.notes).length} catatan</p>

@@ -2,7 +2,7 @@
 // dimigrasikan ke tabel Supabase (exam_attempts, user_answers, notes, bookmarks).
 const KEY = 'cpns-prep:v1'
 
-const empty = () => ({ attempts: [], notes: {}, bookmarks: [], verified: [], plan: { examDate: '', dailyTarget: 20 }, skb: [] })
+const empty = () => ({ attempts: [], notes: {}, bookmarks: [], verified: [], plan: { examDate: '', dailyTarget: 20 }, skb: [], profile: { name: '' } })
 
 export function loadState() {
   try {

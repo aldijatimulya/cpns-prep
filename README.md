@@ -1,4 +1,4 @@
-# CPNS Prep — MVP v1.1
+# CPNS Prep — MVP v2.0
 
 Alat bantu belajar pribadi untuk SKD CPNS. Bukan aplikasi resmi pemerintah.
 
@@ -9,7 +9,7 @@ npm run dev        # pengembangan
 npm run build      # produksi (folder dist)
 ```
 
-## Yang sudah ada (v1.1)
+## Yang sudah ada (v2.0)
 - Dashboard: statistik, prioritas belajar, status per topik (Not Started / Learning / Needs Improvement / Mastered)
 - Materi: 26 topik dari `src/data/curriculum/curriculum.json`, indikator, catatan pribadi
 - Bank Soal: filter, tanda soal, pembahasan ringkas dan rinci
@@ -18,6 +18,7 @@ npm run build      # produksi (folder dist)
 - Rencana belajar: tanggal ujian + hitung mundur, target harian, aktivitas 7 hari, streak, daftar materi SKB buatan sendiri (isi SKB belum resmi, jadi kosong)
 - Mode ulasan di Latihan: hanya soal yang terakhir salah, ragu-ragu, atau di-bookmark
 - Impor cadangan JSON (menggabungkan tanpa menimpa) untuk pindah perangkat; PWA: bisa dipasang dan tetap terbuka saat offline; halaman dimuat per rute
+- Desain v2: sidebar gelap, top bar dengan pencarian dan profil, hero dan grafik di Dashboard, kartu kategori di Materi, halaman masuk (profil lokal berbasis nama, tanpa akun online), tampilan ponsel dengan menu geser
 - Tutor AI (opsional): tombol "Tanya Tutor AI" di pembahasan Latihan, Simulasi, dan Bank Soal; memakai kunci API Anthropic milik sendiri (Pengaturan), disimpan hanya di browser dan tidak ikut cadangan
 - Heatmap kelemahan di Dashboard (topik × 8 sesi terakhir, pola garis untuk <60%) dan riwayat simulasi
 - 193 soal draft (termasuk 32 soal figural SVG) (TWK, TIU numerik/verbal, TKP) dengan penanda "sudah saya verifikasi" dan opsi latihan hanya soal terverifikasi

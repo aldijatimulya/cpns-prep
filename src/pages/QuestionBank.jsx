@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 import { Bookmark } from 'lucide-react'
 import TutorPanel from '../components/TutorPanel'
 import { useStore } from '../contexts/StoreContext'
@@ -12,6 +13,8 @@ export default function QuestionBank() {
   const [onlyMarked, setOnlyMarked] = useState(false)
   const [onlyUnverified, setOnlyUnverified] = useState(false)
   const [open, setOpen] = useState(null)
+  const [params] = useSearchParams()
+  const query = (params.get('q') ?? '').trim().toLowerCase()
 
   const topicsOfCat = useMemo(
     () => categories.filter((c) => cat === 'ALL' || c.id === cat).flatMap((c) => c.topics),
@@ -22,7 +25,8 @@ export default function QuestionBank() {
       (cat === 'ALL' || q.category === cat) &&
       (topic === 'ALL' || q.topic_id === topic) &&
       (!onlyMarked || state.bookmarks.includes(q.id)) &&
-      (!onlyUnverified || !state.verified.includes(q.id)),
+      (!onlyUnverified || !state.verified.includes(q.id)) &&
+      (!query || `${q.id} ${q.stem} ${topicById[q.topic_id]?.name ?? ''}`.toLowerCase().includes(query)),
   )
   const verifiedCount = questions.filter((q) => state.verified.includes(q.id)).length
 
@@ -33,13 +37,16 @@ export default function QuestionBank() {
         <p>{list.length} dari {questions.length} soal. Terverifikasi oleh Anda: {verifiedCount}. Soal lain masih draft.</p>
       </header>
 
+      <div className="chips" role="tablist" aria-label="Kategori">
+        {['ALL', ...categories.map((c) => c.id)].map((id) => (
+          <button key={id} role="tab" aria-selected={cat === id} className={cat === id ? 'chip on' : 'chip'} onClick={() => { setCat(id); setTopic('ALL') }}>
+            {id === 'ALL' ? 'Semua' : id} <span>{id === 'ALL' ? questions.length : questions.filter((q) => q.category === id).length}</span>
+          </button>
+        ))}
+        {query && <Link className="chip on" to="/bank">Pencarian: {params.get('q')} ✕</Link>}
+      </div>
+
       <div className="filters card">
-        <label>Kategori
-          <select value={cat} onChange={(e) => { setCat(e.target.value); setTopic('ALL') }}>
-            <option value="ALL">Semua</option>
-            {categories.map((c) => <option key={c.id} value={c.id}>{c.id}</option>)}
-          </select>
-        </label>
         <label>Topik
           <select value={topic} onChange={(e) => setTopic(e.target.value)}>
             <option value="ALL">Semua</option>

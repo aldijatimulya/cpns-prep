@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import TutorPanel from '../components/TutorPanel'
+import HeroArt from '../components/ui/HeroArt'
 import { useStore } from '../contexts/StoreContext'
 import { examConfig, isCorrect, maxPoints, pointsFor, questions, topicById } from '../data'
 import { catDurationSec, composeCat, thresholdFor } from '../utils/cat'
@@ -38,10 +39,19 @@ function CatSetup({ onStart }) {
 
   return (
     <>
-      <header className="page-head">
-        <h1>Simulasi CAT</h1>
-        <p>Kerjakan satu set penuh dalam satu tarikan napas untuk melatih tempo dan ketahanan.</p>
-      </header>
+      <section className="hero sim">
+        <div className="hero-text">
+          <small className="hero-kicker">Simulasi</small>
+          <h1>Simulasi CAT</h1>
+          <p>Kerjakan satu set penuh dalam satu tarikan napas untuk melatih tempo dan ketahanan.</p>
+          <ul className="ticks">
+            <li>Waktu berjalan nyata, otomatis selesai saat habis</li>
+            <li>Penilaian otomatis per subtes</li>
+            <li>Pembahasan lengkap setelah selesai</li>
+          </ul>
+        </div>
+        <HeroArt />
+      </section>
       <div className="banner" role="note">
         <p>
           Komposisi dan ambang batas memakai <strong>referensi pola 2024</strong> (belum resmi untuk 2026).

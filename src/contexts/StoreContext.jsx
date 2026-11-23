@@ -38,11 +38,13 @@ export function StoreProvider({ children }) {
         update(() => next)
         return addedAttempts
       },
+      setProfile: (name) => update((s) => ({ ...s, profile: { ...s.profile, name: name.trim().slice(0, 40) } })),
+      logout: () => update((s) => ({ ...s, profile: { ...s.profile, name: '' } })),
       setPlan: (patch) => update((s) => ({ ...s, plan: { ...s.plan, ...patch } })),
       addSkb: (title) => update((s) => ({ ...s, skb: [...s.skb, { id: `skb-${Date.now()}`, title, done: false, note: '' }] })),
       updateSkb: (id, patch) => update((s) => ({ ...s, skb: s.skb.map((x) => (x.id === id ? { ...x, ...patch } : x)) })),
       removeSkb: (id) => update((s) => ({ ...s, skb: s.skb.filter((x) => x.id !== id) })),
-      reset: () => update(() => ({ attempts: [], notes: {}, bookmarks: [], verified: [], plan: { examDate: '', dailyTarget: 20 }, skb: [] })),
+      reset: () => update((s) => ({ attempts: [], notes: {}, bookmarks: [], verified: [], plan: { examDate: '', dailyTarget: 20 }, skb: [], profile: s.profile })),
     }),
     [state, update],
   )

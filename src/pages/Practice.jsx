@@ -65,6 +65,7 @@ function Setup({ onStart }) {
         <h1>Latihan</h1>
         <p>Pilih cakupan, lalu kerjakan dengan batas waktu agar terbiasa dengan tempo ujian.</p>
       </header>
+      <div className="setup">
       <section className="card form">
         <label>Kategori
           <select value={cat} onChange={(e) => { setCat(e.target.value); setTopic('ALL') }}>
@@ -98,6 +99,18 @@ function Setup({ onStart }) {
           {pool.length === 0 ? 'Belum ada soal' : `Mulai (${n} soal)`}
         </button>
       </section>
+      <aside className="card aside-tips">
+        <h2>Ringkasan sesi</h2>
+        <p className="big">{pool.length ? n : 0} <span>soal</span></p>
+        <p className="muted">{timed && pool.length ? `Perkiraan waktu ${fmtTime(estimate)}` : 'Tanpa batas waktu'}</p>
+        <h3>Tips</h3>
+        <ul className="plain">
+          <li>Kerjakan 10 sampai 20 soal per sesi.</li>
+          <li>Pakai timer agar terbiasa dengan tempo.</li>
+          <li>Setelah selesai, ulas soal yang salah.</li>
+        </ul>
+      </aside>
+      </div>
     </>
   )
 }
