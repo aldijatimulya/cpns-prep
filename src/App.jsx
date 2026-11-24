@@ -12,6 +12,8 @@ const QuestionBank = lazy(() => import('./pages/QuestionBank'))
 const Practice = lazy(() => import('./pages/Practice'))
 const Cat = lazy(() => import('./pages/Cat'))
 const Plan = lazy(() => import('./pages/Plan'))
+const Tutor = lazy(() => import('./pages/Tutor'))
+const Agent = lazy(() => import('./pages/Agent'))
 const Help = lazy(() => import('./pages/Help'))
 import Settings from './pages/Settings'
 
@@ -40,6 +42,8 @@ export default function App() {
           <Route path="bank" element={<QuestionBank />} />
           <Route path="practice" element={<Practice />} />
           <Route path="cat" element={<Cat />} />
+          <Route path="tutor" element={<Tutor />} />
+          <Route path="agent" element={<Agent />} />
           <Route path="plan" element={<Plan />} />
           <Route path="settings" element={<Settings />} />
           <Route path="help" element={<Help />} />

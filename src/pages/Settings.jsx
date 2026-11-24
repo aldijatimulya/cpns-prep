@@ -5,7 +5,7 @@ import { useAuth } from '../contexts/AuthContext'
 import { useStore } from '../contexts/StoreContext'
 import { curriculum, examConfig } from '../data'
 import { exportState } from '../services/storage'
-import { DEFAULT_MODEL, loadTutorConfig, saveTutorConfig } from '../services/tutor'
+import { OPENAI_PRESETS, PROVIDERS, defaultConfig, loadTutorConfig, saveTutorConfig } from '../services/tutor'
 
 const syncText = {
   idle: 'Belum disinkronkan',
@@ -135,21 +135,41 @@ export default function Settings() {
         </p>
       </section>
       <section className="card form">
-        <h2>Tutor AI (opsional)</h2>
+        <h2>Tutor AI dan Agent AI (opsional)</h2>
         <p className="muted">
-          Memakai kunci API Anthropic milik Anda sendiri. Kunci disimpan hanya di browser ini, tidak ikut cadangan JSON,
-          dan dikirim langsung ke api.anthropic.com. Teks soal yang Anda tanyakan ikut terkirim, dan pemakaian
-          ditagih ke akun API Anda. Pakai kunci khusus dengan batas pengeluaran, dan jangan isi di komputer bersama.
+          Fitur AI memakai kunci API milik Anda sendiri. Kunci disimpan hanya di browser ini, tidak ikut cadangan JSON atau sinkronisasi akun,
+          dan dikirim langsung ke penyedia yang Anda pilih. Teks pertanyaan dan ringkasan kemampuan Anda ikut terkirim.
+          Pilihan gratis: <b>Google Gemini</b> (buat kunci di Google AI Studio, ada tier gratis dengan batas pemakaian; di tier gratis, penyedia dapat memakai data untuk
+          perbaikan layanan, jadi jangan kirim data pribadi). Jangan isi kunci di komputer bersama.
         </p>
+        <label>Penyedia
+          <select value={tutor.provider} onChange={(e) => setTutor({ ...defaultConfig(e.target.value), apiKey: tutor.apiKey })}>
+            {Object.entries(PROVIDERS).map(([k, v]) => <option key={k} value={k}>{v.label}</option>)}
+          </select>
+        </label>
+        {tutor.provider === 'openai' && (
+          <>
+            <label>Layanan
+              <select value="" onChange={(e) => { const p = OPENAI_PRESETS[Number(e.target.value)]; if (p) setTutor({ ...tutor, baseUrl: p.baseUrl, model: p.model }) }}>
+                <option value="">Pilih untuk mengisi otomatis…</option>
+                {OPENAI_PRESETS.map((p, i) => <option key={p.label} value={i}>{p.label}</option>)}
+              </select>
+            </label>
+            <label>Alamat API
+              <input value={tutor.baseUrl} placeholder="https://api.deepseek.com" onChange={(e) => setTutor({ ...tutor, baseUrl: e.target.value })} />
+            </label>
+          </>
+        )}
         <label>Kunci API
-          <input type="password" autoComplete="off" value={tutor.apiKey} placeholder="sk-ant-..." onChange={(e) => setTutor({ ...tutor, apiKey: e.target.value })} />
+          <input type="password" autoComplete="off" value={tutor.apiKey} placeholder={PROVIDERS[tutor.provider].keyHint} onChange={(e) => setTutor({ ...tutor, apiKey: e.target.value })} />
         </label>
         <label>Model
-          <input value={tutor.model} placeholder={DEFAULT_MODEL} onChange={(e) => setTutor({ ...tutor, model: e.target.value })} />
+          <input value={tutor.model} placeholder={PROVIDERS[tutor.provider].model} onChange={(e) => setTutor({ ...tutor, model: e.target.value })} />
         </label>
+        <p className="muted">Nama model sering berganti. Jika muncul galat "model tidak ditemukan", ganti dengan nama model terbaru di dokumentasi penyedia. ChatGPT versi web gratis tidak bisa dipakai di sini; yang bisa dipakai adalah API-nya.</p>
         <div className="row actions">
-          <button className="btn" onClick={() => { saveTutorConfig(tutor); setTutorMsg(tutor.apiKey ? 'Pengaturan tutor disimpan.' : 'Kunci dihapus.') }}>Simpan</button>
-          <button className="btn ghost" onClick={() => { setTutor({ apiKey: '', model: DEFAULT_MODEL }); saveTutorConfig({ apiKey: '' }); setTutorMsg('Kunci dihapus.') }}>Hapus kunci</button>
+          <button className="btn" onClick={() => { saveTutorConfig(tutor); setTutorMsg(tutor.apiKey ? 'Pengaturan AI disimpan.' : 'Kunci dihapus.') }}>Simpan</button>
+          <button className="btn ghost" onClick={() => { setTutor(defaultConfig(tutor.provider)); saveTutorConfig({ apiKey: '' }); setTutorMsg('Kunci dihapus.') }}>Hapus kunci</button>
         </div>
         {tutorMsg && <p role="status">{tutorMsg}</p>}
       </section>

@@ -59,3 +59,9 @@ Bank soal SKB (menunggu isi SKB resmi). Login Google/Microsoft (bisa ditambah le
 - Latihan dan Bank Soal bisa difilter per indikator; pembahasan soal menaut balik ke materi indikatornya.
 - `npm run check:data` memeriksa konsistensi. Panduan: `docs/06-panduan-menambah-materi-dan-soal.md`.
 - Semua materi dan soal masih draft; verifikasi dengan sumber resmi.
+
+## v3.2: Tutor AI dan Agent AI
+- `/tutor`: tanya jawab berbasis materi topik/indikator, identifikasi titik lemah.
+- `/agent`: profil jurusan, unggah lowongan (CSV/JSON), kesiapan SKD, rekomendasi lowongan, strategi, analisis AI opsional.
+- Penyedia AI: Gemini (tier gratis), kompatibel OpenAI (DeepSeek dll), Claude. Kunci milik pengguna, tersimpan di browser.
+- Panduan: `docs/07-tutor-ai-dan-agent-ai.md`.

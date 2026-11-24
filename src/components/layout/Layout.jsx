@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
 import {
-  Bell, BookOpen, CalendarDays, ChevronDown, CircleHelp, ClipboardCheck, LayoutDashboard, Library, LogOut, Menu, Search, Settings, Timer, Trophy, X,
+  Bell, Bot, BookOpen, Compass, CalendarDays, ChevronDown, CircleHelp, ClipboardCheck, LayoutDashboard, Library, LogOut, Menu, Search, Settings, Timer, Trophy, X,
 } from 'lucide-react'
 import Logo from '../ui/Logo'
 import { Skyline } from '../ui/art'
@@ -19,6 +19,10 @@ const groups = [
     { to: '/practice', label: 'Latihan', icon: Timer },
     { to: '/cat', label: 'Simulasi CAT', icon: ClipboardCheck },
     { to: '/plan', label: 'Rencana Belajar', icon: CalendarDays },
+  ] },
+  { label: 'Asisten AI', items: [
+    { to: '/tutor', label: 'Tutor AI', icon: Bot },
+    { to: '/agent', label: 'Agent AI', icon: Compass },
   ] },
   { label: 'Lainnya', items: [
     { to: '/settings', label: 'Pengaturan', icon: Settings },

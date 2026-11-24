@@ -8,6 +8,7 @@ const metaKey = (key) => `${key}:meta`
 export const emptyState = () => ({
   attempts: [], notes: {}, bookmarks: [], verified: [],
   plan: { examDate: '', dailyTarget: 20 }, skb: [], profile: { name: '' },
+  vacancies: [], agent: { major: '', degree: 'S1', location: '' },
 })
 
 const read = (k) => {
@@ -85,8 +86,12 @@ export function mergeStates(current, data, { preferIncoming = false } = {}) {
   const skb = [...current.skb, ...(Array.isArray(data.skb) ? data.skb.filter((x) => x && typeof x.id === 'string' && typeof x.title === 'string' && !skbIds.has(x.id)) : [])]
   const inPlan = data.plan && typeof data.plan === 'object' ? data.plan : {}
   const plan = preferIncoming ? { ...current.plan, ...inPlan } : current.plan.examDate ? current.plan : { ...current.plan, ...inPlan }
+  const vIds = new Set((current.vacancies ?? []).map((x) => x.id))
+  const vacancies = [...(current.vacancies ?? []), ...(Array.isArray(data.vacancies) ? data.vacancies.filter((x) => x && typeof x.id === 'string' && !vIds.has(x.id)) : [])]
+  const inAgent = data.agent && typeof data.agent === 'object' ? data.agent : {}
+  const agent = current.agent?.major && !preferIncoming ? current.agent : { ...(current.agent ?? {}), ...inAgent }
   return {
-    state: { ...current, attempts, notes, bookmarks: uniq(current.bookmarks, data.bookmarks), verified: uniq(current.verified, data.verified), skb, plan },
+    state: { ...current, attempts, notes, bookmarks: uniq(current.bookmarks, data.bookmarks), verified: uniq(current.verified, data.verified), skb, plan, vacancies, agent },
     addedAttempts: incoming.length,
   }
 }

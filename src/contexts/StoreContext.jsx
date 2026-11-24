@@ -7,7 +7,7 @@ import {
 
 const StoreContext = createContext(null)
 
-const hasData = (s) => s.attempts.length > 0 || Object.keys(s.notes).length > 0 || s.bookmarks.length > 0 || s.verified.length > 0 || s.skb.length > 0 || !!s.plan.examDate
+const hasData = (s) => s.attempts.length > 0 || Object.keys(s.notes).length > 0 || s.bookmarks.length > 0 || s.verified.length > 0 || s.skb.length > 0 || !!s.plan.examDate || (s.vacancies?.length ?? 0) > 0 || !!s.agent?.major
 
 // Penanda perbandingan yang tidak peduli urutan kunci (jsonb di server mengurutkan ulang kunci).
 const stable = (v) => JSON.stringify(v, (_, x) => (x && typeof x === 'object' && !Array.isArray(x) ? Object.fromEntries(Object.entries(x).sort(([a], [b]) => a.localeCompare(b))) : x))
@@ -230,6 +230,14 @@ export function StoreProvider({ children }) {
       addSkb: (title) => update((s) => ({ ...s, skb: [...s.skb, { id: `skb-${Date.now()}`, title, done: false, note: '' }] })),
       updateSkb: (id, patch) => update((s) => ({ ...s, skb: s.skb.map((x) => (x.id === id ? { ...x, ...patch } : x)) })),
       removeSkb: (id) => update((s) => ({ ...s, skb: s.skb.filter((x) => x.id !== id) })),
+      setAgent: (patch) => update((s) => ({ ...s, agent: { ...s.agent, ...patch } })),
+      importVacancies: (list, replace = false) => update((s) => {
+        const base = replace ? [] : s.vacancies ?? []
+        const ids = new Set(base.map((v) => v.id))
+        return { ...s, vacancies: [...base, ...list.filter((v) => !ids.has(v.id))].slice(0, 500) }
+      }),
+      removeVacancy: (id) => update((s) => ({ ...s, vacancies: (s.vacancies ?? []).filter((v) => v.id !== id) })),
+      clearVacancies: () => update((s) => ({ ...s, vacancies: [] })),
       reset: () => {
         if (uid && key) saveMeta(key, { ...loadMeta(key), wipe: true, synced: [] })
         update((s) => ({ ...emptyState(), profile: s.profile }))

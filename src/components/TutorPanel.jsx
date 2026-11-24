@@ -46,7 +46,7 @@ export default function TutorPanel({ q, chosen }) {
   if (!config.apiKey) {
     return (
       <div className="tutor" role="region" aria-label="Tutor AI">
-        <p>Tutor AI butuh kunci API Anda sendiri. Isi dulu di <Link to="/settings">Pengaturan</Link>.</p>
+        <p>Tutor AI butuh kunci API (tersedia pilihan gratis: Gemini). Isi dulu di <Link to="/settings">Pengaturan</Link>.</p>
         <button className="btn small ghost" onClick={() => setOpen(false)}>Tutup</button>
       </div>
     )
