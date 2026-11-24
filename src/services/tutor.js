@@ -53,6 +53,8 @@ export function saveTutorConfig(cfg) {
 /** AI siap dipakai: lewat server aplikasi (perlu login, dicek saat dipanggil) atau lewat kunci pribadi. */
 export const hasAI = (cfg = loadTutorConfig()) => cfg.provider === 'server' ? isCloudEnabled : !!cfg.apiKey
 
+export const MATH_RULE = `Format jawaban: gunakan Markdown. Tulis SEMUA rumus, pecahan, pangkat, akar, indeks, dan simbol matematika dengan LaTeX: sebaris di antara $...$ (contoh $x^2+1$, $\\frac{3}{4}$) dan rumus penting pada baris sendiri di antara $$...$$. Jangan pakai tanda $ untuk mata uang (tulis Rp). Untuk langkah hitung panjang, pakai daftar bernomor. Untuk perbandingan, pakai tabel Markdown.`
+
 export const TUTOR_SYSTEM = `Anda adalah tutor pribadi untuk persiapan SKD CPNS Indonesia (TWK, TIU, TKP). Jawab dalam bahasa Indonesia yang jelas dan ringkas, seperti guru yang sabar.
 Aturan:
 - Materi dan soal di aplikasi ini adalah draft buatan sendiri dan belum diverifikasi, jadi bisa keliru. Bila menurut Anda materi, kunci, atau pembahasan yang diberikan salah atau meragukan, katakan terus terang beserta alasannya.
@@ -60,7 +62,8 @@ Aturan:
 - Untuk TIU, tunjukkan langkah penyelesaian dan sebisa mungkin satu cara cepat.
 - Untuk TKP, jelaskan alasan tiap tingkat respons. Bobot skor di latihan ini ilustrasi dan bukan standar resmi.
 - Jangan memprediksi kelulusan atau menjanjikan soal yang akan keluar.
-- Jangan menyalin soal ujian CAT asli.`
+- Jangan menyalin soal ujian CAT asli.
+${MATH_RULE}`
 
 export function questionContext(q, chosen) {
   const opts = q.options.map((o) => `${o.key}. ${o.text}${o.score ? ` (skor ${o.score})` : ''}`).join('\n')

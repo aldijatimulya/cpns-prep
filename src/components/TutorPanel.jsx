@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
+import Chat from './Chat'
 import { askTutor, loadTutorConfig, questionContext, hasAI } from '../services/tutor'
 
 const PRESETS = [
@@ -12,7 +13,6 @@ const PRESETS = [
 export default function TutorPanel({ q, chosen }) {
   const [open, setOpen] = useState(false)
   const [msgs, setMsgs] = useState([])
-  const [input, setInput] = useState('')
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
   const abortRef = useRef(null)
@@ -25,7 +25,6 @@ export default function TutorPanel({ q, chosen }) {
     if (!content || busy) return
     const next = [...msgs, { role: 'user', content }]
     setMsgs(next)
-    setInput('')
     setError('')
     setBusy(true)
     const ctrl = new AbortController()
@@ -53,19 +52,7 @@ export default function TutorPanel({ q, chosen }) {
   }
   return (
     <div className="tutor" role="region" aria-label="Tutor AI">
-      <div className="presets">
-        {PRESETS.map((p) => <button key={p} className="btn small ghost" disabled={busy} onClick={() => send(p)}>{p}</button>)}
-      </div>
-      <ul className="chat" aria-live="polite">
-        {msgs.map((m, i) => <li key={i} className={m.role}><b>{m.role === 'user' ? 'Anda' : 'Tutor'}</b><span>{m.content}</span></li>)}
-        {busy && <li className="assistant"><b>Tutor</b><span>Sedang menulis…</span></li>}
-      </ul>
-      {error && <p role="alert" className="tutor-err">{error}</p>}
-      <form className="row" onSubmit={(e) => { e.preventDefault(); send(input) }}>
-        <input aria-label="Pertanyaan untuk tutor" placeholder="Tanya apa saja tentang soal ini" value={input} onChange={(e) => setInput(e.target.value)} />
-        <button className="btn small" type="submit" disabled={busy || !input.trim()}>Kirim</button>
-      </form>
-      <small className="muted">Jawaban AI bisa keliru. Periksa ke sumber resmi sebelum dipegang.</small>
+      <Chat msgs={msgs} busy={busy} error={error} onSend={send} onStop={() => abortRef.current?.abort()} presets={PRESETS} compact placeholder="Tanya apa saja tentang soal ini…" />
       <div><button className="btn small ghost" onClick={() => setOpen(false)}>Tutup</button></div>
     </div>
   )

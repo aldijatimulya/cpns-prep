@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { Bot, BookOpen, Send, Stethoscope } from 'lucide-react'
+import { Bot, BookOpen, Stethoscope } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
-import MiniMarkdown from '../components/MiniMarkdown'
+import Chat from '../components/Chat'
 import { useStore } from '../contexts/StoreContext'
 import { categories, materiFor, topicById } from '../data'
 import { askAI, loadTutorConfig, TUTOR_SYSTEM, hasAI } from '../services/tutor'
@@ -37,11 +37,9 @@ export default function Tutor() {
   const [topicId, setTopicId] = useState(t0)
   const [ind, setInd] = useState(Number.isInteger(i0) && i0 >= 0 && i0 < (topicById[t0]?.indicators.length ?? 0) ? i0 : null)
   const [msgs, setMsgs] = useState([])
-  const [input, setInput] = useState('')
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
   const abort = useRef(null)
-  const endRef = useRef(null)
   const config = loadTutorConfig()
   const topic = topicById[topicId]
   const weak = useMemo(() => weakIndicators(state.attempts, { limit: 5 }), [state.attempts])
@@ -49,7 +47,6 @@ export default function Tutor() {
   const materi = materiFor(topicId)
 
   useEffect(() => () => abort.current?.abort(), [])
-  useEffect(() => { endRef.current?.scrollIntoView({ block: 'nearest' }) }, [msgs, busy])
 
   const pick = (tid, i = null) => { setTopicId(tid); setInd(i); setMsgs([]); setError('') }
 
@@ -62,7 +59,7 @@ export default function Tutor() {
     const content = text.trim()
     if (!content || busy) return
     const next = [...msgs, { role: 'user', content }]
-    setMsgs(next); setInput(''); setError(''); setBusy(true)
+    setMsgs(next); setError(''); setBusy(true)
     const ctrl = new AbortController()
     abort.current = ctrl
     try {
@@ -130,31 +127,18 @@ export default function Tutor() {
         </section>
 
         <section className="card tutor-chat">
-          <h2>Tanya Tutor</h2>
+          <div className="chat-head"><h2>Tanya Tutor</h2><small className="muted">{topic.name}{ind != null ? ` · indikator ${ind + 1}` : ''}</small></div>
           {!hasAI(config) && (
             <div className="banner" role="note">
               <p>Tutor AI belum aktif. Atur penyedia atau kunci API di <Link to="/settings">Pengaturan</Link>; ada pilihan gratis (Google Gemini). Sementara itu, ringkasan materi tersedia di bawah.</p>
             </div>
           )}
-          <div className="presets">
-            {PRESETS.map((p) => <button key={p} className="btn small ghost" disabled={busy || !hasAI(config)} onClick={() => send(p)}>{p}</button>)}
-          </div>
-          <ul className="chat big" aria-live="polite">
-            {msgs.length === 0 && materi && (
-              <li className="assistant"><b>Ringkasan</b><span>{materi.ringkasan}</span></li>
-            )}
-            {msgs.map((m, i) => (
-              <li key={i} className={m.role}><b>{m.role === 'user' ? 'Anda' : 'Tutor'}</b>{m.role === 'user' ? <span>{m.content}</span> : <MiniMarkdown text={m.content} />}</li>
-            ))}
-            {busy && <li className="assistant"><b>Tutor</b><span>Sedang menulis…</span></li>}
-            <li ref={endRef} aria-hidden="true" className="end" />
-          </ul>
-          {error && <p role="alert" className="tutor-err">{error}</p>}
-          <form className="row" onSubmit={(e) => { e.preventDefault(); send(input) }}>
-            <input aria-label="Pertanyaan untuk tutor" placeholder="Tanya apa saja tentang materi ini" value={input} disabled={!hasAI(config)} onChange={(e) => setInput(e.target.value)} />
-            <button className="btn" type="submit" disabled={busy || !input.trim() || !hasAI(config)}><Send size={16} aria-hidden="true" /> Kirim</button>
-          </form>
-          <small className="muted">Jawaban AI bisa keliru, dan materi di aplikasi masih draft. Periksa pasal, tanggal, dan angka ke sumber resmi.</small>
+          <Chat
+            msgs={msgs} busy={busy} error={error} onSend={send} onStop={() => abort.current?.abort()}
+            disabled={!hasAI(config)} presets={PRESETS} who={state.profile?.name || 'Anda'}
+            placeholder="Tanya apa saja tentang materi ini…"
+            intro={materi ? <><strong>Ringkasan materi</strong><p className="plain">{materi.ringkasan}</p></> : null}
+          />
         </section>
       </div>
     </>
