@@ -2,8 +2,15 @@ import curriculum from './curriculum/curriculum.json'
 import examConfig from './exam-config/skd-ref-2024.json'
 import seed from './questions/seed.json'
 import bankV1 from './questions/bank-v1.json'
+import bankV2 from './questions/bank-v2.json'
+import materiTwk from './materi/twk.json'
+import materiTiu from './materi/tiu.json'
+import materiTkp from './materi/tkp.json'
 
-const questions = [...seed, ...bankV1]
+const questions = [...seed, ...bankV1, ...bankV2]
+
+// Materi per topik (kunci = id topik di curriculum.json). Isi per indikator mengikuti urutan `indicators`.
+const materiAll = { ...materiTwk, ...materiTiu, ...materiTkp }
 
 export { curriculum, examConfig, questions }
 
@@ -22,6 +29,18 @@ export const sectionByCategory = Object.fromEntries(
 export function questionsForTopic(topicId) {
   return questions.filter((q) => q.topic_id === topicId)
 }
+
+/** Materi satu topik, atau null bila belum ditulis. */
+export const materiFor = (topicId) => materiAll[topicId] ?? null
+
+/** Soal untuk satu indikator kisi-kisi (indeks 0-based pada `indicators`). */
+export const questionById = Object.fromEntries(questions.map((q) => [q.id, q]))
+
+export const questionsForIndicator = (topicId, idx) =>
+  questions.filter((q) => q.topic_id === topicId && q.indicator === idx)
+
+/** Teks indikator sebuah soal, atau null. */
+export const indicatorText = (q) => topicById[q.topic_id]?.indicators?.[q.indicator] ?? null
 
 export const targetSeconds = examConfig.internal_targets_not_official.seconds_per_question
 export const masteredAccuracy = examConfig.internal_targets_not_official.mastered_accuracy

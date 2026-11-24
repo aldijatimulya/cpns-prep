@@ -3,6 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { Bookmark, Library } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import TutorPanel from '../components/TutorPanel'
+import MateriLink from '../components/MateriLink'
 import { useStore } from '../contexts/StoreContext'
 import { categories, questions, topicById } from '../data'
 import { FigOptions, StemFigure, hasFigureOptions } from '../components/FigureQuestion'
@@ -14,6 +15,7 @@ export default function QuestionBank() {
   const [onlyMarked, setOnlyMarked] = useState(false)
   const [onlyUnverified, setOnlyUnverified] = useState(false)
   const [open, setOpen] = useState(null)
+  const [ind, setInd] = useState('ALL')
   const [params] = useSearchParams()
   const query = (params.get('q') ?? '').trim().toLowerCase()
 
@@ -25,6 +27,7 @@ export default function QuestionBank() {
     (q) =>
       (cat === 'ALL' || q.category === cat) &&
       (topic === 'ALL' || q.topic_id === topic) &&
+      (ind === 'ALL' || q.indicator === Number(ind)) &&
       (!onlyMarked || state.bookmarks.includes(q.id)) &&
       (!onlyUnverified || !state.verified.includes(q.id)) &&
       (!query || `${q.id} ${q.stem} ${topicById[q.topic_id]?.name ?? ''}`.toLowerCase().includes(query)),
@@ -42,7 +45,7 @@ export default function QuestionBank() {
 
       <div className="chips" role="tablist" aria-label="Kategori">
         {['ALL', ...categories.map((c) => c.id)].map((id) => (
-          <button key={id} role="tab" aria-selected={cat === id} className={cat === id ? 'chip on' : 'chip'} onClick={() => { setCat(id); setTopic('ALL') }}>
+          <button key={id} role="tab" aria-selected={cat === id} className={cat === id ? 'chip on' : 'chip'} onClick={() => { setCat(id); setTopic('ALL'); setInd('ALL') }}>
             {id === 'ALL' ? 'Semua' : id} <span>{id === 'ALL' ? questions.length : questions.filter((q) => q.category === id).length}</span>
           </button>
         ))}
@@ -51,11 +54,19 @@ export default function QuestionBank() {
 
       <div className="filters card">
         <label>Topik
-          <select value={topic} onChange={(e) => setTopic(e.target.value)}>
+          <select value={topic} onChange={(e) => { setTopic(e.target.value); setInd('ALL') }}>
             <option value="ALL">Semua</option>
             {topicsOfCat.map((t) => <option key={t.id} value={t.id}>{t.name}</option>)}
           </select>
         </label>
+        {topic !== 'ALL' && (
+          <label>Indikator
+            <select value={ind} onChange={(e) => setInd(e.target.value)}>
+              <option value="ALL">Semua indikator</option>
+              {topicById[topic].indicators.map((t, i) => <option key={t} value={i}>{i + 1}. {t}</option>)}
+            </select>
+          </label>
+        )}
         <label className="check">
           <input type="checkbox" checked={onlyMarked} onChange={(e) => setOnlyMarked(e.target.checked)} />
           Hanya yang ditandai
@@ -106,6 +117,7 @@ export default function QuestionBank() {
                   )}
                   <p><strong>Ringkas:</strong> {q.explanation.quick}</p>
                   <p><strong>Rinci:</strong> {q.explanation.detailed}</p>
+                  <MateriLink q={q} />
                   <TutorPanel q={q} chosen={null} />
                   <label className="check">
                     <input

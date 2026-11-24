@@ -1,0 +1,177 @@
+{
+  "TKP-PELAYANAN": {
+    "ringkasan": "TKP tidak punya satu jawaban benar; tiap opsi bernilai 1 sampai 5. Skor tertinggi diberikan pada respons yang proaktif, sesuai aturan, berorientasi pelayanan, dan menyelesaikan masalah secara tuntas.",
+    "indikator": [
+      {
+        "poin": [
+          "Skor tinggi: sapa dengan ramah, dengarkan, jelaskan dengan sabar, bantu sampai tuntas.",
+          "Skor sedang: membantu seadanya atau mengarahkan tanpa memastikan.",
+          "Skor rendah: mengabaikan, menyuruh kembali nanti tanpa alasan, atau mengeluh di depan pengguna layanan.",
+          "Responsif: tanggapi cepat, beri kepastian waktu penyelesaian."
+        ]
+      },
+      {
+        "poin": [
+          "Keluhan: dengarkan sampai selesai, minta maaf atas ketidaknyamanan, cari solusi, tindak lanjuti, dan catat.",
+          "Jangan defensif atau menyalahkan rekan atau sistem di depan pengguna layanan.",
+          "Antrean: layani sesuai urutan; prioritas bagi kelompok rentan (lansia, ibu hamil, penyandang disabilitas) sesuai aturan layanan; jelaskan bila ada pengecualian."
+        ]
+      },
+      {
+        "poin": [
+          "Utamakan prosedur resmi walau pengguna meminta cepat atau menawarkan imbalan.",
+          "Jika persyaratan kurang, jelaskan dengan sopan apa yang harus dilengkapi.",
+          "Jika SOP belum mengatur situasi, konsultasikan ke atasan sebelum bertindak."
+        ]
+      }
+    ],
+    "fakta": [
+      ["Pola skor 5", "solusi aktif + sesuai aturan + tuntas"],
+      ["Pola skor 1", "mengabaikan atau melanggar aturan"]
+    ],
+    "jebakan": [
+      "Jawaban 'cepat' tetapi melanggar SOP bukan skor tertinggi.",
+      "Menyerahkan masalah ke orang lain tanpa memastikan tindak lanjut bernilai rendah."
+    ],
+    "sumber": ["UU No. 25 Tahun 2009 tentang Pelayanan Publik", "UU No. 20 Tahun 2023 tentang ASN"]
+  },
+
+  "TKP-JEJARING": {
+    "ringkasan": "Jejaring kerja: kemampuan membangun hubungan dan bekerja sama lintas orang dan unit. Respons terbaik bersifat proaktif, terbuka, dan memperhatikan tujuan bersama.",
+    "indikator": [
+      {
+        "poin": [
+          "Skor tinggi: berinisiatif berkenalan, menawarkan bantuan, menjaga komunikasi, menghargai peran pihak lain.",
+          "Skor rendah: menghindar, bekerja sendiri, atau hanya mau bekerja sama bila diminta atasan.",
+          "Kolaborasi: bagi peran jelas, sepakati tujuan dan tenggat."
+        ]
+      },
+      {
+        "poin": [
+          "Bagikan informasi yang relevan dan tepat waktu kepada yang membutuhkan, melalui jalur resmi.",
+          "Jangan menyimpan informasi demi keuntungan pribadi.",
+          "Jaga kerahasiaan informasi yang memang rahasia."
+        ]
+      },
+      {
+        "poin": [
+          "Koordinasikan lebih dulu sebelum bertindak yang menyangkut unit lain.",
+          "Jika terjadi perbedaan pendapat, cari titik temu lewat rapat atau diskusi.",
+          "Libatkan atasan bila koordinasi macet, bukan melompati prosedur."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": ["Mengambil alih pekerjaan unit lain tanpa koordinasi."],
+    "sumber": ["Nilai Kolaboratif dan Harmonis dalam BerAKHLAK"]
+  },
+
+  "TKP-SOSBUD": {
+    "ringkasan": "Sosial budaya: menyesuaikan diri dengan masyarakat yang beragam sambil tetap berpegang pada aturan dan nilai Pancasila. Respons terbaik menghargai perbedaan dan aktif membangun keharmonisan.",
+    "indikator": [
+      {
+        "poin": [
+          "Pelajari adat dan kebiasaan setempat, gunakan bahasa dan sikap yang sopan.",
+          "Berpartisipasi dalam kegiatan masyarakat selama tidak melanggar hukum atau keyakinan sendiri.",
+          "Skor rendah: menganggap budaya sendiri lebih unggul, menolak berinteraksi."
+        ]
+      },
+      {
+        "poin": [
+          "Tanggapi perbedaan dengan terbuka dan hormat, tidak menghakimi.",
+          "Jika timbul gesekan, dialog adalah langkah utama.",
+          "Layani semua orang setara tanpa memandang suku, agama, atau golongan."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": ["Ikut kebiasaan setempat yang jelas melanggar hukum bukan jawaban terbaik."],
+    "sumber": ["Pancasila sila ke-1 sampai ke-3", "UUD NRI 1945 Pasal 28E"]
+  },
+
+  "TKP-TIK": {
+    "ringkasan": "TIK: manfaatkan teknologi untuk meningkatkan kinerja, jaga keamanan informasi, dan mau belajar hal baru.",
+    "indikator": [
+      {
+        "poin": [
+          "Skor tinggi: memanfaatkan aplikasi atau sistem resmi untuk mempercepat dan merapikan pekerjaan.",
+          "Dokumentasikan dan bagikan cara kerja baru kepada rekan.",
+          "Skor rendah: menolak teknologi karena merasa tidak perlu, atau memakai alat tidak resmi untuk data kantor."
+        ]
+      },
+      {
+        "poin": [
+          "Lindungi kata sandi, jangan dibagikan; gunakan autentikasi dua langkah.",
+          "Waspada phishing: jangan klik tautan mencurigakan, verifikasi pengirim.",
+          "Data kantor hanya disimpan dan dikirim melalui sarana resmi; laporkan insiden keamanan ke unit terkait.",
+          "Jangan membagikan informasi rahasia di media sosial."
+        ]
+      },
+      {
+        "poin": [
+          "Ikuti pelatihan, tutorial, dan komunitas belajar secara aktif.",
+          "Mulai dari fitur yang paling berguna bagi pekerjaan, lalu bagikan ilmunya."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": ["Meminjamkan akun kepada rekan 'agar cepat' adalah pelanggaran keamanan."],
+    "sumber": ["Kebijakan keamanan informasi instansi"]
+  },
+
+  "TKP-PROFESIONAL": {
+    "ringkasan": "Profesionalisme: bertanggung jawab, disiplin, dan berinisiatif dengan tetap menjaga integritas. Pilih respons yang menyelesaikan tugas dengan kualitas dan sesuai aturan.",
+    "indikator": [
+      {
+        "poin": [
+          "Selesaikan tugas tepat waktu dan sesuai standar mutu; periksa ulang hasil.",
+          "Akui kesalahan, perbaiki, dan cegah terulang.",
+          "Skor rendah: melempar tanggung jawab atau mengerjakan asal selesai."
+        ]
+      },
+      {
+        "poin": [
+          "Datang tepat waktu, patuhi jam kerja, buat prioritas (penting dan mendesak).",
+          "Jika terancam terlambat, beri tahu atasan lebih awal dan ajukan solusi.",
+          "Tidak menunda pekerjaan atau memakai jam kerja untuk urusan pribadi."
+        ]
+      },
+      {
+        "poin": [
+          "Berinisiatif membantu atau memperbaiki proses tanpa menunggu perintah, tetap dalam kewenangan.",
+          "Jujur dalam laporan; tolak permintaan memanipulasi data walau dari atasan atau rekan.",
+          "Jika inisiatif di luar kewenangan, minta izin atasan lebih dulu."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": ["Inisiatif yang melampaui kewenangan tanpa izin bukan skor tertinggi."],
+    "sumber": ["UU No. 20 Tahun 2023 tentang ASN", "BerAKHLAK"]
+  },
+
+  "TKP-ANTIRADIKAL": {
+    "ringkasan": "Anti-radikalisme: menolak paham yang bertentangan dengan Pancasila dan NKRI dengan cara yang damai dan sesuai hukum.",
+    "indikator": [
+      {
+        "poin": [
+          "Pegang teguh Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika.",
+          "Tolak paham yang mengganti dasar negara atau membenarkan kekerasan; jelaskan dengan argumen santun, jangan dengan kekerasan.",
+          "Cari informasi dari sumber tepercaya dan tingkatkan literasi digital."
+        ]
+      },
+      {
+        "poin": [
+          "Hadapi ajakan atau ujaran intoleran dengan tegas dan sopan: tolak, jelaskan, dan jangan ikut menyebarkan.",
+          "Laporkan konten atau ajakan yang memuat kekerasan atau kebencian kepada pihak berwenang atau atasan.",
+          "Rangkul pihak yang rentan terpengaruh dan arahkan ke kegiatan positif."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": [
+      "Membalas ujaran kebencian dengan kebencian bukan jawaban terbaik.",
+      "Membiarkan tanpa tindakan bernilai rendah."
+    ],
+    "sumber": ["UUD NRI 1945", "UU No. 20 Tahun 2023 tentang ASN"]
+  }
+}

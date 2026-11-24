@@ -3,6 +3,7 @@
   "id": "TIU-NUM-DERET-101",
   "category": "TIU",
   "topic_id": "TIU-NUM-DERET",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Tentukan angka berikutnya: 3, 7, 11, 15, 19, ...",
   "options": [
@@ -44,6 +45,7 @@
   "id": "TIU-NUM-DERET-102",
   "category": "TIU",
   "topic_id": "TIU-NUM-DERET",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Tentukan angka berikutnya: 2, 6, 18, 54, ...",
   "options": [
@@ -85,6 +87,7 @@
   "id": "TIU-NUM-DERET-103",
   "category": "TIU",
   "topic_id": "TIU-NUM-DERET",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Tentukan angka berikutnya: 2, 6, 12, 20, 30, ...",
   "options": [
@@ -126,6 +129,7 @@
   "id": "TIU-NUM-DERET-104",
   "category": "TIU",
   "topic_id": "TIU-NUM-DERET",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Tentukan angka berikutnya: 5, 6, 8, 11, 15, ...",
   "options": [
@@ -167,6 +171,7 @@
   "id": "TIU-NUM-DERET-105",
   "category": "TIU",
   "topic_id": "TIU-NUM-DERET",
+  "indicator": 2,
   "difficulty": 1,
   "stem": "Tentukan angka berikutnya: 1, 1, 2, 3, 5, 8, ...",
   "options": [
@@ -208,6 +213,7 @@
   "id": "TIU-NUM-DERET-106",
   "category": "TIU",
   "topic_id": "TIU-NUM-DERET",
+  "indicator": 2,
   "difficulty": 1,
   "stem": "Tentukan angka berikutnya: 2, 3, 5, 7, 11, 13, ...",
   "options": [
@@ -249,6 +255,7 @@
   "id": "TIU-NUM-DERET-107",
   "category": "TIU",
   "topic_id": "TIU-NUM-DERET",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Tentukan angka berikutnya: 4, 10, 6, 13, 8, 16, ...",
   "options": [
@@ -290,6 +297,7 @@
   "id": "TIU-NUM-DERET-108",
   "category": "TIU",
   "topic_id": "TIU-NUM-DERET",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Tentukan angka berikutnya: 160, 80, 40, 20, ...",
   "options": [
@@ -331,6 +339,7 @@
   "id": "TIU-NUM-DERET-109",
   "category": "TIU",
   "topic_id": "TIU-NUM-DERET",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Tentukan angka berikutnya: 3, 5, 9, 17, 33, ...",
   "options": [
@@ -372,6 +381,7 @@
   "id": "TIU-NUM-DERET-110",
   "category": "TIU",
   "topic_id": "TIU-NUM-DERET",
+  "indicator": 1,
   "difficulty": 3,
   "stem": "Tentukan angka berikutnya: 2, 5, 11, 23, 47, ...",
   "options": [
@@ -413,6 +423,7 @@
   "id": "TIU-NUM-BERHITUNG-101",
   "category": "TIU",
   "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Hasil dari 3/4 + 5/8 - 1/2 adalah ...",
   "options": [
@@ -453,6 +464,7 @@
   "id": "TIU-NUM-BERHITUNG-102",
   "category": "TIU",
   "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Hasil dari 125 x 0,8 + 45 : 0,5 adalah ...",
   "options": [
@@ -494,6 +506,7 @@
   "id": "TIU-NUM-BERHITUNG-103",
   "category": "TIU",
   "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Hasil dari 20% x 350 + 40% x 150 adalah ...",
   "options": [
@@ -534,6 +547,7 @@
   "id": "TIU-NUM-BERHITUNG-104",
   "category": "TIU",
   "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 3,
   "difficulty": 2,
   "stem": "Hasil dari akar 144 + 5 pangkat 2 - 3 pangkat 3 adalah ...",
   "options": [
@@ -575,6 +589,7 @@
   "id": "TIU-NUM-BERHITUNG-105",
   "category": "TIU",
   "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Harga sebuah barang Rp80.000 didiskon 25%, kemudian mendapat diskon tambahan 10% dari harga setelah diskon pertama. Harga akhirnya adalah ...",
   "options": [
@@ -616,6 +631,7 @@
   "id": "TIU-NUM-BERHITUNG-106",
   "category": "TIU",
   "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Hasil dari 0,25 x 0,4 + 1,5 : 0,5 adalah ...",
   "options": [
@@ -656,6 +672,7 @@
   "id": "TIU-NUM-BERHITUNG-107",
   "category": "TIU",
   "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Hasil dari (48 + 72) : 8 x 3 - 10 adalah ...",
   "options": [
@@ -696,6 +713,7 @@
   "id": "TIU-NUM-BERHITUNG-108",
   "category": "TIU",
   "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Jika 15% dari suatu bilangan adalah 45, maka bilangan tersebut adalah ...",
   "options": [
@@ -736,6 +754,7 @@
   "id": "TIU-NUM-CERITA-101",
   "category": "TIU",
   "topic_id": "TIU-NUM-CERITA",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Andi dapat menyelesaikan suatu pekerjaan sendirian dalam 12 hari, sedangkan Budi dalam 6 hari. Jika keduanya bekerja bersama, pekerjaan selesai dalam ... hari.",
   "options": [
@@ -776,6 +795,7 @@
   "id": "TIU-NUM-CERITA-102",
   "category": "TIU",
   "topic_id": "TIU-NUM-CERITA",
+  "indicator": 4,
   "difficulty": 2,
   "stem": "Uang Adi dan Beni berbanding 3 : 5 dengan jumlah Rp960.000. Selisih uang keduanya adalah ...",
   "options": [
@@ -816,6 +836,7 @@
   "id": "TIU-NUM-CERITA-103",
   "category": "TIU",
   "topic_id": "TIU-NUM-CERITA",
+  "indicator": 4,
   "difficulty": 2,
   "stem": "Rata-rata nilai 5 siswa adalah 78. Jika seorang siswa dengan nilai 90 bergabung, rata-rata nilai seluruh siswa menjadi ...",
   "options": [
@@ -856,6 +877,7 @@
   "id": "TIU-NUM-CERITA-104",
   "category": "TIU",
   "topic_id": "TIU-NUM-CERITA",
+  "indicator": 3,
   "difficulty": 1,
   "stem": "Seorang pedagang membeli barang seharga Rp800.000 dan menjualnya dengan keuntungan 15%. Harga jual barang tersebut adalah ...",
   "options": [
@@ -896,6 +918,7 @@
   "id": "TIU-NUM-CERITA-105",
   "category": "TIU",
   "topic_id": "TIU-NUM-CERITA",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Dua kendaraan berangkat bersamaan dari dua kota yang berjarak 300 km, saling berhadapan. Kecepatan masing-masing 60 km/jam dan 90 km/jam. Keduanya bertemu setelah ... jam.",
   "options": [
@@ -936,6 +959,7 @@
   "id": "TIU-NUM-CERITA-106",
   "category": "TIU",
   "topic_id": "TIU-NUM-CERITA",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Umur ibu 36 tahun dan umur anaknya 8 tahun. Berapa tahun lagi umur ibu menjadi dua kali umur anaknya?",
   "options": [
@@ -976,6 +1000,7 @@
   "id": "TIU-NUM-CERITA-107",
   "category": "TIU",
   "topic_id": "TIU-NUM-CERITA",
+  "indicator": 3,
   "difficulty": 2,
   "stem": "Rina menabung Rp2.000.000 dengan bunga tunggal 12% per tahun. Bunga yang diperoleh setelah 6 bulan adalah ...",
   "options": [
@@ -1016,6 +1041,7 @@
   "id": "TIU-NUM-CERITA-108",
   "category": "TIU",
   "topic_id": "TIU-NUM-CERITA",
+  "indicator": 4,
   "difficulty": 2,
   "stem": "Pada peta berskala 1 : 2.000.000, jarak dua kota adalah 6 cm. Jarak sebenarnya adalah ... km.",
   "options": [
@@ -1056,6 +1082,7 @@
   "id": "TIU-NUM-CERITA-109",
   "category": "TIU",
   "topic_id": "TIU-NUM-CERITA",
+  "indicator": 4,
   "difficulty": 2,
   "stem": "Dari 250 pegawai, 60% adalah laki-laki. Jika 40% dari pegawai laki-laki berkacamata, jumlah pegawai laki-laki berkacamata adalah ...",
   "options": [
@@ -1096,6 +1123,7 @@
   "id": "TIU-NUM-CERITA-110",
   "category": "TIU",
   "topic_id": "TIU-NUM-CERITA",
+  "indicator": 1,
   "difficulty": 3,
   "stem": "Sebuah proyek dikerjakan 12 pekerja selama 15 hari. Jika dikerjakan 9 pekerja dengan kemampuan sama, proyek selesai dalam ... hari.",
   "options": [
@@ -1136,6 +1164,7 @@
   "id": "TIU-NUM-KUANTITATIF-101",
   "category": "TIU",
   "topic_id": "TIU-NUM-KUANTITATIF",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "P = 25% dari 80 dan Q = 20% dari 100. Hubungan yang benar antara P dan Q adalah ...",
   "options": [
@@ -1172,6 +1201,7 @@
   "id": "TIU-NUM-KUANTITATIF-102",
   "category": "TIU",
   "topic_id": "TIU-NUM-KUANTITATIF",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "P = 2 pangkat 5 dan Q = 5 pangkat 2. Hubungan yang benar antara P dan Q adalah ...",
   "options": [
@@ -1208,6 +1238,7 @@
   "id": "TIU-NUM-KUANTITATIF-103",
   "category": "TIU",
   "topic_id": "TIU-NUM-KUANTITATIF",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "x adalah bilangan real dengan x pangkat 2 = 9. P = x dan Q = 3. Hubungan yang benar antara P dan Q adalah ...",
   "options": [
@@ -1244,6 +1275,7 @@
   "id": "TIU-NUM-KUANTITATIF-104",
   "category": "TIU",
   "topic_id": "TIU-NUM-KUANTITATIF",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "P = akar 50 dan Q = 7. Hubungan yang benar antara P dan Q adalah ...",
   "options": [
@@ -1280,6 +1312,7 @@
   "id": "TIU-NUM-KUANTITATIF-105",
   "category": "TIU",
   "topic_id": "TIU-NUM-KUANTITATIF",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "P = 0,3 + 0,04 dan Q = 0,35. Hubungan yang benar antara P dan Q adalah ...",
   "options": [
@@ -1316,6 +1349,7 @@
   "id": "TIU-NUM-TABEL-101",
   "category": "TIU",
   "topic_id": "TIU-NUM-TABEL",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Permohonan layanan per kuartal\nK1: 120 permohonan\nK2: 135 permohonan\nK3: 150 permohonan\nK4: 195 permohonan\n\nPersentase kenaikan permohonan dari K3 ke K4 adalah ...",
   "options": [
@@ -1357,6 +1391,7 @@
   "id": "TIU-NUM-TABEL-102",
   "category": "TIU",
   "topic_id": "TIU-NUM-TABEL",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Jumlah pegawai per bidang (total 100 orang)\nBidang A: 20 orang\nBidang B: 30 orang\nBidang C: 35 orang\nBidang D: 15 orang\n\nPersentase pegawai di Bidang B dan Bidang D bila digabung terhadap seluruh pegawai adalah ...",
   "options": [
@@ -1398,6 +1433,7 @@
   "id": "TIU-NUM-TABEL-103",
   "category": "TIU",
   "topic_id": "TIU-NUM-TABEL",
+  "indicator": 1,
   "difficulty": 3,
   "stem": "Pagu dan realisasi anggaran (juta rupiah)\nProgram | Pagu | Realisasi\nP1 | 500 | 400\nP2 | 800 | 720\nP3 | 600 | 510\n\nProgram dengan persentase realisasi anggaran tertinggi adalah ...",
   "options": [
@@ -1439,6 +1475,7 @@
   "id": "TIU-NUM-TABEL-104",
   "category": "TIU",
   "topic_id": "TIU-NUM-TABEL",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Pengunjung kantor pelayanan (orang)\nSenin: 80\nSelasa: 95\nRabu: 110\nKamis: 90\nJumat: 125\n\nSelisih antara jumlah pengunjung hari tertinggi dan rata-rata pengunjung per hari adalah ...",
   "options": [
@@ -1480,6 +1517,7 @@
   "id": "TIU-VER-ANALITIS-101",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALITIS",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Lima pegawai (A, B, C, D, E) duduk berjajar dari kiri ke kanan. A duduk di posisi paling kiri. B duduk tepat di sebelah kanan A. C tidak duduk bersebelahan dengan B. E duduk tepat di sebelah kanan D. Siapa yang duduk di posisi tengah?",
   "options": [
@@ -1520,6 +1558,7 @@
   "id": "TIU-VER-ANALITIS-102",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALITIS",
+  "indicator": 0,
   "difficulty": 3,
   "stem": "Lima tugas (P, Q, R, S, T) dikerjakan masing-masing satu hari, Senin sampai Jumat. P dikerjakan hari Rabu. S dikerjakan sehari sebelum P. R dikerjakan sebelum Q. Q dikerjakan setelah P. T tidak dikerjakan hari Jumat. Q dikerjakan pada hari ...",
   "options": [
@@ -1560,6 +1599,7 @@
   "id": "TIU-VER-ANALITIS-103",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALITIS",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Rina lebih tinggi daripada Sinta. Tono lebih pendek daripada Sinta. Umar lebih tinggi daripada Rina. Siapakah yang paling pendek?",
   "options": [
@@ -1600,6 +1640,7 @@
   "id": "TIU-VER-ANALITIS-104",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALITIS",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Diketahui: (1) Jika Andi hadir, maka Budi tidak hadir. (2) Budi atau Citra hadir (paling sedikit satu dari keduanya). (3) Citra tidak hadir. Kesimpulan yang PASTI benar adalah ...",
   "options": [
@@ -1640,6 +1681,7 @@
   "id": "TIU-VER-ANALITIS-105",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALITIS",
+  "indicator": 2,
   "difficulty": 1,
   "stem": "Ani berjalan 5 km ke utara, lalu 3 km ke timur, kemudian 5 km ke selatan. Jarak Ani dari titik awal sekarang adalah ...",
   "options": [
@@ -1680,6 +1722,7 @@
   "id": "TIU-VER-ANALITIS-106",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALITIS",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Hari ini adalah hari Rabu. Seratus hari lagi adalah hari ...",
   "options": [
@@ -1720,6 +1763,7 @@
   "id": "TIU-VER-ANALITIS-107",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALITIS",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Dalam suatu kode, KANTOR ditulis LBOUPS. Dengan aturan yang sama, PEGAWAI ditulis ...",
   "options": [
@@ -1760,6 +1804,7 @@
   "id": "TIU-VER-SILOGISME-101",
   "category": "TIU",
   "topic_id": "TIU-VER-SILOGISME",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Semua ASN wajib bersikap netral. Sebagian ASN bertugas di daerah. Kesimpulan yang PASTI benar adalah ...",
   "options": [
@@ -1800,6 +1845,7 @@
   "id": "TIU-VER-SILOGISME-102",
   "category": "TIU",
   "topic_id": "TIU-VER-SILOGISME",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Tidak ada pegawai malas yang lulus evaluasi. Budi lulus evaluasi. Kesimpulan yang PASTI benar adalah ...",
   "options": [
@@ -1840,6 +1886,7 @@
   "id": "TIU-VER-SILOGISME-103",
   "category": "TIU",
   "topic_id": "TIU-VER-SILOGISME",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Jika hujan turun, maka jalan basah. Jalan tidak basah. Kesimpulan yang PASTI benar adalah ...",
   "options": [
@@ -1880,6 +1927,7 @@
   "id": "TIU-VER-SILOGISME-104",
   "category": "TIU",
   "topic_id": "TIU-VER-SILOGISME",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Semua dokter adalah sarjana. Semua sarjana pernah menempuh kuliah. Kesimpulan yang PASTI benar adalah ...",
   "options": [
@@ -1920,6 +1968,7 @@
   "id": "TIU-VER-SILOGISME-105",
   "category": "TIU",
   "topic_id": "TIU-VER-SILOGISME",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Sebagian atlet adalah pelajar. Semua pelajar rajin belajar. Kesimpulan yang PASTI benar adalah ...",
   "options": [
@@ -1960,6 +2009,7 @@
   "id": "TIU-VER-SILOGISME-106",
   "category": "TIU",
   "topic_id": "TIU-VER-SILOGISME",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Jika Dina rajin berlatih, maka Dina lulus ujian. Dina rajin berlatih. Kesimpulan yang PASTI benar adalah ...",
   "options": [
@@ -2000,6 +2050,7 @@
   "id": "TIU-VER-SILOGISME-107",
   "category": "TIU",
   "topic_id": "TIU-VER-SILOGISME",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Semua kendaraan dinas harus terdaftar. Mobil X tidak terdaftar. Kesimpulan yang PASTI benar adalah ...",
   "options": [
@@ -2040,6 +2091,7 @@
   "id": "TIU-VER-SILOGISME-108",
   "category": "TIU",
   "topic_id": "TIU-VER-SILOGISME",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Sebagian pegawai adalah relawan. Tidak ada relawan yang dibayar. Kesimpulan yang PASTI benar adalah ...",
   "options": [
@@ -2080,6 +2132,7 @@
   "id": "TIU-VER-SILOGISME-109",
   "category": "TIU",
   "topic_id": "TIU-VER-SILOGISME",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Semua orang yang disiplin mendapat kenaikan pangkat. Sebagian pegawai tidak mendapat kenaikan pangkat. Kesimpulan yang PASTI benar adalah ...",
   "options": [
@@ -2120,6 +2173,7 @@
   "id": "TIU-VER-ANALOGI-101",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALOGI",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Cemas : Khawatir = Gembira : ...",
   "options": [
@@ -2161,6 +2215,7 @@
   "id": "TIU-VER-ANALOGI-102",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALOGI",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Hemat : Boros = Rajin : ...",
   "options": [
@@ -2202,6 +2257,7 @@
   "id": "TIU-VER-ANALOGI-103",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALOGI",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Roda : Mobil = Daun : ...",
   "options": [
@@ -2243,6 +2299,7 @@
   "id": "TIU-VER-ANALOGI-104",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALOGI",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Malas : Gagal = Tekun : ...",
   "options": [
@@ -2284,6 +2341,7 @@
   "id": "TIU-VER-ANALOGI-105",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALOGI",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Dokter : Rumah sakit = Hakim : ...",
   "options": [
@@ -2325,6 +2383,7 @@
   "id": "TIU-VER-ANALOGI-106",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALOGI",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Pisau : Memotong = Kompor : ...",
   "options": [
@@ -2366,6 +2425,7 @@
   "id": "TIU-VER-ANALOGI-107",
   "category": "TIU",
   "topic_id": "TIU-VER-ANALOGI",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Dingin : Beku = Panas : ...",
   "options": [
@@ -2407,6 +2467,7 @@
   "id": "TWK-PIL-PANCASILA-101",
   "category": "TWK",
   "topic_id": "TWK-PIL-PANCASILA",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Pidato Soekarno yang menguraikan lima dasar negara dan menyebutnya Pancasila disampaikan dalam sidang BPUPKI pada tanggal ...",
   "options": [
@@ -2448,6 +2509,7 @@
   "id": "TWK-PIL-PANCASILA-102",
   "category": "TWK",
   "topic_id": "TWK-PIL-PANCASILA",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Rumusan hasil kerja Panitia Sembilan pada 22 Juni 1945 yang memuat rancangan dasar negara dikenal dengan nama ...",
   "options": [
@@ -2489,6 +2551,7 @@
   "id": "TWK-PIL-PANCASILA-103",
   "category": "TWK",
   "topic_id": "TWK-PIL-PANCASILA",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Pada sidang 18 Agustus 1945, PPKI memilih Presiden dan Wakil Presiden pertama Republik Indonesia, yaitu ...",
   "options": [
@@ -2530,6 +2593,7 @@
   "id": "TWK-PIL-PANCASILA-104",
   "category": "TWK",
   "topic_id": "TWK-PIL-PANCASILA",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Dalam rapat unit, kepala bidang mengajak seluruh staf menyampaikan pendapat dan memutuskan jadwal piket berdasarkan kesepakatan bersama, termasuk menghargai pendapat yang berbeda. Sikap ini paling mencerminkan sila ...",
   "options": [
@@ -2570,6 +2634,7 @@
   "id": "TWK-PIL-PANCASILA-105",
   "category": "TWK",
   "topic_id": "TWK-PIL-PANCASILA",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Seorang pegawai mengatur jadwal rapat agar tidak bertabrakan dengan waktu ibadah rekan-rekannya yang berbeda keyakinan. Sikap ini paling mencerminkan sila ...",
   "options": [
@@ -2610,6 +2675,7 @@
   "id": "TWK-PIL-PANCASILA-106",
   "category": "TWK",
   "topic_id": "TWK-PIL-PANCASILA",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Pemerintah daerah membangun puskesmas di wilayah terpencil agar masyarakat di sana mendapat layanan kesehatan yang setara dengan masyarakat perkotaan. Kebijakan ini paling mencerminkan sila ...",
   "options": [
@@ -2650,6 +2716,7 @@
   "id": "TWK-PIL-PANCASILA-107",
   "category": "TWK",
   "topic_id": "TWK-PIL-PANCASILA",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Padi dan kapas pada lambang Garuda Pancasila melambangkan sila ...",
   "options": [
@@ -2690,6 +2757,7 @@
   "id": "TWK-PIL-UUD1945-101",
   "category": "TWK",
   "topic_id": "TWK-PIL-UUD1945",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Pasal 1 ayat (3) UUD 1945 menyatakan bahwa Negara Indonesia adalah negara ...",
   "options": [
@@ -2730,6 +2798,7 @@
   "id": "TWK-PIL-UUD1945-102",
   "category": "TWK",
   "topic_id": "TWK-PIL-UUD1945",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Menurut Pasal 27 ayat (1) UUD 1945, segala warga negara bersamaan kedudukannya di dalam ...",
   "options": [
@@ -2770,6 +2839,7 @@
   "id": "TWK-PIL-UUD1945-103",
   "category": "TWK",
   "topic_id": "TWK-PIL-UUD1945",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Ketentuan bahwa negara memprioritaskan anggaran pendidikan sekurang-kurangnya 20% dari APBN dan APBD tercantum dalam Pasal ...",
   "options": [
@@ -2810,6 +2880,7 @@
   "id": "TWK-PIL-UUD1945-104",
   "category": "TWK",
   "topic_id": "TWK-PIL-UUD1945",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Prinsip bahwa bumi, air, dan kekayaan alam dikuasai oleh negara dan dipergunakan untuk sebesar-besarnya kemakmuran rakyat diatur dalam Pasal ...",
   "options": [
@@ -2850,6 +2921,7 @@
   "id": "TWK-PIL-UUD1945-105",
   "category": "TWK",
   "topic_id": "TWK-PIL-UUD1945",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Lembaga negara yang berwenang menguji undang-undang terhadap UUD 1945 adalah ...",
   "options": [
@@ -2890,6 +2962,7 @@
   "id": "TWK-PIL-UUD1945-106",
   "category": "TWK",
   "topic_id": "TWK-PIL-UUD1945",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Berdasarkan Pasal 2 ayat (1) UUD 1945, Majelis Permusyawaratan Rakyat terdiri atas ...",
   "options": [
@@ -2930,6 +3003,7 @@
   "id": "TWK-PIL-UUD1945-107",
   "category": "TWK",
   "topic_id": "TWK-PIL-UUD1945",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Menurut Pasal 7 UUD 1945, Presiden dan Wakil Presiden memegang jabatan selama ...",
   "options": [
@@ -2970,6 +3044,7 @@
   "id": "TWK-PIL-UUD1945-108",
   "category": "TWK",
   "topic_id": "TWK-PIL-UUD1945",
+  "indicator": 2,
   "difficulty": 1,
   "stem": "UUD 1945 telah diubah (diamandemen) sebanyak ... kali dengan perubahan terakhir pada tahun ...",
   "options": [
@@ -3010,6 +3085,7 @@
   "id": "TWK-PIL-NKRI-101",
   "category": "TWK",
   "topic_id": "TWK-PIL-NKRI",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Negara berikut yang berbatasan darat langsung dengan Indonesia adalah ...",
   "options": [
@@ -3050,6 +3126,7 @@
   "id": "TWK-PIL-NKRI-102",
   "category": "TWK",
   "topic_id": "TWK-PIL-NKRI",
+  "indicator": 3,
   "difficulty": 2,
   "stem": "Penyerahan urusan pemerintahan oleh pemerintah pusat kepada daerah otonom berdasarkan asas otonomi disebut ...",
   "options": [
@@ -3090,6 +3167,7 @@
   "id": "TWK-PIL-NKRI-103",
   "category": "TWK",
   "topic_id": "TWK-PIL-NKRI",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Wawasan Nusantara memandang wilayah Indonesia sebagai ...",
   "options": [
@@ -3130,6 +3208,7 @@
   "id": "TWK-PIL-BHINNEKA-101",
   "category": "TWK",
   "topic_id": "TWK-PIL-BHINNEKA",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Semboyan Bhinneka Tunggal Ika dikutip dari kitab ...",
   "options": [
@@ -3170,6 +3249,7 @@
   "id": "TWK-PIL-BHINNEKA-102",
   "category": "TWK",
   "topic_id": "TWK-PIL-BHINNEKA",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Rekan kerja Anda mengajukan izin mengikuti upacara keagamaan yang berbeda dari keyakinan mayoritas di kantor. Sikap yang sesuai dengan nilai Bhinneka Tunggal Ika adalah ...",
   "options": [
@@ -3210,6 +3290,7 @@
   "id": "TWK-PIL-BHINNEKA-103",
   "category": "TWK",
   "topic_id": "TWK-PIL-BHINNEKA",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Dua kelompok warga berselisih karena perbedaan adat dalam suatu acara bersama. Sebagai ASN, langkah yang paling tepat adalah ...",
   "options": [
@@ -3251,6 +3332,7 @@
   "id": "TWK-NAS-101",
   "category": "TWK",
   "topic_id": "TWK-NAS",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Hari Kebangkitan Nasional diperingati setiap 20 Mei untuk mengenang berdirinya organisasi ...",
   "options": [
@@ -3292,6 +3374,7 @@
   "id": "TWK-NAS-102",
   "category": "TWK",
   "topic_id": "TWK-NAS",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Butir ketiga Sumpah Pemuda 28 Oktober 1928 berbunyi menjunjung ...",
   "options": [
@@ -3332,6 +3415,7 @@
   "id": "TWK-NAS-103",
   "category": "TWK",
   "topic_id": "TWK-NAS",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Indische Partij yang berdiri tahun 1912 didirikan oleh Tiga Serangkai, yaitu ...",
   "options": [
@@ -3373,6 +3457,7 @@
   "id": "TWK-NAS-104",
   "category": "TWK",
   "topic_id": "TWK-NAS",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Teks Proklamasi Kemerdekaan dibacakan oleh Soekarno pada 17 Agustus 1945 di ...",
   "options": [
@@ -3413,6 +3498,7 @@
   "id": "TWK-NAS-105",
   "category": "TWK",
   "topic_id": "TWK-NAS",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Peristiwa Rengasdengklok pada 16 Agustus 1945 dilatarbelakangi oleh ...",
   "options": [
@@ -3453,6 +3539,7 @@
   "id": "TWK-NAS-106",
   "category": "TWK",
   "topic_id": "TWK-NAS",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Di tengah arus globalisasi, sikap yang paling mencerminkan nasionalisme adalah ...",
   "options": [
@@ -3493,6 +3580,7 @@
   "id": "TWK-INT-101",
   "category": "TWK",
   "topic_id": "TWK-INT",
+  "indicator": 2,
   "difficulty": 1,
   "stem": "Nilai dasar ASN BerAKHLAK meliputi berorientasi pelayanan, akuntabel, kompeten, harmonis, loyal, adaptif, dan kolaboratif. Berikut yang BUKAN nilai dasar tersebut adalah ...",
   "options": [
@@ -3533,6 +3621,7 @@
   "id": "TWK-INT-102",
   "category": "TWK",
   "topic_id": "TWK-INT",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Anda anggota panitia penilaian. Atasan meminta Anda menaikkan nilai seorang peserta yang merupakan kerabatnya. Sikap sesuai integritas adalah ...",
   "options": [
@@ -3573,6 +3662,7 @@
   "id": "TWK-INT-103",
   "category": "TWK",
   "topic_id": "TWK-INT",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Anda mengetahui rekan memakai kendaraan dinas untuk keperluan pribadi. Langkah paling tepat adalah ...",
   "options": [
@@ -3613,6 +3703,7 @@
   "id": "TWK-INT-104",
   "category": "TWK",
   "topic_id": "TWK-INT",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Pemberian dalam arti luas kepada pegawai negeri atau penyelenggara negara yang berhubungan dengan jabatannya dan berlawanan dengan kewajibannya disebut ...",
   "options": [
@@ -3653,6 +3744,7 @@
   "id": "TWK-BELA-101",
   "category": "TWK",
   "topic_id": "TWK-BELA",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Pasal 27 ayat (3) UUD 1945 mengatur hak dan kewajiban setiap warga negara untuk ikut serta dalam ...",
   "options": [
@@ -3693,6 +3785,7 @@
   "id": "TWK-BELA-102",
   "category": "TWK",
   "topic_id": "TWK-BELA",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Contoh bela negara oleh ASN dalam tugas sehari-hari adalah ...",
   "options": [
@@ -3733,6 +3826,7 @@
   "id": "TWK-BELA-103",
   "category": "TWK",
   "topic_id": "TWK-BELA",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Peretasan sistem data pemerintah oleh pihak asing termasuk bentuk ancaman ...",
   "options": [
@@ -3773,6 +3867,7 @@
   "id": "TWK-BHS-101",
   "category": "TWK",
   "topic_id": "TWK-BHS",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Bacalah paragraf berikut.\n\nDisiplin waktu merupakan salah satu kunci produktivitas di lingkungan kerja. Pegawai yang datang tepat waktu dan menyelesaikan tugas sesuai tenggat menjaga kelancaran koordinasi dengan rekan kerja. Sebaliknya, keterlambatan satu orang sering menghambat pekerjaan orang lain. Karena itu, budaya disiplin perlu dibangun sejak awal.\n\nGagasan utama paragraf tersebut adalah ...",
   "options": [
@@ -3813,6 +3908,7 @@
   "id": "TWK-BHS-102",
   "category": "TWK",
   "topic_id": "TWK-BHS",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Bacalah paragraf berikut.\n\nDigitalisasi layanan publik memangkas waktu tunggu dan biaya yang dikeluarkan masyarakat. Warga tidak perlu lagi datang ke kantor untuk mengurus dokumen tertentu. Meskipun demikian, kesenjangan akses internet di sejumlah daerah masih menjadi tantangan.\n\nGagasan utama paragraf tersebut adalah ...",
   "options": [
@@ -3853,6 +3949,7 @@
   "id": "TWK-BHS-103",
   "category": "TWK",
   "topic_id": "TWK-BHS",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Bacalah paragraf berikut.\n\nSampah plastik membutuhkan ratusan tahun untuk terurai. Di sisi lain, penggunaan kantong plastik sekali pakai masih sangat tinggi. Jika kebiasaan ini berlanjut, tumpukan sampah akan mencemari tanah dan perairan.\n\nKesimpulan yang tepat dari paragraf tersebut adalah ...",
   "options": [
@@ -3893,6 +3990,7 @@
   "id": "TWK-BHS-104",
   "category": "TWK",
   "topic_id": "TWK-BHS",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Kata 'transparansi' dalam kalimat 'Pemerintah daerah meningkatkan transparansi anggaran' bermakna ...",
   "options": [
@@ -3933,6 +4031,7 @@
   "id": "TWK-BHS-105",
   "category": "TWK",
   "topic_id": "TWK-BHS",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Kalimat dengan penulisan yang tepat adalah ...",
   "options": [
@@ -3973,6 +4072,7 @@
   "id": "TWK-BHS-106",
   "category": "TWK",
   "topic_id": "TWK-BHS",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Menurut UU Nomor 24 Tahun 2009, bahasa Indonesia wajib digunakan dalam ...",
   "options": [
@@ -4013,6 +4113,7 @@
   "id": "TKP-PELAYANAN-101",
   "category": "TKP",
   "topic_id": "TKP-PELAYANAN",
+  "indicator": 2,
   "difficulty": 1,
   "stem": "Seorang warga menanyakan layanan yang bukan kewenangan unit Anda. Yang Anda lakukan adalah ...",
   "options": [
@@ -4058,6 +4159,7 @@
   "id": "TKP-PELAYANAN-102",
   "category": "TKP",
   "topic_id": "TKP-PELAYANAN",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Antrean di loket panjang dan seorang lansia datang tanpa membawa nomor antrean. Yang Anda lakukan adalah ...",
   "options": [
@@ -4103,6 +4205,7 @@
   "id": "TKP-PELAYANAN-103",
   "category": "TKP",
   "topic_id": "TKP-PELAYANAN",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Aplikasi layanan error saat banyak warga menunggu di loket. Yang Anda lakukan adalah ...",
   "options": [
@@ -4149,6 +4252,7 @@
   "id": "TKP-PELAYANAN-104",
   "category": "TKP",
   "topic_id": "TKP-PELAYANAN",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Seorang warga mengeluhkan lambatnya layanan di media sosial instansi Anda. Yang Anda lakukan adalah ...",
   "options": [
@@ -4194,6 +4298,7 @@
   "id": "TKP-PELAYANAN-105",
   "category": "TKP",
   "topic_id": "TKP-PELAYANAN",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Jam layanan hampir berakhir dan masih ada warga yang sudah mengantre. Yang Anda lakukan adalah ...",
   "options": [
@@ -4239,6 +4344,7 @@
   "id": "TKP-JEJARING-101",
   "category": "TKP",
   "topic_id": "TKP-JEJARING",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Rapat lintas unit yang Anda koordinasikan bentrok dengan jadwal salah satu unit. Yang Anda lakukan adalah ...",
   "options": [
@@ -4284,6 +4390,7 @@
   "id": "TKP-JEJARING-102",
   "category": "TKP",
   "topic_id": "TKP-JEJARING",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Pegawai instansi lain meminta bantuan informasi dari unit Anda untuk programnya. Yang Anda lakukan adalah ...",
   "options": [
@@ -4329,6 +4436,7 @@
   "id": "TKP-JEJARING-103",
   "category": "TKP",
   "topic_id": "TKP-JEJARING",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Dalam tim, seorang anggota cenderung pasif dan jarang menyampaikan pendapat. Yang Anda lakukan adalah ...",
   "options": [
@@ -4374,6 +4482,7 @@
   "id": "TKP-JEJARING-104",
   "category": "TKP",
   "topic_id": "TKP-JEJARING",
+  "indicator": 1,
   "difficulty": 3,
   "stem": "Anda menemukan informasi penting yang berguna bagi unit lain di kantor. Yang Anda lakukan adalah ...",
   "options": [
@@ -4419,6 +4528,7 @@
   "id": "TKP-SOSBUD-101",
   "category": "TKP",
   "topic_id": "TKP-SOSBUD",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Anda dipindahtugaskan ke daerah dengan adat dan kebiasaan yang berbeda dari daerah asal Anda. Yang Anda lakukan adalah ...",
   "options": [
@@ -4464,6 +4574,7 @@
   "id": "TKP-SOSBUD-102",
   "category": "TKP",
   "topic_id": "TKP-SOSBUD",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Seorang rekan sering diolok-olok karena logat daerahnya. Yang Anda lakukan adalah ...",
   "options": [
@@ -4509,6 +4620,7 @@
   "id": "TKP-SOSBUD-103",
   "category": "TKP",
   "topic_id": "TKP-SOSBUD",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Warga setempat mengundang Anda mengikuti acara adat yang tidak pernah Anda ikuti. Yang Anda lakukan adalah ...",
   "options": [
@@ -4554,6 +4666,7 @@
   "id": "TKP-SOSBUD-104",
   "category": "TKP",
   "topic_id": "TKP-SOSBUD",
+  "indicator": 1,
   "difficulty": 3,
   "stem": "Rapat penting dijadwalkan bertepatan dengan hari besar keagamaan yang dirayakan sebagian rekan Anda. Yang Anda lakukan adalah ...",
   "options": [
@@ -4599,6 +4712,7 @@
   "id": "TKP-TIK-101",
   "category": "TKP",
   "topic_id": "TKP-TIK",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Kantor Anda menerapkan aplikasi baru, sementara Anda kurang menguasai teknologi. Yang Anda lakukan adalah ...",
   "options": [
@@ -4644,6 +4758,7 @@
   "id": "TKP-TIK-102",
   "category": "TKP",
   "topic_id": "TKP-TIK",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Anda menerima email yang mengaku dari atasan dan meminta kata sandi akun kantor. Yang Anda lakukan adalah ...",
   "options": [
@@ -4689,6 +4804,7 @@
   "id": "TKP-TIK-103",
   "category": "TKP",
   "topic_id": "TKP-TIK",
+  "indicator": 1,
   "difficulty": 3,
   "stem": "Pihak luar menawarkan imbalan agar Anda memberikan data internal kantor yang bersifat rahasia. Yang Anda lakukan adalah ...",
   "options": [
@@ -4734,6 +4850,7 @@
   "id": "TKP-TIK-104",
   "category": "TKP",
   "topic_id": "TKP-TIK",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Rekan Anda memindahkan berkas kantor ke flashdisk pribadi agar mudah dikerjakan di rumah. Yang Anda lakukan adalah ...",
   "options": [
@@ -4779,6 +4896,7 @@
   "id": "TKP-TIK-105",
   "category": "TKP",
   "topic_id": "TKP-TIK",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Rekan senior Anda menolak memakai sistem digital baru dan tetap bekerja manual. Yang Anda lakukan adalah ...",
   "options": [
@@ -4824,6 +4942,7 @@
   "id": "TKP-PROFESIONAL-101",
   "category": "TKP",
   "topic_id": "TKP-PROFESIONAL",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Dua tugas dari atasan berbeda memiliki tenggat yang sama hari ini. Yang Anda lakukan adalah ...",
   "options": [
@@ -4869,6 +4988,7 @@
   "id": "TKP-PROFESIONAL-102",
   "category": "TKP",
   "topic_id": "TKP-PROFESIONAL",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Anda ditugaskan pekerjaan di luar bidang keahlian Anda. Yang Anda lakukan adalah ...",
   "options": [
@@ -4914,6 +5034,7 @@
   "id": "TKP-PROFESIONAL-103",
   "category": "TKP",
   "topic_id": "TKP-PROFESIONAL",
+  "indicator": 0,
   "difficulty": 3,
   "stem": "Setelah laporan dikirim, Anda menemukan kesalahan yang cukup material. Yang Anda lakukan adalah ...",
   "options": [
@@ -4959,6 +5080,7 @@
   "id": "TKP-PROFESIONAL-104",
   "category": "TKP",
   "topic_id": "TKP-PROFESIONAL",
+  "indicator": 2,
   "difficulty": 3,
   "stem": "Atasan memberi instruksi yang menurut Anda bertentangan dengan SOP. Yang Anda lakukan adalah ...",
   "options": [
@@ -5004,6 +5126,7 @@
   "id": "TKP-PROFESIONAL-105",
   "category": "TKP",
   "topic_id": "TKP-PROFESIONAL",
+  "indicator": 1,
   "difficulty": 1,
   "stem": "Rekan meminta Anda menitipkan absen karena ia akan datang terlambat. Yang Anda lakukan adalah ...",
   "options": [
@@ -5049,6 +5172,7 @@
   "id": "TKP-ANTIRADIKAL-101",
   "category": "TKP",
   "topic_id": "TKP-ANTIRADIKAL",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Di grup percakapan kantor beredar ajakan yang menyudutkan kelompok tertentu dan bertentangan dengan Pancasila. Yang Anda lakukan adalah ...",
   "options": [
@@ -5094,6 +5218,7 @@
   "id": "TKP-ANTIRADIKAL-102",
   "category": "TKP",
   "topic_id": "TKP-ANTIRADIKAL",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Rekan Anda membagikan informasi bernuansa SARA yang belum tentu benar. Yang Anda lakukan adalah ...",
   "options": [
@@ -5139,6 +5264,7 @@
   "id": "TKP-PELAYANAN-106",
   "category": "TKP",
   "topic_id": "TKP-PELAYANAN",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Seorang warga datang dengan berkas lengkap, tetapi tidak membawa fotokopi yang disyaratkan, sementara mesin fotokopi kantor sedang rusak. Yang Anda lakukan adalah ...",
   "options": [
@@ -5184,6 +5310,7 @@
   "id": "TKP-PELAYANAN-107",
   "category": "TKP",
   "topic_id": "TKP-PELAYANAN",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Seorang warga berulang kali menanyakan hal yang sama karena belum memahami prosedur. Yang Anda lakukan adalah ...",
   "options": [
@@ -5229,6 +5356,7 @@
   "id": "TKP-PELAYANAN-108",
   "category": "TKP",
   "topic_id": "TKP-PELAYANAN",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Saat antrean panjang, seorang warga mengatakan keluarganya sakit dan membutuhkan surat keterangan segera. Yang Anda lakukan adalah ...",
   "options": [
@@ -5274,6 +5402,7 @@
   "id": "TKP-PELAYANAN-109",
   "category": "TKP",
   "topic_id": "TKP-PELAYANAN",
+  "indicator": 0,
   "difficulty": 3,
   "stem": "Hasil survei kepuasan menunjukkan skor rendah pada aspek kecepatan layanan unit Anda. Yang Anda lakukan adalah ...",
   "options": [
@@ -5319,6 +5448,7 @@
   "id": "TKP-JEJARING-105",
   "category": "TKP",
   "topic_id": "TKP-JEJARING",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Rekan dari unit lain meminta bantuan saat Anda sedang menyelesaikan tugas yang tenggatnya dekat. Yang Anda lakukan adalah ...",
   "options": [
@@ -5364,6 +5494,7 @@
   "id": "TKP-JEJARING-106",
   "category": "TKP",
   "topic_id": "TKP-JEJARING",
+  "indicator": 2,
   "difficulty": 3,
   "stem": "Dalam kegiatan bersama pemerintah daerah dan pihak swasta, kedua pihak memiliki kepentingan yang berbeda. Yang Anda lakukan adalah ...",
   "options": [
@@ -5409,6 +5540,7 @@
   "id": "TKP-JEJARING-107",
   "category": "TKP",
   "topic_id": "TKP-JEJARING",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Anda baru bergabung di unit kerja dan belum mengenal rekan-rekan. Yang Anda lakukan adalah ...",
   "options": [
@@ -5454,6 +5586,7 @@
   "id": "TKP-SOSBUD-105",
   "category": "TKP",
   "topic_id": "TKP-SOSBUD",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Seorang warga penyandang disabilitas datang untuk mengurus layanan. Yang Anda lakukan adalah ...",
   "options": [
@@ -5499,6 +5632,7 @@
   "id": "TKP-SOSBUD-106",
   "category": "TKP",
   "topic_id": "TKP-SOSBUD",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Dalam rapat, rekan dari daerah lain memakai istilah daerah yang tidak Anda pahami. Yang Anda lakukan adalah ...",
   "options": [
@@ -5544,6 +5678,7 @@
   "id": "TKP-SOSBUD-107",
   "category": "TKP",
   "topic_id": "TKP-SOSBUD",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Di lingkungan tempat tinggal baru, warga mengadakan kerja bakti pada hari libur. Yang Anda lakukan adalah ...",
   "options": [
@@ -5589,6 +5724,7 @@
   "id": "TKP-TIK-106",
   "category": "TKP",
   "topic_id": "TKP-TIK",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Data rekap pada spreadsheet bersama terhapus tanpa sengaja oleh rekan. Yang Anda lakukan adalah ...",
   "options": [
@@ -5634,6 +5770,7 @@
   "id": "TKP-TIK-107",
   "category": "TKP",
   "topic_id": "TKP-TIK",
+  "indicator": 1,
   "difficulty": 3,
   "stem": "Ada alat berbasis AI yang bisa mempercepat pekerjaan Anda, tetapi sebagian pekerjaan itu menyangkut data kantor yang sensitif. Yang Anda lakukan adalah ...",
   "options": [
@@ -5680,6 +5817,7 @@
   "id": "TKP-TIK-108",
   "category": "TKP",
   "topic_id": "TKP-TIK",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Anda menerima tautan mencurigakan di grup percakapan kantor. Yang Anda lakukan adalah ...",
   "options": [
@@ -5725,6 +5863,7 @@
   "id": "TKP-TIK-109",
   "category": "TKP",
   "topic_id": "TKP-TIK",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Anda diminta menyusun laporan memakai fitur spreadsheet yang belum Anda kuasai, dengan tenggat besok. Yang Anda lakukan adalah ...",
   "options": [
@@ -5770,6 +5909,7 @@
   "id": "TKP-PROFESIONAL-106",
   "category": "TKP",
   "topic_id": "TKP-PROFESIONAL",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Rekan meminta Anda menyelesaikan tugasnya karena ia sibuk dengan urusan pribadi. Yang Anda lakukan adalah ...",
   "options": [
@@ -5815,6 +5955,7 @@
   "id": "TKP-PROFESIONAL-107",
   "category": "TKP",
   "topic_id": "TKP-PROFESIONAL",
+  "indicator": 2,
   "difficulty": 2,
   "stem": "Atasan baru mengubah cara kerja yang menurut Anda kurang efisien. Yang Anda lakukan adalah ...",
   "options": [
@@ -5860,6 +6001,7 @@
   "id": "TKP-PROFESIONAL-108",
   "category": "TKP",
   "topic_id": "TKP-PROFESIONAL",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Anda diminta mewakili instansi pada rapat dengan pihak luar, tetapi belum menguasai materinya. Yang Anda lakukan adalah ...",
   "options": [
@@ -5905,6 +6047,7 @@
   "id": "TKP-PROFESIONAL-109",
   "category": "TKP",
   "topic_id": "TKP-PROFESIONAL",
+  "indicator": 2,
   "difficulty": 3,
   "stem": "Anda menemukan prosedur yang bisa dipersingkat, tetapi perubahan prosedur bukan kewenangan Anda. Yang Anda lakukan adalah ...",
   "options": [
@@ -5950,6 +6093,7 @@
   "id": "TKP-ANTIRADIKAL-103",
   "category": "TKP",
   "topic_id": "TKP-ANTIRADIKAL",
+  "indicator": 0,
   "difficulty": 3,
   "stem": "Dalam diskusi santai, seorang rekan menyatakan bahwa dasar negara sebaiknya diganti dengan ideologi tertentu. Yang Anda lakukan adalah ...",
   "options": [
@@ -5995,6 +6139,7 @@
   "id": "TKP-ANTIRADIKAL-104",
   "category": "TKP",
   "topic_id": "TKP-ANTIRADIKAL",
+  "indicator": 0,
   "difficulty": 3,
   "stem": "Seorang kenalan mengajak Anda menghadiri pengajian yang membenarkan kekerasan. Yang Anda lakukan adalah ...",
   "options": [
@@ -6040,6 +6185,7 @@
   "id": "TIU-FIG-SERIAL-101",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -6157,6 +6303,7 @@
   "id": "TIU-FIG-SERIAL-102",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -6274,6 +6421,7 @@
   "id": "TIU-FIG-SERIAL-103",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -6391,6 +6539,7 @@
   "id": "TIU-FIG-SERIAL-104",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -6508,6 +6657,7 @@
   "id": "TIU-FIG-SERIAL-105",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -6625,6 +6775,7 @@
   "id": "TIU-FIG-SERIAL-106",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -6742,6 +6893,7 @@
   "id": "TIU-FIG-SERIAL-107",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" fill=\"none\"/><rect x=\"27\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" fill=\"none\"/><rect x=\"27\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -6859,6 +7011,7 @@
   "id": "TIU-FIG-SERIAL-108",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 1,
   "difficulty": 2,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" fill=\"none\"/><rect x=\"27\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -6976,6 +7129,7 @@
   "id": "TIU-FIG-SERIAL-109",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -7093,6 +7247,7 @@
   "id": "TIU-FIG-SERIAL-110",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -7210,6 +7365,7 @@
   "id": "TIU-FIG-SERIAL-111",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 1,
   "difficulty": 3,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" fill=\"none\"/><rect x=\"32\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -7327,6 +7483,7 @@
   "id": "TIU-FIG-SERIAL-112",
   "category": "TIU",
   "topic_id": "TIU-FIG-SERIAL",
+  "indicator": 1,
   "difficulty": 3,
   "stem": "Perhatikan urutan gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 530 80\" role=\"img\" aria-label=\"Urutan gambar dengan satu gambar bertanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(90 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(180 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(270 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(360 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(450 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -7444,6 +7601,7 @@
   "id": "TIU-FIG-ANALOGI-101",
   "category": "TIU",
   "topic_id": "TIU-FIG-ANALOGI",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Gambar pertama berubah menjadi gambar kedua. Dengan perubahan yang sama, gambar ketiga berubah menjadi ...",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 80\" role=\"img\" aria-label=\"Gambar pertama berubah menjadi gambar kedua; gambar ketiga berubah menjadi tanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"84\" y1=\"40\" x2=\"106\" y2=\"40\"/><polyline points=\"99,34 106,40 99,46\"/></g><g transform=\"translate(110 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><line x1=\"215\" y1=\"8\" x2=\"215\" y2=\"72\" style=\"stroke:var(--line)\" stroke-width=\"2\"/><g transform=\"translate(240 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"324\" y1=\"40\" x2=\"346\" y2=\"40\"/><polyline points=\"339,34 346,40 339,46\"/></g><g transform=\"translate(350 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -7541,6 +7699,7 @@
   "id": "TIU-FIG-ANALOGI-102",
   "category": "TIU",
   "topic_id": "TIU-FIG-ANALOGI",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Gambar pertama berubah menjadi gambar kedua. Dengan perubahan yang sama, gambar ketiga berubah menjadi ...",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 80\" role=\"img\" aria-label=\"Gambar pertama berubah menjadi gambar kedua; gambar ketiga berubah menjadi tanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"84\" y1=\"40\" x2=\"106\" y2=\"40\"/><polyline points=\"99,34 106,40 99,46\"/></g><g transform=\"translate(110 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><line x1=\"215\" y1=\"8\" x2=\"215\" y2=\"72\" style=\"stroke:var(--line)\" stroke-width=\"2\"/><g transform=\"translate(240 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"324\" y1=\"40\" x2=\"346\" y2=\"40\"/><polyline points=\"339,34 346,40 339,46\"/></g><g transform=\"translate(350 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -7638,6 +7797,7 @@
   "id": "TIU-FIG-ANALOGI-103",
   "category": "TIU",
   "topic_id": "TIU-FIG-ANALOGI",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Gambar pertama berubah menjadi gambar kedua. Dengan perubahan yang sama, gambar ketiga berubah menjadi ...",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 80\" role=\"img\" aria-label=\"Gambar pertama berubah menjadi gambar kedua; gambar ketiga berubah menjadi tanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"84\" y1=\"40\" x2=\"106\" y2=\"40\"/><polyline points=\"99,34 106,40 99,46\"/></g><g transform=\"translate(110 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><line x1=\"215\" y1=\"8\" x2=\"215\" y2=\"72\" style=\"stroke:var(--line)\" stroke-width=\"2\"/><g transform=\"translate(240 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"324\" y1=\"40\" x2=\"346\" y2=\"40\"/><polyline points=\"339,34 346,40 339,46\"/></g><g transform=\"translate(350 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -7735,6 +7895,7 @@
   "id": "TIU-FIG-ANALOGI-104",
   "category": "TIU",
   "topic_id": "TIU-FIG-ANALOGI",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Gambar pertama berubah menjadi gambar kedua. Dengan perubahan yang sama, gambar ketiga berubah menjadi ...",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 80\" role=\"img\" aria-label=\"Gambar pertama berubah menjadi gambar kedua; gambar ketiga berubah menjadi tanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"84\" y1=\"40\" x2=\"106\" y2=\"40\"/><polyline points=\"99,34 106,40 99,46\"/></g><g transform=\"translate(110 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><line x1=\"215\" y1=\"8\" x2=\"215\" y2=\"72\" style=\"stroke:var(--line)\" stroke-width=\"2\"/><g transform=\"translate(240 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"324\" y1=\"40\" x2=\"346\" y2=\"40\"/><polyline points=\"339,34 346,40 339,46\"/></g><g transform=\"translate(350 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -7832,6 +7993,7 @@
   "id": "TIU-FIG-ANALOGI-105",
   "category": "TIU",
   "topic_id": "TIU-FIG-ANALOGI",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Gambar pertama berubah menjadi gambar kedua. Dengan perubahan yang sama, gambar ketiga berubah menjadi ...",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 80\" role=\"img\" aria-label=\"Gambar pertama berubah menjadi gambar kedua; gambar ketiga berubah menjadi tanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"84\" y1=\"40\" x2=\"106\" y2=\"40\"/><polyline points=\"99,34 106,40 99,46\"/></g><g transform=\"translate(110 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><line x1=\"215\" y1=\"8\" x2=\"215\" y2=\"72\" style=\"stroke:var(--line)\" stroke-width=\"2\"/><g transform=\"translate(240 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"324\" y1=\"40\" x2=\"346\" y2=\"40\"/><polyline points=\"339,34 346,40 339,46\"/></g><g transform=\"translate(350 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -7929,6 +8091,7 @@
   "id": "TIU-FIG-ANALOGI-106",
   "category": "TIU",
   "topic_id": "TIU-FIG-ANALOGI",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Gambar pertama berubah menjadi gambar kedua. Dengan perubahan yang sama, gambar ketiga berubah menjadi ...",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 80\" role=\"img\" aria-label=\"Gambar pertama berubah menjadi gambar kedua; gambar ketiga berubah menjadi tanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"84\" y1=\"40\" x2=\"106\" y2=\"40\"/><polyline points=\"99,34 106,40 99,46\"/></g><g transform=\"translate(110 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><line x1=\"215\" y1=\"8\" x2=\"215\" y2=\"72\" style=\"stroke:var(--line)\" stroke-width=\"2\"/><g transform=\"translate(240 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"324\" y1=\"40\" x2=\"346\" y2=\"40\"/><polyline points=\"339,34 346,40 339,46\"/></g><g transform=\"translate(350 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -8026,6 +8189,7 @@
   "id": "TIU-FIG-ANALOGI-107",
   "category": "TIU",
   "topic_id": "TIU-FIG-ANALOGI",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Gambar pertama berubah menjadi gambar kedua. Dengan perubahan yang sama, gambar ketiga berubah menjadi ...",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 80\" role=\"img\" aria-label=\"Gambar pertama berubah menjadi gambar kedua; gambar ketiga berubah menjadi tanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"84\" y1=\"40\" x2=\"106\" y2=\"40\"/><polyline points=\"99,34 106,40 99,46\"/></g><g transform=\"translate(110 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><line x1=\"215\" y1=\"8\" x2=\"215\" y2=\"72\" style=\"stroke:var(--line)\" stroke-width=\"2\"/><g transform=\"translate(240 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"324\" y1=\"40\" x2=\"346\" y2=\"40\"/><polyline points=\"339,34 346,40 339,46\"/></g><g transform=\"translate(350 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -8123,6 +8287,7 @@
   "id": "TIU-FIG-ANALOGI-108",
   "category": "TIU",
   "topic_id": "TIU-FIG-ANALOGI",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Gambar pertama berubah menjadi gambar kedua. Dengan perubahan yang sama, gambar ketiga berubah menjadi ...",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 80\" role=\"img\" aria-label=\"Gambar pertama berubah menjadi gambar kedua; gambar ketiga berubah menjadi tanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"84\" y1=\"40\" x2=\"106\" y2=\"40\"/><polyline points=\"99,34 106,40 99,46\"/></g><g transform=\"translate(110 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><line x1=\"215\" y1=\"8\" x2=\"215\" y2=\"72\" style=\"stroke:var(--line)\" stroke-width=\"2\"/><g transform=\"translate(240 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"324\" y1=\"40\" x2=\"346\" y2=\"40\"/><polyline points=\"339,34 346,40 339,46\"/></g><g transform=\"translate(350 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -8220,6 +8385,7 @@
   "id": "TIU-FIG-ANALOGI-109",
   "category": "TIU",
   "topic_id": "TIU-FIG-ANALOGI",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Gambar pertama berubah menjadi gambar kedua. Dengan perubahan yang sama, gambar ketiga berubah menjadi ...",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 80\" role=\"img\" aria-label=\"Gambar pertama berubah menjadi gambar kedua; gambar ketiga berubah menjadi tanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"84\" y1=\"40\" x2=\"106\" y2=\"40\"/><polyline points=\"99,34 106,40 99,46\"/></g><g transform=\"translate(110 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><line x1=\"215\" y1=\"8\" x2=\"215\" y2=\"72\" style=\"stroke:var(--line)\" stroke-width=\"2\"/><g transform=\"translate(240 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"324\" y1=\"40\" x2=\"346\" y2=\"40\"/><polyline points=\"339,34 346,40 339,46\"/></g><g transform=\"translate(350 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -8317,6 +8483,7 @@
   "id": "TIU-FIG-ANALOGI-110",
   "category": "TIU",
   "topic_id": "TIU-FIG-ANALOGI",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Gambar pertama berubah menjadi gambar kedua. Dengan perubahan yang sama, gambar ketiga berubah menjadi ...",
   "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 80\" role=\"img\" aria-label=\"Gambar pertama berubah menjadi gambar kedua; gambar ketiga berubah menjadi tanda tanya\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"84\" y1=\"40\" x2=\"106\" y2=\"40\"/><polyline points=\"99,34 106,40 99,46\"/></g><g transform=\"translate(110 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><line x1=\"215\" y1=\"8\" x2=\"215\" y2=\"72\" style=\"stroke:var(--line)\" stroke-width=\"2\"/><g transform=\"translate(240 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" fill=\"none\"/><rect x=\"27\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><line x1=\"324\" y1=\"40\" x2=\"346\" y2=\"40\"/><polyline points=\"339,34 346,40 339,46\"/></g><g transform=\"translate(350 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--muted)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"38\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
@@ -8414,6 +8581,7 @@
   "id": "TIU-FIG-KETIDAKSAMAAN-101",
   "category": "TIU",
   "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
   "stem_svg": null,
@@ -8502,6 +8670,7 @@
   "id": "TIU-FIG-KETIDAKSAMAAN-102",
   "category": "TIU",
   "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
   "stem_svg": null,
@@ -8590,6 +8759,7 @@
   "id": "TIU-FIG-KETIDAKSAMAAN-103",
   "category": "TIU",
   "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
   "stem_svg": null,
@@ -8681,6 +8851,7 @@
   "id": "TIU-FIG-KETIDAKSAMAAN-104",
   "category": "TIU",
   "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+  "indicator": 0,
   "difficulty": 1,
   "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
   "stem_svg": null,
@@ -8769,6 +8940,7 @@
   "id": "TIU-FIG-KETIDAKSAMAAN-105",
   "category": "TIU",
   "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
   "stem_svg": null,
@@ -8857,6 +9029,7 @@
   "id": "TIU-FIG-KETIDAKSAMAAN-106",
   "category": "TIU",
   "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
   "stem_svg": null,
@@ -8945,6 +9118,7 @@
   "id": "TIU-FIG-KETIDAKSAMAAN-107",
   "category": "TIU",
   "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
   "stem_svg": null,
@@ -9034,6 +9208,7 @@
   "id": "TIU-FIG-KETIDAKSAMAAN-108",
   "category": "TIU",
   "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+  "indicator": 0,
   "difficulty": 3,
   "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
   "stem_svg": null,
@@ -9122,6 +9297,7 @@
   "id": "TIU-FIG-KETIDAKSAMAAN-109",
   "category": "TIU",
   "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+  "indicator": 0,
   "difficulty": 3,
   "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
   "stem_svg": null,
@@ -9213,6 +9389,7 @@
   "id": "TIU-FIG-KETIDAKSAMAAN-110",
   "category": "TIU",
   "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+  "indicator": 0,
   "difficulty": 2,
   "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
   "stem_svg": null,

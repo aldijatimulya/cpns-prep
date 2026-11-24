@@ -4,7 +4,7 @@ import { BadgeCheck, BookOpen, Brain, ChevronDown, LayoutGrid, Landmark, Lightbu
 import PageHero from '../components/ui/PageHero'
 import ProgressRing from '../components/ui/ProgressRing'
 import { useStore } from '../contexts/StoreContext'
-import { categories, curriculum, examConfig, questions, questionsForTopic } from '../data'
+import { categories, curriculum, examConfig, materiFor, questions, questionsForTopic } from '../data'
 import { CAT_GOAL, progressSummary } from '../utils/stats'
 
 const meta = {
@@ -103,7 +103,7 @@ export default function LearningCenter() {
                     </div>
                     <small>{t.group}{t.official_blueprint ? '' : ' · pendukung'}</small>
                     <small className={`lk-${t.likelihood}`}>perkiraan prioritas: {t.likelihood}</small>
-                    <small>{questionsForTopic(t.id).length} soal tersedia</small>
+                    <small>{questionsForTopic(t.id).length} soal · {t.indicators.length} indikator{materiFor(t.id) ? ' · materi tersedia' : ' · materi belum ada'}</small>
                   </Link>
                 ))}
               </div>

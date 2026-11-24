@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import TutorPanel from '../components/TutorPanel'
+import MateriLink from '../components/MateriLink'
 import { ClipboardCheck } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import { useStore } from '../contexts/StoreContext'
@@ -372,6 +373,7 @@ function CatResult({ result, onAgain }) {
               {hasFigureOptions(q) && <FigOptions q={q} chosen={it.chosen} />}
               <p>Jawaban Anda: <b>{it.chosen ?? 'kosong'}</b> · {q.answer ? 'Kunci' : 'Opsi terbaik'}: <b>{best}</b></p>
               <p>{detailed ? q.explanation.detailed : q.explanation.quick}</p>
+              <MateriLink q={q} />
               <TutorPanel q={q} chosen={it.chosen} />
             </li>
           )

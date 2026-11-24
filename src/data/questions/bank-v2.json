@@ -1,0 +1,1690 @@
+[
+ {
+  "id": "TWK-PIL-PANCASILA-201",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-PANCASILA",
+  "indicator": 2,
+  "difficulty": 1,
+  "stem": "Kedudukan Pancasila sebagai sumber dari segala sumber hukum negara berarti ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "Pancasila adalah undang-undang yang dapat direvisi oleh DPR"
+   },
+   {
+    "key": "B",
+    "text": "Pancasila hanya mengikat penyelenggara negara"
+   },
+   {
+    "key": "C",
+    "text": "seluruh peraturan perundang-undangan tidak boleh bertentangan dengan nilai-nilai Pancasila"
+   },
+   {
+    "key": "D",
+    "text": "Pancasila berkedudukan di bawah peraturan pemerintah"
+   },
+   {
+    "key": "E",
+    "text": "Pancasila hanya pedoman moral tanpa kaitan dengan hukum"
+   }
+  ],
+  "answer": "C",
+  "explanation": {
+   "quick": "Semua hukum bersumber dari dan tidak boleh bertentangan dengan Pancasila.",
+   "detailed": "1) Pancasila ditempatkan sebagai sumber dari segala sumber hukum negara. 2) Artinya setiap peraturan, dari UUD sampai peraturan daerah, harus selaras dengan nilai Pancasila. 3) Pancasila bukan undang-undang biasa, sehingga tidak direvisi seperti UU."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "dasar negara"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-PANCASILA-202",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-PANCASILA",
+  "indicator": 2,
+  "difficulty": 2,
+  "stem": "Pancasila disebut ideologi terbuka karena ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "nilai dasarnya tetap, sedangkan nilai instrumental dan penerapannya dapat berkembang mengikuti zaman"
+   },
+   {
+    "key": "B",
+    "text": "nilai dasarnya boleh diganti sesuai kehendak penguasa"
+   },
+   {
+    "key": "C",
+    "text": "Pancasila menolak seluruh pengaruh dari luar negeri"
+   },
+   {
+    "key": "D",
+    "text": "isinya hanya berlaku sementara sampai ada ideologi baru"
+   },
+   {
+    "key": "E",
+    "text": "Pancasila hanya dapat ditafsirkan oleh lembaga tertentu"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "Nilai dasar tetap, nilai instrumental dan praksis dinamis.",
+   "detailed": "1) Ideologi terbuka memiliki tiga tingkat nilai: dasar, instrumental, dan praksis. 2) Nilai dasar (lima sila) tidak berubah. 3) Nilai instrumental (peraturan, kebijakan) dan nilai praksis (pelaksanaan) menyesuaikan perkembangan zaman."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "ideologi"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-PANCASILA-203",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-PANCASILA",
+  "indicator": 2,
+  "difficulty": 1,
+  "stem": "Rumusan Pancasila yang sah sebagai dasar negara tercantum dalam ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "Pasal 1 ayat (2) UUD 1945"
+   },
+   {
+    "key": "B",
+    "text": "Piagam Jakarta 22 Juni 1945"
+   },
+   {
+    "key": "C",
+    "text": "pidato Soekarno 1 Juni 1945"
+   },
+   {
+    "key": "D",
+    "text": "Pembukaan UUD 1945 alinea keempat"
+   },
+   {
+    "key": "E",
+    "text": "Pasal 29 UUD 1945"
+   }
+  ],
+  "answer": "D",
+  "explanation": {
+   "quick": "Rumusan resmi ada di alinea keempat Pembukaan UUD 1945.",
+   "detailed": "1) Rumusan final lima sila disahkan PPKI 18 Agustus 1945. 2) Rumusan itu termuat di alinea keempat Pembukaan UUD 1945. 3) Piagam Jakarta dan pidato 1 Juni adalah rumusan sebelumnya yang berbeda."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "dasar negara"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-UUD1945-201",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-UUD1945",
+  "indicator": 2,
+  "difficulty": 1,
+  "stem": "Lembaga negara yang berwenang mengubah dan menetapkan Undang-Undang Dasar adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "Dewan Perwakilan Rakyat"
+   },
+   {
+    "key": "B",
+    "text": "Majelis Permusyawaratan Rakyat"
+   },
+   {
+    "key": "C",
+    "text": "Presiden"
+   },
+   {
+    "key": "D",
+    "text": "Mahkamah Konstitusi"
+   },
+   {
+    "key": "E",
+    "text": "Dewan Perwakilan Daerah"
+   }
+  ],
+  "answer": "B",
+  "explanation": {
+   "quick": "Pasal 3 ayat (1) dan Pasal 37: wewenang mengubah UUD ada pada MPR.",
+   "detailed": "1) Pasal 3 ayat (1) UUD 1945: MPR berwenang mengubah dan menetapkan UUD. 2) Pasal 37 mengatur tata cara usul dan pengambilan keputusan perubahan. 3) DPR, Presiden, dan MK tidak memiliki wewenang tersebut."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "amandemen"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-NKRI-201",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-NKRI",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Deklarasi Djuanda 13 Desember 1957 menyatakan bahwa ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "laut di antara pulau-pulau Indonesia merupakan bagian dari wilayah kesatuan Indonesia"
+   },
+   {
+    "key": "B",
+    "text": "Indonesia memiliki zona ekonomi eksklusif sejauh 200 mil laut"
+   },
+   {
+    "key": "C",
+    "text": "lebar laut teritorial Indonesia adalah 3 mil dari garis pantai"
+   },
+   {
+    "key": "D",
+    "text": "Indonesia menjadi anggota ASEAN"
+   },
+   {
+    "key": "E",
+    "text": "Papua Barat kembali ke wilayah Indonesia"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "Laut antarpulau dipandang sebagai satu kesatuan wilayah (asas negara kepulauan).",
+   "detailed": "1) Sebelumnya berlaku aturan kolonial dengan laut teritorial 3 mil, sehingga laut antarpulau dianggap laut bebas. 2) Deklarasi Djuanda menegaskan laut di antara pulau sebagai bagian wilayah Indonesia. 3) Ini dasar wawasan nusantara dan diakui UNCLOS 1982. Hari Nusantara diperingati 13 Desember."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "wawasan nusantara"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-NKRI-202",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-NKRI",
+  "indicator": 1,
+  "difficulty": 1,
+  "stem": "Zona Ekonomi Eksklusif (ZEE) Indonesia diukur paling jauh ... dari garis pangkal.",
+  "options": [
+   {
+    "key": "A",
+    "text": "12 mil laut"
+   },
+   {
+    "key": "B",
+    "text": "24 mil laut"
+   },
+   {
+    "key": "C",
+    "text": "100 mil laut"
+   },
+   {
+    "key": "D",
+    "text": "200 mil laut"
+   },
+   {
+    "key": "E",
+    "text": "350 mil laut"
+   }
+  ],
+  "answer": "D",
+  "explanation": {
+   "quick": "ZEE: 200 mil laut dari garis pangkal.",
+   "detailed": "1) Laut teritorial: 12 mil laut. 2) Zona tambahan: 24 mil laut. 3) ZEE: 200 mil laut. 4) Landas kontinen dapat sampai 350 mil laut sesuai ketentuan UNCLOS."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "wilayah"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-NKRI-203",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-NKRI",
+  "indicator": 2,
+  "difficulty": 2,
+  "stem": "Dalam Astagatra ketahanan nasional, yang termasuk gatra alamiah adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "ideologi, politik, dan ekonomi"
+   },
+   {
+    "key": "B",
+    "text": "sosial budaya, pertahanan, dan keamanan"
+   },
+   {
+    "key": "C",
+    "text": "geografi, kekayaan alam, dan kependudukan"
+   },
+   {
+    "key": "D",
+    "text": "politik, ekonomi, dan kependudukan"
+   },
+   {
+    "key": "E",
+    "text": "geografi, ideologi, dan pertahanan"
+   }
+  ],
+  "answer": "C",
+  "explanation": {
+   "quick": "Tiga gatra alamiah: geografi, kekayaan alam, kependudukan.",
+   "detailed": "1) Astagatra = 8 gatra: 3 gatra alamiah (trigatra) dan 5 gatra sosial (pancagatra). 2) Trigatra: geografi, kekayaan alam, kependudukan. 3) Pancagatra: ideologi, politik, ekonomi, sosial budaya, pertahanan dan keamanan."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "ketahanan nasional"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-NKRI-204",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-NKRI",
+  "indicator": 2,
+  "difficulty": 1,
+  "stem": "Singkatan ipoleksosbudhankam merujuk pada lima gatra sosial ketahanan nasional, yaitu ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "ideologi, perdagangan, energi, sosial, pendidikan"
+   },
+   {
+    "key": "B",
+    "text": "individu, politik, ekologi, sosial, hukum"
+   },
+   {
+    "key": "C",
+    "text": "geografi, politik, ekonomi, sosial, hukum"
+   },
+   {
+    "key": "D",
+    "text": "ideologi, pertanian, ekonomi, seni, pendidikan"
+   },
+   {
+    "key": "E",
+    "text": "ideologi, politik, ekonomi, sosial budaya, pertahanan dan keamanan"
+   }
+  ],
+  "answer": "E",
+  "explanation": {
+   "quick": "Ipoleksosbudhankam = ideologi, politik, ekonomi, sosial budaya, hankam.",
+   "detailed": "1) Ipoleksosbudhankam adalah akronim pancagatra. 2) Huruf-hurufnya: ideologi, politik, ekonomi, sosial budaya, pertahanan keamanan. 3) Ketiga gatra lain (alamiah) adalah geografi, kekayaan alam, kependudukan."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "ketahanan nasional"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-NKRI-205",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-NKRI",
+  "indicator": 3,
+  "difficulty": 1,
+  "stem": "Urusan pemerintahan yang menjadi kewenangan mutlak pemerintah pusat dan tidak diserahkan ke daerah adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "pendidikan"
+   },
+   {
+    "key": "B",
+    "text": "pertahanan"
+   },
+   {
+    "key": "C",
+    "text": "kesehatan"
+   },
+   {
+    "key": "D",
+    "text": "pariwisata"
+   },
+   {
+    "key": "E",
+    "text": "perhubungan"
+   }
+  ],
+  "answer": "B",
+  "explanation": {
+   "quick": "Urusan absolut: politik luar negeri, pertahanan, keamanan, yustisi, moneter-fiskal nasional, agama.",
+   "detailed": "1) UU 23/2014 membagi urusan menjadi absolut, konkuren, dan umum. 2) Urusan absolut: politik luar negeri, pertahanan, keamanan, yustisi, moneter dan fiskal nasional, agama. 3) Pendidikan, kesehatan, pariwisata, dan perhubungan termasuk urusan konkuren (dibagi pusat dan daerah)."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "otonomi daerah"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-BHINNEKA-201",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-BHINNEKA",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Sikap yang paling mencerminkan toleransi beragama di lingkungan kerja adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "meminta rekan beribadah di luar jam kerja sepenuhnya"
+   },
+   {
+    "key": "B",
+    "text": "mengajak rekan mengikuti ibadah agama mayoritas"
+   },
+   {
+    "key": "C",
+    "text": "memberi ruang dan waktu bagi rekan untuk beribadah sesuai keyakinannya"
+   },
+   {
+    "key": "D",
+    "text": "menghindari rekan yang berbeda keyakinan"
+   },
+   {
+    "key": "E",
+    "text": "menyindir kebiasaan ibadah rekan agar berubah"
+   }
+  ],
+  "answer": "C",
+  "explanation": {
+   "quick": "Toleransi = menghormati dan memfasilitasi hak beribadah orang lain.",
+   "detailed": "1) Pasal 29 UUD 1945 menjamin kebebasan beribadah. 2) Toleransi diwujudkan dengan menghormati dan memberi ruang ibadah. 3) Memaksa, menghindari, atau menyindir bertentangan dengan Bhinneka Tunggal Ika."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "toleransi"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-BHINNEKA-202",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-BHINNEKA",
+  "indicator": 1,
+  "difficulty": 1,
+  "stem": "Semboyan Bhinneka Tunggal Ika dalam UUD 1945 tercantum pada Pasal ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "36A"
+   },
+   {
+    "key": "B",
+    "text": "35"
+   },
+   {
+    "key": "C",
+    "text": "36"
+   },
+   {
+    "key": "D",
+    "text": "36B"
+   },
+   {
+    "key": "E",
+    "text": "36C"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "Pasal 36A: lambang negara Garuda Pancasila dengan semboyan Bhinneka Tunggal Ika.",
+   "detailed": "1) Pasal 35: bendera. 2) Pasal 36: bahasa. 3) Pasal 36A: lambang negara dan semboyan. 4) Pasal 36B: lagu kebangsaan. 5) Pasal 36C: ketentuan lanjut diatur undang-undang."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "persatuan"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-PIL-BHINNEKA-203",
+  "category": "TWK",
+  "topic_id": "TWK-PIL-BHINNEKA",
+  "indicator": 2,
+  "difficulty": 2,
+  "stem": "Dua rekan dari suku berbeda berselisih karena salah paham bahasa. Sebagai ASN, langkah terbaik Anda adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "membiarkan karena urusan pribadi mereka"
+   },
+   {
+    "key": "B",
+    "text": "mempertemukan keduanya dan memfasilitasi dialog hingga saling memahami maksud masing-masing"
+   },
+   {
+    "key": "C",
+    "text": "memihak rekan yang satu suku dengan Anda"
+   },
+   {
+    "key": "D",
+    "text": "melaporkan keduanya langsung ke pimpinan tanpa mencoba menengahi"
+   },
+   {
+    "key": "E",
+    "text": "menyuruh keduanya diam agar suasana tenang"
+   }
+  ],
+  "answer": "B",
+  "explanation": {
+   "quick": "Fasilitasi dialog secara netral agar saling memahami.",
+   "detailed": "1) Konflik berlatar perbedaan perlu diselesaikan dengan musyawarah. 2) ASN bersikap netral, tidak memihak berdasarkan suku. 3) Memfasilitasi dialog menjaga persatuan dan hubungan kerja."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "konflik"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-NAS-201",
+  "category": "TWK",
+  "topic_id": "TWK-NAS",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Bendera negara Indonesia ialah Sang Merah Putih, sebagaimana diatur dalam UUD 1945 Pasal ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "34"
+   },
+   {
+    "key": "B",
+    "text": "35"
+   },
+   {
+    "key": "C",
+    "text": "36"
+   },
+   {
+    "key": "D",
+    "text": "36A"
+   },
+   {
+    "key": "E",
+    "text": "37"
+   }
+  ],
+  "answer": "B",
+  "explanation": {
+   "quick": "Pasal 35 UUD 1945: bendera negara Sang Merah Putih.",
+   "detailed": "1) Identitas nasional dalam UUD: bendera (Pasal 35), bahasa (36), lambang negara (36A), lagu kebangsaan (36B). 2) Jadi bendera diatur Pasal 35."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "identitas nasional"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-NAS-202",
+  "category": "TWK",
+  "topic_id": "TWK-NAS",
+  "indicator": 0,
+  "difficulty": 2,
+  "stem": "Ketika kepentingan pribadi bertentangan dengan kepentingan nasional, ASN yang berjiwa nasionalis akan ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "mendahulukan kepentingan bangsa dan negara tanpa mengabaikan hak yang sah"
+   },
+   {
+    "key": "B",
+    "text": "mengutamakan kepentingan pribadi karena hak asasi"
+   },
+   {
+    "key": "C",
+    "text": "mengutamakan kepentingan kelompoknya lebih dulu"
+   },
+   {
+    "key": "D",
+    "text": "menunda keputusan sampai ada keuntungan pribadi"
+   },
+   {
+    "key": "E",
+    "text": "menyerahkan keputusan kepada orang lain"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "Kepentingan nasional didahulukan dengan tetap menghormati hak yang sah.",
+   "detailed": "1) Nasionalisme menempatkan kepentingan bangsa di atas kepentingan pribadi dan golongan. 2) Hak yang sah tetap dihormati dan dicari jalan keluar yang adil. 3) Opsi lain menunjukkan sikap egois atau menghindar."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "kepentingan nasional"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-NAS-203",
+  "category": "TWK",
+  "topic_id": "TWK-NAS",
+  "indicator": 2,
+  "difficulty": 1,
+  "stem": "Salah satu ancaman globalisasi terhadap identitas bangsa adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "meningkatnya ekspor produk dalam negeri"
+   },
+   {
+    "key": "B",
+    "text": "bertambahnya wisatawan mancanegara"
+   },
+   {
+    "key": "C",
+    "text": "berkembangnya kerja sama pendidikan antarnegara"
+   },
+   {
+    "key": "D",
+    "text": "melemahnya kebanggaan terhadap budaya sendiri akibat masuknya budaya asing tanpa filter"
+   },
+   {
+    "key": "E",
+    "text": "meningkatnya penggunaan produk lokal"
+   }
+  ],
+  "answer": "D",
+  "explanation": {
+   "quick": "Budaya asing tanpa filter dapat melunturkan identitas.",
+   "detailed": "1) Dampak negatif globalisasi: lunturnya budaya dan nilai lokal, gaya hidup konsumtif, individualisme. 2) Opsi lain merupakan dampak positif atau netral. 3) Sikap yang tepat: memfilter budaya asing dan melestarikan budaya sendiri."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "globalisasi"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-INT-201",
+  "category": "TWK",
+  "topic_id": "TWK-INT",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Kesesuaian antara ucapan dan perbuatan serta kejujuran dalam bertindak disebut ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "popularitas"
+   },
+   {
+    "key": "B",
+    "text": "integritas"
+   },
+   {
+    "key": "C",
+    "text": "loyalitas buta"
+   },
+   {
+    "key": "D",
+    "text": "fleksibilitas"
+   },
+   {
+    "key": "E",
+    "text": "ambisi"
+   }
+  ],
+  "answer": "B",
+  "explanation": {
+   "quick": "Integritas = konsisten antara ucapan, tindakan, dan nilai.",
+   "detailed": "1) Integritas adalah keteguhan menjalankan nilai kejujuran secara konsisten. 2) Meliputi kejujuran, komitmen, dan konsistensi. 3) Istilah lain tidak menggambarkan konsistensi nilai."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "integritas"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-INT-202",
+  "category": "TWK",
+  "topic_id": "TWK-INT",
+  "indicator": 2,
+  "difficulty": 1,
+  "stem": "Nilai \"Harmonis\" dalam BerAKHLAK dicerminkan oleh sikap ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "saling peduli dan menghargai perbedaan"
+   },
+   {
+    "key": "B",
+    "text": "menyelesaikan tugas tepat waktu dengan kualitas tinggi"
+   },
+   {
+    "key": "C",
+    "text": "selalu menjaga rahasia jabatan"
+   },
+   {
+    "key": "D",
+    "text": "cepat menyesuaikan diri dengan perubahan"
+   },
+   {
+    "key": "E",
+    "text": "memberi pelayanan prima kepada masyarakat"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "Harmonis: saling peduli, menghargai perbedaan, suasana kerja kondusif.",
+   "detailed": "1) BerAKHLAK: Berorientasi Pelayanan, Akuntabel, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif. 2) Harmonis = saling peduli, menghargai perbedaan, dan menciptakan suasana kerja kondusif. 3) Opsi lain menggambarkan nilai Kompeten, Akuntabel, Adaptif, dan Berorientasi Pelayanan."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "BerAKHLAK"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-BELA-201",
+  "category": "TWK",
+  "topic_id": "TWK-BELA",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Bela negara melalui pendidikan kewarganegaraan, pelatihan dasar kemiliteran, pengabdian sebagai prajurit TNI, dan pengabdian sesuai profesi diatur dalam ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "UU No. 3 Tahun 2002 tentang Pertahanan Negara"
+   },
+   {
+    "key": "B",
+    "text": "UU No. 24 Tahun 2009 tentang Bendera, Bahasa, dan Lambang Negara"
+   },
+   {
+    "key": "C",
+    "text": "UU No. 20 Tahun 2023 tentang ASN"
+   },
+   {
+    "key": "D",
+    "text": "UU No. 2 Tahun 2002 tentang Kepolisian"
+   },
+   {
+    "key": "E",
+    "text": "UU No. 12 Tahun 2011 tentang Pembentukan Peraturan"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "UU 3/2002 (Pasal 9) mengatur bentuk penyelenggaraan bela negara.",
+   "detailed": "1) Pasal 27 ayat (3) dan Pasal 30 UUD 1945 menjadi dasar konstitusional. 2) UU 3/2002 Pasal 9 menyebut empat bentuk penyelenggaraan bela negara. 3) UU lain mengatur hal berbeda."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "dasar hukum"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-BELA-202",
+  "category": "TWK",
+  "topic_id": "TWK-BELA",
+  "indicator": 1,
+  "difficulty": 2,
+  "stem": "Yang BUKAN nilai dasar bela negara adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "cinta tanah air"
+   },
+   {
+    "key": "B",
+    "text": "sadar berbangsa dan bernegara"
+   },
+   {
+    "key": "C",
+    "text": "rela berkorban untuk bangsa dan negara"
+   },
+   {
+    "key": "D",
+    "text": "yakin Pancasila sebagai ideologi negara"
+   },
+   {
+    "key": "E",
+    "text": "mengutamakan kepentingan golongan di atas kepentingan bangsa"
+   }
+  ],
+  "answer": "E",
+  "explanation": {
+   "quick": "Nilai dasar: cinta tanah air, sadar berbangsa-bernegara, yakin Pancasila, rela berkorban, kemampuan awal bela negara.",
+   "detailed": "1) Lima nilai dasar bela negara: cinta tanah air; sadar berbangsa dan bernegara; yakin Pancasila sebagai ideologi negara; rela berkorban; memiliki kemampuan awal bela negara. 2) Mengutamakan golongan bertentangan dengan semangat persatuan."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "nilai dasar"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-BELA-203",
+  "category": "TWK",
+  "topic_id": "TWK-BELA",
+  "indicator": 2,
+  "difficulty": 2,
+  "stem": "Serangan siber disertai penyebaran disinformasi dan tekanan ekonomi oleh pihak asing secara bersamaan merupakan ancaman ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "militer"
+   },
+   {
+    "key": "B",
+    "text": "alamiah"
+   },
+   {
+    "key": "C",
+    "text": "hibrida"
+   },
+   {
+    "key": "D",
+    "text": "nirmiliter murni"
+   },
+   {
+    "key": "E",
+    "text": "internal"
+   }
+  ],
+  "answer": "C",
+  "explanation": {
+   "quick": "Gabungan beberapa bentuk ancaman sekaligus = ancaman hibrida.",
+   "detailed": "1) Ancaman militer memakai kekuatan bersenjata. 2) Ancaman nirmiliter berupa ideologi, politik, ekonomi, sosial budaya, teknologi informasi. 3) Ancaman hibrida menggabungkan keduanya atau beberapa bentuk secara simultan."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "ancaman"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-BHS-201",
+  "category": "TWK",
+  "topic_id": "TWK-BHS",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Kedudukan bahasa Indonesia sebagai bahasa negara tercantum dalam UUD 1945 Pasal ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "35"
+   },
+   {
+    "key": "B",
+    "text": "36A"
+   },
+   {
+    "key": "C",
+    "text": "36B"
+   },
+   {
+    "key": "D",
+    "text": "36"
+   },
+   {
+    "key": "E",
+    "text": "37"
+   }
+  ],
+  "answer": "D",
+  "explanation": {
+   "quick": "Pasal 36 UUD 1945: Bahasa negara ialah Bahasa Indonesia.",
+   "detailed": "1) Pasal 36 UUD 1945 menetapkan bahasa negara. 2) Kedudukan bahasa persatuan bersumber dari Sumpah Pemuda 1928. 3) UU 24/2009 menjabarkan penggunaannya."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "kedudukan"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-SISTEM-201",
+  "category": "TWK",
+  "topic_id": "TWK-SISTEM",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Montesquieu membagi kekuasaan negara menjadi ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "legislatif, eksekutif, dan yudikatif"
+   },
+   {
+    "key": "B",
+    "text": "legislatif, konstitutif, dan administratif"
+   },
+   {
+    "key": "C",
+    "text": "eksekutif, militer, dan yudikatif"
+   },
+   {
+    "key": "D",
+    "text": "legislatif, federatif, dan yudikatif"
+   },
+   {
+    "key": "E",
+    "text": "konsultatif, eksekutif, dan yudikatif"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "Trias politika: legislatif, eksekutif, yudikatif.",
+   "detailed": "1) Trias politika dikemukakan Montesquieu (pengembangan gagasan John Locke). 2) Tiga kekuasaan: membuat UU (legislatif), melaksanakan UU (eksekutif), mengadili (yudikatif). 3) Indonesia menganut pembagian kekuasaan dengan checks and balances, bukan pemisahan mutlak."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "trias politika"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-SISTEM-202",
+  "category": "TWK",
+  "topic_id": "TWK-SISTEM",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Kekuasaan kehakiman menurut UUD 1945 dilaksanakan oleh ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "Mahkamah Agung dan Dewan Perwakilan Rakyat"
+   },
+   {
+    "key": "B",
+    "text": "Mahkamah Agung dan badan peradilan di bawahnya serta Mahkamah Konstitusi"
+   },
+   {
+    "key": "C",
+    "text": "Mahkamah Konstitusi dan Komisi Yudisial saja"
+   },
+   {
+    "key": "D",
+    "text": "Kejaksaan dan Kepolisian"
+   },
+   {
+    "key": "E",
+    "text": "Presiden dan Mahkamah Agung"
+   }
+  ],
+  "answer": "B",
+  "explanation": {
+   "quick": "Pasal 24 ayat (2): MA beserta peradilan di bawahnya dan MK.",
+   "detailed": "1) Pasal 24 ayat (2) UUD 1945 menyebut pelaksana kekuasaan kehakiman. 2) Komisi Yudisial bukan pelaksana kekuasaan kehakiman; ia menjaga kehormatan dan perilaku hakim."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "yudikatif"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-SISTEM-203",
+  "category": "TWK",
+  "topic_id": "TWK-SISTEM",
+  "indicator": 1,
+  "difficulty": 1,
+  "stem": "Pemerintahan daerah di Indonesia terdiri atas ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "provinsi, kecamatan, dan desa"
+   },
+   {
+    "key": "B",
+    "text": "kabupaten, kecamatan, dan kelurahan"
+   },
+   {
+    "key": "C",
+    "text": "provinsi, kabupaten, dan kota"
+   },
+   {
+    "key": "D",
+    "text": "provinsi, karesidenan, dan kota"
+   },
+   {
+    "key": "E",
+    "text": "negara bagian dan kota"
+   }
+  ],
+  "answer": "C",
+  "explanation": {
+   "quick": "Pasal 18 ayat (1): provinsi, kabupaten, dan kota.",
+   "detailed": "1) Pasal 18 ayat (1) UUD 1945 membagi wilayah menjadi provinsi, lalu kabupaten dan kota. 2) Kecamatan, kelurahan, dan desa adalah tingkatan di bawahnya, bukan daerah otonom tingkat utama."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "pemerintahan daerah"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-SISTEM-204",
+  "category": "TWK",
+  "topic_id": "TWK-SISTEM",
+  "indicator": 1,
+  "difficulty": 2,
+  "stem": "Pelimpahan sebagian urusan pemerintah pusat kepada gubernur sebagai wakil pemerintah pusat disebut ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "desentralisasi"
+   },
+   {
+    "key": "B",
+    "text": "tugas pembantuan"
+   },
+   {
+    "key": "C",
+    "text": "sentralisasi"
+   },
+   {
+    "key": "D",
+    "text": "otonomi khusus"
+   },
+   {
+    "key": "E",
+    "text": "dekonsentrasi"
+   }
+  ],
+  "answer": "E",
+  "explanation": {
+   "quick": "Dekonsentrasi = pelimpahan kepada gubernur sebagai wakil pusat.",
+   "detailed": "1) Desentralisasi: penyerahan urusan kepada daerah otonom. 2) Dekonsentrasi: pelimpahan kepada gubernur sebagai wakil pusat/instansi vertikal. 3) Tugas pembantuan: penugasan dari pusat ke daerah untuk urusan tertentu."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "pusat dan daerah"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-SISTEM-205",
+  "category": "TWK",
+  "topic_id": "TWK-SISTEM",
+  "indicator": 2,
+  "difficulty": 1,
+  "stem": "Presiden tidak dapat membubarkan DPR (Pasal 7C UUD 1945). Hal ini menunjukkan bahwa sistem pemerintahan Indonesia bersifat ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "parlementer"
+   },
+   {
+    "key": "B",
+    "text": "semi-parlementer"
+   },
+   {
+    "key": "C",
+    "text": "monarki konstitusional"
+   },
+   {
+    "key": "D",
+    "text": "presidensial"
+   },
+   {
+    "key": "E",
+    "text": "federal"
+   }
+  ],
+  "answer": "D",
+  "explanation": {
+   "quick": "Presiden dan DPR sama-sama dipilih rakyat dan tidak saling menjatuhkan.",
+   "detailed": "1) Dalam sistem presidensial, presiden dipilih langsung dan tidak bertanggung jawab kepada parlemen. 2) Pasal 7C melarang presiden membekukan atau membubarkan DPR. 3) Menteri bertanggung jawab kepada presiden."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "sistem pemerintahan"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TWK-SISTEM-206",
+  "category": "TWK",
+  "topic_id": "TWK-SISTEM",
+  "indicator": 2,
+  "difficulty": 2,
+  "stem": "Mekanisme checks and balances dalam pembentukan undang-undang tampak dari ketentuan bahwa rancangan undang-undang ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "dibahas dan disetujui bersama oleh DPR dan Presiden"
+   },
+   {
+    "key": "B",
+    "text": "dibahas dan ditetapkan oleh DPR sendiri"
+   },
+   {
+    "key": "C",
+    "text": "ditetapkan Presiden tanpa persetujuan DPR"
+   },
+   {
+    "key": "D",
+    "text": "disetujui oleh Mahkamah Agung"
+   },
+   {
+    "key": "E",
+    "text": "disahkan oleh MPR"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "Pasal 20 ayat (2): pembahasan dan persetujuan bersama DPR dan Presiden.",
+   "detailed": "1) Pasal 20 ayat (2): setiap RUU dibahas oleh DPR dan Presiden untuk mendapat persetujuan bersama. 2) Keterlibatan dua lembaga menjadi bentuk saling mengawasi dan menyeimbangkan."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "antarlembaga"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-VER-SILOGISME-201",
+  "category": "TIU",
+  "topic_id": "TIU-VER-SILOGISME",
+  "indicator": 2,
+  "difficulty": 2,
+  "stem": "Semua mahasiswa adalah pelajar. Sebagian pelajar adalah atlet. Kesimpulan yang PASTI benar adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "sebagian mahasiswa adalah atlet"
+   },
+   {
+    "key": "B",
+    "text": "semua atlet adalah pelajar"
+   },
+   {
+    "key": "C",
+    "text": "tidak ada mahasiswa yang menjadi atlet"
+   },
+   {
+    "key": "D",
+    "text": "semua atlet adalah mahasiswa"
+   },
+   {
+    "key": "E",
+    "text": "tidak dapat ditarik kesimpulan yang pasti benar"
+   }
+  ],
+  "answer": "E",
+  "explanation": {
+   "quick": "Mahasiswa termasuk pelajar, tetapi atlet yang dimaksud belum tentu mahasiswa.",
+   "detailed": "1) Gambarkan himpunan: mahasiswa di dalam pelajar. 2) Sebagian pelajar adalah atlet, tetapi bagian itu bisa berada di luar mahasiswa. 3) Karena itu tidak satu pun opsi lain yang pasti benar."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "kesimpulan valid"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-VER-ANALITIS-201",
+  "category": "TIU",
+  "topic_id": "TIU-VER-ANALITIS",
+  "indicator": 1,
+  "difficulty": 2,
+  "stem": "Diketahui: (1) Jika rapat diadakan, maka semua kepala bidang hadir. (2) Kepala bidang C tidak hadir. Kesimpulan yang PASTI benar adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "rapat diadakan tanpa kepala bidang C"
+   },
+   {
+    "key": "B",
+    "text": "rapat tidak diadakan"
+   },
+   {
+    "key": "C",
+    "text": "semua kepala bidang tidak hadir"
+   },
+   {
+    "key": "D",
+    "text": "rapat diadakan dengan kuorum"
+   },
+   {
+    "key": "E",
+    "text": "kepala bidang C sakit"
+   }
+  ],
+  "answer": "B",
+  "explanation": {
+   "quick": "Modus tollens: C tidak hadir sehingga rapat tidak diadakan.",
+   "detailed": "1) Premis 1: rapat diadakan -> semua hadir. 2) Premis 2: ada yang tidak hadir (C). 3) Kontraposisi: jika tidak semua hadir, maka rapat tidak diadakan."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "logika kondisional"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-VER-BACAAN-201",
+  "category": "TIU",
+  "topic_id": "TIU-VER-BACAAN",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Bacalah paragraf berikut.\nPemerintah daerah mulai menerapkan sistem antrean daring di seluruh puskesmas. Dengan sistem ini, warga tidak perlu datang sejak subuh untuk mengambil nomor antrean. Waktu tunggu pun berkurang karena jadwal kunjungan tersebar lebih merata. Akibatnya, tenaga kesehatan dapat melayani pasien dengan lebih teliti.\nGagasan utama paragraf tersebut adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "sistem antrean daring di puskesmas membuat layanan lebih cepat dan rapi bagi warga"
+   },
+   {
+    "key": "B",
+    "text": "warga harus datang sejak subuh agar mendapat nomor antrean"
+   },
+   {
+    "key": "C",
+    "text": "tenaga kesehatan kurang teliti melayani pasien"
+   },
+   {
+    "key": "D",
+    "text": "pemerintah daerah membangun puskesmas baru"
+   },
+   {
+    "key": "E",
+    "text": "biaya berobat di puskesmas meningkat"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "Gagasan utama: manfaat antrean daring bagi layanan puskesmas.",
+   "detailed": "1) Kalimat pertama memperkenalkan topik: antrean daring. 2) Kalimat berikutnya menjelaskan manfaatnya. 3) Opsi lain bertentangan atau tidak disebut dalam paragraf."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "ide pokok"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-VER-BACAAN-202",
+  "category": "TIU",
+  "topic_id": "TIU-VER-BACAAN",
+  "indicator": 0,
+  "difficulty": 2,
+  "stem": "Bacalah paragraf berikut.\nBanyak pegawai mengira rapat yang panjang berarti rapat yang produktif. Padahal, keputusan terbaik sering lahir dari rapat singkat dengan agenda jelas. Rapat yang melebar tanpa arah justru menghabiskan waktu dan menurunkan fokus peserta.\nSimpulan yang tepat dari paragraf tersebut adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "rapat yang panjang selalu menghasilkan keputusan terbaik"
+   },
+   {
+    "key": "B",
+    "text": "rapat sebaiknya ditiadakan di lingkungan kerja"
+   },
+   {
+    "key": "C",
+    "text": "rapat yang efektif ditentukan oleh kejelasan agenda, bukan lamanya durasi"
+   },
+   {
+    "key": "D",
+    "text": "peserta rapat tidak perlu menyiapkan agenda"
+   },
+   {
+    "key": "E",
+    "text": "rapat singkat tidak pernah menghasilkan keputusan"
+   }
+  ],
+  "answer": "C",
+  "explanation": {
+   "quick": "Agenda jelas, bukan durasi, menentukan efektivitas rapat.",
+   "detailed": "1) Paragraf membantah anggapan bahwa panjang berarti produktif. 2) Ia menyebut rapat singkat beragenda jelas menghasilkan keputusan terbaik. 3) Simpulan: kejelasan agenda lebih penting daripada durasi."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "simpulan"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-VER-BACAAN-203",
+  "category": "TIU",
+  "topic_id": "TIU-VER-BACAAN",
+  "indicator": 1,
+  "difficulty": 1,
+  "stem": "Sinonim kata \"akuntabel\" adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "mudah berubah"
+   },
+   {
+    "key": "B",
+    "text": "dapat dipertanggungjawabkan"
+   },
+   {
+    "key": "C",
+    "text": "bersifat rahasia"
+   },
+   {
+    "key": "D",
+    "text": "tidak terikat aturan"
+   },
+   {
+    "key": "E",
+    "text": "bebas biaya"
+   }
+  ],
+  "answer": "B",
+  "explanation": {
+   "quick": "Akuntabel = dapat dipertanggungjawabkan.",
+   "detailed": "1) Akuntabel berasal dari accountable: dapat diminta pertanggungjawaban. 2) Opsi lain tidak berkaitan dengan makna tersebut."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "sinonim"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-VER-BACAAN-204",
+  "category": "TIU",
+  "topic_id": "TIU-VER-BACAAN",
+  "indicator": 1,
+  "difficulty": 1,
+  "stem": "Antonim kata \"dermawan\" adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "pemurah"
+   },
+   {
+    "key": "B",
+    "text": "murah hati"
+   },
+   {
+    "key": "C",
+    "text": "penderma"
+   },
+   {
+    "key": "D",
+    "text": "kikir"
+   },
+   {
+    "key": "E",
+    "text": "baik hati"
+   }
+  ],
+  "answer": "D",
+  "explanation": {
+   "quick": "Dermawan (suka memberi) berlawanan dengan kikir.",
+   "detailed": "1) Dermawan = orang yang suka berderma. 2) Pemurah, murah hati, penderma adalah sinonimnya. 3) Lawan katanya: kikir (pelit)."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "antonim"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-NUM-BERHITUNG-201",
+  "category": "TIU",
+  "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 2,
+  "difficulty": 1,
+  "stem": "Perbandingan kelereng Ani dan Budi adalah 2 : 3. Jika jumlah kelereng keduanya 75, banyak kelereng Budi adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "30"
+   },
+   {
+    "key": "B",
+    "text": "35"
+   },
+   {
+    "key": "C",
+    "text": "40"
+   },
+   {
+    "key": "D",
+    "text": "50"
+   },
+   {
+    "key": "E",
+    "text": "45"
+   }
+  ],
+  "answer": "E",
+  "explanation": {
+   "quick": "Budi = 3/5 x 75 = 45.",
+   "detailed": "1) Jumlah bagian = 2 + 3 = 5. 2) Satu bagian = 75 : 5 = 15. 3) Budi = 3 x 15 = 45."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "perbandingan"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-NUM-BERHITUNG-202",
+  "category": "TIU",
+  "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 2,
+  "difficulty": 1,
+  "stem": "Jarak dua kota pada peta 4 cm. Jika skala peta 1 : 500.000, jarak sebenarnya adalah ... km.",
+  "options": [
+   {
+    "key": "A",
+    "text": "2"
+   },
+   {
+    "key": "B",
+    "text": "20"
+   },
+   {
+    "key": "C",
+    "text": "5"
+   },
+   {
+    "key": "D",
+    "text": "25"
+   },
+   {
+    "key": "E",
+    "text": "200"
+   }
+  ],
+  "answer": "B",
+  "explanation": {
+   "quick": "4 x 500.000 = 2.000.000 cm = 20 km.",
+   "detailed": "1) Jarak sebenarnya = jarak peta x penyebut skala = 4 x 500.000 = 2.000.000 cm. 2) 100.000 cm = 1 km, sehingga 2.000.000 cm = 20 km."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "skala"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-NUM-BERHITUNG-203",
+  "category": "TIU",
+  "topic_id": "TIU-NUM-BERHITUNG",
+  "indicator": 3,
+  "difficulty": 2,
+  "stem": "Hasil dari akar 81 x 2 pangkat 3 : 4 adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "18"
+   },
+   {
+    "key": "B",
+    "text": "12"
+   },
+   {
+    "key": "C",
+    "text": "16"
+   },
+   {
+    "key": "D",
+    "text": "24"
+   },
+   {
+    "key": "E",
+    "text": "36"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "Akar 81 = 9; 2^3 = 8; 9 x 8 : 4 = 18.",
+   "detailed": "1) Hitung akar dan pangkat lebih dulu: akar 81 = 9, 2 pangkat 3 = 8. 2) Kemudian kerjakan dari kiri: 9 x 8 = 72. 3) 72 : 4 = 18."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "akar",
+   "pangkat"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-NUM-DERET-201",
+  "category": "TIU",
+  "topic_id": "TIU-NUM-DERET",
+  "indicator": 3,
+  "difficulty": 1,
+  "stem": "Tentukan huruf berikutnya: A, C, E, G, I, ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "J"
+   },
+   {
+    "key": "B",
+    "text": "L"
+   },
+   {
+    "key": "C",
+    "text": "K"
+   },
+   {
+    "key": "D",
+    "text": "M"
+   },
+   {
+    "key": "E",
+    "text": "N"
+   }
+  ],
+  "answer": "C",
+  "explanation": {
+   "quick": "Loncat 1 huruf (+2): I -> K.",
+   "detailed": "1) Ubah ke urutan abjad: 1, 3, 5, 7, 9. 2) Beda tetap +2. 3) Suku berikutnya 11 = K."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "deret huruf"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-NUM-DERET-202",
+  "category": "TIU",
+  "topic_id": "TIU-NUM-DERET",
+  "indicator": 3,
+  "difficulty": 2,
+  "stem": "Tentukan huruf berikutnya: B, D, G, K, P, ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "U"
+   },
+   {
+    "key": "B",
+    "text": "T"
+   },
+   {
+    "key": "C",
+    "text": "W"
+   },
+   {
+    "key": "D",
+    "text": "V"
+   },
+   {
+    "key": "E",
+    "text": "X"
+   }
+  ],
+  "answer": "D",
+  "explanation": {
+   "quick": "Beda bertambah: +2, +3, +4, +5, +6. P(16) + 6 = V(22).",
+   "detailed": "1) Urutan abjad: B=2, D=4, G=7, K=11, P=16. 2) Selisih: 2, 3, 4, 5, sehingga selisih berikutnya 6. 3) 16 + 6 = 22 = V."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "deret huruf"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-NUM-TABEL-201",
+  "category": "TIU",
+  "topic_id": "TIU-NUM-TABEL",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Jumlah pegawai per unit: Unit A: 40 orang; Unit B: 55 orang; Unit C: 25 orang. Unit dengan pegawai terbanyak dan jumlahnya adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "Unit B, 55 orang"
+   },
+   {
+    "key": "B",
+    "text": "Unit A, 40 orang"
+   },
+   {
+    "key": "C",
+    "text": "Unit C, 25 orang"
+   },
+   {
+    "key": "D",
+    "text": "Unit B, 40 orang"
+   },
+   {
+    "key": "E",
+    "text": "Unit A, 55 orang"
+   }
+  ],
+  "answer": "A",
+  "explanation": {
+   "quick": "Nilai terbesar pada tabel: Unit B = 55.",
+   "detailed": "1) Bandingkan semua nilai: 40, 55, 25. 2) Terbesar 55 milik Unit B."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "tabel"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TIU-NUM-TABEL-202",
+  "category": "TIU",
+  "topic_id": "TIU-NUM-TABEL",
+  "indicator": 2,
+  "difficulty": 2,
+  "stem": "Pengaduan selesai per bulan: Januari 80; Februari 90; Maret 70; April 100. Rata-rata per bulan dan selisih bulan tertinggi dengan terendah adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "80 dan 30"
+   },
+   {
+    "key": "B",
+    "text": "85 dan 20"
+   },
+   {
+    "key": "C",
+    "text": "85 dan 30"
+   },
+   {
+    "key": "D",
+    "text": "90 dan 30"
+   },
+   {
+    "key": "E",
+    "text": "340 dan 30"
+   }
+  ],
+  "answer": "C",
+  "explanation": {
+   "quick": "Rata-rata = 340 : 4 = 85; selisih = 100 - 70 = 30.",
+   "detailed": "1) Jumlah = 80 + 90 + 70 + 100 = 340. 2) Rata-rata = 340 : 4 = 85. 3) Selisih tertinggi-terendah = 100 - 70 = 30."
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "tabel",
+   "rata-rata"
+  ],
+  "verified": false
+ },
+ {
+  "id": "TKP-TIK-201",
+  "category": "TKP",
+  "topic_id": "TKP-TIK",
+  "indicator": 0,
+  "difficulty": 1,
+  "stem": "Anda memakai buku manual untuk mencatat data layanan di unit Anda, padahal instansi telah menyediakan aplikasi yang dapat merekap data secara otomatis. Yang Anda lakukan adalah ...",
+  "options": [
+   {
+    "key": "A",
+    "text": "Mengusulkan kepada atasan agar unit mulai memakai aplikasi tersebut disertai pelatihan singkat bagi rekan",
+    "score": 5
+   },
+   {
+    "key": "B",
+    "text": "Mencoba aplikasi itu untuk pekerjaan sendiri lalu membagikan hasilnya kepada rekan",
+    "score": 4
+   },
+   {
+    "key": "C",
+    "text": "Tetap memakai buku manual sambil menunggu instruksi atasan",
+    "score": 3
+   },
+   {
+    "key": "D",
+    "text": "Menunggu rekan lain mencoba aplikasi itu terlebih dahulu",
+    "score": 2
+   },
+   {
+    "key": "E",
+    "text": "Menganggap aplikasi tidak perlu karena buku manual sudah cukup",
+    "score": 1
+   }
+  ],
+  "answer": null,
+  "explanation": {
+   "quick": "Skor tertinggi: proaktif memanfaatkan TIK dan mengajak rekan.",
+   "detailed": "1) Pola TKP: tindakan proaktif, konstruktif, dan melibatkan tim. 2) Mengusulkan penggunaan aplikasi disertai pelatihan menunjukkan inisiatif dan meningkatkan kinerja unit. 3) Bersikap pasif atau menolak teknologi memperoleh skor rendah. (Bobot skor ilustrasi, bukan resmi.)"
+  },
+  "status": "draft",
+  "source": "original",
+  "tags": [
+   "pemanfaatan TIK"
+  ],
+  "verified": false
+ }
+]

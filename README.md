@@ -51,3 +51,11 @@ SVG soal dirender dengan `dangerouslySetInnerHTML`; hanya isi file soal milik se
 
 ## Belum ada
 Bank soal SKB (menunggu isi SKB resmi). Login Google/Microsoft (bisa ditambah lewat Supabase Auth).
+
+## v3.1: Materi terikat kisi-kisi
+- Materi tertulis untuk 27 topik (`src/data/materi/`), disusun per indikator kisi-kisi.
+- Tiap soal punya `indicator`; 234 soal, setiap indikator minimal 2 soal.
+- Halaman topik menampilkan materi, contoh, jebakan, jumlah soal dan akurasi per indikator, dengan tombol "Latih indikator ini".
+- Latihan dan Bank Soal bisa difilter per indikator; pembahasan soal menaut balik ke materi indikatornya.
+- `npm run check:data` memeriksa konsistensi. Panduan: `docs/06-panduan-menambah-materi-dan-soal.md`.
+- Semua materi dan soal masih draft; verifikasi dengan sumber resmi.

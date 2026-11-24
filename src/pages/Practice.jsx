@@ -3,6 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { Timer } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import TutorPanel from '../components/TutorPanel'
+import MateriLink from '../components/MateriLink'
 import { useStore } from '../contexts/StoreContext'
 import {
   categories, isCorrect, maxPoints, pointsFor, questions, targetSeconds, topicById,
@@ -37,6 +38,8 @@ function Setup({ onStart }) {
   const initialTopic = params.get('topic') && topicById[params.get('topic')] ? params.get('topic') : 'ALL'
   const [cat, setCat] = useState(initialTopic !== 'ALL' ? topicById[initialTopic].category : 'ALL')
   const [topic, setTopic] = useState(initialTopic)
+  const indParam = Number.parseInt(params.get('ind') ?? '', 10)
+  const [ind, setInd] = useState(initialTopic !== 'ALL' && indParam >= 0 && indParam < (topicById[initialTopic]?.indicators.length ?? 0) ? indParam : null)
   const [count, setCount] = useState(10)
   const [timed, setTimed] = useState(true)
   const [onlyVerified, setOnlyVerified] = useState(false)
@@ -49,6 +52,7 @@ function Setup({ onStart }) {
     (q) =>
       (cat === 'ALL' || q.category === cat) &&
       (topic === 'ALL' || q.topic_id === topic) &&
+      (ind == null || q.indicator === ind) &&
       (!onlyVerified || state.verified.includes(q.id)) &&
       (!onlyWeak || weakIds.has(q.id)),
   )
@@ -58,7 +62,7 @@ function Setup({ onStart }) {
   const start = () => {
     const picked = shuffle(pool).slice(0, n)
     const totalSec = picked.reduce((s, q) => s + targetSeconds[q.category], 0)
-    onStart({ id: `s-${Date.now()}`, questions: picked, totalSec, timed, cat, topic, startedAt: Date.now() })
+    onStart({ id: `s-${Date.now()}`, questions: picked, totalSec, timed, cat, topic, ind, startedAt: Date.now() })
   }
 
   return (
@@ -78,11 +82,19 @@ function Setup({ onStart }) {
           </select>
         </label>
         <label>Topik
-          <select value={topic} onChange={(e) => setTopic(e.target.value)}>
+          <select value={topic} onChange={(e) => { setTopic(e.target.value); setInd(null) }}>
             <option value="ALL">Semua topik</option>
             {topicsOfCat.map((t) => <option key={t.id} value={t.id}>{t.name}</option>)}
           </select>
         </label>
+        {topic !== 'ALL' && (
+          <label>Indikator kisi-kisi
+            <select value={ind ?? ''} onChange={(e) => setInd(e.target.value === '' ? null : Number(e.target.value))}>
+              <option value="">Semua indikator</option>
+              {topicById[topic].indicators.map((t, i) => <option key={t} value={i}>{i + 1}. {t}</option>)}
+            </select>
+          </label>
+        )}
         <label>Jumlah soal (tersedia {pool.length})
           <input type="number" min="1" max={Math.max(1, pool.length)} value={count}
             onChange={(e) => setCount(Number(e.target.value) || 1)} />
@@ -156,7 +168,7 @@ function Session({ session, onFinish }) {
     const attempt = {
       id: session.id,
       date: new Date().toISOString(),
-      scope: { category: session.cat, topic: session.topic },
+      scope: { category: session.cat, topic: session.topic, indicator: session.ind ?? null },
       timed,
       duration_sec: Math.round((Date.now() - session.startedAt) / 1000),
       items,
@@ -288,6 +300,7 @@ function Result({ result, onAgain }) {
                 Jawaban Anda: <b>{it.chosen ?? 'kosong'}</b> · {q.answer ? 'Kunci' : 'Opsi terbaik'}: <b>{best}</b>
               </p>
               <p>{detailed ? q.explanation.detailed : q.explanation.quick}</p>
+              <MateriLink q={q} />
               <TutorPanel q={q} chosen={it.chosen} />
             </li>
           )

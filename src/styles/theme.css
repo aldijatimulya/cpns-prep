@@ -370,3 +370,21 @@ button.sync { cursor: pointer; }
 .form textarea { padding: 10px 14px; }
 .form input:focus, .form select:focus, .form textarea:focus { outline: 0; border-color: var(--brand); box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand) 22%, transparent); }
 .form .actions { display: flex; gap: 10px; flex-wrap: wrap; }
+
+/* ---- Materi per indikator ---- */
+.ind-card { scroll-margin-top: 90px; }
+.ind-card.focus { outline: 2px solid var(--gold, #f0b429); outline-offset: 2px; }
+.ind-head { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 6px; }
+.ind-head h2 { margin: 2px 0 0; font-size: 1.1rem; }
+.ind-no { flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(90deg, #0d6670, #0a4d58); color: #fff; font-weight: 800; }
+.ind-points li { margin: 6px 0; line-height: 1.55; }
+.ind-example { background: var(--brand-soft); border-radius: 12px; padding: 10px 14px; margin: 10px 0; }
+.ind-example p { margin: 4px 0; }
+.ind-foot { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line, rgba(0,0,0,.08)); }
+.ind-foot > span { display: inline-flex; gap: 6px; align-items: center; margin-right: auto; font-size: .9rem; color: var(--muted); }
+.facts { width: 100%; border-collapse: collapse; }
+.facts th, .facts td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line, rgba(0,0,0,.08)); vertical-align: top; }
+.facts th { width: 34%; font-weight: 700; }
+.ico-warn { color: #b7791f; }
+.materi-link { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin: 6px 0; }
+.materi-link a { display: inline-flex; gap: 4px; align-items: center; font-weight: 700; }

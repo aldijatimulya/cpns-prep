@@ -1,0 +1,404 @@
+{
+  "TIU-VER-ANALOGI": {
+    "ringkasan": "Analogi verbal: temukan hubungan pada pasangan kata pertama, lalu terapkan hubungan yang sama pada pasangan kedua. Rumuskan hubungannya dalam satu kalimat sebelum melihat opsi.",
+    "indikator": [
+      {
+        "poin": [
+          "Sinonim (padanan): besar : raya. Antonim (lawan): tinggi : rendah.",
+          "Bagian-keseluruhan: roda : mobil. Jenis-kelompok: kucing : hewan.",
+          "Sebab-akibat: hujan : banjir. Fungsi/alat-tujuan: pisau : memotong; pena : menulis.",
+          "Pelaku-hasil karya: penulis : buku. Tempat-kegiatan: sekolah : belajar.",
+          "Tingkatan/derajat: hangat : panas. Urutan: pagi : siang.",
+          "Langkah: (1) buat kalimat hubungan 'A adalah ... dari B', (2) uji kalimat itu pada tiap opsi, (3) cek urutan kata tidak terbalik."
+        ],
+        "contoh": {
+          "soal": "Dokter : stetoskop = petani : ...",
+          "jawab": "Cangkul. Hubungannya pelaku : alat kerjanya."
+        }
+      },
+      {
+        "poin": [
+          "Kata sifat: hubungan intensitas atau lawan makna (cemas : tenang = gelisah : damai).",
+          "Kata kerja: hubungan tahap, tujuan, atau akibat (membaca : memahami).",
+          "Jika dua opsi terlihat benar, pilih yang hubungannya paling spesifik dan arahnya sama persis dengan soal."
+        ]
+      }
+    ],
+    "fakta": [
+      ["Kunci", "tulis hubungan dalam satu kalimat, lalu uji ke opsi"]
+    ],
+    "jebakan": [
+      "Urutan terbalik (A : B diganti B : A) sering dipakai sebagai pengecoh.",
+      "Opsi yang hanya 'berhubungan' secara topik belum tentu memiliki hubungan yang sama."
+    ],
+    "sumber": ["Latihan soal analogi TIU verbal"]
+  },
+
+  "TIU-VER-SILOGISME": {
+    "ringkasan": "Silogisme menguji penarikan kesimpulan yang pasti benar dari premis. Fokus pada kata kuantor (semua, sebagian, tidak ada) dan bentuk jika-maka.",
+    "indikator": [
+      {
+        "poin": [
+          "Semua A adalah B; semua B adalah C, maka semua A adalah C.",
+          "Semua A adalah B; sebagian C adalah A, maka sebagian C adalah B.",
+          "Tidak ada A yang B; semua C adalah A, maka tidak ada C yang B.",
+          "Sebagian A adalah B tidak menjamin semua A adalah B, dan juga tidak menjamin ada A yang bukan B.",
+          "Gambarkan dengan diagram Venn bila premis sulit dibayangkan."
+        ],
+        "contoh": {
+          "soal": "Semua pegawai disiplin. Sebagian pegawai berkacamata. Kesimpulan yang pasti benar?",
+          "jawab": "Sebagian yang berkacamata adalah orang disiplin."
+        }
+      },
+      {
+        "poin": [
+          "Modus ponens: jika P maka Q; P benar, maka Q benar.",
+          "Modus tollens: jika P maka Q; Q salah, maka P salah.",
+          "Silogisme hipotetik: jika P maka Q; jika Q maka R, maka jika P maka R.",
+          "Kontraposisi ekuivalen: 'jika P maka Q' sama dengan 'jika bukan Q maka bukan P'."
+        ]
+      },
+      {
+        "poin": [
+          "Tidak valid: mengafirmasi konsekuen (Q benar maka P benar) dan menyangkal anteseden (P salah maka Q salah).",
+          "Kesimpulan valid harus mengikuti premis secara pasti; kesimpulan yang 'masuk akal' belum tentu valid.",
+          "Jika tidak ada opsi yang pasti, jawaban dapat berupa 'tidak ada kesimpulan yang tepat'."
+        ]
+      }
+    ],
+    "fakta": [
+      ["Ekuivalen", "jika P maka Q = jika bukan Q maka bukan P"],
+      ["Tidak ekuivalen", "invers dan konvers"]
+    ],
+    "jebakan": [
+      "Konvers (jika Q maka P) bukan kesimpulan yang valid.",
+      "Sebagian tidak sama dengan semua."
+    ],
+    "sumber": ["Logika proposisional dasar"]
+  },
+
+  "TIU-VER-ANALITIS": {
+    "ringkasan": "Penalaran analitis: susun informasi dalam tabel atau diagram sederhana, lalu uji tiap opsi. Mulai dari informasi yang paling pasti.",
+    "indikator": [
+      {
+        "poin": [
+          "Buat kerangka posisi (1-2-3-4-5) atau tabel hari lalu isi petunjuk yang pasti dahulu.",
+          "Petunjuk 'tepat di antara', 'bersebelahan', 'tidak bersebelahan' diproses lebih awal karena membatasi banyak kemungkinan.",
+          "Jika ada beberapa kemungkinan susunan, gambarkan semuanya, lalu pilih opsi yang benar pada semua kemungkinan (untuk soal 'pasti')."
+        ]
+      },
+      {
+        "poin": [
+          "Kondisional: 'Jika A hadir, maka B hadir' tidak berarti B hadir hanya jika A hadir.",
+          "Pengelompokan: bagi orang ke kelompok sesuai syarat, periksa batas jumlah tiap kelompok.",
+          "Kata 'hanya jika', 'kecuali', 'paling banyak', 'paling sedikit' menentukan batas, baca teliti."
+        ]
+      },
+      {
+        "poin": [
+          "Pilih kesimpulan yang pasti dari pernyataan, bukan yang mungkin.",
+          "Gunakan kontraposisi untuk membalik arah pernyataan jika-maka.",
+          "Eliminasi opsi yang bertentangan dengan satu pun pernyataan."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": [
+      "Menganggap 'jika-maka' berlaku dua arah.",
+      "Melewatkan pernyataan negatif (tidak, bukan)."
+    ],
+    "sumber": ["Latihan penalaran analitis"]
+  },
+
+  "TIU-VER-BACAAN": {
+    "ringkasan": "Pahami struktur paragraf dan padanan kata. Waktu terbatas, jadi baca pertanyaan dahulu, lalu bacaan.",
+    "indikator": [
+      {
+        "poin": [
+          "Ide pokok: gagasan utama yang dikembangkan seluruh paragraf. Biasanya di kalimat awal, akhir, atau keduanya.",
+          "Simpulan: ringkasan isi yang tidak menambah informasi baru.",
+          "Pengecoh umum: opsi terlalu sempit (hanya detail), terlalu luas, atau benar di dunia nyata tetapi tidak ada dalam bacaan.",
+          "Hati-hati kata mutlak (selalu, semua, tidak pernah) yang tidak ada dalam teks."
+        ]
+      },
+      {
+        "poin": [
+          "Sinonim: kata yang maknanya sama atau sangat dekat. Antonim: kata yang maknanya berlawanan.",
+          "Pelajari kata baku dan kata serapan yang sering muncul, misalnya efektif, signifikan, eksplisit, implisit, akurat, kompeten.",
+          "Pilih padanan terdekat dengan mempertimbangkan bentuk kata (kata kerja dengan kata kerja)."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": [
+      "Opsi yang tampak pintar tetapi tidak disebut dalam bacaan.",
+      "Mencampur sinonim dan antonim saat membaca cepat."
+    ],
+    "sumber": ["KBBI daring", "Latihan soal pemahaman bacaan"]
+  },
+
+  "TIU-NUM-BERHITUNG": {
+    "ringkasan": "Berhitung: kuasai urutan operasi, pecahan-desimal-persen, perbandingan, dan sifat akar-pangkat. Latih perhitungan mental tanpa kalkulator.",
+    "indikator": [
+      {
+        "poin": [
+          "Urutan operasi: kurung, pangkat/akar, kali-bagi (kiri ke kanan), tambah-kurang (kiri ke kanan).",
+          "Pecahan: samakan penyebut untuk tambah-kurang; kali = pembilang kali pembilang, penyebut kali penyebut; bagi = kali kebalikan.",
+          "Desimal ke pecahan: 0,25 = 1/4; 0,125 = 1/8; 0,2 = 1/5; 0,75 = 3/4.",
+          "Bilangan negatif: negatif dikali negatif menjadi positif."
+        ],
+        "contoh": {
+          "soal": "3/4 + 0,5 x 2 = ...",
+          "jawab": "3/4 + 1 = 1,75 (kali dikerjakan sebelum tambah)."
+        }
+      },
+      {
+        "poin": [
+          "x persen dari N = x/100 x N.",
+          "Persentase dari total: bagian/total x 100 persen.",
+          "Kenaikan persen = (baru - lama)/lama x 100 persen.",
+          "Pintasan: 10 persen = geser koma; 5 persen = setengah dari 10 persen; 25 persen = seperempat; 12,5 persen = seperdelapan."
+        ]
+      },
+      {
+        "poin": [
+          "Perbandingan a : b dengan jumlah J berarti bagian a = a/(a+b) x J.",
+          "Skala = jarak pada peta : jarak sebenarnya. Contoh 1 : 500.000 berarti 1 cm = 5 km.",
+          "Perbandingan senilai: naik bersama (harga-jumlah). Berbalik nilai: satu naik, satu turun (pekerja-waktu)."
+        ]
+      },
+      {
+        "poin": [
+          "a^m x a^n = a^(m+n); a^m / a^n = a^(m-n); (a^m)^n = a^(mn); a^0 = 1.",
+          "Akar kali akar: akar(a) x akar(b) = akar(ab).",
+          "Kuadrat hafalan: 11 sampai 25 (121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625).",
+          "Merasionalkan penyebut: 1/akar(a) = akar(a)/a."
+        ]
+      }
+    ],
+    "fakta": [
+      ["Kuadrat penting", "13^2 = 169; 17^2 = 289; 19^2 = 361; 23^2 = 529"],
+      ["Pecahan umum", "1/8 = 0,125; 3/8 = 0,375; 5/8 = 0,625"]
+    ],
+    "jebakan": [
+      "Lupa urutan operasi.",
+      "Persentase kenaikan dibagi nilai lama, bukan nilai baru."
+    ],
+    "sumber": ["Latihan aritmetika dasar"]
+  },
+
+  "TIU-NUM-DERET": {
+    "ringkasan": "Deret angka: cari pola selisih, rasio, atau gabungan. Cek selisih dahulu, lalu rasio, lalu selisih tingkat dua.",
+    "indikator": [
+      {
+        "poin": [
+          "Aritmetika: selisih tetap b. Un = a + (n-1)b.",
+          "Geometri: rasio tetap r. Un = a x r^(n-1).",
+          "Contoh: 3, 7, 11, 15 (beda 4); 2, 6, 18, 54 (rasio 3)."
+        ]
+      },
+      {
+        "poin": [
+          "Jika selisih tidak tetap, hitung selisih dari selisih (tingkat dua).",
+          "Contoh: 1, 2, 4, 7, 11 dengan selisih 1, 2, 3, 4 (selisih bertambah 1).",
+          "Pola kuadrat: 1, 4, 9, 16; pola kubik: 1, 8, 27, 64."
+        ]
+      },
+      {
+        "poin": [
+          "Selang-seling: pisahkan suku ganjil dan genap sebagai dua deret.",
+          "Fibonacci: tiap suku adalah jumlah dua suku sebelumnya (1, 1, 2, 3, 5, 8, 13).",
+          "Pola gabungan: operasi bergantian (+2, x2, +2, x2)."
+        ]
+      },
+      {
+        "poin": [
+          "Deret huruf: ubah huruf menjadi nomor alfabet (A=1 sampai Z=26).",
+          "Cek selisih nomor, termasuk pola mundur dan melompat.",
+          "Hafal posisi: E=5, J=10, O=15, T=20, Y=25."
+        ]
+      }
+    ],
+    "fakta": [
+      ["Fibonacci", "1, 1, 2, 3, 5, 8, 13, 21, 34"],
+      ["Posisi huruf", "J=10, O=15, T=20, Y=25"]
+    ],
+    "jebakan": [
+      "Menganggap satu pola padahal ada dua deret selang-seling.",
+      "Salah menghitung nomor huruf."
+    ],
+    "sumber": ["Latihan deret TIU numerik"]
+  },
+
+  "TIU-NUM-KUANTITATIF": {
+    "ringkasan": "Bandingkan dua besaran (A dan B). Pilihan jawaban biasanya: A > B, A < B, A = B, atau hubungan tidak dapat ditentukan.",
+    "indikator": [
+      {
+        "poin": [
+          "Hitung kedua besaran sampai nilai pasti, lalu bandingkan.",
+          "Jika ada variabel, coba beberapa nilai (positif, nol, negatif, pecahan). Bila hasil perbandingan berubah, jawabannya 'tidak dapat ditentukan'.",
+          "Samakan bentuk (penyebut sama atau persen ke desimal) sebelum membandingkan."
+        ]
+      },
+      {
+        "poin": [
+          "Perkirakan dengan pembulatan, misalnya 49 x 51 sedikit di bawah 50 x 50 = 2.500.",
+          "Bandingkan pecahan dengan perkalian silang: a/b dan c/d, bandingkan ad dan bc.",
+          "Gunakan selisih tersisa bila angka sangat dekat; jangan menghitung penuh bila tidak perlu."
+        ]
+      }
+    ],
+    "fakta": [
+      ["Identitas", "(a+b)(a-b) = a^2 - b^2"]
+    ],
+    "jebakan": [
+      "Mengira jawaban 'tidak dapat ditentukan' hanya karena angkanya besar; coba hitung dulu.",
+      "Variabel negatif membalik arah ketidaksamaan saat dikali."
+    ],
+    "sumber": ["Latihan perbandingan kuantitatif"]
+  },
+
+  "TIU-NUM-CERITA": {
+    "ringkasan": "Soal cerita: ubah kalimat menjadi model matematika, lalu hitung. Tulis diketahui dan ditanya sebelum menghitung.",
+    "indikator": [
+      {
+        "poin": [
+          "Kecepatan = jarak/waktu; jarak = kecepatan x waktu; waktu = jarak/kecepatan.",
+          "Kecepatan rata-rata = total jarak / total waktu (bukan rata-rata dua kecepatan).",
+          "Berpapasan: kecepatan dijumlahkan. Menyusul (searah): kecepatan dikurangkan.",
+          "Konversi: 36 km/jam = 10 m/detik (bagi 3,6)."
+        ],
+        "contoh": {
+          "soal": "Mobil menempuh 120 km dalam 2 jam, lalu 60 km dalam 1 jam. Kecepatan rata-rata?",
+          "jawab": "180 km / 3 jam = 60 km/jam."
+        }
+      },
+      {
+        "poin": [
+          "Laju kerja = 1/waktu. Bekerja bersama: 1/t = 1/a + 1/b.",
+          "Contoh: A selesai 6 jam, B 3 jam, bersama 1/6 + 1/3 = 1/2 sehingga 2 jam.",
+          "Jika satu mulai lebih dulu, hitung pekerjaan yang sudah selesai sebelum digabung."
+        ]
+      },
+      {
+        "poin": [
+          "Tulis umur sekarang sebagai variabel, lalu umur n tahun lalu atau lagi sebagai variabel + n.",
+          "Selisih umur selalu tetap.",
+          "Jumlah umur bertambah sebanyak (jumlah orang x n) setelah n tahun."
+        ]
+      },
+      {
+        "poin": [
+          "Untung = jual - beli; rugi = beli - jual; persen untung = untung/beli x 100 persen.",
+          "Harga jual = harga beli x (100 + persen untung)/100.",
+          "Diskon: harga bayar = harga x (100 - diskon)/100. Diskon bertingkat dihitung berurutan.",
+          "Bunga tunggal = pokok x suku bunga x waktu. Bunga majemuk = pokok x (1 + i)^n."
+        ]
+      },
+      {
+        "poin": [
+          "Campuran: kadar akhir = total zat / total volume.",
+          "Gunakan tabel: jumlah, kadar, zat murni untuk tiap campuran.",
+          "Soal selisih dan perbandingan: ubah bilangan perbandingan menjadi 'bagian' dan hitung nilai satu bagian."
+        ]
+      }
+    ],
+    "fakta": [
+      ["Kecepatan", "36 km/jam = 10 m/s"],
+      ["Kerja bersama", "1/t = 1/a + 1/b"]
+    ],
+    "jebakan": [
+      "Menghitung kecepatan rata-rata dengan rata-rata biasa.",
+      "Persen untung dibagi harga jual, bukan harga beli."
+    ],
+    "sumber": ["Latihan soal cerita TIU numerik"]
+  },
+
+  "TIU-NUM-TABEL": {
+    "ringkasan": "Analisis data: baca judul, satuan, dan periode dahulu. Pilih operasi (selisih, persen, rata-rata) yang diminta pertanyaan.",
+    "indikator": [
+      {
+        "poin": [
+          "Cocokkan baris dan kolom dengan teliti; perhatikan satuan (ribu, juta, persen).",
+          "Gunakan penggaris atau jari agar tidak salah baris.",
+          "Cek apakah angka merupakan nilai mutlak atau persentase."
+        ]
+      },
+      {
+        "poin": [
+          "Kenaikan persen = (baru - lama)/lama x 100 persen.",
+          "Persentase bagian = bagian/total x 100 persen.",
+          "Poin persentase berbeda dari persen: naik dari 20 persen ke 25 persen berarti naik 5 poin persentase, atau 25 persen secara relatif."
+        ]
+      },
+      {
+        "poin": [
+          "Rata-rata = jumlah data / banyak data.",
+          "Selisih = nilai besar - nilai kecil, perhatikan arah pertanyaan.",
+          "Gunakan estimasi bila opsi jauh berbeda."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": [
+      "Salah satuan (ribu vs juta).",
+      "Memakai total yang salah sebagai pembagi persen."
+    ],
+    "sumber": ["Latihan tabel dan data TIU"]
+  },
+
+  "TIU-FIG-ANALOGI": {
+    "ringkasan": "Analogi gambar: temukan aturan perubahan dari gambar pertama ke kedua, lalu terapkan ke pasangan berikutnya.",
+    "indikator": [
+      {
+        "poin": [
+          "Periksa satu per satu: bentuk, warna/isi, jumlah elemen, ukuran, posisi, arah.",
+          "Catat perubahan pada tiap atribut secara terpisah, bukan keseluruhan gambar sekaligus.",
+          "Terapkan aturan yang sama pada gambar ketiga, lalu eliminasi opsi yang melanggar satu atribut."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": ["Hanya memperhatikan satu atribut padahal dua atribut berubah."],
+    "sumber": ["Latihan figural"]
+  },
+
+  "TIU-FIG-KETIDAKSAMAAN": {
+    "ringkasan": "Temukan satu gambar yang aturannya berbeda dari yang lain. Cari atribut yang sama pada mayoritas gambar.",
+    "indikator": [
+      {
+        "poin": [
+          "Daftar atribut tiap gambar (jumlah sisi, arah, isi, simetri).",
+          "Atribut yang sama pada semua gambar kecuali satu menjadi aturan kelompok.",
+          "Jangan terpaku pada ukuran atau rotasi bila aturan kelompok ada pada hal lain."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": ["Memilih gambar yang tampak berbeda padahal beda hanya pada rotasi."],
+    "sumber": ["Latihan figural"]
+  },
+
+  "TIU-FIG-SERIAL": {
+    "ringkasan": "Serial gambar: tentukan pola perubahan antar-gambar, lalu perkirakan gambar berikutnya.",
+    "indikator": [
+      {
+        "poin": [
+          "Rotasi: sudut tetap per langkah (misalnya 45 atau 90 derajat searah jarum jam).",
+          "Pencerminan bergantian: gambar kembali ke bentuk awal setiap dua langkah.",
+          "Penambahan atau pengurangan elemen: hitung jumlah elemen tiap langkah sebagai deret angka."
+        ]
+      },
+      {
+        "poin": [
+          "Pisahkan tiap atribut (posisi, warna, jumlah) dan cari pola masing-masing.",
+          "Bila ada dua pola berbeda, bisa jadi selang-seling.",
+          "Terapkan pola ke gambar terakhir, lalu cocokkan dengan opsi."
+        ]
+      }
+    ],
+    "fakta": [],
+    "jebakan": ["Mengira rotasi searah padahal bergantian arah."],
+    "sumber": ["Latihan figural"]
+  }
+}
