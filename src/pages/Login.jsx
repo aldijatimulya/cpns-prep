@@ -1,15 +1,15 @@
 import { useState } from 'react'
-import { BarChart3, CalendarDays, CheckCircle2, ClipboardCheck, GraduationCap, Lock, LogIn, Mail, Eye, EyeOff, Target, Trophy, User, ShieldCheck } from 'lucide-react'
+import { BarChart3, CalendarDays, CheckCircle2, MonitorCheck, GraduationCap, Lock, LogIn, Mail, Eye, EyeOff, Target, Trophy, User, ShieldCheck } from 'lucide-react'
 import Logo from '../components/ui/Logo'
-import { LoginScene } from '../components/ui/art'
+import LoginScene from '../components/ui/LoginScene'
 import { useAuth } from '../contexts/AuthContext'
 import { isCloudEnabled } from '../services/supabase'
 
 const features = [
-  { icon: Target, t: 'Latihan Soal Lengkap', d: 'Soal TWK, TIU, TKP dengan pembahasan' },
-  { icon: ClipboardCheck, t: 'Simulasi CAT', d: '110 soal, timer 100 menit seperti ujian' },
-  { icon: BarChart3, t: 'Analisis Mendalam', d: 'Heatmap topik kuat dan lemahmu' },
-  { icon: Trophy, t: 'Progres Tersimpan', d: 'Masuk dari perangkat mana pun' },
+  { icon: Target, c: 'blue', t: 'Latihan Soal Lengkap', d: 'Soal TWK, TIU, TKP dengan pembahasan' },
+  { icon: MonitorCheck, c: 'green', t: 'Simulasi CAT', d: '110 soal, timer 100 menit seperti ujian' },
+  { icon: BarChart3, c: 'orange', t: 'Analisis Mendalam', d: 'Heatmap topik kuat dan lemahmu' },
+  { icon: Trophy, c: 'purple', t: 'Progres Tersimpan', d: 'Masuk dari perangkat mana pun' },
 ]
 
 function Field({ icon: Icon, label, type = 'text', value, onChange, placeholder, autoComplete, autoFocus, required = true, minLength }) {
@@ -78,18 +78,19 @@ export default function Login() {
 
   return (
     <div className="login">
-      <LoginScene className="login-scene" />
+      <LoginScene />
       <header className="login-top">
         <div className="login-brand"><Logo size={44} /><div><strong>CPNS Prep</strong><small>Belajar · Latihan · Sukses</small></div></div>
         <span className="pill-date"><CalendarDays size={18} aria-hidden="true" /> Seleksi CPNS <b>2026</b></span>
       </header>
 
       <section className="login-hero" aria-label="Tentang CPNS Prep">
-        <h1>Belajar mandiri<br />untuk seleksi<br /><em>CPNS 2026</em></h1>
+        <span className="hero-badge"><Trophy size={16} aria-hidden="true" /> Persiapkan Diri, Raih Masa Depan</span>
+        <h1>Belajar mandiri{' '}<br />untuk seleksi{' '}<br /><em>CPNS 2026</em></h1>
         <p>Latihan soal, simulasi CAT, dan analisis kelemahan dalam satu tempat. Persiapkan dirimu meraih karir sebagai <strong>ASN terbaik</strong> di Indonesia!</p>
         <ul className="feat">
-          {features.map(({ icon: Icon, t, d }) => (
-            <li key={t}><Icon size={30} aria-hidden="true" /><strong>{t}</strong><small>{d}</small></li>
+          {features.map(({ icon: Icon, c, t, d }) => (
+            <li key={t} className={c}><span className="feat-ico"><Icon size={26} aria-hidden="true" /></span><strong>{t}</strong><small>{d}</small></li>
           ))}
         </ul>
       </section>
