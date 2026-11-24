@@ -5,7 +5,7 @@ import PageHero from '../components/ui/PageHero'
 import MiniMarkdown from '../components/MiniMarkdown'
 import { useStore } from '../contexts/StoreContext'
 import { examConfig } from '../data'
-import { askAI, loadTutorConfig } from '../services/tutor'
+import { askAI, loadTutorConfig, hasAI } from '../services/tutor'
 import { AGENT_SYSTEM, agentBrief, recommend, strategy, untriedIndicators, weakIndicators } from '../utils/agent'
 import { TEMPLATE_CSV, parseVacancyFile } from '../utils/vacancies'
 
@@ -35,7 +35,7 @@ export default function Agent() {
   const result = useMemo(() => recommend(vacancies, agent, state.attempts), [vacancies, agent, state.attempts])
   const { rd, eligible, excluded } = result
   const steps = useMemo(() => strategy({ rd, weak, untried, plan: state.plan, top: eligible[0] }), [rd, weak, untried, state.plan, eligible])
-  const hasKey = !!loadTutorConfig().apiKey
+  const hasKey = hasAI()
 
   const onFile = async (e) => {
     const f = e.target.files?.[0]
@@ -168,7 +168,7 @@ export default function Agent() {
 
       <section className="card">
         <h2><Sparkles size={18} className="ico-teal" aria-hidden="true" /> 6. Analisis lengkap dari AI</h2>
-        {!hasKey && <p className="muted">Butuh kunci API (ada pilihan gratis: Gemini) di <Link to="/settings">Pengaturan</Link>. Langkah 1 sampai 5 tetap berjalan tanpa AI.</p>}
+        {!hasKey && <p className="muted">Masuk dengan akun, atau isi kunci API sendiri, di <Link to="/settings">Pengaturan</Link>. Langkah 1 sampai 5 tetap berjalan tanpa AI.</p>}
         <p className="muted">Yang dikirim ke penyedia AI: jurusan, jenjang, ringkasan skor, titik lemah, dan daftar lowongan teratas. Nama dan email tidak dikirim.</p>
         <button className="btn" disabled={busy || !hasKey || !agent.major.trim()} onClick={ask}>{busy ? 'Menganalisis…' : 'Minta analisis AI'}</button>
         {err && <p role="alert" className="tutor-err">{err}</p>}

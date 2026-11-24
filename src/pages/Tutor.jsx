@@ -5,7 +5,7 @@ import PageHero from '../components/ui/PageHero'
 import MiniMarkdown from '../components/MiniMarkdown'
 import { useStore } from '../contexts/StoreContext'
 import { categories, materiFor, topicById } from '../data'
-import { askAI, loadTutorConfig, TUTOR_SYSTEM } from '../services/tutor'
+import { askAI, loadTutorConfig, TUTOR_SYSTEM, hasAI } from '../services/tutor'
 import { untriedIndicators, weakIndicators } from '../utils/agent'
 
 const PRESETS = [
@@ -126,18 +126,18 @@ export default function Tutor() {
               <ul className="weak">{untried.map((u) => <li key={`${u.topic.id}-${u.indicator}`}><button className="link-btn" onClick={() => pick(u.topic.id, u.indicator)}>{u.topic.name}: {u.text}</button></li>)}</ul>
             </>
           )}
-          <button className="btn small" disabled={busy || !config.apiKey} onClick={diagnose}>Minta analisis dari Tutor</button>
+          <button className="btn small" disabled={busy || !hasAI(config)} onClick={diagnose}>Minta analisis dari Tutor</button>
         </section>
 
         <section className="card tutor-chat">
           <h2>Tanya Tutor</h2>
-          {!config.apiKey && (
+          {!hasAI(config) && (
             <div className="banner" role="note">
-              <p>Tutor AI belum aktif. Isi kunci API di <Link to="/settings">Pengaturan</Link>; ada pilihan gratis (Google Gemini). Sementara itu, ringkasan materi tersedia di bawah.</p>
+              <p>Tutor AI belum aktif. Atur penyedia atau kunci API di <Link to="/settings">Pengaturan</Link>; ada pilihan gratis (Google Gemini). Sementara itu, ringkasan materi tersedia di bawah.</p>
             </div>
           )}
           <div className="presets">
-            {PRESETS.map((p) => <button key={p} className="btn small ghost" disabled={busy || !config.apiKey} onClick={() => send(p)}>{p}</button>)}
+            {PRESETS.map((p) => <button key={p} className="btn small ghost" disabled={busy || !hasAI(config)} onClick={() => send(p)}>{p}</button>)}
           </div>
           <ul className="chat big" aria-live="polite">
             {msgs.length === 0 && materi && (
@@ -151,8 +151,8 @@ export default function Tutor() {
           </ul>
           {error && <p role="alert" className="tutor-err">{error}</p>}
           <form className="row" onSubmit={(e) => { e.preventDefault(); send(input) }}>
-            <input aria-label="Pertanyaan untuk tutor" placeholder="Tanya apa saja tentang materi ini" value={input} disabled={!config.apiKey} onChange={(e) => setInput(e.target.value)} />
-            <button className="btn" type="submit" disabled={busy || !input.trim() || !config.apiKey}><Send size={16} aria-hidden="true" /> Kirim</button>
+            <input aria-label="Pertanyaan untuk tutor" placeholder="Tanya apa saja tentang materi ini" value={input} disabled={!hasAI(config)} onChange={(e) => setInput(e.target.value)} />
+            <button className="btn" type="submit" disabled={busy || !input.trim() || !hasAI(config)}><Send size={16} aria-hidden="true" /> Kirim</button>
           </form>
           <small className="muted">Jawaban AI bisa keliru, dan materi di aplikasi masih draft. Periksa pasal, tanggal, dan angka ke sumber resmi.</small>
         </section>

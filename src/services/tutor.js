@@ -1,9 +1,12 @@
 // Layanan AI (Tutor dan Agent): memanggil model langsung dari browser memakai kunci API milik pengguna.
 // Penyedia: Gemini (ada tier gratis lewat Google AI Studio), API kompatibel OpenAI (DeepSeek, OpenAI, Groq, OpenRouter, dll), dan Anthropic.
 // Kunci disimpan terpisah dari data belajar (tidak ikut cadangan JSON/sinkronisasi) dan hanya di browser ini.
+import { isCloudEnabled, supabase } from './supabase'
+
 const KEY = 'cpns-prep:tutor'
 
 export const PROVIDERS = {
+  server: { label: 'Server aplikasi (tanpa kunci, perlu masuk akun)', model: '', keyHint: '', baseUrl: '' },
   gemini: { label: 'Google Gemini (ada tier gratis)', model: 'gemini-3.5-flash-lite', keyHint: 'AIza...', baseUrl: '' },
   openai: { label: 'Kompatibel OpenAI (DeepSeek, OpenAI, Groq, OpenRouter)', model: 'deepseek-chat', keyHint: 'sk-...', baseUrl: 'https://api.deepseek.com' },
   anthropic: { label: 'Anthropic Claude (berbayar)', model: 'claude-haiku-5-5', keyHint: 'sk-ant-...', baseUrl: '' },
@@ -14,8 +17,8 @@ export const OPENAI_PRESETS = [
   { label: 'Groq', baseUrl: 'https://api.groq.com/openai/v1', model: 'llama-3.3-70b-versatile' },
   { label: 'OpenRouter', baseUrl: 'https://openrouter.ai/api/v1', model: '' },
 ]
-export const DEFAULT_PROVIDER = 'gemini'
-export const DEFAULT_MODEL = PROVIDERS[DEFAULT_PROVIDER].model
+export const DEFAULT_PROVIDER = isCloudEnabled ? 'server' : 'gemini'
+export const DEFAULT_MODEL = PROVIDERS.gemini.model
 
 export const defaultConfig = (provider = DEFAULT_PROVIDER) => ({ provider, apiKey: '', model: PROVIDERS[provider].model, baseUrl: PROVIDERS[provider].baseUrl })
 
@@ -23,7 +26,8 @@ export function loadTutorConfig() {
   try {
     const raw = JSON.parse(localStorage.getItem(KEY) || '{}')
     // Konfigurasi lama (sebelum v3.2) tidak punya "provider": itu kunci Anthropic.
-    const provider = PROVIDERS[raw.provider] ? raw.provider : raw.apiKey ? 'anthropic' : DEFAULT_PROVIDER
+    let provider = PROVIDERS[raw.provider] ? raw.provider : raw.apiKey ? 'anthropic' : DEFAULT_PROVIDER
+    if (provider === 'server' && !isCloudEnabled) provider = 'gemini'
     const d = defaultConfig(provider)
     return { provider, apiKey: typeof raw.apiKey === 'string' ? raw.apiKey : '', model: raw.model || d.model, baseUrl: raw.baseUrl || d.baseUrl }
   } catch {
@@ -33,7 +37,8 @@ export function loadTutorConfig() {
 
 export function saveTutorConfig(cfg) {
   try {
-    if (!cfg.apiKey) localStorage.removeItem(KEY)
+    if (cfg.provider === 'server') localStorage.setItem(KEY, JSON.stringify({ provider: 'server' }))
+    else if (!cfg.apiKey) localStorage.removeItem(KEY)
     else {
       const d = defaultConfig(cfg.provider)
       localStorage.setItem(KEY, JSON.stringify({
@@ -45,7 +50,8 @@ export function saveTutorConfig(cfg) {
   }
 }
 
-export const hasAI = (cfg = loadTutorConfig()) => !!cfg.apiKey
+/** AI siap dipakai: lewat server aplikasi (perlu login, dicek saat dipanggil) atau lewat kunci pribadi. */
+export const hasAI = (cfg = loadTutorConfig()) => cfg.provider === 'server' ? isCloudEnabled : !!cfg.apiKey
 
 export const TUTOR_SYSTEM = `Anda adalah tutor pribadi untuk persiapan SKD CPNS Indonesia (TWK, TIU, TKP). Jawab dalam bahasa Indonesia yang jelas dan ringkas, seperti guru yang sabar.
 Aturan:
@@ -90,8 +96,27 @@ async function post(url, headers, body, signal) {
   return res.json()
 }
 
+/** Lewat Edge Function Supabase `ai-proxy`: kunci Gemini tersimpan di server, bukan di browser. */
+async function askServer({ system, messages, maxTokens }) {
+  if (!supabase) throw new Error('Akun online belum aktif di situs ini.')
+  const { data: sess } = await supabase.auth.getSession()
+  if (!sess?.session) throw new Error('Masuk dengan akun email untuk memakai AI dari server, atau isi kunci API sendiri di Pengaturan.')
+  const { data, error } = await supabase.functions.invoke('ai-proxy', { body: { system, messages: messages.slice(-12), maxTokens } })
+  if (error) {
+    let msg = ''
+    try { msg = (await error.context.json()).error } catch { /* bukan JSON */ }
+    if (!msg && error.name === 'FunctionsFetchError') msg = 'Tidak bisa menghubungi server AI. Periksa koneksi, dan pastikan fungsi ai-proxy sudah di-deploy serta ALLOWED_ORIGIN di Supabase sama dengan alamat situs ini.'
+    if (!msg && error.context?.status === 404) msg = 'Fungsi ai-proxy belum ada di Supabase. Deploy fungsi tersebut lebih dulu.'
+    throw new Error(msg || 'Server AI gagal menjawab. Coba lagi.')
+  }
+  const text = String(data?.text ?? '').trim()
+  if (!text) throw new Error('Jawaban kosong. Coba tanyakan lagi.')
+  return text
+}
+
 /** Panggil model. messages: [{role:'user'|'assistant', content}]. Mengembalikan teks jawaban. */
 export async function askAI({ config, system, messages, signal, maxTokens = 1400 }) {
+  if (config.provider === 'server') return askServer({ system, messages, maxTokens })
   if (!config.apiKey) throw new Error('Kunci API belum diisi di Pengaturan.')
   const msgs = messages.slice(-12)
   let text = ''

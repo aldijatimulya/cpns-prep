@@ -137,7 +137,7 @@ export default function Settings() {
       <section className="card form">
         <h2>Tutor AI dan Agent AI (opsional)</h2>
         <p className="muted">
-          Fitur AI memakai kunci API milik Anda sendiri. Kunci disimpan hanya di browser ini, tidak ikut cadangan JSON atau sinkronisasi akun,
+          Fitur AI bisa lewat server aplikasi (setelah masuk akun, tanpa kunci) atau memakai kunci API milik Anda sendiri. Kunci pribadi disimpan hanya di browser ini, tidak ikut cadangan JSON atau sinkronisasi akun,
           dan dikirim langsung ke penyedia yang Anda pilih. Teks pertanyaan dan ringkasan kemampuan Anda ikut terkirim.
           Pilihan gratis: <b>Google Gemini</b> (buat kunci di Google AI Studio, ada tier gratis dengan batas pemakaian; di tier gratis, penyedia dapat memakai data untuk
           perbaikan layanan, jadi jangan kirim data pribadi). Jangan isi kunci di komputer bersama.
@@ -160,6 +160,10 @@ export default function Settings() {
             </label>
           </>
         )}
+        {tutor.provider === 'server' ? (
+          <p className="muted">Kunci AI disimpan aman di server Supabase milik pemilik situs, jadi Anda tidak perlu mengisi kunci apa pun. Syaratnya: masuk dengan akun email. Ada batas pemakaian harian per akun. Teks pertanyaan dan ringkasan kemampuan ikut dikirim ke server lalu ke Google Gemini.</p>
+        ) : (
+          <>
         <label>Kunci API
           <input type="password" autoComplete="off" value={tutor.apiKey} placeholder={PROVIDERS[tutor.provider].keyHint} onChange={(e) => setTutor({ ...tutor, apiKey: e.target.value })} />
         </label>
@@ -167,8 +171,10 @@ export default function Settings() {
           <input value={tutor.model} placeholder={PROVIDERS[tutor.provider].model} onChange={(e) => setTutor({ ...tutor, model: e.target.value })} />
         </label>
         <p className="muted">Nama model sering berganti. Jika muncul galat "model tidak ditemukan", ganti dengan nama model terbaru di dokumentasi penyedia. ChatGPT versi web gratis tidak bisa dipakai di sini; yang bisa dipakai adalah API-nya.</p>
+          </>
+        )}
         <div className="row actions">
-          <button className="btn" onClick={() => { saveTutorConfig(tutor); setTutorMsg(tutor.apiKey ? 'Pengaturan AI disimpan.' : 'Kunci dihapus.') }}>Simpan</button>
+          <button className="btn" onClick={() => { saveTutorConfig(tutor); setTutorMsg(tutor.provider === 'server' || tutor.apiKey ? 'Pengaturan AI disimpan.' : 'Kunci dihapus.') }}>Simpan</button>
           <button className="btn ghost" onClick={() => { setTutor(defaultConfig(tutor.provider)); saveTutorConfig({ apiKey: '' }); setTutorMsg('Kunci dihapus.') }}>Hapus kunci</button>
         </div>
         {tutorMsg && <p role="status">{tutorMsg}</p>}

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { askTutor, loadTutorConfig, questionContext } from '../services/tutor'
+import { askTutor, loadTutorConfig, questionContext, hasAI } from '../services/tutor'
 
 const PRESETS = [
   'Jelaskan lebih dalam konsep di balik soal ini.',
@@ -43,10 +43,10 @@ export default function TutorPanel({ q, chosen }) {
   if (!open) {
     return <button className="btn small ghost" onClick={() => setOpen(true)}>Tanya Tutor AI</button>
   }
-  if (!config.apiKey) {
+  if (!hasAI(config)) {
     return (
       <div className="tutor" role="region" aria-label="Tutor AI">
-        <p>Tutor AI butuh kunci API (tersedia pilihan gratis: Gemini). Isi dulu di <Link to="/settings">Pengaturan</Link>.</p>
+        <p>Tutor AI belum aktif. Pilih penyedia atau isi kunci di <Link to="/settings">Pengaturan</Link>.</p>
         <button className="btn small ghost" onClick={() => setOpen(false)}>Tutup</button>
       </div>
     )
