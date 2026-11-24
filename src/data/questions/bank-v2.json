@@ -1358,7 +1358,7 @@
   "topic_id": "TIU-NUM-BERHITUNG",
   "indicator": 2,
   "difficulty": 1,
-  "stem": "Perbandingan kelereng Ani dan Budi adalah 2 : 3. Jika jumlah kelereng keduanya 75, banyak kelereng Budi adalah ...",
+  "stem": "Perbandingan kelereng Ani dan Budi adalah $2 \\div 3$. Jika jumlah kelereng keduanya 75, banyak kelereng Budi adalah ...",
   "options": [
    {
     "key": "A",
@@ -1383,8 +1383,8 @@
   ],
   "answer": "E",
   "explanation": {
-   "quick": "Budi = 3/5 x 75 = 45.",
-   "detailed": "1) Jumlah bagian = 2 + 3 = 5. 2) Satu bagian = 75 : 5 = 15. 3) Budi = 3 x 15 = 45."
+   "quick": "Budi = $\\frac{3}{5} \\times 75 = 45$.",
+   "detailed": "1) Jumlah bagian = $2 + 3 = 5$. 2) Satu bagian = $75 \\div 5 = 15$. 3) Budi = $3 \\times 15 = 45$."
   },
   "status": "draft",
   "source": "original",
@@ -1399,7 +1399,7 @@
   "topic_id": "TIU-NUM-BERHITUNG",
   "indicator": 2,
   "difficulty": 1,
-  "stem": "Jarak dua kota pada peta 4 cm. Jika skala peta 1 : 500.000, jarak sebenarnya adalah ... km.",
+  "stem": "Jarak dua kota pada peta 4 cm. Jika skala peta $1 : 500.000$, jarak sebenarnya adalah ... km.",
   "options": [
    {
     "key": "A",
@@ -1424,8 +1424,8 @@
   ],
   "answer": "B",
   "explanation": {
-   "quick": "4 x 500.000 = 2.000.000 cm = 20 km.",
-   "detailed": "1) Jarak sebenarnya = jarak peta x penyebut skala = 4 x 500.000 = 2.000.000 cm. 2) 100.000 cm = 1 km, sehingga 2.000.000 cm = 20 km."
+   "quick": "$4 \\times 500.000 = 2.000.000$ cm = 20 km.",
+   "detailed": "1) Jarak sebenarnya = jarak peta $\\times$ penyebut skala = $4 \\times 500.000 = 2.000.000$ cm. 2) 100.000 cm = 1 km, sehingga 2.000.000 cm = 20 km."
   },
   "status": "draft",
   "source": "original",
@@ -1440,7 +1440,7 @@
   "topic_id": "TIU-NUM-BERHITUNG",
   "indicator": 3,
   "difficulty": 2,
-  "stem": "Hasil dari akar 81 x 2 pangkat 3 : 4 adalah ...",
+  "stem": "Hasil dari $\\sqrt{81} \\times 2^{3} \\div 4$ adalah ...",
   "options": [
    {
     "key": "A",
@@ -1465,8 +1465,8 @@
   ],
   "answer": "A",
   "explanation": {
-   "quick": "Akar 81 = 9; 2^3 = 8; 9 x 8 : 4 = 18.",
-   "detailed": "1) Hitung akar dan pangkat lebih dulu: akar 81 = 9, 2 pangkat 3 = 8. 2) Kemudian kerjakan dari kiri: 9 x 8 = 72. 3) 72 : 4 = 18."
+   "quick": "Akar 81 = 9; $2^{3} = 8$; $9 \\times 8 \\div 4 = 18$.",
+   "detailed": "1) Hitung akar dan pangkat lebih dulu: $\\sqrt{81} = 9$, $2^{3} = 8$. 2) Kemudian kerjakan dari kiri: $9 \\times 8 = 72$. 3) $72 \\div 4 = 18$."
   },
   "status": "draft",
   "source": "original",
@@ -1507,7 +1507,7 @@
   ],
   "answer": "C",
   "explanation": {
-   "quick": "Loncat 1 huruf (+2): I -> K.",
+   "quick": "Loncat 1 huruf $(+2)$: I -> K.",
    "detailed": "1) Ubah ke urutan abjad: 1, 3, 5, 7, 9. 2) Beda tetap +2. 3) Suku berikutnya 11 = K."
   },
   "status": "draft",
@@ -1548,8 +1548,8 @@
   ],
   "answer": "D",
   "explanation": {
-   "quick": "Beda bertambah: +2, +3, +4, +5, +6. P(16) + 6 = V(22).",
-   "detailed": "1) Urutan abjad: B=2, D=4, G=7, K=11, P=16. 2) Selisih: 2, 3, 4, 5, sehingga selisih berikutnya 6. 3) 16 + 6 = 22 = V."
+   "quick": "Beda bertambah: +2, +3, +4, +5, +6. $P(16) + 6 = V(22)$.",
+   "detailed": "1) Urutan abjad: $B=2$, $D=4$, $G=7$, $K=11$, $P=16$. 2) Selisih: 2, 3, 4, 5, sehingga selisih berikutnya 6. 3) $16 + 6 = 22 = V$."
   },
   "status": "draft",
   "source": "original",
@@ -1630,8 +1630,8 @@
   ],
   "answer": "C",
   "explanation": {
-   "quick": "Rata-rata = 340 : 4 = 85; selisih = 100 - 70 = 30.",
-   "detailed": "1) Jumlah = 80 + 90 + 70 + 100 = 340. 2) Rata-rata = 340 : 4 = 85. 3) Selisih tertinggi-terendah = 100 - 70 = 30."
+   "quick": "Rata-rata = $340 \\div 4 = 85$; selisih = $100 - 70 = 30$.",
+   "detailed": "1) Jumlah = $80 + 90 + 70 + 100 = 340$. 2) Rata-rata = $340 \\div 4 = 85$. 3) Selisih tertinggi-terendah = $100 - 70 = 30$."
   },
   "status": "draft",
   "source": "original",

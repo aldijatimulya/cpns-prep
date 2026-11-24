@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { Bookmark, Library } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
+import RichText from '../components/RichText'
 import TutorPanel from '../components/TutorPanel'
 import MateriLink from '../components/MateriLink'
 import { useStore } from '../contexts/StoreContext'
@@ -97,7 +98,7 @@ export default function QuestionBank() {
                   <Bookmark size={18} />
                 </button>
               </div>
-              <p className="stem">{q.stem}</p>
+              <p className="stem"><RichText text={q.stem} /></p>
               <StemFigure q={q} />
               <button className="link-btn" onClick={() => setOpen(isOpen ? null : q.id)}>
                 {isOpen ? 'Sembunyikan opsi dan pembahasan' : 'Lihat opsi dan pembahasan'}
@@ -110,13 +111,13 @@ export default function QuestionBank() {
                     <ol type="A">
                       {q.options.map((o) => (
                         <li key={o.key} className={q.answer === o.key ? 'right' : ''}>
-                          {o.text}{o.score ? ` (skor ${o.score})` : ''}
+                          <RichText text={o.text} />{o.score ? ` (skor ${o.score})` : ''}
                         </li>
                       ))}
                     </ol>
                   )}
-                  <p><strong>Ringkas:</strong> {q.explanation.quick}</p>
-                  <p><strong>Rinci:</strong> {q.explanation.detailed}</p>
+                  <p><strong>Ringkas:</strong> <RichText text={q.explanation.quick} /></p>
+                  <p><strong>Rinci:</strong> <RichText text={q.explanation.detailed} /></p>
                   <MateriLink q={q} />
                   <TutorPanel q={q} chosen={null} />
                   <label className="check">

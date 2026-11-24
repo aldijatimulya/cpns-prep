@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { Timer } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
+import RichText from '../components/RichText'
 import TutorPanel from '../components/TutorPanel'
 import MateriLink from '../components/MateriLink'
 import { useStore } from '../contexts/StoreContext'
@@ -213,7 +214,7 @@ function Session({ session, onFinish }) {
 
       <section className="card">
         <small>{q.category} · {topicById[q.topic_id]?.name}</small>
-        <p className="stem">{q.stem}</p>
+        <p className="stem"><RichText text={q.stem} /></p>
         <StemFigure q={q} />
         <div className={hasFigureOptions(q) ? 'options fig' : 'options'} role="radiogroup" aria-label="Pilihan jawaban">
           {q.options.map((o) => (
@@ -226,7 +227,7 @@ function Session({ session, onFinish }) {
               onClick={() => setAnswers((a) => ({ ...a, [q.id]: o.key }))}
             >
               <b>{o.key}</b>
-              {o.svg ? <OptionSvg o={o} /> : <span>{o.text}</span>}
+              {o.svg ? <OptionSvg o={o} /> : <span><RichText text={o.text} /></span>}
             </button>
           ))}
         </div>
@@ -293,13 +294,13 @@ function Result({ result, onAgain }) {
           return (
             <li key={it.qid} className={`card review ${it.correct ? 'ok' : it.chosen ? 'bad' : 'skip'}`}>
               <small>{n + 1}. {topicById[it.topic_id]?.name} · {it.seconds} dtk · {it.points}/{it.max} poin</small>
-              <p className="stem">{q.stem}</p>
+              <p className="stem"><RichText text={q.stem} /></p>
               <StemFigure q={q} />
               {hasFigureOptions(q) && <FigOptions q={q} chosen={it.chosen} />}
               <p>
                 Jawaban Anda: <b>{it.chosen ?? 'kosong'}</b> · {q.answer ? 'Kunci' : 'Opsi terbaik'}: <b>{best}</b>
               </p>
-              <p>{detailed ? q.explanation.detailed : q.explanation.quick}</p>
+              <p><RichText text={detailed ? q.explanation.detailed : q.explanation.quick} /></p>
               <MateriLink q={q} />
               <TutorPanel q={q} chosen={it.chosen} />
             </li>

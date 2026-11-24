@@ -114,8 +114,8 @@
   ],
   "answer": "B",
   "explanation": {
-   "quick": "Suku ke-n = n x (n+1), yaitu hasil kali dua bilangan berurutan. Suku berikutnya = 42.",
-   "detailed": "1) Tipe: pola kuadrat. 2) Pola: Suku ke-n = n x (n+1), yaitu hasil kali dua bilangan berurutan. 3) Terapkan pola pada suku terakhir (30) sehingga diperoleh 42. 4) Cek: pola yang sama harus cocok untuk semua suku yang diberikan."
+   "quick": "Suku ke-$n$ = $n \\times (n+1)$, yaitu hasil kali dua bilangan berurutan. Suku berikutnya = 42.",
+   "detailed": "1) Tipe: pola kuadrat. 2) Pola: Suku ke-$n$ = $n \\times (n+1)$, yaitu hasil kali dua bilangan berurutan. 3) Terapkan pola pada suku terakhir (30) sehingga diperoleh 42. 4) Cek: pola yang sama harus cocok untuk semua suku yang diberikan."
   },
   "tags": [
    "deret",
@@ -366,8 +366,8 @@
   ],
   "answer": "C",
   "explanation": {
-   "quick": "Suku ke-n = 2^n + 1, atau selisih dikali 2: +2, +4, +8, +16, lalu +32. Suku berikutnya = 65.",
-   "detailed": "1) Tipe: deret bertingkat. 2) Pola: Suku ke-n = 2^n + 1, atau selisih dikali 2: +2, +4, +8, +16, lalu +32. 3) Terapkan pola pada suku terakhir (33) sehingga diperoleh 65. 4) Cek: pola yang sama harus cocok untuk semua suku yang diberikan."
+   "quick": "Suku ke-$n$ = $2^{n} + 1$, atau selisih dikali 2: +2, +4, +8, +16, lalu +32. Suku berikutnya = 65.",
+   "detailed": "1) Tipe: deret bertingkat. 2) Pola: Suku ke-$n$ = $2^{n} + 1$, atau selisih dikali 2: +2, +4, +8, +16, lalu +32. 3) Terapkan pola pada suku terakhir (33) sehingga diperoleh 65. 4) Cek: pola yang sama harus cocok untuk semua suku yang diberikan."
   },
   "tags": [
    "deret",
@@ -408,8 +408,8 @@
   ],
   "answer": "E",
   "explanation": {
-   "quick": "Setiap suku = suku sebelumnya x 2 + 1. Suku berikutnya = 95.",
-   "detailed": "1) Tipe: rekursif. 2) Pola: Setiap suku = suku sebelumnya x 2 + 1. 3) Terapkan pola pada suku terakhir (47) sehingga diperoleh 95. 4) Cek: pola yang sama harus cocok untuk semua suku yang diberikan."
+   "quick": "Setiap suku = suku sebelumnya $\\times 2 + 1$. Suku berikutnya = 95.",
+   "detailed": "1) Tipe: rekursif. 2) Pola: Setiap suku = suku sebelumnya $\\times 2 + 1$. 3) Terapkan pola pada suku terakhir (47) sehingga diperoleh 95. 4) Cek: pola yang sama harus cocok untuk semua suku yang diberikan."
   },
   "tags": [
    "deret",
@@ -425,7 +425,7 @@
   "topic_id": "TIU-NUM-BERHITUNG",
   "indicator": 0,
   "difficulty": 1,
-  "stem": "Hasil dari 3/4 + 5/8 - 1/2 adalah ...",
+  "stem": "Hasil dari $\\frac{3}{4} + \\frac{5}{8} - \\frac{1}{2}$ adalah ...",
   "options": [
    {
     "key": "A",
@@ -433,25 +433,25 @@
    },
    {
     "key": "B",
-    "text": "7/8"
+    "text": "$\\frac{7}{8}$"
    },
    {
     "key": "C",
-    "text": "9/8"
+    "text": "$\\frac{9}{8}$"
    },
    {
     "key": "D",
-    "text": "3/4"
+    "text": "$\\frac{3}{4}$"
    },
    {
     "key": "E",
-    "text": "5/8"
+    "text": "$\\frac{5}{8}$"
    }
   ],
   "answer": "B",
   "explanation": {
-   "quick": "Samakan penyebut (8): 6/8 + 5/8 - 4/8 = 7/8.",
-   "detailed": "1) Tipe: operasi pecahan. 2) KPK penyebut 4, 8, 2 adalah 8. 3) 6/8 + 5/8 = 11/8; 11/8 - 4/8 = 7/8. Hasil 7/8."
+   "quick": "Samakan penyebut (8): $\\frac{6}{8} + \\frac{5}{8} - \\frac{4}{8} = \\frac{7}{8}$.",
+   "detailed": "1) Tipe: operasi pecahan. 2) KPK penyebut 4, 8, 2 adalah 8. 3) $\\frac{6}{8} + \\frac{5}{8} = \\frac{11}{8}$; $\\frac{11}{8} - \\frac{4}{8} = \\frac{7}{8}$. Hasil $\\frac{7}{8}$."
   },
   "tags": [
    "pecahan"
@@ -466,7 +466,7 @@
   "topic_id": "TIU-NUM-BERHITUNG",
   "indicator": 0,
   "difficulty": 1,
-  "stem": "Hasil dari 125 x 0,8 + 45 : 0,5 adalah ...",
+  "stem": "Hasil dari $125 \\times 0{,}8 + 45 \\div 0{,}5$ adalah ...",
   "options": [
    {
     "key": "A",
@@ -491,8 +491,8 @@
   ],
   "answer": "B",
   "explanation": {
-   "quick": "125 x 0,8 = 100; 45 : 0,5 = 90; jumlah = 190.",
-   "detailed": "1) Urutan operasi: perkalian dan pembagian dahulu. 2) 125 x 0,8 = 100. 3) 45 : 0,5 = 45 x 2 = 90. 4) 100 + 90 = 190."
+   "quick": "$125 \\times 0{,}8 = 100$; $45 \\div 0{,}5 = 90$; jumlah = 190.",
+   "detailed": "1) Urutan operasi: perkalian dan pembagian dahulu. 2) $125 \\times 0{,}8 = 100$. 3) $45 \\div 0{,}5 = 45 \\times 2 = 90$. 4) $100 + 90 = 190$."
   },
   "tags": [
    "desimal",
@@ -508,7 +508,7 @@
   "topic_id": "TIU-NUM-BERHITUNG",
   "indicator": 1,
   "difficulty": 1,
-  "stem": "Hasil dari 20% x 350 + 40% x 150 adalah ...",
+  "stem": "Hasil dari $20\\% \\times 350 + 40\\% \\times 150$ adalah ...",
   "options": [
    {
     "key": "A",
@@ -533,8 +533,8 @@
   ],
   "answer": "E",
   "explanation": {
-   "quick": "20% x 350 = 70; 40% x 150 = 60; jumlah = 130.",
-   "detailed": "1) Tipe: persentase. 2) 20% x 350 = 70. 3) 40% x 150 = 60. 4) 70 + 60 = 130."
+   "quick": "$20\\% \\times 350 = 70$; $40\\% \\times 150 = 60$; jumlah = 130.",
+   "detailed": "1) Tipe: persentase. 2) $20\\% \\times 350 = 70$. 3) $40\\% \\times 150 = 60$. 4) $70 + 60 = 130$."
   },
   "tags": [
    "persentase"
@@ -549,7 +549,7 @@
   "topic_id": "TIU-NUM-BERHITUNG",
   "indicator": 3,
   "difficulty": 2,
-  "stem": "Hasil dari akar 144 + 5 pangkat 2 - 3 pangkat 3 adalah ...",
+  "stem": "Hasil dari $\\sqrt{144} + 5^{2} - 3^{3}$ adalah ...",
   "options": [
    {
     "key": "A",
@@ -557,7 +557,7 @@
    },
    {
     "key": "B",
-    "text": "-5"
+    "text": "$-5$"
    },
    {
     "key": "C",
@@ -574,8 +574,8 @@
   ],
   "answer": "A",
   "explanation": {
-   "quick": "Akar 144 = 12; 5 pangkat 2 = 25; 3 pangkat 3 = 27. 12 + 25 - 27 = 10.",
-   "detailed": "1) Tipe: akar dan pangkat. 2) 12 + 25 - 27. 3) 37 - 27 = 10. Jebakan umum: 3 pangkat 3 ditulis 9 (hasil 28)."
+   "quick": "$\\sqrt{144} = 12$; $5^{2} = 25$; $3^{3} = 27$. $12 + 25 - 27 = 10$.",
+   "detailed": "1) Tipe: akar dan pangkat. 2) $12 + 25 - 27$. 3) $37 - 27 = 10$. Jebakan umum: $3^{3}$ ditulis 9 (hasil 28)."
   },
   "tags": [
    "pangkat",
@@ -616,8 +616,8 @@
   ],
   "answer": "E",
   "explanation": {
-   "quick": "80.000 x 0,75 = 60.000; lalu x 0,90 = 54.000.",
-   "detailed": "1) Diskon bertingkat tidak dijumlah (25% + 10% = 35% salah). 2) Setelah diskon 25%: 60.000. 3) Diskon 10% dari 60.000 = 6.000, sehingga 54.000. Jawaban 52.000 adalah jebakan diskon 35%."
+   "quick": "$80.000 \\times 0{,}75 = 60.000$; lalu $\\times 0{,}90 = 54.000$.",
+   "detailed": "1) Diskon bertingkat tidak dijumlah ($25\\% + 10\\% = 35\\%$ salah). 2) Setelah diskon $25\\%$: $60.000$. 3) Diskon $10\\%$ dari $60.000 = 6.000$, sehingga $54.000$. Jawaban $52.000$ adalah jebakan diskon $35\\%$."
   },
   "tags": [
    "diskon",
@@ -633,7 +633,7 @@
   "topic_id": "TIU-NUM-BERHITUNG",
   "indicator": 0,
   "difficulty": 2,
-  "stem": "Hasil dari 0,25 x 0,4 + 1,5 : 0,5 adalah ...",
+  "stem": "Hasil dari $0{,}25 \\times 0{,}4 + 1{,}5 \\div 0{,}5$ adalah ...",
   "options": [
    {
     "key": "A",
@@ -658,8 +658,8 @@
   ],
   "answer": "D",
   "explanation": {
-   "quick": "0,25 x 0,4 = 0,1; 1,5 : 0,5 = 3; jumlah = 3,1.",
-   "detailed": "1) Kerjakan perkalian dan pembagian dulu. 2) 0,25 x 0,4 = 0,1. 3) 1,5 : 0,5 = 3. 4) 0,1 + 3 = 3,1."
+   "quick": "$0{,}25 \\times 0{,}4 = 0{,}1$; $1{,}5 \\div 0{,}5 = 3$; jumlah = 3,1.",
+   "detailed": "1) Kerjakan perkalian dan pembagian dulu. 2) $0{,}25 \\times 0{,}4 = 0{,}1$. 3) $1{,}5 \\div 0{,}5 = 3$. 4) $0{,}1 + 3 = 3{,}1$."
   },
   "tags": [
    "desimal"
@@ -674,7 +674,7 @@
   "topic_id": "TIU-NUM-BERHITUNG",
   "indicator": 0,
   "difficulty": 2,
-  "stem": "Hasil dari (48 + 72) : 8 x 3 - 10 adalah ...",
+  "stem": "Hasil dari $(48 + 72) \\div 8 \\times 3 - 10$ adalah ...",
   "options": [
    {
     "key": "A",
@@ -699,8 +699,8 @@
   ],
   "answer": "B",
   "explanation": {
-   "quick": "(120 : 8) = 15; 15 x 3 = 45; 45 - 10 = 35.",
-   "detailed": "1) Kerjakan tanda kurung. 2) Pembagian dan perkalian dari kiri ke kanan: 120 : 8 = 15, lalu x 3 = 45. 3) Kurangi 10 = 35. Jawaban 45 adalah jebakan lupa mengurangi 10."
+   "quick": "$(120 \\div 8) = 15$; $15 \\times 3 = 45$; $45 - 10 = 35$.",
+   "detailed": "1) Kerjakan tanda kurung. 2) Pembagian dan perkalian dari kiri ke kanan: $120 \\div 8 = 15$, lalu $\\times 3 = 45$. 3) Kurangi $10 = 35$. Jawaban 45 adalah jebakan lupa mengurangi 10."
   },
   "tags": [
    "urutan operasi"
@@ -740,8 +740,8 @@
   ],
   "answer": "B",
   "explanation": {
-   "quick": "45 : 0,15 = 300.",
-   "detailed": "1) Misal bilangan x. 2) 0,15 x = 45, sehingga x = 45 : 0,15 = 300. Cek: 15% x 300 = 45."
+   "quick": "$45 \\div 0{,}15 = 300$.",
+   "detailed": "1) Misal bilangan $x$. 2) $0{,}15x = 45$, sehingga $x = 45 \\div 0{,}15 = 300$. Cek: $15\\% \\times 300 = 45$."
   },
   "tags": [
    "persentase"
@@ -781,8 +781,8 @@
   ],
   "answer": "B",
   "explanation": {
-   "quick": "Kecepatan gabungan = 1/12 + 1/6 = 1/4 pekerjaan per hari, jadi 4 hari.",
-   "detailed": "1) Tipe: pekerjaan bersama. 2) Laju Andi 1/12, laju Budi 1/6 = 2/12. 3) Gabungan 3/12 = 1/4. 4) Waktu = 1 : (1/4) = 4 hari."
+   "quick": "Kecepatan gabungan = $\\frac{1}{12} + \\frac{1}{6} = \\frac{1}{4}$ pekerjaan per hari, jadi 4 hari.",
+   "detailed": "1) Tipe: pekerjaan bersama. 2) Laju Andi $\\frac{1}{12}$, laju Budi $\\frac{1}{6} = \\frac{2}{12}$. 3) Gabungan $\\frac{3}{12} = \\frac{1}{4}$. 4) Waktu = $1 \\div (\\frac{1}{4}) = 4$ hari."
   },
   "tags": [
    "pekerjaan"
@@ -797,7 +797,7 @@
   "topic_id": "TIU-NUM-CERITA",
   "indicator": 4,
   "difficulty": 2,
-  "stem": "Uang Adi dan Beni berbanding 3 : 5 dengan jumlah Rp960.000. Selisih uang keduanya adalah ...",
+  "stem": "Uang Adi dan Beni berbanding $3 : 5$ dengan jumlah Rp960.000. Selisih uang keduanya adalah ...",
   "options": [
    {
     "key": "A",
@@ -823,7 +823,7 @@
   "answer": "E",
   "explanation": {
    "quick": "Total 8 bagian = 960.000, 1 bagian = 120.000; selisih 2 bagian = 240.000.",
-   "detailed": "1) Tipe: perbandingan. 2) 3 + 5 = 8 bagian. 3) 1 bagian = 960.000 : 8 = 120.000. 4) Selisih (5 - 3) = 2 bagian = 240.000."
+   "detailed": "1) Tipe: perbandingan. 2) $3 + 5 = 8$ bagian. 3) 1 bagian = $960.000 \\div 8 = 120.000$. 4) Selisih $(5 - 3) = 2$ bagian = 240.000."
   },
   "tags": [
    "perbandingan"
@@ -864,7 +864,7 @@
   "answer": "A",
   "explanation": {
    "quick": "Jumlah lama 390; ditambah 90 = 480; dibagi 6 = 80.",
-   "detailed": "1) Tipe: rata-rata. 2) Jumlah nilai 5 siswa = 5 x 78 = 390. 3) Jumlah baru = 480 untuk 6 siswa. 4) Rata-rata = 80."
+   "detailed": "1) Tipe: rata-rata. 2) Jumlah nilai 5 siswa = $5 \\times 78 = 390$. 3) Jumlah baru = 480 untuk 6 siswa. 4) Rata-rata = 80."
   },
   "tags": [
    "rata-rata"
@@ -904,8 +904,8 @@
   ],
   "answer": "C",
   "explanation": {
-   "quick": "Untung 15% x 800.000 = 120.000; harga jual 920.000.",
-   "detailed": "1) Tipe: untung-rugi. 2) Harga jual = harga beli x (1 + 15%) = 800.000 x 1,15. 3) = 920.000."
+   "quick": "Untung $15\\% \\times 800.000 = 120.000$; harga jual 920.000.",
+   "detailed": "1) Tipe: untung-rugi. 2) Harga jual = harga beli $\\times (1 + 15\\%) = 800.000 \\times 1{,}15$. 3) = 920.000."
   },
   "tags": [
    "untung rugi"
@@ -945,8 +945,8 @@
   ],
   "answer": "B",
   "explanation": {
-   "quick": "Berlawanan arah: kecepatan dijumlah 150 km/jam; waktu = 300 : 150 = 2 jam.",
-   "detailed": "1) Tipe: kecepatan berpapasan. 2) Kecepatan relatif = 60 + 90 = 150 km/jam. 3) t = s : v = 300 : 150 = 2 jam."
+   "quick": "Berlawanan arah: kecepatan dijumlah 150 km/jam; waktu = $300 \\div 150 = 2$ jam.",
+   "detailed": "1) Tipe: kecepatan berpapasan. 2) Kecepatan relatif = $60 + 90 = 150$ km/jam. 3) $t = s \\div v = 300 \\div 150 = 2$ jam."
   },
   "tags": [
    "kecepatan"
@@ -986,8 +986,8 @@
   ],
   "answer": "D",
   "explanation": {
-   "quick": "36 + x = 2(8 + x), maka x = 20.",
-   "detailed": "1) Misal x tahun lagi. 2) 36 + x = 2(8 + x) = 16 + 2x. 3) x = 20. Cek: ibu 56, anak 28."
+   "quick": "$36 + x = 2(8 + x)$, maka $x = 20$.",
+   "detailed": "1) Misal $x$ tahun lagi. 2) $36 + x = 2(8 + x) = 16 + 2x$. 3) $x = 20$. Cek: ibu 56, anak 28."
   },
   "tags": [
    "umur"
@@ -1027,8 +1027,8 @@
   ],
   "answer": "A",
   "explanation": {
-   "quick": "Bunga = 2.000.000 x 12% x 6/12 = 120.000.",
-   "detailed": "1) Bunga tunggal = pokok x suku bunga x waktu (tahun). 2) 6 bulan = 0,5 tahun. 3) 2.000.000 x 0,12 x 0,5 = 120.000. Jawaban 240.000 adalah jebakan lupa mengonversi bulan ke tahun."
+   "quick": "Bunga = $2.000.000 \\times 12\\% \\times \\frac{6}{12} = 120.000$.",
+   "detailed": "1) Bunga tunggal = pokok $\\times$ suku bunga $\\times$ waktu (tahun). 2) 6 bulan = 0,5 tahun. 3) $2.000.000 \\times 0{,}12 \\times 0{,}5 = 120.000$. Jawaban 240.000 adalah jebakan lupa mengonversi bulan ke tahun."
   },
   "tags": [
    "bunga"
@@ -1043,7 +1043,7 @@
   "topic_id": "TIU-NUM-CERITA",
   "indicator": 4,
   "difficulty": 2,
-  "stem": "Pada peta berskala 1 : 2.000.000, jarak dua kota adalah 6 cm. Jarak sebenarnya adalah ... km.",
+  "stem": "Pada peta berskala $1 : 2.000.000$, jarak dua kota adalah 6 cm. Jarak sebenarnya adalah ... km.",
   "options": [
    {
     "key": "A",
@@ -1068,8 +1068,8 @@
   ],
   "answer": "E",
   "explanation": {
-   "quick": "6 cm x 2.000.000 = 12.000.000 cm = 120 km.",
-   "detailed": "1) Jarak sebenarnya = jarak peta x penyebut skala. 2) 12.000.000 cm. 3) 100.000 cm = 1 km, sehingga 120 km."
+   "quick": "$6 \\times 2.000.000 = 12.000.000$ cm = 120 km.",
+   "detailed": "1) Jarak sebenarnya = jarak peta $\\times$ penyebut skala. 2) 12.000.000 cm. 3) 100.000 cm = 1 km, sehingga 120 km."
   },
   "tags": [
    "skala"
@@ -1109,8 +1109,8 @@
   ],
   "answer": "E",
   "explanation": {
-   "quick": "Laki-laki = 150; berkacamata 40% x 150 = 60.",
-   "detailed": "1) Laki-laki = 60% x 250 = 150. 2) Berkacamata = 40% x 150 = 60. Jawaban 100 adalah jebakan menghitung 40% dari seluruh pegawai."
+   "quick": "Laki-laki = 150; berkacamata $40\\% \\times 150 = 60$.",
+   "detailed": "1) Laki-laki = $60\\% \\times 250 = 150$. 2) Berkacamata = $40\\% \\times 150 = 60$. Jawaban 100 adalah jebakan menghitung 40% dari seluruh pegawai."
   },
   "tags": [
    "persentase"
@@ -1150,8 +1150,8 @@
   ],
   "answer": "A",
   "explanation": {
-   "quick": "Perbandingan berbalik nilai: 12 x 15 = 9 x t, maka t = 20.",
-   "detailed": "1) Pekerja lebih sedikit berarti waktu lebih lama (berbalik nilai). 2) Total beban = 12 x 15 = 180 hari-orang. 3) t = 180 : 9 = 20 hari. Jawaban 11,25 adalah jebakan memakai perbandingan senilai."
+   "quick": "Perbandingan berbalik nilai: $12 \\times 15 = 9 \\times t$, maka $t = 20$.",
+   "detailed": "1) Pekerja lebih sedikit berarti waktu lebih lama (berbalik nilai). 2) Total beban = $12 \\times 15 = 180$ hari-orang. 3) $t = 180 \\div 9 = 20$ hari. Jawaban 11,25 adalah jebakan memakai perbandingan senilai."
   },
   "tags": [
    "perbandingan berbalik"
@@ -1166,29 +1166,29 @@
   "topic_id": "TIU-NUM-KUANTITATIF",
   "indicator": 0,
   "difficulty": 1,
-  "stem": "P = 25% dari 80 dan Q = 20% dari 100. Hubungan yang benar antara P dan Q adalah ...",
+  "stem": "$P = 25\\%$ dari 80 dan $Q = 20\\%$ dari 100. Hubungan yang benar antara $P$ dan $Q$ adalah ...",
   "options": [
    {
     "key": "A",
-    "text": "P > Q"
+    "text": "$P > Q$"
    },
    {
     "key": "B",
-    "text": "P < Q"
+    "text": "$P < Q$"
    },
    {
     "key": "C",
-    "text": "P = Q"
+    "text": "$P = Q$"
    },
    {
     "key": "D",
-    "text": "Hubungan P dan Q tidak dapat ditentukan"
+    "text": "Hubungan $P$ dan $Q$ tidak dapat ditentukan"
    }
   ],
   "answer": "C",
   "explanation": {
-   "quick": "P = 20 dan Q = 20, sehingga P = Q.",
-   "detailed": "1) 25% x 80 = 20. 2) 20% x 100 = 20. 3) Keduanya sama."
+   "quick": "$P = 20$ dan $Q = 20$, sehingga $P = Q$.",
+   "detailed": "1) $25\\% \\times 80 = 20$. 2) $20\\% \\times 100 = 20$. 3) Keduanya sama."
   },
   "tags": [
    "persentase"
@@ -1203,29 +1203,29 @@
   "topic_id": "TIU-NUM-KUANTITATIF",
   "indicator": 0,
   "difficulty": 1,
-  "stem": "P = 2 pangkat 5 dan Q = 5 pangkat 2. Hubungan yang benar antara P dan Q adalah ...",
+  "stem": "$P = 2^{5}$ dan $Q = 5^{2}$. Hubungan yang benar antara $P$ dan $Q$ adalah ...",
   "options": [
    {
     "key": "A",
-    "text": "P > Q"
+    "text": "$P > Q$"
    },
    {
     "key": "B",
-    "text": "P < Q"
+    "text": "$P < Q$"
    },
    {
     "key": "C",
-    "text": "P = Q"
+    "text": "$P = Q$"
    },
    {
     "key": "D",
-    "text": "Hubungan P dan Q tidak dapat ditentukan"
+    "text": "Hubungan $P$ dan $Q$ tidak dapat ditentukan"
    }
   ],
   "answer": "A",
   "explanation": {
-   "quick": "P = 32 dan Q = 25, sehingga P > Q.",
-   "detailed": "1) 2 pangkat 5 = 32. 2) 5 pangkat 2 = 25. 3) 32 > 25. Jebakan: mengira pangkat dan basis tertukar bernilai sama."
+   "quick": "$P = 32$ dan $Q = 25$, sehingga $P > Q$.",
+   "detailed": "1) $2^{5} = 32$. 2) $5^{2} = 25$. 3) $32 > 25$. Jebakan: mengira pangkat dan basis tertukar bernilai sama."
   },
   "tags": [
    "pangkat"
@@ -1240,29 +1240,29 @@
   "topic_id": "TIU-NUM-KUANTITATIF",
   "indicator": 0,
   "difficulty": 2,
-  "stem": "x adalah bilangan real dengan x pangkat 2 = 9. P = x dan Q = 3. Hubungan yang benar antara P dan Q adalah ...",
+  "stem": "$x$ adalah bilangan real dengan $x^{2} = 9$. $P = x$ dan $Q = 3$. Hubungan yang benar antara $P$ dan $Q$ adalah ...",
   "options": [
    {
     "key": "A",
-    "text": "P > Q"
+    "text": "$P > Q$"
    },
    {
     "key": "B",
-    "text": "P < Q"
+    "text": "$P < Q$"
    },
    {
     "key": "C",
-    "text": "P = Q"
+    "text": "$P = Q$"
    },
    {
     "key": "D",
-    "text": "Hubungan P dan Q tidak dapat ditentukan"
+    "text": "Hubungan $P$ dan $Q$ tidak dapat ditentukan"
    }
   ],
   "answer": "D",
   "explanation": {
-   "quick": "x bisa 3 atau -3, sehingga P bisa sama dengan Q atau lebih kecil dari Q. Tidak dapat ditentukan.",
-   "detailed": "1) x pangkat 2 = 9 memberi x = 3 atau x = -3. 2) Jika x = 3 maka P = Q; jika x = -3 maka P < Q. 3) Hasil bergantung nilai x, jadi tidak dapat ditentukan."
+   "quick": "$x$ bisa $3$ atau $-3$, sehingga $P$ bisa sama dengan $Q$ atau lebih kecil dari $Q$. Tidak dapat ditentukan.",
+   "detailed": "1) $x^{2} = 9$ memberi $x = 3$ atau $x = -3$. 2) Jika $x = 3$ maka $P = Q$; jika $x = -3$ maka $P < Q$. 3) Hasil bergantung nilai $x$, jadi tidak dapat ditentukan."
   },
   "tags": [
    "jebakan tanda"
@@ -1277,29 +1277,29 @@
   "topic_id": "TIU-NUM-KUANTITATIF",
   "indicator": 1,
   "difficulty": 2,
-  "stem": "P = akar 50 dan Q = 7. Hubungan yang benar antara P dan Q adalah ...",
+  "stem": "$P = \\sqrt{50}$ dan $Q = 7$. Hubungan yang benar antara $P$ dan $Q$ adalah ...",
   "options": [
    {
     "key": "A",
-    "text": "P > Q"
+    "text": "$P > Q$"
    },
    {
     "key": "B",
-    "text": "P < Q"
+    "text": "$P < Q$"
    },
    {
     "key": "C",
-    "text": "P = Q"
+    "text": "$P = Q$"
    },
    {
     "key": "D",
-    "text": "Hubungan P dan Q tidak dapat ditentukan"
+    "text": "Hubungan $P$ dan $Q$ tidak dapat ditentukan"
    }
   ],
   "answer": "A",
   "explanation": {
-   "quick": "7 pangkat 2 = 49 < 50, sehingga akar 50 > 7. P > Q.",
-   "detailed": "1) Kuadratkan keduanya (keduanya positif): P pangkat 2 = 50, Q pangkat 2 = 49. 2) 50 > 49, maka P > Q."
+   "quick": "$7^{2} = 49 < 50$, sehingga $\\sqrt{50} > 7$. $P > Q$.",
+   "detailed": "1) Kuadratkan keduanya (keduanya positif): $P^{2} = 50$, $Q^{2} = 49$. 2) $50 > 49$, maka $P > Q$."
   },
   "tags": [
    "akar"
@@ -1314,29 +1314,29 @@
   "topic_id": "TIU-NUM-KUANTITATIF",
   "indicator": 1,
   "difficulty": 1,
-  "stem": "P = 0,3 + 0,04 dan Q = 0,35. Hubungan yang benar antara P dan Q adalah ...",
+  "stem": "$P = 0{,}3 + 0{,}04$ dan $Q = 0{,}35$. Hubungan yang benar antara $P$ dan $Q$ adalah ...",
   "options": [
    {
     "key": "A",
-    "text": "P > Q"
+    "text": "$P > Q$"
    },
    {
     "key": "B",
-    "text": "P < Q"
+    "text": "$P < Q$"
    },
    {
     "key": "C",
-    "text": "P = Q"
+    "text": "$P = Q$"
    },
    {
     "key": "D",
-    "text": "Hubungan P dan Q tidak dapat ditentukan"
+    "text": "Hubungan $P$ dan $Q$ tidak dapat ditentukan"
    }
   ],
   "answer": "B",
   "explanation": {
-   "quick": "P = 0,34 dan Q = 0,35, sehingga P < Q.",
-   "detailed": "1) 0,3 + 0,04 = 0,34. 2) 0,34 < 0,35."
+   "quick": "$P = 0{,}34$ dan $Q = 0{,}35$, sehingga $P < Q$.",
+   "detailed": "1) $0{,}3 + 0{,}04 = 0{,}34$. 2) $0{,}34 < 0{,}35$."
   },
   "tags": [
    "desimal"
@@ -1376,8 +1376,8 @@
   ],
   "answer": "C",
   "explanation": {
-   "quick": "(195 - 150) : 150 x 100% = 30%.",
-   "detailed": "1) Rumus kenaikan = (nilai baru - nilai lama) : nilai lama x 100%. 2) (195 - 150) = 45. 3) 45 : 150 = 0,30 = 30%."
+   "quick": "$(195 - 150) \\div 150 \\times 100\\% = 30\\%$.",
+   "detailed": "1) Rumus kenaikan $= (\\text{nilai baru} - \\text{nilai lama}) \\div \\text{nilai lama} \\times 100\\%$. 2) $(195 - 150) = 45$. 3) $45 \\div 150 = 0{,}30 = 30\\%$."
   },
   "tags": [
    "tabel",
@@ -1418,7 +1418,7 @@
   ],
   "answer": "B",
   "explanation": {
-   "quick": "30 + 15 = 45 orang dari 100, yaitu 45%.",
+   "quick": "$30 + 15 = 45$ orang dari 100, yaitu 45%.",
    "detailed": "1) Bidang B = 30 dan D = 15. 2) Gabungan 45 orang. 3) Total 100, sehingga 45%."
   },
   "tags": [
@@ -1461,7 +1461,7 @@
   "answer": "D",
   "explanation": {
    "quick": "Persentase: P1 80%, P2 90%, P3 85%. Tertinggi P2.",
-   "detailed": "1) Hitung realisasi : pagu. 2) P1 = 400/500 = 80%. P2 = 720/800 = 90%. P3 = 510/600 = 85%. 3) Tertinggi P2. Jebakan: memilih realisasi nominal terbesar tanpa membandingkan persentase."
+   "detailed": "1) Hitung realisasi : pagu. 2) P1 = $\\frac{400}{500} = 80\\%$. P2 = $\\frac{720}{800} = 90\\%$. P3 = $\\frac{510}{600} = 85\\%$. 3) Tertinggi P2. Jebakan: memilih realisasi nominal terbesar tanpa membandingkan persentase."
   },
   "tags": [
    "tabel",
@@ -1502,8 +1502,8 @@
   ],
   "answer": "C",
   "explanation": {
-   "quick": "Rata-rata = 500 : 5 = 100. Tertinggi 125. Selisih 25.",
-   "detailed": "1) Jumlah = 80 + 95 + 110 + 90 + 125 = 500. 2) Rata-rata = 100. 3) Hari tertinggi Jumat 125. 4) 125 - 100 = 25."
+   "quick": "Rata-rata = $500 \\div 5 = 100$. Tertinggi 125. Selisih 25.",
+   "detailed": "1) Jumlah = $80 + 95 + 110 + 90 + 125 = 500$. 2) Rata-rata = 100. 3) Hari tertinggi Jumat 125. 4) $125 - 100 = 25$."
   },
   "tags": [
    "tabel",

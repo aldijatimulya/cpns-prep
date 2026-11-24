@@ -144,41 +144,41 @@
         "poin": [
           "Urutan operasi: kurung, pangkat/akar, kali-bagi (kiri ke kanan), tambah-kurang (kiri ke kanan).",
           "Pecahan: samakan penyebut untuk tambah-kurang; kali = pembilang kali pembilang, penyebut kali penyebut; bagi = kali kebalikan.",
-          "Desimal ke pecahan: 0,25 = 1/4; 0,125 = 1/8; 0,2 = 1/5; 0,75 = 3/4.",
+          "Desimal ke pecahan: $0{,}25 = \\frac{1}{4}$; $0{,}125 = \\frac{1}{8}$; $0{,}2 = \\frac{1}{5}$; $0{,}75 = \\frac{3}{4}$.",
           "Bilangan negatif: negatif dikali negatif menjadi positif."
         ],
         "contoh": {
-          "soal": "3/4 + 0,5 x 2 = ...",
-          "jawab": "3/4 + 1 = 1,75 (kali dikerjakan sebelum tambah)."
+          "soal": "$\\frac{3}{4} + 0{,}5 \\times 2 = \\ldots$",
+          "jawab": "$\\frac{3}{4} + 1 = 1{,}75$ (kali dikerjakan sebelum tambah)."
         }
       },
       {
         "poin": [
-          "x persen dari N = x/100 x N.",
-          "Persentase dari total: bagian/total x 100 persen.",
-          "Kenaikan persen = (baru - lama)/lama x 100 persen.",
-          "Pintasan: 10 persen = geser koma; 5 persen = setengah dari 10 persen; 25 persen = seperempat; 12,5 persen = seperdelapan."
+          "$x\\%$ dari $N = \\frac{x}{100} \\times N$.",
+          "Persentase dari total: $\\frac{\\text{bagian}}{\\text{total}} \\times 100\\%$.",
+          "Kenaikan persen $= \\frac{\\text{baru} - \\text{lama}}{\\text{lama}} \\times 100\\%$.",
+          "Pintasan: $10\\%$ = geser koma; $5\\%$ = setengah dari $10\\%$; $25\\%$ = seperempat; $12{,}5\\%$ = seperdelapan."
         ]
       },
       {
         "poin": [
-          "Perbandingan a : b dengan jumlah J berarti bagian a = a/(a+b) x J.",
-          "Skala = jarak pada peta : jarak sebenarnya. Contoh 1 : 500.000 berarti 1 cm = 5 km.",
+          "Perbandingan $a : b$ dengan jumlah $J$ berarti bagian $a = \\frac{a}{a+b} \\times J$.",
+          "Skala = jarak pada peta : jarak sebenarnya. Contoh $1 : 500.000$ berarti $1\\ \\text{cm} = 5\\ \\text{km}$.",
           "Perbandingan senilai: naik bersama (harga-jumlah). Berbalik nilai: satu naik, satu turun (pekerja-waktu)."
         ]
       },
       {
         "poin": [
-          "a^m x a^n = a^(m+n); a^m / a^n = a^(m-n); (a^m)^n = a^(mn); a^0 = 1.",
-          "Akar kali akar: akar(a) x akar(b) = akar(ab).",
+          "$a^m \\times a^n = a^{m+n}$; $\\frac{a^m}{a^n} = a^{m-n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$.",
+          "Akar kali akar: $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$.",
           "Kuadrat hafalan: 11 sampai 25 (121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625).",
-          "Merasionalkan penyebut: 1/akar(a) = akar(a)/a."
+          "Merasionalkan penyebut: $\\frac{1}{\\sqrt{a}} = \\frac{\\sqrt{a}}{a}$."
         ]
       }
     ],
     "fakta": [
-      ["Kuadrat penting", "13^2 = 169; 17^2 = 289; 19^2 = 361; 23^2 = 529"],
-      ["Pecahan umum", "1/8 = 0,125; 3/8 = 0,375; 5/8 = 0,625"]
+      ["Kuadrat penting", "$13^2 = 169$; $17^2 = 289$; $19^2 = 361$; $23^2 = 529$"],
+      ["Pecahan umum", "$\\frac{1}{8} = 0{,}125$; $\\frac{3}{8} = 0{,}375$; $\\frac{5}{8} = 0{,}625$"]
     ],
     "jebakan": [
       "Lupa urutan operasi.",
@@ -192,8 +192,8 @@
     "indikator": [
       {
         "poin": [
-          "Aritmetika: selisih tetap b. Un = a + (n-1)b.",
-          "Geometri: rasio tetap r. Un = a x r^(n-1).",
+          "Aritmetika: selisih tetap $b$. $U_n = a + (n-1)b$.",
+          "Geometri: rasio tetap $r$. $U_n = a \\times r^{n-1}$.",
           "Contoh: 3, 7, 11, 15 (beda 4); 2, 6, 18, 54 (rasio 3)."
         ]
       },
@@ -208,7 +208,7 @@
         "poin": [
           "Selang-seling: pisahkan suku ganjil dan genap sebagai dua deret.",
           "Fibonacci: tiap suku adalah jumlah dua suku sebelumnya (1, 1, 2, 3, 5, 8, 13).",
-          "Pola gabungan: operasi bergantian (+2, x2, +2, x2)."
+          "Pola gabungan: operasi bergantian ($+2$, $\\times 2$, $+2$, $\\times 2$)."
         ]
       },
       {
@@ -231,7 +231,7 @@
   },
 
   "TIU-NUM-KUANTITATIF": {
-    "ringkasan": "Bandingkan dua besaran (A dan B). Pilihan jawaban biasanya: A > B, A < B, A = B, atau hubungan tidak dapat ditentukan.",
+    "ringkasan": "Bandingkan dua besaran (A dan B). Pilihan jawaban biasanya: $A > B$, $A < B$, $A = B$, atau hubungan tidak dapat ditentukan.",
     "indikator": [
       {
         "poin": [
@@ -242,14 +242,14 @@
       },
       {
         "poin": [
-          "Perkirakan dengan pembulatan, misalnya 49 x 51 sedikit di bawah 50 x 50 = 2.500.",
-          "Bandingkan pecahan dengan perkalian silang: a/b dan c/d, bandingkan ad dan bc.",
+          "Perkirakan dengan pembulatan, misalnya $49 \\times 51$ sedikit di bawah $50 \\times 50 = 2.500$.",
+          "Bandingkan pecahan dengan perkalian silang: $\\frac{a}{b}$ dan $\\frac{c}{d}$, bandingkan $ad$ dan $bc$.",
           "Gunakan selisih tersisa bila angka sangat dekat; jangan menghitung penuh bila tidak perlu."
         ]
       }
     ],
     "fakta": [
-      ["Identitas", "(a+b)(a-b) = a^2 - b^2"]
+      ["Identitas", "$(a+b)(a-b) = a^2 - b^2$"]
     ],
     "jebakan": [
       "Mengira jawaban 'tidak dapat ditentukan' hanya karena angkanya besar; coba hitung dulu.",
@@ -263,20 +263,20 @@
     "indikator": [
       {
         "poin": [
-          "Kecepatan = jarak/waktu; jarak = kecepatan x waktu; waktu = jarak/kecepatan.",
-          "Kecepatan rata-rata = total jarak / total waktu (bukan rata-rata dua kecepatan).",
+          "Kecepatan $= \\frac{\\text{jarak}}{\\text{waktu}}$; jarak $= \\text{kecepatan} \\times \\text{waktu}$; waktu $= \\frac{\\text{jarak}}{\\text{kecepatan}}$.",
+          "Kecepatan rata-rata $= \\frac{\\text{total jarak}}{\\text{total waktu}}$ (bukan rata-rata dua kecepatan).",
           "Berpapasan: kecepatan dijumlahkan. Menyusul (searah): kecepatan dikurangkan.",
-          "Konversi: 36 km/jam = 10 m/detik (bagi 3,6)."
+          "Konversi: $36\\ \\text{km/jam} = 10\\ \\text{m/detik}$ (bagi $3{,}6$)."
         ],
         "contoh": {
           "soal": "Mobil menempuh 120 km dalam 2 jam, lalu 60 km dalam 1 jam. Kecepatan rata-rata?",
-          "jawab": "180 km / 3 jam = 60 km/jam."
+          "jawab": "$\\frac{180\\ \\text{km}}{3\\ \\text{jam}} = 60\\ \\text{km/jam}$."
         }
       },
       {
         "poin": [
-          "Laju kerja = 1/waktu. Bekerja bersama: 1/t = 1/a + 1/b.",
-          "Contoh: A selesai 6 jam, B 3 jam, bersama 1/6 + 1/3 = 1/2 sehingga 2 jam.",
+          "Laju kerja $= \\frac{1}{\\text{waktu}}$. Bekerja bersama: $\\frac{1}{t} = \\frac{1}{a} + \\frac{1}{b}$.",
+          "Contoh: A selesai 6 jam, B 3 jam, bersama $\\frac{1}{6} + \\frac{1}{3} = \\frac{1}{2}$ sehingga 2 jam.",
           "Jika satu mulai lebih dulu, hitung pekerjaan yang sudah selesai sebelum digabung."
         ]
       },
@@ -284,28 +284,28 @@
         "poin": [
           "Tulis umur sekarang sebagai variabel, lalu umur n tahun lalu atau lagi sebagai variabel + n.",
           "Selisih umur selalu tetap.",
-          "Jumlah umur bertambah sebanyak (jumlah orang x n) setelah n tahun."
+          "Jumlah umur bertambah sebanyak (jumlah orang $\\times n$) setelah $n$ tahun."
         ]
       },
       {
         "poin": [
-          "Untung = jual - beli; rugi = beli - jual; persen untung = untung/beli x 100 persen.",
-          "Harga jual = harga beli x (100 + persen untung)/100.",
-          "Diskon: harga bayar = harga x (100 - diskon)/100. Diskon bertingkat dihitung berurutan.",
-          "Bunga tunggal = pokok x suku bunga x waktu. Bunga majemuk = pokok x (1 + i)^n."
+          "Untung $= \\text{jual} - \\text{beli}$; rugi $= \\text{beli} - \\text{jual}$; persen untung $= \\frac{\\text{untung}}{\\text{beli}} \\times 100\\%$.",
+          "Harga jual $= \\text{harga beli} \\times \\frac{100 + \\text{persen untung}}{100}$.",
+          "Diskon: harga bayar $= \\text{harga} \\times \\frac{100 - \\text{diskon}}{100}$. Diskon bertingkat dihitung berurutan.",
+          "Bunga tunggal $= \\text{pokok} \\times \\text{suku bunga} \\times \\text{waktu}$. Bunga majemuk $= \\text{pokok} \\times (1 + i)^n$."
         ]
       },
       {
         "poin": [
-          "Campuran: kadar akhir = total zat / total volume.",
+          "Campuran: kadar akhir $= \\frac{\\text{total zat}}{\\text{total volume}}$.",
           "Gunakan tabel: jumlah, kadar, zat murni untuk tiap campuran.",
           "Soal selisih dan perbandingan: ubah bilangan perbandingan menjadi 'bagian' dan hitung nilai satu bagian."
         ]
       }
     ],
     "fakta": [
-      ["Kecepatan", "36 km/jam = 10 m/s"],
-      ["Kerja bersama", "1/t = 1/a + 1/b"]
+      ["Kecepatan", "$36\\ \\text{km/jam} = 10\\ \\text{m/s}$"],
+      ["Kerja bersama", "$\\frac{1}{t} = \\frac{1}{a} + \\frac{1}{b}$"]
     ],
     "jebakan": [
       "Menghitung kecepatan rata-rata dengan rata-rata biasa.",
@@ -326,15 +326,15 @@
       },
       {
         "poin": [
-          "Kenaikan persen = (baru - lama)/lama x 100 persen.",
-          "Persentase bagian = bagian/total x 100 persen.",
-          "Poin persentase berbeda dari persen: naik dari 20 persen ke 25 persen berarti naik 5 poin persentase, atau 25 persen secara relatif."
+          "Kenaikan persen $= \\frac{\\text{baru} - \\text{lama}}{\\text{lama}} \\times 100\\%$.",
+          "Persentase bagian $= \\frac{\\text{bagian}}{\\text{total}} \\times 100\\%$.",
+          "Poin persentase berbeda dari persen: naik dari $20\\%$ ke $25\\%$ berarti naik 5 poin persentase, atau $25\\%$ secara relatif."
         ]
       },
       {
         "poin": [
-          "Rata-rata = jumlah data / banyak data.",
-          "Selisih = nilai besar - nilai kecil, perhatikan arah pertanyaan.",
+          "Rata-rata $= \\frac{\\text{jumlah data}}{\\text{banyak data}}$.",
+          "Selisih $= \\text{nilai besar} - \\text{nilai kecil}$, perhatikan arah pertanyaan.",
           "Gunakan estimasi bila opsi jauh berbeda."
         ]
       }

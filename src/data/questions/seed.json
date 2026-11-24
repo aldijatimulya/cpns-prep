@@ -30,8 +30,8 @@
     ],
     "answer": "C",
     "explanation": {
-      "quick": "Selisih antarsuku: 3, 5, 7, 9, lalu 11. Suku berikutnya 26 + 11 = 37.",
-      "detailed": "1) Tipe soal: deret bertingkat. 2) Hitung selisih: 5-2=3, 10-5=5, 17-10=7, 26-17=9. 3) Selisih membentuk deret ganjil naik 2, sehingga selisih berikutnya 11. 4) 26 + 11 = 37. Cek alternatif: suku ke-n = n² + 1 (1+1=2, 4+1=5, 9+1=10, 16+1=17, 25+1=26, 36+1=37). Hasil sama."
+      "quick": "Selisih antarsuku: 3, 5, 7, 9, lalu 11. Suku berikutnya $26 + 11 = 37$.",
+      "detailed": "1) Tipe soal: deret bertingkat. 2) Hitung selisih: $5 - 2 = 3$, $10 - 5 = 5$, $17 - 10 = 7$, $26 - 17 = 9$. 3) Selisih membentuk deret ganjil naik 2, sehingga selisih berikutnya 11. 4) $26 + 11 = 37$. Cek alternatif: suku ke-$n$ = $n^{2} + 1$ ($1 + 1 = 2$, $4 + 1 = 5$, $9 + 1 = 10$, $16 + 1 = 17$, $25 + 1 = 26$, $36 + 1 = 37$). Hasil sama."
     },
     "status": "draft",
     "source": "original",
@@ -43,7 +43,7 @@
     "topic_id": "TIU-NUM-BERHITUNG",
     "indicator": 1,
     "difficulty": 1,
-    "stem": "Berapakah hasil dari 25% × 480 + 15% × 200?",
+    "stem": "Berapakah hasil dari $25\\% \\times 480 + 15\\% \\times 200$?",
     "options": [
       {
         "key": "A",
@@ -68,8 +68,8 @@
     ],
     "answer": "C",
     "explanation": {
-      "quick": "25% × 480 = 120; 15% × 200 = 30; total 150.",
-      "detailed": "1) Tipe: persentase. 2) 25% = 1/4, jadi 480/4 = 120. 3) 15% × 200 = 0,15 × 200 = 30. 4) 120 + 30 = 150. Strategi cepat: ubah persen umum ke pecahan (25% = 1/4, 10% = 1/10)."
+      "quick": "$25\\% \\times 480 = 120$; $15\\% \\times 200 = 30$; total 150.",
+      "detailed": "1) Tipe: persentase. 2) $25\\% = \\frac{1}{4}$, jadi $\\frac{480}{4} = 120$. 3) $15\\% \\times 200 = 0{,}15 \\times 200 = 30$. 4) $120 + 30 = 150$. Strategi cepat: ubah persen umum ke pecahan ($25\\% = \\frac{1}{4}$, $10\\% = \\frac{1}{10}$)."
     },
     "status": "draft",
     "source": "original",
@@ -106,8 +106,8 @@
     ],
     "answer": "B",
     "explanation": {
-      "quick": "Kecepatan = 180 / 2,5 = 72 km/jam. Waktu = 288 / 72 = 4 jam.",
-      "detailed": "1) Tipe: kecepatan-jarak-waktu. 2) v = s / t = 180 / 2,5 = 72 km/jam. 3) t = s / v = 288 / 72 = 4 jam. Cek: 72 × 4 = 288. Cara lain: perbandingan senilai, 180 : 2,5 = 288 : t, t = 2,5 × 288 / 180 = 4."
+      "quick": "Kecepatan = $\\frac{180}{2{,}5} = 72$ km/jam. Waktu = $\\frac{288}{72} = 4$ jam.",
+      "detailed": "1) Tipe: kecepatan-jarak-waktu. 2) $v = \\frac{s}{t} = \\frac{180}{2{,}5} = 72$ km/jam. 3) $t = \\frac{s}{v} = \\frac{288}{72} = 4$ jam. Cek: $72 \\times 4 = 288$. Cara lain: perbandingan senilai, $180 : 2{,}5 = 288 : t$, $t = \\frac{2{,}5 \\times 288}{180} = 4$."
     },
     "status": "draft",
     "source": "original",
@@ -144,8 +144,8 @@
     ],
     "answer": "C",
     "explanation": {
-      "quick": "Misal anak = a, ayah = 4a. (a+5) + (4a+5) = 60, maka 5a = 50, a = 10.",
-      "detailed": "1) Tipe: soal umur. 2) Variabel: anak a, ayah 4a. 3) Lima tahun lagi keduanya bertambah 5: (a+5)+(4a+5) = 60. 4) 5a + 10 = 60, a = 10. Cek: ayah 40; 5 tahun lagi 45 + 15 = 60."
+      "quick": "Misal anak $= a$, ayah $= 4a$. $(a+5) + (4a+5) = 60$, maka $5a = 50$, $a = 10$.",
+      "detailed": "1) Tipe: soal umur. 2) Variabel: anak $a$, ayah $4a$. 3) Lima tahun lagi keduanya bertambah 5: $(a+5)+(4a+5) = 60$. 4) $5a + 10 = 60$, $a = 10$. Cek: ayah 40; 5 tahun lagi $45 + 15 = 60$."
     },
     "status": "draft",
     "source": "original",
@@ -157,29 +157,29 @@
     "topic_id": "TIU-NUM-KUANTITATIF",
     "indicator": 0,
     "difficulty": 1,
-    "stem": "P = 3/8 dan Q = 0,4. Hubungan yang benar antara P dan Q adalah ...",
+    "stem": "$P = \\frac{3}{8}$ dan $Q = 0{,}4$. Hubungan yang benar antara $P$ dan $Q$ adalah ...",
     "options": [
       {
         "key": "A",
-        "text": "P > Q"
+        "text": "$P > Q$"
       },
       {
         "key": "B",
-        "text": "P < Q"
+        "text": "$P < Q$"
       },
       {
         "key": "C",
-        "text": "P = Q"
+        "text": "$P = Q$"
       },
       {
         "key": "D",
-        "text": "Hubungan P dan Q tidak dapat ditentukan"
+        "text": "Hubungan $P$ dan $Q$ tidak dapat ditentukan"
       }
     ],
     "answer": "B",
     "explanation": {
-      "quick": "3/8 = 0,375 dan Q = 0,4, jadi P < Q.",
-      "detailed": "1) Tipe: perbandingan kuantitatif. 2) Samakan bentuk: 3/8 = 0,375. 3) 0,375 < 0,4. Strategi: ubah ke bentuk yang sama sebelum membandingkan."
+      "quick": "$\\frac{3}{8} = 0{,}375$ dan $Q = 0{,}4$, jadi $P < Q$.",
+      "detailed": "1) Tipe: perbandingan kuantitatif. 2) Samakan bentuk: $\\frac{3}{8} = 0{,}375$. 3) $0{,}375 < 0{,}4$. Strategi: ubah ke bentuk yang sama sebelum membandingkan."
     },
     "status": "draft",
     "source": "original",

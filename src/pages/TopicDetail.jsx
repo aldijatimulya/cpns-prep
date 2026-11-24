@@ -2,6 +2,7 @@ import { useEffect, useMemo } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { AlertTriangle, ArrowLeft, BookOpen, Lightbulb, ListChecks } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
+import RichText from '../components/RichText'
 import { useStore } from '../contexts/StoreContext'
 import { materiFor, questionById, questionsForIndicator, questionsForTopic, targetSeconds, topicById } from '../data'
 import { pct, topicStats } from '../utils/stats'
@@ -62,7 +63,7 @@ export default function TopicDetail() {
       {materi && (
         <section className="card">
           <h2>Ringkasan</h2>
-          <p>{materi.ringkasan}</p>
+          <p><RichText text={materi.ringkasan} /></p>
           <p className="muted">Materi ini draft buatan sendiri dan belum diverifikasi terhadap sumber resmi. Cek ulang pasal, tanggal, dan angka sebelum dihafal.</p>
         </section>
       )}
@@ -81,15 +82,15 @@ export default function TopicDetail() {
               </div>
             </div>
             {m ? (
-              <ul className="plain ind-points">{m.poin.map((p) => <li key={p}>{p}</li>)}</ul>
+              <ul className="plain ind-points">{m.poin.map((p) => <li key={p}><RichText text={p} /></li>)}</ul>
             ) : (
               <p className="muted">Materi untuk indikator ini belum ditulis.</p>
             )}
             {m?.contoh && (
               <div className="ind-example">
                 <strong>Contoh</strong>
-                <p>{m.contoh.soal}</p>
-                <p><b>Jawab:</b> {m.contoh.jawab}</p>
+                <p><RichText text={m.contoh.soal} /></p>
+                <p><b>Jawab:</b> <RichText text={m.contoh.jawab} /></p>
               </div>
             )}
             <div className="ind-foot">
@@ -105,7 +106,7 @@ export default function TopicDetail() {
         <section className="card">
           <h2><Lightbulb size={18} className="ico-teal" aria-hidden="true" /> Fakta kunci</h2>
           <table className="facts">
-            <tbody>{materi.fakta.map(([k, v]) => <tr key={k}><th scope="row">{k}</th><td>{v}</td></tr>)}</tbody>
+            <tbody>{materi.fakta.map(([k, v]) => <tr key={k}><th scope="row">{k}</th><td><RichText text={v} /></td></tr>)}</tbody>
           </table>
         </section>
       )}
@@ -113,7 +114,7 @@ export default function TopicDetail() {
       {materi?.jebakan?.length > 0 && (
         <section className="card">
           <h2><AlertTriangle size={18} className="ico-warn" aria-hidden="true" /> Jebakan umum</h2>
-          <ul className="plain">{materi.jebakan.map((j) => <li key={j}>{j}</li>)}</ul>
+          <ul className="plain">{materi.jebakan.map((j) => <li key={j}><RichText text={j} /></li>)}</ul>
         </section>
       )}
 
