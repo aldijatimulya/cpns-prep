@@ -224,44 +224,6 @@
     "verified": false
   },
   {
-    "id": "TIU-VER-ANALOGI-001",
-    "category": "TIU",
-    "topic_id": "TIU-VER-ANALOGI",
-    "indicator": 0,
-    "difficulty": 1,
-    "stem": "Dokter : Stetoskop = Petani : ...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sawah"
-      },
-      {
-        "key": "B",
-        "text": "Cangkul"
-      },
-      {
-        "key": "C",
-        "text": "Padi"
-      },
-      {
-        "key": "D",
-        "text": "Pupuk"
-      },
-      {
-        "key": "E",
-        "text": "Desa"
-      }
-    ],
-    "answer": "B",
-    "explanation": {
-      "quick": "Hubungannya profesi dan alat kerjanya. Alat petani: cangkul.",
-      "detailed": "1) Tipe: analogi profesi-alat. 2) Dokter menggunakan stetoskop untuk memeriksa. 3) Padanan: petani menggunakan cangkul. Sawah adalah tempat, padi adalah hasil, pupuk adalah bahan."
-    },
-    "status": "draft",
-    "source": "original",
-    "verified": false
-  },
-  {
     "id": "TIU-VER-ANALITIS-001",
     "category": "TIU",
     "topic_id": "TIU-VER-ANALITIS",

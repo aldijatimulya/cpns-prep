@@ -1,0 +1,506 @@
+[
+  {
+    "id": "TIU-VER-INDUKTIF-001",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Jumlah laporan layanan yang masuk tiap bulan: Januari 120, Februari 135, Maret 150, April 165. Perkiraan yang paling mungkin untuk Mei adalah ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "150"
+      },
+      {
+        "key": "B",
+        "text": "165"
+      },
+      {
+        "key": "C",
+        "text": "170"
+      },
+      {
+        "key": "D",
+        "text": "180"
+      },
+      {
+        "key": "E",
+        "text": "195"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "quick": "Naik tetap 15 laporan per bulan, jadi Mei $165 + 15 = 180$.",
+      "detailed": "1) Tipe soal: tren dari data terpisah. 2) Selisih antarbulan: 15, 15, 15. 3) Pola konsisten pada semua data, sehingga perkiraan paling berpeluang adalah $165 + 15 = 180$. Opsi 165 berarti tidak naik, 170 dan 195 tidak sesuai selisih tetap."
+    },
+    "tags": [
+      "induktif",
+      "tren"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-002",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 0,
+    "difficulty": 2,
+    "stem": "Tiga loket pelayanan dicatat antreannya. Loket A: sepi pada pagi, ramai siang. Loket B: sepi pagi, ramai siang. Loket C: sepi pagi, ramai siang. Pola yang paling didukung data adalah ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Semua loket di kantor mana pun ramai pada siang hari"
+      },
+      {
+        "key": "B",
+        "text": "Antrean di ketiga loket cenderung lebih ramai pada siang daripada pagi"
+      },
+      {
+        "key": "C",
+        "text": "Loket sepi hanya pada pagi hari"
+      },
+      {
+        "key": "D",
+        "text": "Antrean tidak dipengaruhi waktu"
+      },
+      {
+        "key": "E",
+        "text": "Loket C selalu lebih ramai daripada loket A"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Pola yang konsisten pada tiga loket adalah siang lebih ramai dari pagi; opsi lain terlalu luas atau tidak didukung data.",
+      "detailed": "1) Pola tiap loket sama: pagi sepi, siang ramai. 2) Opsi A memakai kata 'semua kantor mana pun' (melampaui data). 3) Opsi C dan D bertentangan atau tidak didukung. 4) Opsi E membandingkan loket yang datanya sama. Jawaban terukur: B."
+    },
+    "tags": [
+      "induktif",
+      "pola"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-003",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 0,
+    "difficulty": 2,
+    "stem": "Suhu ruang server (derajat Celsius) dicatat tiap jam: 22, 23, 25, 28, 32. Tren yang paling tepat adalah ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Naik dengan laju yang bertambah"
+      },
+      {
+        "key": "B",
+        "text": "Naik dengan laju tetap"
+      },
+      {
+        "key": "C",
+        "text": "Turun perlahan"
+      },
+      {
+        "key": "D",
+        "text": "Tidak berubah"
+      },
+      {
+        "key": "E",
+        "text": "Berubah naik-turun bergantian"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Selisih: 1, 2, 3, 4, yaitu kenaikan makin besar.",
+      "detailed": "1) Selisih antarjam: $23-22=1$, $25-23=2$, $28-25=3$, $32-28=4$. 2) Selisih sendiri bertambah, jadi suhu naik dengan laju yang meningkat. Laju tetap akan memberi selisih sama."
+    },
+    "tags": [
+      "induktif",
+      "tren"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-004",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 0,
+    "difficulty": 3,
+    "stem": "Pegawai yang mengikuti pelatihan A selalu mengikuti pelatihan B. Pegawai yang mengikuti B sebagian juga mengikuti C. Dari data ini, pola yang paling mungkin benar ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Semua peserta C mengikuti A"
+      },
+      {
+        "key": "B",
+        "text": "Semua peserta B mengikuti A"
+      },
+      {
+        "key": "C",
+        "text": "Peserta A pasti mengikuti C"
+      },
+      {
+        "key": "D",
+        "text": "Pelatihan A dan B kemungkinan saling terkait (peserta A biasanya juga mengikuti B)"
+      },
+      {
+        "key": "E",
+        "text": "Tidak ada hubungan antarpelatihan"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "quick": "Peserta A selalu ikut B, sehingga B mungkin lanjutan/syarat yang terkait A; opsi lain menyimpulkan lebih dari data.",
+      "detailed": "1) A mengarah ke B (selalu). 2) Hubungan B ke C hanya sebagian. 3) Opsi A, B, C menarik hubungan terbalik atau pasti yang tidak ada. 4) Opsi D adalah perkiraan terukur yang selaras dengan data."
+    },
+    "tags": [
+      "induktif",
+      "pola"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-005",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 1,
+    "difficulty": 1,
+    "stem": "Lima kasus terbaru: pelamar yang menyiapkan berkas lengkap sebelum batas waktu lolos seleksi administrasi. Generalisasi yang paling tepat adalah ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Semua pelamar yang berkasnya lengkap pasti lolos"
+      },
+      {
+        "key": "B",
+        "text": "Pelamar yang berkasnya lengkap cenderung lolos seleksi administrasi"
+      },
+      {
+        "key": "C",
+        "text": "Berkas tidak berpengaruh pada hasil"
+      },
+      {
+        "key": "D",
+        "text": "Hanya yang mengirim paling awal yang lolos"
+      },
+      {
+        "key": "E",
+        "text": "Pelamar tanpa berkas lengkap pasti gagal di semua tahap"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Lima kasus mendukung kecenderungan, bukan kepastian.",
+      "detailed": "1) Data: lima kasus searah. 2) Generalisasi induktif sah bila memakai kata terukur (cenderung). 3) 'Semua... pasti' dan 'pasti gagal di semua tahap' melampaui data. 4) 'Paling awal' tidak disebut."
+    },
+    "tags": [
+      "induktif",
+      "generalisasi"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-006",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 1,
+    "difficulty": 2,
+    "stem": "Dari 40 pelanggan yang disurvei di Kantor Cabang X, 36 menyatakan puas dengan layanan. Simpulan yang paling kuat untuk Kantor Cabang X adalah ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Setiap pelanggan Kantor X puas"
+      },
+      {
+        "key": "B",
+        "text": "Sebagian besar pelanggan Kantor X puas"
+      },
+      {
+        "key": "C",
+        "text": "Kantor X lebih baik dari kantor lain"
+      },
+      {
+        "key": "D",
+        "text": "Hanya 4 pelanggan Kantor X yang pernah dilayani"
+      },
+      {
+        "key": "E",
+        "text": "Kepuasan pelanggan Kantor X pasti 100 persen"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "36 dari 40 = 90 persen, jadi 'sebagian besar puas'; perbandingan dengan kantor lain tidak ada datanya.",
+      "detailed": "1) $36/40 = 90\\%$. 2) Simpulan terukur: sebagian besar puas. 3) Opsi A dan E mutlak. 4) Opsi C menambah perbandingan tanpa data. 5) Opsi D salah menafsirkan jumlah sampel sebagai jumlah populasi."
+    },
+    "tags": [
+      "induktif",
+      "generalisasi"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-007",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 1,
+    "difficulty": 2,
+    "stem": "Tiga rapat terakhir yang dimulai pukul 08.00 dihadiri kurang dari separuh undangan. Tiga rapat yang dimulai pukul 10.00 dihadiri lebih dari tiga perempat undangan. Generalisasi yang paling beralasan ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Semua rapat pukul 10.00 pasti penuh"
+      },
+      {
+        "key": "B",
+        "text": "Rapat yang lebih siang cenderung dihadiri lebih banyak undangan"
+      },
+      {
+        "key": "C",
+        "text": "Rapat pagi tidak pernah dihadiri"
+      },
+      {
+        "key": "D",
+        "text": "Kehadiran bergantung pada jabatan undangan"
+      },
+      {
+        "key": "E",
+        "text": "Rapat sebaiknya ditiadakan"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Pola konsisten pada kedua kelompok: lebih siang, hadir lebih banyak; ukurannya hanya kecenderungan.",
+      "detailed": "1) Dua kelompok kasus punya pola jelas. 2) Generalisasi terukur memakai 'cenderung'. 3) Opsi A dan C mutlak. 4) Opsi D dan E memakai hal di luar data."
+    },
+    "tags": [
+      "induktif",
+      "generalisasi"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-008",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 1,
+    "difficulty": 3,
+    "stem": "Seorang analis menemukan bahwa pada 5 kabupaten yang jalannya diperbaiki, waktu tempuh ke puskesmas turun. Agar generalisasi 'perbaikan jalan menurunkan waktu tempuh ke puskesmas' lebih kuat, tambahan data yang PALING membantu adalah ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Data dari kabupaten lain dengan kondisi berbeda yang juga menunjukkan penurunan"
+      },
+      {
+        "key": "B",
+        "text": "Data jumlah penduduk satu kabupaten"
+      },
+      {
+        "key": "C",
+        "text": "Foto jalan sebelum diperbaiki di satu kabupaten"
+      },
+      {
+        "key": "D",
+        "text": "Pendapat satu kepala dinas"
+      },
+      {
+        "key": "E",
+        "text": "Harga aspal tahun lalu"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Kasus tambahan yang beragam dan searah memperkuat generalisasi.",
+      "detailed": "1) Kekuatan induksi naik dengan jumlah dan keberagaman kasus. 2) Opsi A menambah kasus beragam yang sejalan. 3) Opsi B, C, E tidak menguji hubungan. 4) Opsi D hanya opini tunggal."
+    },
+    "tags": [
+      "induktif",
+      "generalisasi"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-009",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 2,
+    "difficulty": 1,
+    "stem": "Seorang pegawai biasanya tiba pukul 07.30. Hari ini ia belum tiba pukul 08.30 dan ponselnya tidak aktif. Penjelasan yang paling mungkin dan tidak menambah asumsi besar adalah ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ia mengundurkan diri secara diam-diam"
+      },
+      {
+        "key": "B",
+        "text": "Ia mengalami kendala di perjalanan"
+      },
+      {
+        "key": "C",
+        "text": "Ia sengaja membolos untuk berlibur"
+      },
+      {
+        "key": "D",
+        "text": "Kantor memberi tahu cuti hari ini"
+      },
+      {
+        "key": "E",
+        "text": "Ia pindah kota kemarin"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Penjelasan paling sederhana dan paling umum: kendala di perjalanan.",
+      "detailed": "1) Fakta: terlambat dan ponsel mati, padahal biasanya tepat waktu. 2) Penjelasan terbaik sederhana, sering terjadi, dan tidak menuduh. 3) Opsi A, C, E menambah asumsi besar. 4) Opsi D bertentangan dengan 'biasanya tiba'."
+    },
+    "tags": [
+      "induktif",
+      "penjelasan"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-010",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 2,
+    "difficulty": 2,
+    "stem": "Sebuah toko mencatat penjualan payung naik tajam pada minggu tertentu, sementara penjualan es krim turun pada minggu yang sama. Penjelasan yang paling berpeluang benar adalah ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Minggu itu banyak turun hujan"
+      },
+      {
+        "key": "B",
+        "text": "Es krim sengaja dihentikan produksinya selamanya"
+      },
+      {
+        "key": "C",
+        "text": "Payung sedang diskon besar-besaran di semua toko"
+      },
+      {
+        "key": "D",
+        "text": "Pembeli es krim pindah kota"
+      },
+      {
+        "key": "E",
+        "text": "Harga payung turun menjadi nol"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Hujan menjelaskan kedua fakta sekaligus: payung naik, es krim turun.",
+      "detailed": "1) Dua fakta berlawanan arah. 2) Satu penyebab yang menjelaskan keduanya (hujan) lebih baik daripada dua penyebab terpisah. 3) Opsi lain menambah asumsi yang tidak ada dalam soal."
+    },
+    "tags": [
+      "induktif",
+      "penjelasan"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-011",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 2,
+    "difficulty": 2,
+    "stem": "Pada tiga bulan terakhir, setiap kali jaringan kantor lambat, server cadangan sedang menjalankan pencadangan data. Perkiraan yang paling berpeluang benar ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pencadangan data mungkin membebani jaringan sehingga terasa lambat"
+      },
+      {
+        "key": "B",
+        "text": "Server cadangan pasti rusak"
+      },
+      {
+        "key": "C",
+        "text": "Jaringan lambat karena pegawai terlalu banyak"
+      },
+      {
+        "key": "D",
+        "text": "Pencadangan tidak ada hubungannya sama sekali"
+      },
+      {
+        "key": "E",
+        "text": "Jaringan akan selalu lambat di masa depan"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Kejadian yang selalu bersamaan menunjukkan hubungan yang mungkin; opsi A terukur dengan kata 'mungkin'.",
+      "detailed": "1) Dua kejadian selalu muncul bersamaan pada tiga bulan. 2) Hubungan sebab yang mungkin: pencadangan membebani jaringan. 3) Opsi B dan E mutlak. 4) Opsi C tidak sesuai data. 5) Opsi D bertentangan dengan keselarasan kejadian."
+    },
+    "tags": [
+      "induktif",
+      "penjelasan"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  },
+  {
+    "id": "TIU-VER-INDUKTIF-012",
+    "category": "TIU",
+    "topic_id": "TIU-VER-INDUKTIF",
+    "indicator": 2,
+    "difficulty": 3,
+    "stem": "Semua laporan dari Bagian Keuangan yang terlambat dikirim minggu ini juga memiliki angka yang harus direvisi. Laporan Bagian Umum terkirim tepat waktu dan tanpa revisi. Penjelasan yang paling berpeluang benar bagi laporan Keuangan ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Keterlambatan kemungkinan dipicu proses pengecekan angka yang bermasalah"
+      },
+      {
+        "key": "B",
+        "text": "Bagian Keuangan malas bekerja"
+      },
+      {
+        "key": "C",
+        "text": "Bagian Umum memalsukan laporan"
+      },
+      {
+        "key": "D",
+        "text": "Revisi pasti disebabkan oleh keterlambatan"
+      },
+      {
+        "key": "E",
+        "text": "Tidak mungkin ada hubungan antara dua kejadian"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Dua kejadian bersamaan dan arah sebab mungkin: pengecekan angka menunda pengiriman.",
+      "detailed": "1) Pola: terlambat dan revisi muncul bersamaan pada laporan Keuangan. 2) Penjelasan paling masuk akal: masalah angka menunda. 3) Opsi B dan C menuduh tanpa data. 4) Opsi D membalik arah sebab dengan pasti. 5) Opsi E mengabaikan pola."
+    },
+    "tags": [
+      "induktif",
+      "penjelasan"
+    ],
+    "status": "draft",
+    "source": "original",
+    "verified": false
+  }
+]

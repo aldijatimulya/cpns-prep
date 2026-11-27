@@ -131,7 +131,7 @@ export default function LearningCenter() {
           <section className="card">
             <div className="row"><h2><Megaphone size={18} className="ico-teal" aria-hidden="true" /> Informasi Terbaru</h2></div>
             <ul className="news">
-              <li><span className="dot warn" /><div><small>Status data</small><b>Angka ujian masih referensi pola 2024 ({examConfig.id})</b></div></li>
+              <li><span className="dot ok" /><div><small>Status data</small><b>Angka ujian mengikuti Kepmenpan-RB 674/2026 ({examConfig.id})</b></div></li>
               <li><span className="dot ok" /><div><small>{new Date(curriculum.created).toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' })}</small><b>Peta belajar v{curriculum.version} dimuat</b></div></li>
               <li><span className="dot ok" /><div><small>Verifikasi</small><b>{verified} dari {questions.length} soal sudah Anda verifikasi</b></div></li>
             </ul>

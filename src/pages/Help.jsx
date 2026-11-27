@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: 'Seberapa akurat soal dan ambang batasnya?',
-    a: 'Semua soal berstatus draft buatan sendiri sampai Anda memverifikasinya. Komposisi ujian dan ambang batas (TWK 65, TIU 80, TKP 166) berasal dari pola 2024 dan belum terverifikasi untuk 2026. Skor simulasi hanyalah alat ukur belajar, bukan prediksi kelulusan. Cek ketentuan terbaru di sscasn.bkn.go.id.',
+    a: 'Semua soal berstatus draft buatan sendiri sampai Anda memverifikasinya. Komposisi ujian (110 soal, 100 menit) dan ambang batas (umum: TWK 65, TIU 80, TKP 166; khusus: kumulatif 311/286 dan TIU 85/60) berasal dari Kepmenpan-RB No. 674 Tahun 2026. Isi soal tetap buatan sendiri karena SK hanya memuat aspek dan tujuan tiap subtes. Skor simulasi hanyalah alat ukur belajar, bukan prediksi kelulusan. Cek ketentuan terbaru di sscasn.bkn.go.id.',
   },
   {
     q: 'Apakah ini aplikasi resmi pemerintah?',

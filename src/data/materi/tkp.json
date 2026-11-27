@@ -26,16 +26,24 @@
       }
     ],
     "fakta": [
-      ["Pola skor 5", "solusi aktif + sesuai aturan + tuntas"],
-      ["Pola skor 1", "mengabaikan atau melanggar aturan"]
+      [
+        "Pola skor 5",
+        "solusi aktif + sesuai aturan + tuntas"
+      ],
+      [
+        "Pola skor 1",
+        "mengabaikan atau melanggar aturan"
+      ]
     ],
     "jebakan": [
       "Jawaban 'cepat' tetapi melanggar SOP bukan skor tertinggi.",
       "Menyerahkan masalah ke orang lain tanpa memastikan tindak lanjut bernilai rendah."
     ],
-    "sumber": ["UU No. 25 Tahun 2009 tentang Pelayanan Publik", "UU No. 20 Tahun 2023 tentang ASN"]
+    "sumber": [
+      "UU No. 25 Tahun 2009 tentang Pelayanan Publik",
+      "UU No. 20 Tahun 2023 tentang ASN"
+    ]
   },
-
   "TKP-JEJARING": {
     "ringkasan": "Jejaring kerja: kemampuan membangun hubungan dan bekerja sama lintas orang dan unit. Respons terbaik bersifat proaktif, terbuka, dan memperhatikan tujuan bersama.",
     "indikator": [
@@ -62,10 +70,13 @@
       }
     ],
     "fakta": [],
-    "jebakan": ["Mengambil alih pekerjaan unit lain tanpa koordinasi."],
-    "sumber": ["Nilai Kolaboratif dan Harmonis dalam BerAKHLAK"]
+    "jebakan": [
+      "Mengambil alih pekerjaan unit lain tanpa koordinasi."
+    ],
+    "sumber": [
+      "Nilai Kolaboratif dan Harmonis dalam BerAKHLAK"
+    ]
   },
-
   "TKP-SOSBUD": {
     "ringkasan": "Sosial budaya: menyesuaikan diri dengan masyarakat yang beragam sambil tetap berpegang pada aturan dan nilai Pancasila. Respons terbaik menghargai perbedaan dan aktif membangun keharmonisan.",
     "indikator": [
@@ -85,12 +96,16 @@
       }
     ],
     "fakta": [],
-    "jebakan": ["Ikut kebiasaan setempat yang jelas melanggar hukum bukan jawaban terbaik."],
-    "sumber": ["Pancasila sila ke-1 sampai ke-3", "UUD NRI 1945 Pasal 28E"]
+    "jebakan": [
+      "Ikut kebiasaan setempat yang jelas melanggar hukum bukan jawaban terbaik."
+    ],
+    "sumber": [
+      "Pancasila sila ke-1 sampai ke-3",
+      "UUD NRI 1945 Pasal 28E"
+    ]
   },
-
   "TKP-TIK": {
-    "ringkasan": "TIK: manfaatkan teknologi untuk meningkatkan kinerja, jaga keamanan informasi, dan mau belajar hal baru.",
+    "ringkasan": "TIK: manfaatkan teknologi untuk meningkatkan kinerja, jaga keamanan informasi, dan mau belajar hal baru. Aspek 2026 menekankan penerimaan dan pemanfaatan TIK secara bijak dengan tetap mematuhi prinsip etis.",
     "indikator": [
       {
         "poin": [
@@ -115,10 +130,13 @@
       }
     ],
     "fakta": [],
-    "jebakan": ["Meminjamkan akun kepada rekan 'agar cepat' adalah pelanggaran keamanan."],
-    "sumber": ["Kebijakan keamanan informasi instansi"]
+    "jebakan": [
+      "Meminjamkan akun kepada rekan 'agar cepat' adalah pelanggaran keamanan."
+    ],
+    "sumber": [
+      "Kebijakan keamanan informasi instansi"
+    ]
   },
-
   "TKP-PROFESIONAL": {
     "ringkasan": "Profesionalisme: bertanggung jawab, disiplin, dan berinisiatif dengan tetap menjaga integritas. Pilih respons yang menyelesaikan tugas dengan kualitas dan sesuai aturan.",
     "indikator": [
@@ -145,10 +163,14 @@
       }
     ],
     "fakta": [],
-    "jebakan": ["Inisiatif yang melampaui kewenangan tanpa izin bukan skor tertinggi."],
-    "sumber": ["UU No. 20 Tahun 2023 tentang ASN", "BerAKHLAK"]
+    "jebakan": [
+      "Inisiatif yang melampaui kewenangan tanpa izin bukan skor tertinggi."
+    ],
+    "sumber": [
+      "UU No. 20 Tahun 2023 tentang ASN",
+      "BerAKHLAK"
+    ]
   },
-
   "TKP-ANTIRADIKAL": {
     "ringkasan": "Anti-radikalisme: menolak paham yang bertentangan dengan Pancasila dan NKRI dengan cara yang damai dan sesuai hukum.",
     "indikator": [
@@ -172,6 +194,9 @@
       "Membalas ujaran kebencian dengan kebencian bukan jawaban terbaik.",
       "Membiarkan tanpa tindakan bernilai rendah."
     ],
-    "sumber": ["UUD NRI 1945", "UU No. 20 Tahun 2023 tentang ASN"]
+    "sumber": [
+      "UUD NRI 1945",
+      "UU No. 20 Tahun 2023 tentang ASN"
+    ]
   }
 }

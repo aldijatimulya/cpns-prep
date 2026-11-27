@@ -2,12 +2,20 @@
 import { readFileSync } from 'node:fs'
 const r = (p) => JSON.parse(readFileSync(new URL(`../src/data/${p}`, import.meta.url), 'utf8'))
 const cur = r('curriculum/curriculum.json')
-const qs = ['seed', 'bank-v1', 'bank-v2'].flatMap((f) => { const d = r(`questions/${f}.json`); return Array.isArray(d) ? d : d.questions })
+const qs = ['seed', 'bank-v1', 'bank-v2', 'bank-v3-induktif', 'bank-v3-matriks'].flatMap((f) => { const d = r(`questions/${f}.json`); return Array.isArray(d) ? d : d.questions })
 const materi = { ...r('materi/twk.json'), ...r('materi/tiu.json'), ...r('materi/tkp.json') }
 const err = [], warn = []
 const topics = new Map(cur.categories.flatMap((c) => c.topics.map((t) => [t.id, t])))
 const ids = new Set()
+const cfg = r('exam-config/skd-2026.json')
+const sumQ = cfg.sections.reduce((a, s) => a + s.questions, 0), sumMax = cfg.sections.reduce((a, s) => a + s.max_score, 0)
+if (sumQ !== cfg.total_questions) err.push(`konfigurasi: jumlah soal subtes ${sumQ} != ${cfg.total_questions}`)
+if (sumMax !== cfg.max_total) err.push(`konfigurasi: skor maks subtes ${sumMax} != ${cfg.max_total}`)
+for (const s of cfg.sections) if (s.threshold > s.max_score) err.push(`konfigurasi: ambang ${s.category} melebihi skor maks`)
+for (const [k, n] of Object.entries(cfg.needs)) if (n.rule === 'kumulatif_tiu' && (n.cumulative > cfg.max_total || n.tiu_min > 175)) err.push(`konfigurasi: ambang kebutuhan ${k} tidak masuk akal`)
+const catOf = new Map(cur.categories.flatMap((c) => c.topics.map((t) => [t.id, c.id])))
 for (const q of qs) {
+  if (catOf.has(q.topic_id) && catOf.get(q.topic_id) !== q.category) err.push(`${q.id}: kategori ${q.category} != kategori topik ${catOf.get(q.topic_id)}`)
   if (ids.has(q.id)) err.push(`id ganda: ${q.id}`); ids.add(q.id)
   const t = topics.get(q.topic_id)
   if (!t) { err.push(`${q.id}: topic_id tidak dikenal`); continue }

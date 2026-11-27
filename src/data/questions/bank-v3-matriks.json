@@ -1,0 +1,1249 @@
+[
+  {
+    "id": "TIU-FIG-MATRIKS-001",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-MATRIKS",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Perhatikan matriks 3 x 3 berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
+    "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" role=\"img\" aria-label=\"Matriks 3 kali 3 dengan satu sel bertanda tanya\" class=\"fig square\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(0 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(0 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"40\" y=\"52\" text-anchor=\"middle\" font-size=\"36\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
+    "stem_alt": "Matriks 3x3. Baris 1: 1 lingkaran penuh; 1 kotak penuh; 1 segitiga penuh, putar 0 derajat searah jarum jam. Baris 2: 1 kotak penuh; 1 segitiga penuh, putar 0 derajat searah jarum jam; 1 lingkaran penuh. Baris 3: 1 segitiga penuh, putar 0 derajat searah jarum jam; 1 lingkaran penuh; ?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 kotak kosong",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 kotak kosong\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "1 lingkaran penuh",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 lingkaran penuh\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "1 segitiga penuh, putar 0 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 segitiga penuh, putar 0 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "1 kotak penuh",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 kotak penuh\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "2 kotak penuh",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 kotak penuh\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"17.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/><rect x=\"45.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "quick": "Tiap baris dan kolom memuat tiga bentuk berbeda, masing-masing sekali. Jawaban: 1 kotak penuh.",
+      "detailed": "1) Periksa baris 1 dan 2: setiap bentuk muncul sekali per baris dan per kolom. 2) Baris 3 sudah memuat dua bentuk, kolom 3 memuat dua bentuk. 3) Bentuk yang belum muncul di baris 3 dan kolom 3 harus menjadi jawabannya. Gambar yang hilang: 1 kotak penuh."
+    },
+    "tags": [
+      "figural",
+      "matriks",
+      "latin_bentuk"
+    ],
+    "status": "draft",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "matriks",
+      "rule": "latin_bentuk",
+      "grid": [
+        [
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "TIU-FIG-MATRIKS-002",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-MATRIKS",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Perhatikan matriks 3 x 3 berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
+    "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" role=\"img\" aria-label=\"Matriks 3 kali 3 dengan satu sel bertanda tanya\" class=\"fig square\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\"/></g></g><g transform=\"translate(85 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/></g></g><g transform=\"translate(170 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/></g></g><g transform=\"translate(0 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/></g></g><g transform=\"translate(85 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/></g></g><g transform=\"translate(170 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\"/></g></g><g transform=\"translate(0 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/></g></g><g transform=\"translate(85 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\"/></g></g><g transform=\"translate(170 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"40\" y=\"52\" text-anchor=\"middle\" font-size=\"36\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
+    "stem_alt": "Matriks 3x3. Baris 1: 1 segitiga kosong, putar 0 derajat searah jarum jam; 1 lingkaran kosong; 1 kotak kosong. Baris 2: 1 lingkaran kosong; 1 kotak kosong; 1 segitiga kosong, putar 0 derajat searah jarum jam. Baris 3: 1 kotak kosong; 1 segitiga kosong, putar 0 derajat searah jarum jam; ?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 kotak kosong",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 kotak kosong\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "1 lingkaran kosong",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 lingkaran kosong\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "1 lingkaran bertitik",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 lingkaran bertitik\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "3 lingkaran kosong",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"3 lingkaran kosong\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"24\" r=\"10\" fill=\"none\"/><circle cx=\"24\" cy=\"56\" r=\"10\" fill=\"none\"/><circle cx=\"56\" cy=\"56\" r=\"10\" fill=\"none\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "1 lingkaran penuh",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 lingkaran penuh\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Tiap baris dan kolom memuat tiga bentuk berbeda, masing-masing sekali. Jawaban: 1 lingkaran kosong.",
+      "detailed": "1) Periksa baris 1 dan 2: setiap bentuk muncul sekali per baris dan per kolom. 2) Baris 3 sudah memuat dua bentuk, kolom 3 memuat dua bentuk. 3) Bentuk yang belum muncul di baris 3 dan kolom 3 harus menjadi jawabannya. Gambar yang hilang: 1 lingkaran kosong."
+    },
+    "tags": [
+      "figural",
+      "matriks",
+      "latin_bentuk"
+    ],
+    "status": "draft",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "matriks",
+      "rule": "latin_bentuk",
+      "grid": [
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "TIU-FIG-MATRIKS-003",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-MATRIKS",
+    "indicator": 0,
+    "difficulty": 2,
+    "stem": "Perhatikan matriks 3 x 3 berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
+    "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" role=\"img\" aria-label=\"Matriks 3 kali 3 dengan satu sel bertanda tanya\" class=\"fig square\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"26\" cy=\"40\" r=\"10\" style=\"fill:currentColor\"/><circle cx=\"54\" cy=\"40\" r=\"10\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"24\" r=\"10\" style=\"fill:currentColor\"/><circle cx=\"24\" cy=\"56\" r=\"10\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"10\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(0 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"17.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/><rect x=\"45.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"31.0\" y=\"15.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/><rect x=\"15.0\" y=\"47.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/><rect x=\"47.0\" y=\"47.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(0 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,14 30,32.5 50,32.5\" style=\"fill:currentColor\"/><polygon points=\"24,46 14,64.5 34,64.5\" style=\"fill:currentColor\"/><polygon points=\"56,46 46,64.5 66,64.5\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"40\" y=\"52\" text-anchor=\"middle\" font-size=\"36\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
+    "stem_alt": "Matriks 3x3. Baris 1: 1 lingkaran penuh; 2 lingkaran penuh; 3 lingkaran penuh. Baris 2: 2 kotak penuh; 3 kotak penuh; 1 kotak penuh. Baris 3: 3 segitiga penuh, putar 0 derajat searah jarum jam; 1 segitiga penuh, putar 0 derajat searah jarum jam; ?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 segitiga bertitik, putar 0 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 segitiga bertitik, putar 0 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"26,30 16,48.5 36,48.5\" fill=\"none\"/><circle cx=\"26\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/><polygon points=\"54,30 44,48.5 64,48.5\" fill=\"none\"/><circle cx=\"54\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "2 segitiga penuh, putar 270 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 segitiga penuh, putar 270 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"26,30 16,48.5 36,48.5\" style=\"fill:currentColor\" transform=\"rotate(270 26 40)\"/><polygon points=\"54,30 44,48.5 64,48.5\" style=\"fill:currentColor\" transform=\"rotate(270 54 40)\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "2 lingkaran penuh",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 lingkaran penuh\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"26\" cy=\"40\" r=\"10\" style=\"fill:currentColor\"/><circle cx=\"54\" cy=\"40\" r=\"10\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "2 kotak penuh",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 kotak penuh\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"17.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/><rect x=\"45.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "2 segitiga penuh, putar 0 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 segitiga penuh, putar 0 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"26,30 16,48.5 36,48.5\" style=\"fill:currentColor\"/><polygon points=\"54,30 44,48.5 64,48.5\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": {
+      "quick": "Bentuk tetap per baris; jumlah bentuk 1, 2, 3 muncul sekali tiap baris dan tiap kolom. Jawaban: 2 segitiga penuh, putar 0 derajat searah jarum jam.",
+      "detailed": "1) Bentuk di satu baris selalu sama. 2) Jumlah tiap baris adalah 1, 2, 3 dalam urutan bergeser satu langkah. 3) Pada baris 3, jumlah yang belum muncul menentukan banyak bentuk. Gambar yang hilang: 2 segitiga penuh, putar 0 derajat searah jarum jam."
+    },
+    "tags": [
+      "figural",
+      "matriks",
+      "jumlah_latin"
+    ],
+    "status": "draft",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "matriks",
+      "rule": "jumlah_latin",
+      "grid": [
+        [
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "solid",
+            "n": 2,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "solid",
+            "n": 3,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "solid",
+            "n": 2,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "solid",
+            "n": 3,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 3,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 2,
+            "rot": 0
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "TIU-FIG-MATRIKS-004",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-MATRIKS",
+    "indicator": 0,
+    "difficulty": 2,
+    "stem": "Perhatikan matriks 3 x 3 berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
+    "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" role=\"img\" aria-label=\"Matriks 3 kali 3 dengan satu sel bertanda tanya\" class=\"fig square\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/></g></g><g transform=\"translate(85 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"17.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" fill=\"none\"/><rect x=\"45.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" fill=\"none\"/></g></g><g transform=\"translate(170 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"31.0\" y=\"15.0\" width=\"18.0\" height=\"18.0\" fill=\"none\"/><rect x=\"15.0\" y=\"47.0\" width=\"18.0\" height=\"18.0\" fill=\"none\"/><rect x=\"47.0\" y=\"47.0\" width=\"18.0\" height=\"18.0\" fill=\"none\"/></g></g><g transform=\"translate(0 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"26,30 16,48.5 36,48.5\" fill=\"none\"/><polygon points=\"54,30 44,48.5 64,48.5\" fill=\"none\"/></g></g><g transform=\"translate(85 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,14 30,32.5 50,32.5\" fill=\"none\"/><polygon points=\"24,46 14,64.5 34,64.5\" fill=\"none\"/><polygon points=\"56,46 46,64.5 66,64.5\" fill=\"none\"/></g></g><g transform=\"translate(170 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\"/></g></g><g transform=\"translate(0 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"24\" r=\"10\" fill=\"none\"/><circle cx=\"24\" cy=\"56\" r=\"10\" fill=\"none\"/><circle cx=\"56\" cy=\"56\" r=\"10\" fill=\"none\"/></g></g><g transform=\"translate(85 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/></g></g><g transform=\"translate(170 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"40\" y=\"52\" text-anchor=\"middle\" font-size=\"36\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
+    "stem_alt": "Matriks 3x3. Baris 1: 1 kotak kosong; 2 kotak kosong; 3 kotak kosong. Baris 2: 2 segitiga kosong, putar 0 derajat searah jarum jam; 3 segitiga kosong, putar 0 derajat searah jarum jam; 1 segitiga kosong, putar 0 derajat searah jarum jam. Baris 3: 3 lingkaran kosong; 1 lingkaran kosong; ?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 segitiga kosong, putar 0 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 segitiga kosong, putar 0 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"26,30 16,48.5 36,48.5\" fill=\"none\"/><polygon points=\"54,30 44,48.5 64,48.5\" fill=\"none\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "2 lingkaran penuh",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 lingkaran penuh\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"26\" cy=\"40\" r=\"10\" style=\"fill:currentColor\"/><circle cx=\"54\" cy=\"40\" r=\"10\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "2 lingkaran kosong",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 lingkaran kosong\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"26\" cy=\"40\" r=\"10\" fill=\"none\"/><circle cx=\"54\" cy=\"40\" r=\"10\" fill=\"none\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "1 lingkaran kosong",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 lingkaran kosong\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "2 kotak kosong",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 kotak kosong\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"17.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" fill=\"none\"/><rect x=\"45.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" fill=\"none\"/></g></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "quick": "Bentuk tetap per baris; jumlah bentuk 1, 2, 3 muncul sekali tiap baris dan tiap kolom. Jawaban: 2 lingkaran kosong.",
+      "detailed": "1) Bentuk di satu baris selalu sama. 2) Jumlah tiap baris adalah 1, 2, 3 dalam urutan bergeser satu langkah. 3) Pada baris 3, jumlah yang belum muncul menentukan banyak bentuk. Gambar yang hilang: 2 lingkaran kosong."
+    },
+    "tags": [
+      "figural",
+      "matriks",
+      "jumlah_latin"
+    ],
+    "status": "draft",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "matriks",
+      "rule": "jumlah_latin",
+      "grid": [
+        [
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "empty",
+            "n": 2,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "empty",
+            "n": 3,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 2,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 3,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "empty",
+            "n": 3,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "empty",
+            "n": 2,
+            "rot": 0
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "TIU-FIG-MATRIKS-005",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-MATRIKS",
+    "indicator": 0,
+    "difficulty": 2,
+    "stem": "Perhatikan matriks 3 x 3 berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
+    "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" role=\"img\" aria-label=\"Matriks 3 kali 3 dengan satu sel bertanda tanya\" class=\"fig square\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(0 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/></g></g><g transform=\"translate(85 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/></g></g><g transform=\"translate(170 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\"/></g></g><g transform=\"translate(0 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"40\" y=\"52\" text-anchor=\"middle\" font-size=\"36\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
+    "stem_alt": "Matriks 3x3. Baris 1: 1 lingkaran penuh; 1 kotak penuh; 1 segitiga penuh, putar 0 derajat searah jarum jam. Baris 2: 1 lingkaran kosong; 1 kotak kosong; 1 segitiga kosong, putar 0 derajat searah jarum jam. Baris 3: 1 lingkaran bertitik; 1 kotak bertitik; ?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 kotak bertitik",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 kotak bertitik\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "1 segitiga bertitik, putar 0 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 segitiga bertitik, putar 0 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "1 lingkaran bertitik",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 lingkaran bertitik\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "1 segitiga bertitik, putar 90 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 segitiga bertitik, putar 90 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\" transform=\"rotate(90 40 40)\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "3 segitiga bertitik, putar 0 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"3 segitiga bertitik, putar 0 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,14 30,32.5 50,32.5\" fill=\"none\"/><circle cx=\"40\" cy=\"24\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/><polygon points=\"24,46 14,64.5 34,64.5\" fill=\"none\"/><circle cx=\"24\" cy=\"56\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/><polygon points=\"56,46 46,64.5 66,64.5\" fill=\"none\"/><circle cx=\"56\" cy=\"56\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Bentuk ditentukan oleh kolom, isi (penuh/kosong/bertitik) ditentukan oleh baris. Jawaban: 1 segitiga bertitik, putar 0 derajat searah jarum jam.",
+      "detailed": "1) Bandingkan gambar dalam satu kolom: bentuknya sama. 2) Bandingkan dalam satu baris: isinya sama. 3) Gabungkan: kolom 3 menentukan bentuk, baris 3 menentukan isi. Gambar yang hilang: 1 segitiga bertitik, putar 0 derajat searah jarum jam."
+    },
+    "tags": [
+      "figural",
+      "matriks",
+      "bentuk_kolom_isi_baris"
+    ],
+    "status": "draft",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "matriks",
+      "rule": "bentuk_kolom_isi_baris",
+      "grid": [
+        [
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "dot",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "dot",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "dot",
+            "n": 1,
+            "rot": 0
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "TIU-FIG-MATRIKS-006",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-MATRIKS",
+    "indicator": 0,
+    "difficulty": 2,
+    "stem": "Perhatikan matriks 3 x 3 berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
+    "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" role=\"img\" aria-label=\"Matriks 3 kali 3 dengan satu sel bertanda tanya\" class=\"fig square\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\"/></g></g><g transform=\"translate(85 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/></g></g><g transform=\"translate(170 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/></g></g><g transform=\"translate(0 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(0 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"40\" y=\"52\" text-anchor=\"middle\" font-size=\"36\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
+    "stem_alt": "Matriks 3x3. Baris 1: 1 segitiga kosong, putar 0 derajat searah jarum jam; 1 lingkaran kosong; 1 kotak kosong. Baris 2: 1 segitiga bertitik, putar 0 derajat searah jarum jam; 1 lingkaran bertitik; 1 kotak bertitik. Baris 3: 1 segitiga penuh, putar 0 derajat searah jarum jam; 1 lingkaran penuh; ?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 kotak penuh",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 kotak penuh\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"17.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/><rect x=\"45.0\" y=\"31.0\" width=\"18.0\" height=\"18.0\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "1 lingkaran penuh",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 lingkaran penuh\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"18\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "1 kotak penuh",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 kotak penuh\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "1 kotak kosong",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 kotak kosong\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "1 kotak bertitik",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 kotak bertitik\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"2.6\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "quick": "Bentuk ditentukan oleh kolom, isi (penuh/kosong/bertitik) ditentukan oleh baris. Jawaban: 1 kotak penuh.",
+      "detailed": "1) Bandingkan gambar dalam satu kolom: bentuknya sama. 2) Bandingkan dalam satu baris: isinya sama. 3) Gabungkan: kolom 3 menentukan bentuk, baris 3 menentukan isi. Gambar yang hilang: 1 kotak penuh."
+    },
+    "tags": [
+      "figural",
+      "matriks",
+      "bentuk_kolom_isi_baris"
+    ],
+    "status": "draft",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "matriks",
+      "rule": "bentuk_kolom_isi_baris",
+      "grid": [
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "dot",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "dot",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "dot",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "circle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "square",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "TIU-FIG-MATRIKS-007",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-MATRIKS",
+    "indicator": 1,
+    "difficulty": 2,
+    "stem": "Perhatikan matriks 3 x 3 berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
+    "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" role=\"img\" aria-label=\"Matriks 3 kali 3 dengan satu sel bertanda tanya\" class=\"fig square\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(90 40 40)\"/></g></g><g transform=\"translate(170 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(180 40 40)\"/></g></g><g transform=\"translate(0 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(90 40 40)\"/></g></g><g transform=\"translate(85 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(180 40 40)\"/></g></g><g transform=\"translate(170 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(270 40 40)\"/></g></g><g transform=\"translate(0 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(180 40 40)\"/></g></g><g transform=\"translate(85 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(270 40 40)\"/></g></g><g transform=\"translate(170 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"40\" y=\"52\" text-anchor=\"middle\" font-size=\"36\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
+    "stem_alt": "Matriks 3x3. Baris 1: 1 segitiga penuh, putar 0 derajat searah jarum jam; 1 segitiga penuh, putar 90 derajat searah jarum jam; 1 segitiga penuh, putar 180 derajat searah jarum jam. Baris 2: 1 segitiga penuh, putar 90 derajat searah jarum jam; 1 segitiga penuh, putar 180 derajat searah jarum jam; 1 segitiga penuh, putar 270 derajat searah jarum jam. Baris 3: 1 segitiga penuh, putar 180 derajat searah jarum jam; 1 segitiga penuh, putar 270 derajat searah jarum jam; ?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 segitiga penuh, putar 90 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 segitiga penuh, putar 90 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(90 40 40)\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "1 segitiga penuh, putar 270 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 segitiga penuh, putar 270 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(270 40 40)\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "1 segitiga penuh, putar 0 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 segitiga penuh, putar 0 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "1 segitiga penuh, putar 180 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 segitiga penuh, putar 180 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(180 40 40)\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "2 segitiga penuh, putar 0 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 segitiga penuh, putar 0 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"26,30 16,48.5 36,48.5\" style=\"fill:currentColor\"/><polygon points=\"54,30 44,48.5 64,48.5\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "quick": "Segitiga berputar 90 derajat searah jarum jam tiap langkah ke kanan, dan baris berikutnya dimulai satu langkah lebih maju. Jawaban: 1 segitiga penuh, putar 0 derajat searah jarum jam.",
+      "detailed": "1) Bandingkan dua gambar bersebelahan: segitiga diputar 90 derajat searah jarum jam. 2) Awal baris berikutnya sama dengan sel kedua baris sebelumnya. 3) Hitung langkah untuk sel baris 3 kolom 3. Gambar yang hilang: 1 segitiga penuh, putar 0 derajat searah jarum jam."
+    },
+    "tags": [
+      "figural",
+      "matriks",
+      "rotasi"
+    ],
+    "status": "draft",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "matriks",
+      "rule": "rotasi",
+      "grid": [
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 1
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 2
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 1
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 2
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 3
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 2
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 3
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "solid",
+            "n": 1,
+            "rot": 0
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "TIU-FIG-MATRIKS-008",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-MATRIKS",
+    "indicator": 1,
+    "difficulty": 2,
+    "stem": "Perhatikan matriks 3 x 3 berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
+    "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" role=\"img\" aria-label=\"Matriks 3 kali 3 dengan satu sel bertanda tanya\" class=\"fig square\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\" transform=\"rotate(90 40 40)\"/></g></g><g transform=\"translate(85 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\" transform=\"rotate(180 40 40)\"/></g></g><g transform=\"translate(170 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\" transform=\"rotate(270 40 40)\"/></g></g><g transform=\"translate(0 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\" transform=\"rotate(180 40 40)\"/></g></g><g transform=\"translate(85 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\" transform=\"rotate(270 40 40)\"/></g></g><g transform=\"translate(170 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\"/></g></g><g transform=\"translate(0 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\" transform=\"rotate(270 40 40)\"/></g></g><g transform=\"translate(85 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\"/></g></g><g transform=\"translate(170 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"40\" y=\"52\" text-anchor=\"middle\" font-size=\"36\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
+    "stem_alt": "Matriks 3x3. Baris 1: 1 segitiga kosong, putar 90 derajat searah jarum jam; 1 segitiga kosong, putar 180 derajat searah jarum jam; 1 segitiga kosong, putar 270 derajat searah jarum jam. Baris 2: 1 segitiga kosong, putar 180 derajat searah jarum jam; 1 segitiga kosong, putar 270 derajat searah jarum jam; 1 segitiga kosong, putar 0 derajat searah jarum jam. Baris 3: 1 segitiga kosong, putar 270 derajat searah jarum jam; 1 segitiga kosong, putar 0 derajat searah jarum jam; ?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 segitiga penuh, putar 90 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 segitiga penuh, putar 90 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" style=\"fill:currentColor\" transform=\"rotate(90 40 40)\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "1 kotak kosong",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 kotak kosong\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"23.8\" y=\"23.8\" width=\"32.4\" height=\"32.4\" fill=\"none\" transform=\"rotate(90 40 40)\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "1 segitiga kosong, putar 90 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 segitiga kosong, putar 90 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\" transform=\"rotate(90 40 40)\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "1 segitiga kosong, putar 180 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"1 segitiga kosong, putar 180 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,22 22,55.3 58,55.3\" fill=\"none\" transform=\"rotate(180 40 40)\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "2 segitiga kosong, putar 90 derajat searah jarum jam",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"2 segitiga kosong, putar 90 derajat searah jarum jam\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"26,30 16,48.5 36,48.5\" fill=\"none\" transform=\"rotate(90 26 40)\"/><polygon points=\"54,30 44,48.5 64,48.5\" fill=\"none\" transform=\"rotate(90 54 40)\"/></g></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "quick": "Segitiga berputar 90 derajat searah jarum jam tiap langkah ke kanan, dan baris berikutnya dimulai satu langkah lebih maju. Jawaban: 1 segitiga kosong, putar 90 derajat searah jarum jam.",
+      "detailed": "1) Bandingkan dua gambar bersebelahan: segitiga diputar 90 derajat searah jarum jam. 2) Awal baris berikutnya sama dengan sel kedua baris sebelumnya. 3) Hitung langkah untuk sel baris 3 kolom 3. Gambar yang hilang: 1 segitiga kosong, putar 90 derajat searah jarum jam."
+    },
+    "tags": [
+      "figural",
+      "matriks",
+      "rotasi"
+    ],
+    "status": "draft",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "matriks",
+      "rule": "rotasi",
+      "grid": [
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 1
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 2
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 3
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 2
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 3
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 3
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 0
+          },
+          {
+            "kind": "shape",
+            "shape": "triangle",
+            "fill": "empty",
+            "n": 1,
+            "rot": 1
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "TIU-FIG-MATRIKS-009",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-MATRIKS",
+    "indicator": 1,
+    "difficulty": 3,
+    "stem": "Perhatikan matriks 3 x 3 berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
+    "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" role=\"img\" aria-label=\"Matriks 3 kali 3 dengan satu sel bertanda tanya\" class=\"fig square\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"24\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"24\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(0 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(0 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"24\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"40\" y=\"52\" text-anchor=\"middle\" font-size=\"36\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
+    "stem_alt": "Matriks 3x3. Baris 1: titik di kiri atas, kanan atas; titik di kanan atas, kiri bawah; titik di kiri atas, kiri bawah. Baris 2: titik di kiri atas, kanan bawah; titik di kanan bawah; titik di kiri atas. Baris 3: titik di kiri atas, kanan atas, kiri bawah; titik di kiri bawah, kanan bawah; ?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "titik di kiri atas, kanan atas, kanan bawah",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"titik di kiri atas, kanan atas, kanan bawah\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "titik di kiri atas, kanan atas, kiri bawah, kanan bawah",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"titik di kiri atas, kanan atas, kiri bawah, kanan bawah\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"24\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "titik di kiri atas, kanan bawah",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"titik di kiri atas, kanan bawah\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "titik di kanan atas, kanan bawah",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"titik di kanan atas, kanan bawah\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "titik di kiri atas, kanan atas",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"titik di kiri atas, kanan atas\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Gambar ketiga memuat titik yang ada di salah satu gambar pertama atau kedua, tetapi tidak di keduanya (selisih simetris). Jawaban: titik di kiri atas, kanan atas, kanan bawah.",
+      "detailed": "1) Uji baris 1: titik yang sama di kedua gambar menghilang, titik yang berbeda tetap. 2) Uji baris 2 untuk memastikan aturan. 3) Terapkan pada baris 3. Gambar yang hilang: titik di kiri atas, kanan atas, kanan bawah."
+    },
+    "tags": [
+      "figural",
+      "matriks",
+      "gabung_xor"
+    ],
+    "status": "draft",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "matriks",
+      "rule": "gabung_xor",
+      "grid": [
+        [
+          {
+            "kind": "quad",
+            "q": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              1,
+              2
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              0,
+              2
+            ]
+          }
+        ],
+        [
+          {
+            "kind": "quad",
+            "q": [
+              0,
+              3
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              3
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              0
+            ]
+          }
+        ],
+        [
+          {
+            "kind": "quad",
+            "q": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              2,
+              3
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "TIU-FIG-MATRIKS-010",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-MATRIKS",
+    "indicator": 1,
+    "difficulty": 2,
+    "stem": "Perhatikan matriks 3 x 3 berikut. Gambar manakah yang tepat menggantikan tanda tanya (?)",
+    "stem_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" role=\"img\" aria-label=\"Matriks 3 kali 3 dengan satu sel bertanda tanya\" class=\"fig square\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(0 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"24\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 85)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"24\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(0 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(85 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g><g transform=\"translate(170 170)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"40\" y=\"52\" text-anchor=\"middle\" font-size=\"36\" font-weight=\"700\" style=\"fill:currentColor\">?</text></g></svg>",
+    "stem_alt": "Matriks 3x3. Baris 1: titik di kiri atas; titik di kanan bawah; titik di kiri atas, kanan bawah. Baris 2: titik di kanan atas, kiri bawah; titik di kiri bawah; titik di kanan atas, kiri bawah. Baris 3: titik di kiri atas, kanan atas; titik di kanan bawah; ?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "titik di kiri atas, kanan atas, kanan bawah",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"titik di kiri atas, kanan atas, kanan bawah\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "titik di kanan atas, kanan bawah",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"titik di kanan atas, kanan bawah\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "titik di kiri atas, kanan bawah",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"titik di kiri atas, kanan bawah\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "titik di kiri atas, kanan atas",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"titik di kiri atas, kanan atas\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "titik di kiri atas, kanan atas, kiri bawah, kanan bawah",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"titik di kiri atas, kanan atas, kiri bawah, kanan bawah\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"24\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"24\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"24\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/><circle cx=\"56\" cy=\"56\" r=\"9\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Gambar ketiga adalah gabungan semua titik dari gambar pertama dan kedua. Jawaban: titik di kiri atas, kanan atas, kanan bawah.",
+      "detailed": "1) Uji baris 1: semua titik dari dua gambar pertama muncul di gambar ketiga. 2) Uji baris 2, termasuk titik yang sama muncul sekali. 3) Terapkan pada baris 3. Gambar yang hilang: titik di kiri atas, kanan atas, kanan bawah."
+    },
+    "tags": [
+      "figural",
+      "matriks",
+      "gabung_or"
+    ],
+    "status": "draft",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "matriks",
+      "rule": "gabung_or",
+      "grid": [
+        [
+          {
+            "kind": "quad",
+            "q": [
+              0
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              3
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              0,
+              3
+            ]
+          }
+        ],
+        [
+          {
+            "kind": "quad",
+            "q": [
+              1,
+              2
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              2
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              1,
+              2
+            ]
+          }
+        ],
+        [
+          {
+            "kind": "quad",
+            "q": [
+              0,
+              1
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              3
+            ]
+          },
+          {
+            "kind": "quad",
+            "q": [
+              0,
+              1,
+              3
+            ]
+          }
+        ]
+      ]
+    }
+  }
+]

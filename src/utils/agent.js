@@ -147,7 +147,7 @@ export function strategy({ rd, weak, untried, plan, top }) {
     if (!rd.usedCat) steps.push('Perkiraan masih dari latihan biasa. Lakukan minimal 2 simulasi CAT penuh agar perkiraan lebih mendekati kondisi ujian.')
     for (const s of rd.sections) {
       if (s.estimate == null) steps.push(`${s.category}: belum ada data. Kerjakan latihan ${s.category} dulu.`)
-      else if (s.gap < 0) steps.push(`${s.category}: perkiraan ${s.estimate} masih di bawah ambang referensi ${s.threshold} (kurang ${-s.gap}). Ini penentu utama karena setiap subtes harus mencapai ambang. Jadikan prioritas pertama.`)
+      else if (s.gap < 0) steps.push(`${s.category}: perkiraan ${s.estimate} masih di bawah ambang batas ${s.threshold} (kurang ${-s.gap}). Ini penentu utama karena setiap subtes harus mencapai ambang. Jadikan prioritas pertama.`)
       else if (s.gap < s.threshold * 0.1) steps.push(`${s.category}: perkiraan ${s.estimate}, hanya ${s.gap} di atas ambang ${s.threshold}. Rawan turun saat ujian; beri margin aman.`)
       else steps.push(`${s.category}: perkiraan ${s.estimate}, aman di atas ambang ${s.threshold}. Jaga lewat latihan singkat rutin.`)
     }
@@ -165,7 +165,7 @@ export function agentBrief({ agent, rd, weak, untried, plan, eligible, excluded 
     profil: { jurusan: agent.major, jenjang: agent.degree, preferensi_lokasi: agent.location || null },
     sisa_hari_ke_ujian: daysUntil(plan?.examDate),
     kesiapan_skd: { sumber: rd.source, subtes: rd.sections.map((s) => ({ subtes: s.category, perkiraan: s.estimate, ambang_referensi: s.threshold, maks: s.max, jumlah_jawaban: s.n })) },
-    ambang_catatan: 'Ambang dari referensi pola 2024, belum diverifikasi untuk 2026.',
+    ambang_catatan: 'Ambang kebutuhan umum dari Kepmenpan-RB 674/2026 (TWK 65, TIU 80, TKP 166). Bobot SKD:SKB dan aturan hasil akhir ada di Permenpan-RB 18/2026 dan belum dimasukkan.',
     titik_lemah: weak.map((w) => ({ topik: w.topic.name, indikator: w.text, akurasi_persen: Math.round(w.acc * 100), jumlah_jawaban: w.n })),
     indikator_belum_dicoba: untried.map((u) => ({ topik: u.topic.name, indikator: u.text })),
     lowongan_layak: eligible.slice(0, 8).map((e, i) => ({ peringkat: i + 1, instansi: e.v.instansi, jabatan: e.v.jabatan, lokasi: e.v.lokasi, jenis_formasi: e.v.jenis, kuota: e.v.kuota, pelamar: e.v.pelamar, kelinearan: e.lin.label, persaingan: e.comp.label, nilai_gabungan: e.score, kelompok: e.tier, tutup: e.v.tutup || null, catatan: e.v.catatan || null })),
@@ -176,7 +176,7 @@ export function agentBrief({ agent, rd, weak, untried, plan, eligible, excluded 
 export const AGENT_SYSTEM = `Anda adalah agen penasihat seleksi CPNS untuk satu pengguna. Anda menerima ringkasan JSON yang sudah dihitung aplikasi (kemampuan, titik lemah, dan daftar lowongan yang diunggah pengguna). Tugas: menjelaskan dan menyusun saran strategi dalam bahasa Indonesia.
 Aturan keras:
 - Gunakan HANYA data dalam ringkasan. Jangan menambah lowongan, kuota, jumlah pelamar, tanggal, nilai ambang, atau aturan seleksi yang tidak ada di sana. Bila perlu informasi lain, katakan bahwa pengguna harus memeriksa pengumuman resmi (portal SSCASN/instansi).
-- Nilai ambang dan perkiraan skor adalah referensi internal, bukan standar resmi 2026. Jangan menyatakan pengguna pasti lulus atau tidak lulus; jelaskan sebagai perkiraan dan sebut ketidakpastiannya.
+- Nilai ambang berasal dari Kepmenpan-RB 674/2026 (kebutuhan umum); perkiraan skor adalah estimasi belajar, bukan hasil resmi. Jangan menyatakan pengguna pasti lulus atau tidak lulus; jelaskan sebagai perkiraan dan sebut ketidakpastiannya.
 - Kelinearan jurusan di ringkasan adalah pencocokan teks otomatis; ingatkan pengguna mencocokkannya dengan daftar resmi pada pengumuman formasi.
 - Format: judul bagian diawali "## ", butir diawali "- ". Tanpa tabel. Bagian: "## Gambaran kemampuan", "## Rekomendasi lowongan" (untuk tiap lowongan teratas: alasan, peluang, kecocokan jurusan, risiko), "## Strategi langkah demi langkah" (urut waktu, konkret, tautkan ke titik lemah), "## Hal yang perlu Anda pastikan".
 - Ringkas dan praktis, maksimal sekitar 450 kata.`

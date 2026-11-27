@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "TIU-VER-ANALOGI-001",
+    "category": "TIU",
+    "topic_id": "TIU-VER-ANALOGI",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Dokter : Stetoskop = Petani : ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sawah"
+      },
+      {
+        "key": "B",
+        "text": "Cangkul"
+      },
+      {
+        "key": "C",
+        "text": "Padi"
+      },
+      {
+        "key": "D",
+        "text": "Pupuk"
+      },
+      {
+        "key": "E",
+        "text": "Desa"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Hubungannya profesi dan alat kerjanya. Alat petani: cangkul.",
+      "detailed": "1) Tipe: analogi profesi-alat. 2) Dokter menggunakan stetoskop untuk memeriksa. 3) Padanan: petani menggunakan cangkul. Sawah adalah tempat, padi adalah hasil, pupuk adalah bahan."
+    },
+    "status": "arsip-2024",
+    "source": "original",
+    "verified": false,
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-VER-ANALOGI-101",
+    "category": "TIU",
+    "topic_id": "TIU-VER-ANALOGI",
+    "indicator": 1,
+    "difficulty": 1,
+    "stem": "Cemas : Khawatir = Gembira : ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sedih"
+      },
+      {
+        "key": "B",
+        "text": "Bimbang"
+      },
+      {
+        "key": "C",
+        "text": "Lelah"
+      },
+      {
+        "key": "D",
+        "text": "Marah"
+      },
+      {
+        "key": "E",
+        "text": "Senang"
+      }
+    ],
+    "answer": "E",
+    "explanation": {
+      "quick": "Hubungan: sinonim. Maka Gembira berpasangan dengan Senang.",
+      "detailed": "1) Tentukan hubungan pasangan pertama: sinonim. 2) Terapkan hubungan yang sama pada Gembira. 3) Jawaban Senang. Opsi lain tidak memiliki hubungan yang sama."
+    },
+    "tags": [
+      "analogi",
+      "sinonim"
+    ],
+    "status": "arsip-2024",
+    "source": "original",
+    "verified": false,
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-VER-ANALOGI-102",
+    "category": "TIU",
+    "topic_id": "TIU-VER-ANALOGI",
+    "indicator": 1,
+    "difficulty": 1,
+    "stem": "Hemat : Boros = Rajin : ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pandai"
+      },
+      {
+        "key": "B",
+        "text": "Malas"
+      },
+      {
+        "key": "C",
+        "text": "Giat"
+      },
+      {
+        "key": "D",
+        "text": "Cermat"
+      },
+      {
+        "key": "E",
+        "text": "Tekun"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Hubungan: antonim. Maka Rajin berpasangan dengan Malas.",
+      "detailed": "1) Tentukan hubungan pasangan pertama: antonim. 2) Terapkan hubungan yang sama pada Rajin. 3) Jawaban Malas. Opsi lain tidak memiliki hubungan yang sama."
+    },
+    "tags": [
+      "analogi",
+      "antonim"
+    ],
+    "status": "arsip-2024",
+    "source": "original",
+    "verified": false,
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-VER-ANALOGI-103",
+    "category": "TIU",
+    "topic_id": "TIU-VER-ANALOGI",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Roda : Mobil = Daun : ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tanah"
+      },
+      {
+        "key": "B",
+        "text": "Pohon"
+      },
+      {
+        "key": "C",
+        "text": "Akar"
+      },
+      {
+        "key": "D",
+        "text": "Hutan"
+      },
+      {
+        "key": "E",
+        "text": "Buah"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Hubungan: bagian-keseluruhan. Maka Daun berpasangan dengan Pohon.",
+      "detailed": "1) Tentukan hubungan pasangan pertama: bagian-keseluruhan. 2) Terapkan hubungan yang sama pada Daun. 3) Jawaban Pohon. Opsi lain tidak memiliki hubungan yang sama."
+    },
+    "tags": [
+      "analogi",
+      "bagian-keseluruhan"
+    ],
+    "status": "arsip-2024",
+    "source": "original",
+    "verified": false,
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-VER-ANALOGI-104",
+    "category": "TIU",
+    "topic_id": "TIU-VER-ANALOGI",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Malas : Gagal = Tekun : ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pintar"
+      },
+      {
+        "key": "B",
+        "text": "Sibuk"
+      },
+      {
+        "key": "C",
+        "text": "Berhasil"
+      },
+      {
+        "key": "D",
+        "text": "Belajar"
+      },
+      {
+        "key": "E",
+        "text": "Lelah"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "quick": "Hubungan: sebab-akibat. Maka Tekun berpasangan dengan Berhasil.",
+      "detailed": "1) Tentukan hubungan pasangan pertama: sebab-akibat. 2) Terapkan hubungan yang sama pada Tekun. 3) Jawaban Berhasil. Opsi lain tidak memiliki hubungan yang sama."
+    },
+    "tags": [
+      "analogi",
+      "sebab-akibat"
+    ],
+    "status": "arsip-2024",
+    "source": "original",
+    "verified": false,
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-VER-ANALOGI-105",
+    "category": "TIU",
+    "topic_id": "TIU-VER-ANALOGI",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Dokter : Rumah sakit = Hakim : ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pengadilan"
+      },
+      {
+        "key": "B",
+        "text": "Putusan"
+      },
+      {
+        "key": "C",
+        "text": "Terdakwa"
+      },
+      {
+        "key": "D",
+        "text": "Hukum"
+      },
+      {
+        "key": "E",
+        "text": "Palu"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Hubungan: profesi dan tempat kerja. Maka Hakim berpasangan dengan Pengadilan.",
+      "detailed": "1) Tentukan hubungan pasangan pertama: profesi dan tempat kerja. 2) Terapkan hubungan yang sama pada Hakim. 3) Jawaban Pengadilan. Opsi lain tidak memiliki hubungan yang sama."
+    },
+    "tags": [
+      "analogi",
+      "profesi dan tempat kerja"
+    ],
+    "status": "arsip-2024",
+    "source": "original",
+    "verified": false,
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-VER-ANALOGI-106",
+    "category": "TIU",
+    "topic_id": "TIU-VER-ANALOGI",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Pisau : Memotong = Kompor : ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Memasak"
+      },
+      {
+        "key": "B",
+        "text": "Api"
+      },
+      {
+        "key": "C",
+        "text": "Gas"
+      },
+      {
+        "key": "D",
+        "text": "Dapur"
+      },
+      {
+        "key": "E",
+        "text": "Panci"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Hubungan: alat dan fungsinya. Maka Kompor berpasangan dengan Memasak.",
+      "detailed": "1) Tentukan hubungan pasangan pertama: alat dan fungsinya. 2) Terapkan hubungan yang sama pada Kompor. 3) Jawaban Memasak. Opsi lain tidak memiliki hubungan yang sama."
+    },
+    "tags": [
+      "analogi",
+      "alat dan fungsinya"
+    ],
+    "status": "arsip-2024",
+    "source": "original",
+    "verified": false,
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-VER-ANALOGI-107",
+    "category": "TIU",
+    "topic_id": "TIU-VER-ANALOGI",
+    "indicator": 1,
+    "difficulty": 1,
+    "stem": "Dingin : Beku = Panas : ...",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hangat"
+      },
+      {
+        "key": "B",
+        "text": "Sejuk"
+      },
+      {
+        "key": "C",
+        "text": "Api"
+      },
+      {
+        "key": "D",
+        "text": "Kering"
+      },
+      {
+        "key": "E",
+        "text": "Mendidih"
+      }
+    ],
+    "answer": "E",
+    "explanation": {
+      "quick": "Hubungan: tingkatan (derajat ekstrem). Maka Panas berpasangan dengan Mendidih.",
+      "detailed": "1) Tentukan hubungan pasangan pertama: tingkatan (derajat ekstrem). 2) Terapkan hubungan yang sama pada Panas. 3) Jawaban Mendidih. Opsi lain tidak memiliki hubungan yang sama."
+    },
+    "tags": [
+      "analogi",
+      "tingkatan (derajat ekstrem)"
+    ],
+    "status": "arsip-2024",
+    "source": "original",
+    "verified": false,
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-FIG-KETIDAKSAMAAN-101",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
+    "stem_svg": null,
+    "stem_alt": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "segitiga kosong, titik di kiri, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"segitiga kosong, titik di kiri, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" fill=\"none\"/><rect x=\"27\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "belah ketupat hitam, titik di atas, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat hitam, titik di atas, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "segitiga hitam, titik di bawah, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"segitiga hitam, titik di bawah, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "persegi hitam, titik di atas, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi hitam, titik di atas, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "persegi hitam, titik di kiri, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi hitam, titik di kiri, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Empat gambar memiliki isi yang sama (hitam); satu gambar berbeda (kosong).",
+      "detailed": "1) Periksa atribut satu per satu: bentuk, isi, posisi titik, jumlah tanda. 2) Pada atribut 'isi', empat gambar bernilai hitam, sedangkan satu gambar bernilai kosong. 3) Atribut lain bervariasi sehingga tidak ada gambar lain yang berbeda sendirian."
+    },
+    "tags": [
+      "figural",
+      "ketidaksamaan",
+      "isi"
+    ],
+    "status": "arsip-2024",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "odd",
+      "attr": "isi",
+      "singled": [
+        "isi"
+      ],
+      "option_states": [
+        [
+          "triangle",
+          0,
+          3,
+          3
+        ],
+        [
+          "diamond",
+          1,
+          0,
+          2
+        ],
+        [
+          "triangle",
+          1,
+          2,
+          2
+        ],
+        [
+          "square",
+          1,
+          0,
+          3
+        ],
+        [
+          "square",
+          1,
+          3,
+          3
+        ]
+      ]
+    },
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-FIG-KETIDAKSAMAAN-102",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
+    "stem_svg": null,
+    "stem_alt": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "segitiga kosong, titik di bawah, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"segitiga kosong, titik di bawah, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" fill=\"none\"/><rect x=\"32\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "persegi hitam, titik di kanan, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi hitam, titik di kanan, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "lingkaran hitam, titik di atas, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran hitam, titik di atas, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "segitiga hitam, titik di kanan, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"segitiga hitam, titik di kanan, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "lingkaran hitam, titik di atas, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran hitam, titik di atas, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Empat gambar memiliki isi yang sama (hitam); satu gambar berbeda (kosong).",
+      "detailed": "1) Periksa atribut satu per satu: bentuk, isi, posisi titik, jumlah tanda. 2) Pada atribut 'isi', empat gambar bernilai hitam, sedangkan satu gambar bernilai kosong. 3) Atribut lain bervariasi sehingga tidak ada gambar lain yang berbeda sendirian."
+    },
+    "tags": [
+      "figural",
+      "ketidaksamaan",
+      "isi"
+    ],
+    "status": "arsip-2024",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "odd",
+      "attr": "isi",
+      "singled": [
+        "isi"
+      ],
+      "option_states": [
+        [
+          "triangle",
+          0,
+          2,
+          2
+        ],
+        [
+          "square",
+          1,
+          1,
+          3
+        ],
+        [
+          "circle",
+          1,
+          0,
+          3
+        ],
+        [
+          "triangle",
+          1,
+          1,
+          2
+        ],
+        [
+          "circle",
+          1,
+          0,
+          1
+        ]
+      ]
+    },
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-FIG-KETIDAKSAMAAN-103",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
+    "stem_svg": null,
+    "stem_alt": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "lingkaran hitam, titik di bawah, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran hitam, titik di bawah, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "belah ketupat kosong, titik di kiri, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat kosong, titik di kiri, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "lingkaran hitam, titik di bawah, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran hitam, titik di bawah, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "lingkaran hitam, titik di bawah, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran hitam, titik di bawah, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "lingkaran kosong, titik di bawah, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran kosong, titik di bawah, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "quick": "Empat gambar memiliki bentuk yang sama (lingkaran); satu gambar berbeda (belah ketupat).",
+      "detailed": "1) Periksa atribut satu per satu: bentuk, isi, posisi titik, jumlah tanda. 2) Pada atribut 'bentuk', empat gambar bernilai lingkaran, sedangkan satu gambar bernilai belah ketupat. 3) Atribut lain bervariasi sehingga tidak ada gambar lain yang berbeda sendirian."
+    },
+    "tags": [
+      "figural",
+      "ketidaksamaan",
+      "bentuk"
+    ],
+    "status": "arsip-2024",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "odd",
+      "attr": "bentuk",
+      "singled": [
+        "bentuk",
+        "bentuk bersisi lurus (bukan lingkaran)",
+        "posisi titik",
+        "sumbu titik (mendatar/tegak)"
+      ],
+      "option_states": [
+        [
+          "circle",
+          1,
+          2,
+          2
+        ],
+        [
+          "diamond",
+          0,
+          3,
+          2
+        ],
+        [
+          "circle",
+          1,
+          2,
+          3
+        ],
+        [
+          "circle",
+          1,
+          2,
+          1
+        ],
+        [
+          "circle",
+          0,
+          2,
+          2
+        ]
+      ]
+    },
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-FIG-KETIDAKSAMAAN-104",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+    "indicator": 0,
+    "difficulty": 1,
+    "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
+    "stem_svg": null,
+    "stem_alt": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "segitiga hitam, titik di bawah, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"segitiga hitam, titik di bawah, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "belah ketupat kosong, titik di kanan, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat kosong, titik di kanan, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "belah ketupat kosong, titik di atas, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat kosong, titik di atas, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "belah ketupat kosong, titik di kiri, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat kosong, titik di kiri, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "belah ketupat hitam, titik di kiri, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat hitam, titik di kiri, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Empat gambar memiliki bentuk yang sama (belah ketupat); satu gambar berbeda (segitiga).",
+      "detailed": "1) Periksa atribut satu per satu: bentuk, isi, posisi titik, jumlah tanda. 2) Pada atribut 'bentuk', empat gambar bernilai belah ketupat, sedangkan satu gambar bernilai segitiga. 3) Atribut lain bervariasi sehingga tidak ada gambar lain yang berbeda sendirian."
+    },
+    "tags": [
+      "figural",
+      "ketidaksamaan",
+      "bentuk"
+    ],
+    "status": "arsip-2024",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "odd",
+      "attr": "bentuk",
+      "singled": [
+        "bentuk"
+      ],
+      "option_states": [
+        [
+          "triangle",
+          1,
+          2,
+          3
+        ],
+        [
+          "diamond",
+          0,
+          1,
+          2
+        ],
+        [
+          "diamond",
+          0,
+          0,
+          2
+        ],
+        [
+          "diamond",
+          0,
+          3,
+          1
+        ],
+        [
+          "diamond",
+          1,
+          3,
+          3
+        ]
+      ]
+    },
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-FIG-KETIDAKSAMAAN-105",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+    "indicator": 0,
+    "difficulty": 2,
+    "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
+    "stem_svg": null,
+    "stem_alt": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "segitiga hitam, titik di atas, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"segitiga hitam, titik di atas, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "persegi kosong, titik di kiri, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi kosong, titik di kiri, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "persegi hitam, titik di bawah, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi hitam, titik di bawah, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "belah ketupat kosong, titik di bawah, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat kosong, titik di bawah, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "belah ketupat hitam, titik di kiri, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat hitam, titik di kiri, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "quick": "Empat gambar memiliki jumlah tanda yang sama (1 tanda); satu gambar berbeda (2 tanda).",
+      "detailed": "1) Periksa atribut satu per satu: bentuk, isi, posisi titik, jumlah tanda. 2) Pada atribut 'jumlah tanda', empat gambar bernilai 1 tanda, sedangkan satu gambar bernilai 2 tanda. 3) Atribut lain bervariasi sehingga tidak ada gambar lain yang berbeda sendirian."
+    },
+    "tags": [
+      "figural",
+      "ketidaksamaan",
+      "jumlah tanda"
+    ],
+    "status": "arsip-2024",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "odd",
+      "attr": "jumlah tanda",
+      "singled": [
+        "jumlah tanda"
+      ],
+      "option_states": [
+        [
+          "triangle",
+          1,
+          0,
+          1
+        ],
+        [
+          "square",
+          0,
+          3,
+          1
+        ],
+        [
+          "square",
+          1,
+          2,
+          2
+        ],
+        [
+          "diamond",
+          0,
+          2,
+          1
+        ],
+        [
+          "diamond",
+          1,
+          3,
+          1
+        ]
+      ]
+    },
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-FIG-KETIDAKSAMAAN-106",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+    "indicator": 0,
+    "difficulty": 2,
+    "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
+    "stem_svg": null,
+    "stem_alt": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "persegi kosong, titik di bawah, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi kosong, titik di bawah, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "segitiga hitam, titik di kiri, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"segitiga hitam, titik di kiri, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "lingkaran hitam, titik di atas, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran hitam, titik di atas, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "belah ketupat kosong, titik di kanan, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat kosong, titik di kanan, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "lingkaran kosong, titik di kanan, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran kosong, titik di kanan, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "quick": "Empat gambar memiliki jumlah tanda yang sama (2 tanda); satu gambar berbeda (3 tanda).",
+      "detailed": "1) Periksa atribut satu per satu: bentuk, isi, posisi titik, jumlah tanda. 2) Pada atribut 'jumlah tanda', empat gambar bernilai 2 tanda, sedangkan satu gambar bernilai 3 tanda. 3) Atribut lain bervariasi sehingga tidak ada gambar lain yang berbeda sendirian."
+    },
+    "tags": [
+      "figural",
+      "ketidaksamaan",
+      "jumlah tanda"
+    ],
+    "status": "arsip-2024",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "odd",
+      "attr": "jumlah tanda",
+      "singled": [
+        "jumlah tanda"
+      ],
+      "option_states": [
+        [
+          "square",
+          0,
+          2,
+          2
+        ],
+        [
+          "triangle",
+          1,
+          3,
+          2
+        ],
+        [
+          "circle",
+          1,
+          0,
+          3
+        ],
+        [
+          "diamond",
+          0,
+          1,
+          2
+        ],
+        [
+          "circle",
+          0,
+          1,
+          2
+        ]
+      ]
+    },
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-FIG-KETIDAKSAMAAN-107",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+    "indicator": 0,
+    "difficulty": 2,
+    "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
+    "stem_svg": null,
+    "stem_alt": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "segitiga kosong, titik di kiri, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"segitiga kosong, titik di kiri, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" fill=\"none\"/><rect x=\"32\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "persegi kosong, titik di kiri, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi kosong, titik di kiri, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "persegi kosong, titik di kiri, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi kosong, titik di kiri, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "belah ketupat hitam, titik di bawah, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat hitam, titik di bawah, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "persegi hitam, titik di kiri, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi hitam, titik di kiri, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "quick": "Empat gambar memiliki posisi titik yang sama (kiri); satu gambar berbeda (bawah).",
+      "detailed": "1) Periksa atribut satu per satu: bentuk, isi, posisi titik, jumlah tanda. 2) Pada atribut 'posisi titik', empat gambar bernilai kiri, sedangkan satu gambar bernilai bawah. 3) Atribut lain bervariasi sehingga tidak ada gambar lain yang berbeda sendirian."
+    },
+    "tags": [
+      "figural",
+      "ketidaksamaan",
+      "posisi titik"
+    ],
+    "status": "arsip-2024",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "odd",
+      "attr": "posisi titik",
+      "singled": [
+        "posisi titik",
+        "sumbu titik (mendatar/tegak)"
+      ],
+      "option_states": [
+        [
+          "triangle",
+          0,
+          3,
+          2
+        ],
+        [
+          "square",
+          0,
+          3,
+          1
+        ],
+        [
+          "square",
+          0,
+          3,
+          2
+        ],
+        [
+          "diamond",
+          1,
+          2,
+          1
+        ],
+        [
+          "square",
+          1,
+          3,
+          2
+        ]
+      ]
+    },
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-FIG-KETIDAKSAMAAN-108",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+    "indicator": 0,
+    "difficulty": 3,
+    "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
+    "stem_svg": null,
+    "stem_alt": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "belah ketupat kosong, titik di bawah, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat kosong, titik di bawah, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "persegi hitam, titik di atas, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi hitam, titik di atas, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "belah ketupat kosong, titik di atas, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat kosong, titik di atas, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "persegi kosong, titik di bawah, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi kosong, titik di bawah, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "persegi hitam, titik di kiri, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi hitam, titik di kiri, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": {
+      "quick": "Empat gambar memiliki sumbu titik (mendatar/tegak) yang sama (tegak (atas/bawah)); satu gambar berbeda (mendatar (kiri/kanan)).",
+      "detailed": "1) Periksa atribut satu per satu: bentuk, isi, posisi titik, jumlah tanda. 2) Pada atribut 'sumbu titik (mendatar/tegak)', empat gambar bernilai tegak (atas/bawah), sedangkan satu gambar bernilai mendatar (kiri/kanan). 3) Atribut lain bervariasi sehingga tidak ada gambar lain yang berbeda sendirian."
+    },
+    "tags": [
+      "figural",
+      "ketidaksamaan",
+      "sumbu titik (mendatar/tegak)"
+    ],
+    "status": "arsip-2024",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "odd",
+      "attr": "sumbu titik (mendatar/tegak)",
+      "singled": [
+        "sumbu titik (mendatar/tegak)"
+      ],
+      "option_states": [
+        [
+          "diamond",
+          0,
+          2,
+          3
+        ],
+        [
+          "square",
+          1,
+          0,
+          1
+        ],
+        [
+          "diamond",
+          0,
+          0,
+          1
+        ],
+        [
+          "square",
+          0,
+          2,
+          3
+        ],
+        [
+          "square",
+          1,
+          3,
+          2
+        ]
+      ]
+    },
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-FIG-KETIDAKSAMAAN-109",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+    "indicator": 0,
+    "difficulty": 3,
+    "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
+    "stem_svg": null,
+    "stem_alt": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "lingkaran kosong, titik di kiri, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran kosong, titik di kiri, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"32\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"42\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"9\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "belah ketupat hitam, titik di atas, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat hitam, titik di atas, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "segitiga hitam, titik di atas, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"segitiga hitam, titik di atas, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "segitiga hitam, titik di atas, 2 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"segitiga hitam, titik di atas, 2 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,20 61,57 19,57\" style=\"fill:currentColor\"/><rect x=\"32\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"42\" y=\"41\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "persegi hitam, titik di atas, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"persegi hitam, titik di atas, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" rx=\"2\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"9\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Empat gambar memiliki bentuk bersisi lurus (bukan lingkaran) yang sama (bersisi lurus); satu gambar berbeda (lingkaran).",
+      "detailed": "1) Periksa atribut satu per satu: bentuk, isi, posisi titik, jumlah tanda. 2) Pada atribut 'bentuk bersisi lurus (bukan lingkaran)', empat gambar bernilai bersisi lurus, sedangkan satu gambar bernilai lingkaran. 3) Atribut lain bervariasi sehingga tidak ada gambar lain yang berbeda sendirian."
+    },
+    "tags": [
+      "figural",
+      "ketidaksamaan",
+      "bentuk bersisi lurus (bukan lingkaran)"
+    ],
+    "status": "arsip-2024",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "odd",
+      "attr": "bentuk bersisi lurus (bukan lingkaran)",
+      "singled": [
+        "bentuk bersisi lurus (bukan lingkaran)",
+        "isi",
+        "posisi titik",
+        "sumbu titik (mendatar/tegak)"
+      ],
+      "option_states": [
+        [
+          "circle",
+          0,
+          3,
+          2
+        ],
+        [
+          "diamond",
+          1,
+          0,
+          1
+        ],
+        [
+          "triangle",
+          1,
+          0,
+          3
+        ],
+        [
+          "triangle",
+          1,
+          0,
+          2
+        ],
+        [
+          "square",
+          1,
+          0,
+          1
+        ]
+      ]
+    },
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  },
+  {
+    "id": "TIU-FIG-KETIDAKSAMAAN-110",
+    "category": "TIU",
+    "topic_id": "TIU-FIG-KETIDAKSAMAAN",
+    "indicator": 0,
+    "difficulty": 2,
+    "stem": "Manakah gambar yang berbeda dari keempat gambar lainnya?",
+    "stem_svg": null,
+    "stem_alt": null,
+    "options": [
+      {
+        "key": "A",
+        "text": "belah ketupat hitam, titik di kanan, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat hitam, titik di kanan, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"71\" cy=\"40\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "B",
+        "text": "belah ketupat hitam, titik di bawah, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"belah ketupat hitam, titik di bawah, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"40,17 63,40 40,63 17,40\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "C",
+        "text": "lingkaran hitam, titik di bawah, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran hitam, titik di bawah, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:var(--surface)\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "D",
+        "text": "lingkaran kosong, titik di bawah, 1 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran kosong, titik di bawah, 1 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      },
+      {
+        "key": "E",
+        "text": "lingkaran kosong, titik di bawah, 3 tanda",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" role=\"img\" aria-label=\"lingkaran kosong, titik di bawah, 3 tanda\" class=\"fig\"><g transform=\"translate(0 0)\"><rect x=\"1.5\" y=\"1.5\" width=\"77\" height=\"77\" rx=\"8\" fill=\"none\" style=\"stroke:var(--line)\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"40\" r=\"20\" fill=\"none\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"37\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\" stroke=\"none\" style=\"fill:currentColor\"/><circle cx=\"40\" cy=\"71\" r=\"5\" stroke=\"none\" style=\"fill:currentColor\"/></g></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "quick": "Empat gambar memiliki posisi titik yang sama (bawah); satu gambar berbeda (kanan).",
+      "detailed": "1) Periksa atribut satu per satu: bentuk, isi, posisi titik, jumlah tanda. 2) Pada atribut 'posisi titik', empat gambar bernilai bawah, sedangkan satu gambar bernilai kanan. 3) Atribut lain bervariasi sehingga tidak ada gambar lain yang berbeda sendirian."
+    },
+    "tags": [
+      "figural",
+      "ketidaksamaan",
+      "posisi titik"
+    ],
+    "status": "arsip-2024",
+    "source": "original-generated",
+    "verified": false,
+    "meta": {
+      "type": "odd",
+      "attr": "posisi titik",
+      "singled": [
+        "posisi titik",
+        "sumbu titik (mendatar/tegak)"
+      ],
+      "option_states": [
+        [
+          "diamond",
+          1,
+          1,
+          3
+        ],
+        [
+          "diamond",
+          1,
+          2,
+          1
+        ],
+        [
+          "circle",
+          1,
+          2,
+          1
+        ],
+        [
+          "circle",
+          0,
+          2,
+          1
+        ],
+        [
+          "circle",
+          0,
+          2,
+          3
+        ]
+      ]
+    },
+    "archived_reason": "Tidak ada di aspek TIU Kepmenpan-RB 674/2026"
+  }
+]

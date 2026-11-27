@@ -51,6 +51,28 @@ export function thresholdFor(section, n) {
   return { value: Math.round((section.threshold * n) / section.questions), approx: true, n }
 }
 
-export function catDurationSec(totalQuestions) {
-  return Math.round((examConfig.duration_minutes * 60 * totalQuestions) / examConfig.total_questions)
+/** Durasi simulasi; `netra` = disabilitas sensorik netra pada kebutuhan khusus disabilitas (130 menit). */
+export function catDurationSec(totalQuestions, netra = false) {
+  const minutes = netra ? examConfig.duration_minutes_netra : examConfig.duration_minutes
+  return Math.round((minutes * 60 * totalQuestions) / examConfig.total_questions)
 }
+
+/**
+ * Ambang batas untuk jenis kebutuhan. `counts` = jumlah soal per subtes pada set ini.
+ * Umum: ambang per subtes. Khusus: ambang kumulatif dan ambang TIU (diskalakan bila set diperkecil).
+ */
+export function needThresholds(need, counts) {
+  const spec = examConfig.needs[need]
+  if (!spec || spec.rule !== 'kumulatif_tiu') return null
+  const maxAll = examConfig.sections.reduce((a, s) => a + (counts[s.category] ?? 0) * (s.max_score / s.questions), 0)
+  const full = counts.TWK === 30 && counts.TIU === 35 && counts.TKP === 45
+  const tiuN = counts.TIU ?? 0
+  return {
+    cumulative: full ? spec.cumulative : Math.round((spec.cumulative * maxAll) / examConfig.max_total),
+    tiu: tiuN === 35 ? spec.tiu_min : Math.round((spec.tiu_min * tiuN) / 35),
+    approx: !full,
+  }
+}
+
+/** Jenis kebutuhan yang bisa disimulasikan (olahragawan memakai ambang relatif, tidak bisa disimulasikan). */
+export const NEED_KEYS = ['umum', 'cumlaude_diaspora', 'disabilitas_papua']

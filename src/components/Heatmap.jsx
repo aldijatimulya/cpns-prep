@@ -85,7 +85,7 @@ export function CatHistory({ attempts }) {
                     const x = sc[s.category]
                     if (!x) return <td key={s.category}>–</td>
                     total += x.points
-                    const ok = x.points >= (a.thresholds?.[s.category]?.value ?? Infinity)
+                    const ok = x.points >= (a.thresholds?.[s.category]?.value ?? Infinity) // ambang umum; kebutuhan khusus dinilai di halaman hasil
                     return <td key={s.category}>{x.points}/{x.max} {ok ? '✓' : ''}</td>
                   })}
                   <td><strong>{total}</strong></td>
@@ -96,7 +96,7 @@ export function CatHistory({ attempts }) {
           </tbody>
         </table>
       </div>
-      <p className="muted foot">✓ = mencapai ambang batas referensi 2024. * = set diperkecil, ambang batas diskalakan.</p>
+      <p className="muted foot">✓ = mencapai ambang batas subtes kebutuhan umum (Kepmenpan-RB 674/2026). Simulasi kebutuhan khusus dinilai kumulatif + TIU di halaman hasil. * = set diperkecil, ambang diskalakan.</p>
     </section>
   )
 }

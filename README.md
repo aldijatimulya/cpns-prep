@@ -1,4 +1,4 @@
-# CPNS Prep — MVP v3.0
+# CPNS Prep — v3.5 (selaras Kepmenpan-RB 674/2026)
 
 Alat bantu belajar pribadi untuk SKD CPNS. Bukan aplikasi resmi pemerintah.
 
@@ -41,7 +41,7 @@ Bank saat ini: `seed.json` (16 soal) + `bank-v1.json` (177 soal). Tambahkan file
 - Jangan menyalin soal asli CAT BKN.
 
 ## Konfigurasi ujian
-`src/data/exam-config/skd-ref-2024.json` berstatus referensi 2024. Saat aturan 2026 resmi keluar, buat file baru dan arahkan impor di `src/data/index.js`.
+`src/data/exam-config/skd-2026.json` mengikuti Kepmenpan-RB No. 674 Tahun 2026. `skd-ref-2024.json` dipertahankan sebagai arsip (tidak diimpor).
 
 ## Deploy GitHub Pages
 Isi secrets `VITE_SUPABASE_URL` dan `VITE_SUPABASE_ANON_KEY` di GitHub (lihat panduan). Push ke `main`; workflow `.github/workflows/deploy.yml` membangun dan mempublikasikan. Di Settings → Pages pilih Source: GitHub Actions. Router memakai hash (`#/`) sehingga tidak perlu pengaturan base path.
@@ -65,3 +65,8 @@ Bank soal SKB (menunggu isi SKB resmi). Login Google/Microsoft (bisa ditambah le
 - `/agent`: profil jurusan, unggah lowongan (CSV/JSON), kesiapan SKD, rekomendasi lowongan, strategi, analisis AI opsional.
 - Penyedia AI: Gemini (tier gratis), kompatibel OpenAI (DeepSeek dll), Claude. Kunci milik pengguna, tersimpan di browser.
 - Panduan: `docs/07-tutor-ai-dan-agent-ai.md`.
+
+## v3.5: Selaras Kepmenpan-RB 674/2026
+- Konfigurasi ujian, ambang umum dan khusus, kisi-kisi, materi, dan simulasi CAT diperbarui. Rincian dan tabel perubahan: `docs/09-pembaruan-kisi-2026.md`.
+- Baru: Penalaran induktif dan Penalaran matriks (materi + soal). Soal analogi verbal dan ketidaksamaan gambar diarsipkan.
+- Simulasi CAT: pilih jenis kebutuhan (umum, cum laude/diaspora, disabilitas/Papua) dan opsi durasi 130 menit untuk netra.

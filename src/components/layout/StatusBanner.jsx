@@ -1,14 +1,14 @@
-import { AlertTriangle } from 'lucide-react'
+import { Info } from 'lucide-react'
 import { examConfig } from '../../data'
 
 export default function StatusBanner() {
-  if (examConfig.status !== 'reference_unverified_2026') return null
+  if (examConfig.status !== 'official_kepmen_674_2026') return null
   return (
     <div className="banner" role="note">
-      <AlertTriangle size={18} aria-hidden="true" />
+      <Info size={18} aria-hidden="true" />
       <p>
-        <strong>Angka ujian masih referensi pola 2024.</strong> Jumlah soal, durasi, dan nilai ambang batas
-        belum diumumkan resmi untuk 2026. Pantau sscasn.bkn.go.id dan menpan.go.id. Soal di aplikasi ini
+        <strong>Mengacu Kepmenpan-RB No. 674 Tahun 2026.</strong> Komposisi SKD dan nilai ambang batas sudah sesuai SK.
+        Bobot SKD:SKB, materi SKB, dan aturan hasil akhir (Permenpan-RB 18/2026) belum tercakup. Soal di aplikasi ini
         berstatus <em>draft</em> sampai Anda verifikasi.
       </p>
     </div>

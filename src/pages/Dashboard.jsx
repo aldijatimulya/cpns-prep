@@ -150,7 +150,7 @@ export default function Dashboard() {
 
       <div className="infobar" role="note">
         <span className="ico-circle"><Megaphone size={22} aria-hidden="true" /></span>
-        <div><strong>Informasi Penting!</strong><p>Angka ujian di aplikasi ini masih referensi pola 2024. Pantau pengumuman resmi seleksi CPNS 2026 dan tetap belajar secara konsisten.</p></div>
+        <div><strong>Informasi Penting!</strong><p>Komposisi dan ambang batas SKD di aplikasi ini mengikuti Kepmenpan-RB No. 674 Tahun 2026. Bobot SKD:SKB, materi SKB, dan formasi tetap perlu dicek di pengumuman resmi (SSCASN dan instansi tujuan).</p></div>
         <a className="btn small ghost" href="https://sscasn.bkn.go.id" target="_blank" rel="noreferrer">Lihat Info →</a>
       </div>
 
@@ -169,9 +169,9 @@ export default function Dashboard() {
         <section className="card info">
           <h2>Informasi ujian</h2>
           <ul className="info-list">
-            <li><span>Status data</span><b>Referensi pola 2024</b></li>
+            <li><span>Status data</span><b>Kepmenpan-RB 674/2026</b></li>
             <li><span>Komposisi SKD</span><b>{examConfig.total_questions ?? 110} soal · {examConfig.duration_minutes ?? 100} menit</b></li>
-            <li><span>Ambang referensi</span><b>TWK {examConfig.sections[0].threshold} · TIU {examConfig.sections[1].threshold} · TKP {examConfig.sections[2].threshold}</b></li>
+            <li><span>Ambang umum</span><b>TWK {examConfig.sections[0].threshold} · TIU {examConfig.sections[1].threshold} · TKP {examConfig.sections[2].threshold}</b></li>
             <li><span>Tanggal ujian</span><b>{state.plan.examDate ? (left >= 0 ? `${left} hari lagi` : 'sudah lewat') : 'belum diatur'}</b></li>
           </ul>
           <p className="muted">Angka resmi 2026 belum diumumkan. Pantau sscasn.bkn.go.id dan menpan.go.id.</p>
@@ -215,7 +215,7 @@ export default function Dashboard() {
       ))}
       <p className="muted foot">
         Target internal Mastered: akurasi ≥ {masteredAccuracy * 100}% (≥10 jawaban, ≥2 sesi). Bukan standar
-        kelulusan resmi. Ambang batas referensi: TWK {examConfig.sections[0].threshold}, TIU {examConfig.sections[1].threshold}, TKP {examConfig.sections[2].threshold}.
+        kelulusan resmi. Ambang batas SKD kebutuhan umum: TWK {examConfig.sections[0].threshold}, TIU {examConfig.sections[1].threshold}, TKP {examConfig.sections[2].threshold}.
       </p>
     </>
   )

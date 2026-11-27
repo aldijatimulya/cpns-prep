@@ -136,6 +136,7 @@ table.heat th small, table.heat td small { font-weight: 400; }
 /* Soal figural (SVG). Warna mengikuti tema lewat currentColor dan variabel CSS. */
 .stemfig { color: var(--ink); margin: 0 0 14px; }
 .stemfig svg { width: 100%; max-width: 560px; height: auto; display: block; }
+.stemfig svg.square { max-width: 260px; }
 .options.fig { grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); }
 .options.fig .opt { flex-direction: column; align-items: center; gap: 6px; padding: 8px; }
 .figwrap { display: block; width: 100%; max-width: 104px; }

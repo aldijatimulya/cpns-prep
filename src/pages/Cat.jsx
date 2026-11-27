@@ -6,8 +6,8 @@ import { ClipboardCheck } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import RichText from '../components/RichText'
 import { useStore } from '../contexts/StoreContext'
-import { examConfig, isCorrect, maxPoints, pointsFor, questions, topicById } from '../data'
-import { catDurationSec, composeCat, thresholdFor } from '../utils/cat'
+import { examConfig, isCorrect, maxPoints, needTypes, pointsFor, questions, topicById } from '../data'
+import { NEED_KEYS, catDurationSec, composeCat, needThresholds, thresholdFor } from '../utils/cat'
 import { fmtTime, pct } from '../utils/stats'
 import { FigOptions, OptionSvg, StemFigure, hasFigureOptions } from '../components/FigureQuestion'
 
@@ -22,6 +22,9 @@ export default function Cat() {
 function CatSetup({ onStart }) {
   const { state } = useStore()
   const [onlyVerified, setOnlyVerified] = useState(false)
+  const [need, setNeed] = useState('umum')
+  const [netra, setNetra] = useState(false)
+  const isNetra = need === 'disabilitas_papua' && netra
   const pool = questions.filter((q) => !onlyVerified || state.verified.includes(q.id))
   const avail = Object.fromEntries(
     examConfig.sections.map((s) => [s.category, pool.filter((q) => q.category === s.category).length]),
@@ -35,7 +38,9 @@ function CatSetup({ onStart }) {
     onStart({
       id: `cat-${Date.now()}`,
       ...comp,
-      durationSec: catDurationSec(comp.questions.length),
+      need,
+      netra: isNetra,
+      durationSec: catDurationSec(comp.questions.length, isNetra),
       startedAt: Date.now(),
     })
   }
@@ -56,16 +61,33 @@ function CatSetup({ onStart }) {
       </PageHero>
       <div className="banner" role="note">
         <p>
-          Komposisi dan ambang batas memakai <strong>referensi pola 2024</strong> (belum resmi untuk 2026).
+          Komposisi (110 soal, 100 menit) dan ambang batas mengikuti <strong>Kepmenpan-RB No. 674 Tahun 2026</strong>.
           Pembagian subtopik di dalam tiap subtes adalah perkiraan belajar. Skor TKP memakai bobot ilustrasi,
           jadi hanya perkiraan kasar.
         </p>
       </div>
       <section className="card">
         <h2>Komposisi set ini</h2>
+        <label>
+          Jenis kebutuhan yang dilatih{' '}
+          <select value={need} onChange={(e) => setNeed(e.target.value)}>
+            {NEED_KEYS.map((k) => <option key={k} value={k}>{needTypes[k].label}</option>)}
+          </select>
+        </label>
+        <p className="muted">
+          {need === 'umum'
+            ? 'Setiap subtes harus mencapai ambang batas sendiri: TWK 65, TIU 80, TKP 166.'
+            : `Penilaian kumulatif: nilai total paling rendah ${needTypes[need].cumulative} dan nilai TIU paling rendah ${needTypes[need].tiu_min}.`}
+        </p>
+        {need === 'disabilitas_papua' && (
+          <label className="check">
+            <input type="checkbox" checked={netra} onChange={(e) => setNetra(e.target.checked)} />
+            Disabilitas sensorik netra (durasi {examConfig.duration_minutes_netra} menit)
+          </label>
+        )}
         <div className="table-wrap">
           <table>
-            <thead><tr><th>Subtes</th><th>Soal</th><th>Tersedia</th><th>Ambang batas</th></tr></thead>
+            <thead><tr><th>Subtes</th><th>Soal</th><th>Tersedia</th><th>{need === 'umum' ? 'Ambang batas' : 'Maks. skor'}</th></tr></thead>
             <tbody>
               {counts.map((c) => {
                 const t = thresholdFor(c, c.n)
@@ -74,7 +96,7 @@ function CatSetup({ onStart }) {
                     <td>{c.category}</td>
                     <td>{c.n} / {c.questions}</td>
                     <td>{c.avail}</td>
-                    <td>{t.value}{t.approx ? ' (diskalakan)' : ''}</td>
+                    <td>{need === 'umum' ? `${t.value}${t.approx ? ' (diskalakan)' : ''}` : c.max_score}</td>
                   </tr>
                 )
               })}
@@ -82,7 +104,7 @@ function CatSetup({ onStart }) {
           </table>
         </div>
         <p>
-          Total {total} soal · waktu {Math.round(catDurationSec(total) / 60)} menit.
+          Total {total} soal · waktu {Math.round(catDurationSec(total, isNetra) / 60)} menit.
           {partial
             ? ' Bank belum cukup untuk komposisi penuh, jadi set diperkecil proporsional dan ambang batas diskalakan (perkiraan).'
             : ' Komposisi penuh.'}
@@ -140,9 +162,13 @@ function CatSession({ session, onFinish }) {
     const thresholds = Object.fromEntries(
       examConfig.sections.map((s) => [s.category, thresholdFor(s, session.sections[s.category].n)]),
     )
+    const counts = Object.fromEntries(examConfig.sections.map((s) => [s.category, session.sections[s.category].n]))
     const attempt = {
       id: session.id,
       kind: 'cat',
+      need: session.need ?? 'umum',
+      netra: !!session.netra,
+      need_rule: needThresholds(session.need ?? 'umum', counts),
       date: new Date().toISOString(),
       scope: { category: 'ALL', topic: 'ALL' },
       timed: true,
@@ -271,7 +297,12 @@ function CatResult({ result, onAgain }) {
   const total = present.reduce((a, x) => a + x.points, 0)
   const totalMax = present.reduce((a, x) => a + x.max, 0)
   const totalTh = present.reduce((a, x) => a + x.th.value, 0)
-  const allOk = present.every((x) => x.ok)
+  const need = result.need ?? 'umum'
+  const rule = result.need_rule
+  const tiu = secs.find((x) => x.s.category === 'TIU')
+  const cumOk = rule ? total >= rule.cumulative : null
+  const tiuOk = rule && tiu && tiu.n > 0 ? tiu.points >= rule.tiu : null
+  const allOk = rule ? cumOk && tiuOk !== false : present.every((x) => x.ok)
 
   const topicRows = useMemo(() => {
     const m = {}
@@ -300,28 +331,34 @@ function CatResult({ result, onAgain }) {
         <h2>Skor per subtes</h2>
         <div className="table-wrap">
           <table>
-            <thead><tr><th>Subtes</th><th>Skor</th><th>Ambang batas (ref.)</th><th>Status</th></tr></thead>
+            <thead><tr><th>Subtes</th><th>Skor</th><th>Ambang batas</th><th>Status</th></tr></thead>
             <tbody>
-              {secs.filter((x) => x.n > 0).map((x) => (
-                <tr key={x.s.category}>
-                  <td>{x.s.category}{x.s.category === 'TKP' ? ' *' : ''}</td>
-                  <td>{x.points} / {x.max}</td>
-                  <td>{x.th.value}{x.th.approx ? ' (diskalakan)' : ''}</td>
-                  <td><span className={`pill ${x.ok ? 'st-ok' : 'st-weak'}`}>{x.ok ? 'Mencapai' : 'Belum mencapai'}</span></td>
-                </tr>
-              ))}
+              {secs.filter((x) => x.n > 0).map((x) => {
+                const isTiuRule = rule && x.s.category === 'TIU'
+                const okRow = rule ? (isTiuRule ? tiuOk : null) : x.ok
+                return (
+                  <tr key={x.s.category}>
+                    <td>{x.s.category}{x.s.category === 'TKP' ? ' *' : ''}</td>
+                    <td>{x.points} / {x.max}</td>
+                    <td>{rule ? (isTiuRule ? `${rule.tiu}${rule.approx ? ' (diskalakan)' : ''}` : '–') : `${x.th.value}${x.th.approx ? ' (diskalakan)' : ''}`}</td>
+                    <td>{okRow == null ? '–' : <span className={`pill ${okRow ? 'st-ok' : 'st-weak'}`}>{okRow ? 'Mencapai' : 'Belum mencapai'}</span>}</td>
+                  </tr>
+                )
+              })}
               <tr>
                 <td><strong>Total</strong></td>
                 <td><strong>{total} / {totalMax}</strong></td>
-                <td>{totalTh}</td>
-                <td><span className={`pill ${allOk ? 'st-ok' : 'st-weak'}`}>{allOk ? 'Semua subtes mencapai' : 'Ada subtes belum mencapai'}</span></td>
+                <td>{rule ? `${rule.cumulative}${rule.approx ? ' (diskalakan)' : ''}` : totalTh}</td>
+                <td><span className={`pill ${allOk ? 'st-ok' : 'st-weak'}`}>
+                  {rule ? (allOk ? 'Memenuhi ambang kumulatif dan TIU' : 'Belum memenuhi ambang') : (allOk ? 'Semua subtes mencapai' : 'Ada subtes belum mencapai')}
+                </span></td>
               </tr>
             </tbody>
           </table>
         </div>
         <p className="muted foot">
-          Ambang batas ini referensi pola 2024. Mencapainya bukan jaminan lolos karena peringkat dalam kuota formasi
-          yang menentukan. {result.partial && 'Set ini lebih kecil dari komposisi penuh, ambang batas diskalakan proporsional (perkiraan). '}
+          Ambang batas dari Kepmenpan-RB 674/2026 ({needTypes[need].label.toLowerCase()}). Mencapainya bukan jaminan lolos karena peringkat
+          dalam kuota formasi yang menentukan (peserta SKB paling banyak 3 kali kebutuhan jabatan). {result.partial && 'Set ini lebih kecil dari komposisi penuh, ambang batas diskalakan proporsional (perkiraan). '}
           * Skor TKP memakai bobot ilustrasi.
         </p>
       </section>

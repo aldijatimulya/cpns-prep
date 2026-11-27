@@ -36,21 +36,36 @@
       }
     ],
     "fakta": [
-      ["Lahirnya Pancasila", "1 Juni 1945 (Hari Lahir Pancasila)"],
-      ["Penetapan dasar negara", "18 Agustus 1945 oleh PPKI"],
-      ["Hari Kesaktian Pancasila", "1 Oktober"],
-      ["Lambang Garuda Pancasila", "jumlah bulu: sayap 17, ekor 8, bawah perisai 19, leher 45 (17-8-19-45 = 17 Agustus 1945)"]
+      [
+        "Lahirnya Pancasila",
+        "1 Juni 1945 (Hari Lahir Pancasila)"
+      ],
+      [
+        "Penetapan dasar negara",
+        "18 Agustus 1945 oleh PPKI"
+      ],
+      [
+        "Hari Kesaktian Pancasila",
+        "1 Oktober"
+      ],
+      [
+        "Lambang Garuda Pancasila",
+        "jumlah bulu: sayap 17, ekor 8, bawah perisai 19, leher 45 (17-8-19-45 = 17 Agustus 1945)"
+      ]
     ],
     "jebakan": [
       "Tertukar tanggal: 1 Juni (pidato Pancasila), 22 Juni (Piagam Jakarta), 18 Agustus (penetapan).",
       "Tertukar badan: BPUPKI merumuskan, PPKI mengesahkan.",
       "Rumusan Pancasila yang sah adalah yang ada di Pembukaan UUD 1945, bukan Piagam Jakarta atau pidato 1 Juni."
     ],
-    "sumber": ["Pembukaan UUD NRI 1945", "Risalah sidang BPUPKI dan PPKI", "UU No. 24 Tahun 2009 (lambang negara)"]
+    "sumber": [
+      "Pembukaan UUD NRI 1945",
+      "Risalah sidang BPUPKI dan PPKI",
+      "UU No. 24 Tahun 2009 (lambang negara)"
+    ]
   },
-
   "TWK-PIL-UUD1945": {
-    "ringkasan": "Fokus UUD 1945 untuk SKD: pasal-pasal kunci tentang hak dan kewajiban warga negara, tugas dan wewenang lembaga negara, serta fakta amandemen. Hafalkan nomor pasal dan kata kuncinya.",
+    "ringkasan": "Fokus UUD 1945 untuk SKD: pasal-pasal kunci tentang hak dan kewajiban warga negara, tugas dan wewenang lembaga negara, serta fakta amandemen. Hafalkan nomor pasal dan kata kuncinya. Sistem pemerintahan, trias politika, dan hubungan pusat-daerah kini dipelajari di topik ini sebagai bagian dari konsensus kebangsaan.",
     "indikator": [
       {
         "poin": [
@@ -89,23 +104,72 @@
           "Perubahan IV: penghapusan Dewan Pertimbangan Agung, anggaran pendidikan 20 persen, perekonomian dan kesejahteraan sosial, aturan peralihan.",
           "Pembukaan UUD 1945 tidak diubah. Nama resmi sesudah perubahan: Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
         ]
+      },
+      {
+        "poin": [
+          "Trias politika (Montesquieu): legislatif (membuat UU), eksekutif (melaksanakan UU), yudikatif (mengadili).",
+          "Indonesia memakai pembagian kekuasaan dengan checks and balances, bukan pemisahan murni.",
+          "Legislatif: MPR, DPR, DPD. Eksekutif: Presiden dan Wakil Presiden beserta menteri. Yudikatif: Mahkamah Agung dan badan peradilan di bawahnya serta Mahkamah Konstitusi (Pasal 24 ayat 2)."
+        ]
+      },
+      {
+        "poin": [
+          "Pasal 18: pemerintahan daerah terdiri atas provinsi, kabupaten, dan kota; masing-masing mengurus urusan pemerintahan sendiri menurut asas otonomi dan tugas pembantuan.",
+          "Gubernur berperan juga sebagai wakil pemerintah pusat di daerah (dekonsentrasi).",
+          "Kepala daerah dipilih secara demokratis; DPRD sebagai lembaga legislatif daerah.",
+          "Sistem pemerintahan presidensial: Presiden dipilih langsung, tidak bertanggung jawab kepada DPR, dan tidak dapat membubarkan DPR (Pasal 7C); menteri bertanggung jawab kepada Presiden.",
+          "Pembentukan UU: RUU dibahas dan disetujui bersama DPR dan Presiden (Pasal 20 ayat 2).",
+          "Contoh checks and balances: DPR mengawasi Presiden; Presiden memerlukan pertimbangan atau persetujuan DPR untuk hal tertentu (perjanjian, duta, amnesti, abolisi); MK menguji UU; pemberhentian Presiden melalui proses DPR, MK, dan MPR."
+        ]
       }
     ],
     "fakta": [
-      ["Pasal tentang negara hukum", "Pasal 1 ayat (3)"],
-      ["Bela negara", "Pasal 27 ayat (3) dan Pasal 30"],
-      ["Anggaran pendidikan", "Pasal 31 ayat (4): minimal 20 persen"],
-      ["Bumi, air, kekayaan alam", "Pasal 33 ayat (3)"],
-      ["Perubahan UUD", "4 kali, 1999 sampai 2002"]
+      [
+        "Pasal tentang negara hukum",
+        "Pasal 1 ayat (3)"
+      ],
+      [
+        "Bela negara",
+        "Pasal 27 ayat (3) dan Pasal 30"
+      ],
+      [
+        "Anggaran pendidikan",
+        "Pasal 31 ayat (4): minimal 20 persen"
+      ],
+      [
+        "Bumi, air, kekayaan alam",
+        "Pasal 33 ayat (3)"
+      ],
+      [
+        "Perubahan UUD",
+        "4 kali, 1999 sampai 2002"
+      ],
+      [
+        "Pemerintahan daerah",
+        "Pasal 18 UUD 1945"
+      ],
+      [
+        "Larangan pembubaran DPR",
+        "Pasal 7C"
+      ],
+      [
+        "RUU disetujui bersama",
+        "Pasal 20 ayat (2)"
+      ]
     ],
     "jebakan": [
       "Menguji UU terhadap UUD itu MK; menguji peraturan di bawah UU itu MA.",
       "DPD bukan lembaga legislasi penuh seperti DPR.",
-      "Anggota MPR terdiri atas DPR dan DPD; unsur utusan golongan sudah dihapus."
+      "Anggota MPR terdiri atas DPR dan DPD; unsur utusan golongan sudah dihapus.",
+      "Komisi Yudisial bukan pelaksana kekuasaan kehakiman.",
+      "Indonesia bukan sistem parlementer: Presiden tidak dapat dijatuhkan lewat mosi tidak percaya."
     ],
-    "sumber": ["UUD NRI 1945 (naskah setelah perubahan keempat)"]
+    "sumber": [
+      "UU No. 23 Tahun 2014",
+      "UUD NRI 1945",
+      "UUD NRI 1945 (naskah setelah perubahan keempat)"
+    ]
   },
-
   "TWK-PIL-NKRI": {
     "ringkasan": "NKRI mencakup cara pandang (wawasan nusantara), batas wilayah dan kedaulatan, ketahanan nasional, serta bentuk negara kesatuan dengan otonomi daerah.",
     "indikator": [
@@ -142,17 +206,30 @@
       }
     ],
     "fakta": [
-      ["Hari Nusantara", "13 Desember"],
-      ["ZEE", "200 mil laut"],
-      ["Laut teritorial", "12 mil laut"]
+      [
+        "Hari Nusantara",
+        "13 Desember"
+      ],
+      [
+        "ZEE",
+        "200 mil laut"
+      ],
+      [
+        "Laut teritorial",
+        "12 mil laut"
+      ]
     ],
     "jebakan": [
       "Landas kontinen (sampai 350 mil) berbeda dari ZEE (200 mil).",
       "Dekonsentrasi dan tugas pembantuan bukan desentralisasi."
     ],
-    "sumber": ["UUD NRI 1945", "UU No. 43 Tahun 2008", "UU No. 23 Tahun 2014", "UU No. 17 Tahun 1985"]
+    "sumber": [
+      "UUD NRI 1945",
+      "UU No. 43 Tahun 2008",
+      "UU No. 23 Tahun 2014",
+      "UU No. 17 Tahun 1985"
+    ]
   },
-
   "TWK-PIL-BHINNEKA": {
     "ringkasan": "Bhinneka Tunggal Ika berarti berbeda-beda tetapi tetap satu. Soal biasanya berupa asal semboyan, pasal terkait, dan sikap yang tepat dalam situasi keberagaman di tempat kerja.",
     "indikator": [
@@ -179,16 +256,24 @@
       }
     ],
     "fakta": [
-      ["Asal semboyan", "Kitab Sutasoma, Mpu Tantular"],
-      ["Pasal", "36A UUD 1945"]
+      [
+        "Asal semboyan",
+        "Kitab Sutasoma, Mpu Tantular"
+      ],
+      [
+        "Pasal",
+        "36A UUD 1945"
+      ]
     ],
     "jebakan": [
       "Pasal 36A (lambang), bukan 36 (bahasa) atau 35 (bendera).",
       "Jawaban terbaik pada soal konflik hampir selalu: dialog dan musyawarah, bukan hukuman sepihak atau pembiaran."
     ],
-    "sumber": ["UUD NRI 1945", "Kitab Sutasoma"]
+    "sumber": [
+      "UUD NRI 1945",
+      "Kitab Sutasoma"
+    ]
   },
-
   "TWK-NAS": {
     "ringkasan": "Nasionalisme: cinta tanah air dan mendahulukan kepentingan bangsa. Soal TWK menguji identitas nasional, urutan sejarah pergerakan, dan sikap menghadapi globalisasi.",
     "indikator": [
@@ -220,19 +305,33 @@
       }
     ],
     "fakta": [
-      ["Hari Kebangkitan Nasional", "20 Mei (Budi Utomo, 1908)"],
-      ["Hari Sumpah Pemuda", "28 Oktober 1928"],
-      ["Hari Pahlawan", "10 November"],
-      ["Hari Lahir Pancasila", "1 Juni"]
+      [
+        "Hari Kebangkitan Nasional",
+        "20 Mei (Budi Utomo, 1908)"
+      ],
+      [
+        "Hari Sumpah Pemuda",
+        "28 Oktober 1928"
+      ],
+      [
+        "Hari Pahlawan",
+        "10 November"
+      ],
+      [
+        "Hari Lahir Pancasila",
+        "1 Juni"
+      ]
     ],
     "jebakan": [
       "Budi Utomo (1908) bukan Sarekat Islam atau Indische Partij.",
       "Sumpah Pemuda berbunyi menjunjung bahasa persatuan, bukan berbahasa satu.",
       "Rengasdengklok bukan tempat proklamasi."
     ],
-    "sumber": ["UUD NRI 1945 Pasal 35-36B", "Buku sejarah nasional Indonesia"]
+    "sumber": [
+      "UUD NRI 1945 Pasal 35-36B",
+      "Buku sejarah nasional Indonesia"
+    ]
   },
-
   "TWK-INT": {
     "ringkasan": "Integritas dalam SKD menyangkut kejujuran, antikorupsi dan gratifikasi, serta nilai dasar dan kode etik ASN. Pola jawaban benar: menolak, melaporkan lewat jalur resmi, dan menjaga netralitas.",
     "indikator": [
@@ -265,16 +364,25 @@
       }
     ],
     "fakta": [
-      ["Batas lapor gratifikasi", "30 hari kerja ke KPK"],
-      ["Core values ASN", "BerAKHLAK (7 nilai)"]
+      [
+        "Batas lapor gratifikasi",
+        "30 hari kerja ke KPK"
+      ],
+      [
+        "Core values ASN",
+        "BerAKHLAK (7 nilai)"
+      ]
     ],
     "jebakan": [
       "Menerima dulu lalu melapor boleh, tetapi menolak lebih dulu adalah jawaban yang terbaik bila memungkinkan.",
       "Bingkisan yang berhubungan dengan jabatan bukan sekadar tanda terima kasih."
     ],
-    "sumber": ["UU No. 31 Tahun 1999 jo. UU No. 20 Tahun 2001", "UU No. 20 Tahun 2023 tentang ASN", "Materi antikorupsi KPK"]
+    "sumber": [
+      "UU No. 31 Tahun 1999 jo. UU No. 20 Tahun 2001",
+      "UU No. 20 Tahun 2023 tentang ASN",
+      "Materi antikorupsi KPK"
+    ]
   },
-
   "TWK-BELA": {
     "ringkasan": "Bela negara adalah hak dan kewajiban setiap warga negara. Hafalkan dasar hukum, bentuk dan nilai dasarnya, serta jenis ancaman.",
     "indikator": [
@@ -302,18 +410,27 @@
       }
     ],
     "fakta": [
-      ["Dasar konstitusional", "Pasal 27 ayat (3) dan Pasal 30"],
-      ["Dasar UU", "UU 3/2002 tentang Pertahanan Negara"]
+      [
+        "Dasar konstitusional",
+        "Pasal 27 ayat (3) dan Pasal 30"
+      ],
+      [
+        "Dasar UU",
+        "UU 3/2002 tentang Pertahanan Negara"
+      ]
     ],
     "jebakan": [
       "Bela negara bukan hanya bagi TNI.",
       "Peretasan oleh pihak asing biasanya ancaman nirmiliter (siber); gabungan beberapa bentuk disebut hibrida."
     ],
-    "sumber": ["UUD NRI 1945", "UU No. 3 Tahun 2002", "UU No. 23 Tahun 2019"]
+    "sumber": [
+      "UUD NRI 1945",
+      "UU No. 3 Tahun 2002",
+      "UU No. 23 Tahun 2019"
+    ]
   },
-
   "TWK-BHS": {
-    "ringkasan": "Bahasa negara mencakup kedudukan bahasa Indonesia, ejaan dan tata kalimat baku, serta pemahaman teks resmi. Latih membaca cepat: temukan gagasan utama di kalimat awal atau akhir paragraf.",
+    "ringkasan": "Bahasa negara mencakup kedudukan bahasa Indonesia, ejaan dan tata kalimat baku, serta pemahaman teks resmi. Latih membaca cepat: temukan gagasan utama di kalimat awal atau akhir paragraf. Menurut SK 674/2026, subtes ini menilai pengetahuan kebahasaan dan kemampuan berbahasa untuk memahami, menggunakan, mengevaluasi, dan merefleksi informasi, jadi pemahaman bacaan termasuk di sini.",
     "indikator": [
       {
         "poin": [
@@ -342,54 +459,44 @@
           "Membaca paragraf: ide pokok biasanya di kalimat pertama (deduktif), terakhir (induktif), atau di keduanya. Kalimat penjelas hanya mendukung ide pokok.",
           "Simpulan paragraf harus sesuai isi; hindari opsi yang memuat kata mutlak (selalu, tidak pernah) bila tidak disebut teks."
         ]
+      },
+      {
+        "poin": [
+          "Ide pokok: gagasan utama yang dikembangkan seluruh paragraf. Biasanya di kalimat awal, akhir, atau keduanya.",
+          "Simpulan: ringkasan isi yang tidak menambah informasi baru.",
+          "Pengecoh umum: opsi terlalu sempit (hanya detail), terlalu luas, atau benar di dunia nyata tetapi tidak ada dalam bacaan.",
+          "Hati-hati kata mutlak (selalu, semua, tidak pernah) yang tidak ada dalam teks.",
+          "Sinonim: kata yang maknanya sama atau sangat dekat. Antonim: kata yang maknanya berlawanan.",
+          "Pelajari kata baku dan kata serapan yang sering muncul, misalnya efektif, signifikan, eksplisit, implisit, akurat, kompeten.",
+          "Pilih padanan terdekat dengan mempertimbangkan bentuk kata (kata kerja dengan kata kerja).",
+          "Mengevaluasi dan merefleksi informasi: nilai apakah pernyataan didukung bacaan, apakah penalaran penulis runtut, dan apa implikasinya bagi situasi lain."
+        ]
       }
     ],
     "fakta": [
-      ["Bahasa negara", "UUD 1945 Pasal 36"],
-      ["Ejaan terbaru", "EBI Edisi V (2022)"],
-      ["UU kebahasaan", "UU 24/2009"]
+      [
+        "Bahasa negara",
+        "UUD 1945 Pasal 36"
+      ],
+      [
+        "Ejaan terbaru",
+        "EBI Edisi V (2022)"
+      ],
+      [
+        "UU kebahasaan",
+        "UU 24/2009"
+      ]
     ],
     "jebakan": [
       "Opsi yang benar secara isi tetapi tidak disebut dalam paragraf bukan simpulan teks.",
-      "Pilihan kata tidak baku sering terlihat wajar (mis. resiko, ijin, praktek)."
+      "Pilihan kata tidak baku sering terlihat wajar (mis. resiko, ijin, praktek).",
+      "Opsi yang tampak pintar tetapi tidak disebut dalam bacaan.",
+      "Mencampur sinonim dan antonim saat membaca cepat."
     ],
-    "sumber": ["UUD NRI 1945", "UU No. 24 Tahun 2009", "Pedoman EBI Edisi V, Kemendikbudristek"]
-  },
-
-  "TWK-SISTEM": {
-    "ringkasan": "Sistem pemerintahan dan tata negara: pembagian kekuasaan (trias politika), hubungan pusat dan daerah, serta hubungan antarlembaga negara. Topik pendukung; belum ada kepastian di indikator resmi, jadi pelajari setelah topik inti.",
-    "indikator": [
-      {
-        "poin": [
-          "Trias politika (Montesquieu): legislatif (membuat UU), eksekutif (melaksanakan UU), yudikatif (mengadili).",
-          "Indonesia memakai pembagian kekuasaan dengan checks and balances, bukan pemisahan murni.",
-          "Legislatif: MPR, DPR, DPD. Eksekutif: Presiden dan Wakil Presiden beserta menteri. Yudikatif: Mahkamah Agung dan badan peradilan di bawahnya serta Mahkamah Konstitusi (Pasal 24 ayat 2)."
-        ]
-      },
-      {
-        "poin": [
-          "Pasal 18: pemerintahan daerah terdiri atas provinsi, kabupaten, dan kota; masing-masing mengurus urusan pemerintahan sendiri menurut asas otonomi dan tugas pembantuan.",
-          "Gubernur berperan juga sebagai wakil pemerintah pusat di daerah (dekonsentrasi).",
-          "Kepala daerah dipilih secara demokratis; DPRD sebagai lembaga legislatif daerah."
-        ]
-      },
-      {
-        "poin": [
-          "Sistem pemerintahan presidensial: Presiden dipilih langsung, tidak bertanggung jawab kepada DPR, dan tidak dapat membubarkan DPR (Pasal 7C); menteri bertanggung jawab kepada Presiden.",
-          "Pembentukan UU: RUU dibahas dan disetujui bersama DPR dan Presiden (Pasal 20 ayat 2).",
-          "Contoh checks and balances: DPR mengawasi Presiden; Presiden memerlukan pertimbangan atau persetujuan DPR untuk hal tertentu (perjanjian, duta, amnesti, abolisi); MK menguji UU; pemberhentian Presiden melalui proses DPR, MK, dan MPR."
-        ]
-      }
-    ],
-    "fakta": [
-      ["Pemerintahan daerah", "Pasal 18 UUD 1945"],
-      ["Larangan pembubaran DPR", "Pasal 7C"],
-      ["RUU disetujui bersama", "Pasal 20 ayat (2)"]
-    ],
-    "jebakan": [
-      "Komisi Yudisial bukan pelaksana kekuasaan kehakiman.",
-      "Indonesia bukan sistem parlementer: Presiden tidak dapat dijatuhkan lewat mosi tidak percaya."
-    ],
-    "sumber": ["UUD NRI 1945", "UU No. 23 Tahun 2014"]
+    "sumber": [
+      "UUD NRI 1945",
+      "UU No. 24 Tahun 2009",
+      "Pedoman EBI Edisi V, Kemendikbudristek"
+    ]
   }
 }

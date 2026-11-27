@@ -1,13 +1,16 @@
 import curriculum from './curriculum/curriculum.json'
-import examConfig from './exam-config/skd-ref-2024.json'
+import examConfig from './exam-config/skd-2026.json'
 import seed from './questions/seed.json'
 import bankV1 from './questions/bank-v1.json'
 import bankV2 from './questions/bank-v2.json'
+import bankV3Induktif from './questions/bank-v3-induktif.json'
+import bankV3Matriks from './questions/bank-v3-matriks.json'
 import materiTwk from './materi/twk.json'
 import materiTiu from './materi/tiu.json'
 import materiTkp from './materi/tkp.json'
 
-const questions = [...seed, ...bankV1, ...bankV2]
+// arsip-2024.json (soal analogi verbal dan ketidaksamaan gambar) sengaja tidak diimpor: bukan aspek TIU 2026.
+const questions = [...seed, ...bankV1, ...bankV2, ...bankV3Induktif, ...bankV3Matriks]
 
 // Materi per topik (kunci = id topik di curriculum.json). Isi per indikator mengikuti urutan `indicators`.
 const materiAll = { ...materiTwk, ...materiTiu, ...materiTkp }
@@ -41,6 +44,9 @@ export const questionsForIndicator = (topicId, idx) =>
 
 /** Teks indikator sebuah soal, atau null. */
 export const indicatorText = (q) => topicById[q.topic_id]?.indicators?.[q.indicator] ?? null
+
+/** Jenis kebutuhan dan ambang batas dari Kepmenpan-RB 674/2026 (umum per subtes; khusus kumulatif + TIU). */
+export const needTypes = examConfig.needs
 
 export const targetSeconds = examConfig.internal_targets_not_official.seconds_per_question
 export const masteredAccuracy = examConfig.internal_targets_not_official.mastered_accuracy
