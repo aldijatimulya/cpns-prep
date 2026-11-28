@@ -7,7 +7,7 @@ import {
 
 const StoreContext = createContext(null)
 
-const hasData = (s) => s.attempts.length > 0 || Object.keys(s.notes).length > 0 || s.bookmarks.length > 0 || s.verified.length > 0 || s.skb.length > 0 || !!s.plan.examDate || (s.vacancies?.length ?? 0) > 0 || !!s.agent?.major
+const hasData = (s) => s.attempts.length > 0 || Object.keys(s.notes).length > 0 || s.bookmarks.length > 0 || s.verified.length > 0 || s.skb.length > 0 || !!s.plan.examDate || (s.vacancies?.length ?? 0) > 0 || !!s.agent?.major || !!s.skbTarget || Object.keys(s.skbModules ?? {}).length > 0
 
 // Penanda perbandingan yang tidak peduli urutan kunci (jsonb di server mengurutkan ulang kunci).
 const stable = (v) => JSON.stringify(v, (_, x) => (x && typeof x === 'object' && !Array.isArray(x) ? Object.fromEntries(Object.entries(x).sort(([a], [b]) => a.localeCompare(b))) : x))
@@ -234,10 +234,33 @@ export function StoreProvider({ children }) {
       importVacancies: (list, replace = false) => update((s) => {
         const base = replace ? [] : s.vacancies ?? []
         const ids = new Set(base.map((v) => v.id))
-        return { ...s, vacancies: [...base, ...list.filter((v) => !ids.has(v.id))].slice(0, 500) }
+        return { ...s, vacancies: [...base, ...list.filter((v) => !ids.has(v.id))].slice(0, 2000) }
       }),
       removeVacancy: (id) => update((s) => ({ ...s, vacancies: (s.vacancies ?? []).filter((v) => v.id !== id) })),
       clearVacancies: () => update((s) => ({ ...s, vacancies: [] })),
+      setSkbTarget: (target) => update((s) => ({ ...s, skbTarget: target })),
+      patchSkbTarget: (patch) => update((s) => (s.skbTarget ? { ...s, skbTarget: { ...s.skbTarget, ...patch } } : s)),
+      saveSkbModule: (key, patch) => update((s) => {
+        const mods = s.skbModules ?? {}
+        if (!mods[key] && Object.keys(mods).length >= 20) return s
+        const cur = mods[key] ?? { kisi: [], questions: [] }
+        return { ...s, skbModules: { ...mods, [key]: { ...cur, ...patch, updated: new Date().toISOString() } } }
+      }),
+      addSkbQuestions: (key, list) => update((s) => {
+        const mods = s.skbModules ?? {}
+        const cur = mods[key] ?? { kisi: [], questions: [] }
+        return { ...s, skbModules: { ...mods, [key]: { ...cur, questions: [...cur.questions, ...list].slice(0, 400), updated: new Date().toISOString() } } }
+      }),
+      removeSkbQuestion: (key, id) => update((s) => {
+        const cur = s.skbModules?.[key]
+        return cur ? { ...s, skbModules: { ...s.skbModules, [key]: { ...cur, questions: cur.questions.filter((q) => q.id !== id) } } } : s
+      }),
+      toggleSkbVerified: (key, id) => update((s) => {
+        const cur = s.skbModules?.[key]
+        return cur ? { ...s, skbModules: { ...s.skbModules, [key]: { ...cur, questions: cur.questions.map((q) => (q.id === id ? { ...q, verified: !q.verified } : q)) } } } : s
+      }),
+      removeSkbModule: (key) => update((s) => { const { [key]: _x, ...rest } = s.skbModules ?? {}; return { ...s, skbModules: rest } }),
+      addSkbRun: (run) => update((s) => ({ ...s, skbRuns: [...(s.skbRuns ?? []), run].slice(-40) })),
       reset: () => {
         if (uid && key) saveMeta(key, { ...loadMeta(key), wipe: true, synced: [] })
         update((s) => ({ ...emptyState(), profile: s.profile }))

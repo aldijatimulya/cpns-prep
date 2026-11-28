@@ -1,6 +1,7 @@
 // Mesin analisis Agent AI: kecocokan jurusan, perkiraan peluang, kesiapan SKD, titik lemah, dan strategi.
 // Seluruhnya aturan deterministik di perangkat; AI (opsional) hanya menjelaskan hasilnya.
-import { examConfig, questionById, topicById } from '../data'
+import { examConfig, needTypes, questionById, topicById } from '../data'
+import { skbQuota } from './skb'
 
 const STOP = new Set(['dan', 'atau', 'program', 'studi', 'prodi', 'jurusan', 'ilmu', 'ilmu-ilmu', 'bidang', 'dengan', 'untuk', 'pada', 'di', 's1', 's2', 'd3', 'd4', 'sarjana', 'the', 'of'])
 const ALL = /semua\s*(jurusan|prodi|program)|^semua$|seluruh\s*(jurusan|prodi)|^all\b|segala\s*jurusan/i
@@ -39,6 +40,24 @@ const degreeOk = (userDegree, vacancy) => {
   const u = userDegree.toUpperCase().replace(/\s+/g, '')
   const eq = (x) => (x === 'D4' ? 'S1' : x)
   return vacancy.jenjang.some((j) => eq(j) === eq(u))
+}
+
+/** Kesiapan terhadap ambang jenis kebutuhan: umum = per subtes; khusus = total kumulatif + TIU. Hanya bila ketiga subtes terukur. */
+export function readinessForNeed(rd, needKey) {
+  const spec = needTypes[needKey] ?? needTypes.umum
+  if (spec.rule === 'relatif') return { rule: 'relatif', label: spec.label, ok: null, text: 'Ambang berupa nilai terendah pelamar formasi ini; tidak bisa dihitung sebelum seleksi.' }
+  if (spec.rule !== 'kumulatif_tiu') {
+    const miss = rd.sections.filter((s) => s.gap != null && s.gap < 0).map((s) => `${s.category} (kurang ${-s.gap})`)
+    return { rule: 'per_subtes', label: spec.label, ok: rd.allKnown ? miss.length === 0 : null, text: rd.allKnown ? (miss.length ? `Belum mencapai ambang: ${miss.join(', ')}.` : 'Perkiraan semua subtes sudah di atas ambang umum.') : 'Perkiraan belum lengkap untuk semua subtes.' }
+  }
+  const tiu = rd.sections.find((s) => s.category === 'TIU')
+  const cumGap = rd.allKnown ? rd.total - spec.cumulative : null
+  const tiuGap = tiu?.estimate != null ? tiu.estimate - spec.tiu_min : null
+  const ok = rd.allKnown ? cumGap >= 0 && tiuGap >= 0 : null
+  const parts = []
+  if (cumGap != null) parts.push(`total ${rd.total} dari ${spec.cumulative}${cumGap < 0 ? ` (kurang ${-cumGap})` : ''}`)
+  if (tiuGap != null) parts.push(`TIU ${tiu.estimate} dari ${spec.tiu_min}${tiuGap < 0 ? ` (kurang ${-tiuGap})` : ''}`)
+  return { rule: 'kumulatif_tiu', label: spec.label, ok, text: parts.length ? `Perkiraan: ${parts.join('; ')}.` : 'Perkiraan belum lengkap untuk semua subtes.' }
 }
 
 export function competition(v) {
@@ -119,11 +138,13 @@ export function recommend(vacancies, agent, attempts) {
     const score = Math.round((lin.score * 0.45 + comp.score * 0.3 + rd.score * 0.25) * 100)
     const reasons = [`Jurusan: ${lin.label}${lin.best && lin.level !== 'terbuka' ? ` (cocok dengan "${lin.best}")` : ''}.`]
     reasons.push(`Persaingan: ${comp.label}.`)
-    if (v.kuota != null) reasons.push(`Kuota formasi: ${v.kuota}.`)
+    if (v.kuota != null) reasons.push(`Kuota formasi: ${v.kuota}${skbQuota(v.kuota) ? `; peserta SKB paling banyak ${skbQuota(v.kuota)} (3 kali kebutuhan)` : ''}.`)
+    const needInfo = readinessForNeed(rd, v.jenis_key ?? 'umum')
+    reasons.push(`Ambang SKD (${needInfo.label.toLowerCase()}): ${needInfo.text}`)
     if (agent.location && v.lokasi && norm(v.lokasi).includes(norm(agent.location))) reasons.push('Lokasi sesuai preferensi Anda.')
     const locBonus = agent.location && v.lokasi && norm(v.lokasi).includes(norm(agent.location)) ? 3 : 0
     const tier = lin.level === 'linear' && comp.score >= 0.4 ? 'Prioritas utama' : lin.level === 'linear' ? 'Linear, persaingan berat' : lin.level === 'mungkin' ? 'Cek kelinearan' : 'Alternatif (jurusan terbuka)'
-    eligible.push({ v, lin, comp, score: Math.min(100, score + locBonus), tier, reasons })
+    eligible.push({ v, lin, comp, score: Math.min(100, score + locBonus), tier, reasons, need: needInfo })
   }
   eligible.sort((a, b) => b.score - a.score)
   return { rd, eligible, excluded }
@@ -168,7 +189,7 @@ export function agentBrief({ agent, rd, weak, untried, plan, eligible, excluded 
     ambang_catatan: 'Ambang kebutuhan umum dari Kepmenpan-RB 674/2026 (TWK 65, TIU 80, TKP 166). Bobot SKD:SKB dan aturan hasil akhir ada di Permenpan-RB 18/2026 dan belum dimasukkan.',
     titik_lemah: weak.map((w) => ({ topik: w.topic.name, indikator: w.text, akurasi_persen: Math.round(w.acc * 100), jumlah_jawaban: w.n })),
     indikator_belum_dicoba: untried.map((u) => ({ topik: u.topic.name, indikator: u.text })),
-    lowongan_layak: eligible.slice(0, 8).map((e, i) => ({ peringkat: i + 1, instansi: e.v.instansi, jabatan: e.v.jabatan, lokasi: e.v.lokasi, jenis_formasi: e.v.jenis, kuota: e.v.kuota, pelamar: e.v.pelamar, kelinearan: e.lin.label, persaingan: e.comp.label, nilai_gabungan: e.score, kelompok: e.tier, tutup: e.v.tutup || null, catatan: e.v.catatan || null })),
+    lowongan_layak: eligible.slice(0, 8).map((e, i) => ({ peringkat: i + 1, instansi: e.v.instansi, jabatan: e.v.jabatan, lokasi: e.v.lokasi, jenis_formasi: e.v.jenis, kuota: e.v.kuota, maks_peserta_skb: skbQuota(e.v.kuota), ambang_skd_jenis_ini: e.need.text, pelamar: e.v.pelamar, kelinearan: e.lin.label, persaingan: e.comp.label, nilai_gabungan: e.score, kelompok: e.tier, tutup: e.v.tutup || null, catatan: e.v.catatan || null })),
     jumlah_lowongan_tidak_layak: excluded.length,
   })
 }

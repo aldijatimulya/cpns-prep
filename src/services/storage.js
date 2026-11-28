@@ -9,6 +9,7 @@ export const emptyState = () => ({
   attempts: [], notes: {}, bookmarks: [], verified: [],
   plan: { examDate: '', dailyTarget: 20 }, skb: [], profile: { name: '' },
   vacancies: [], agent: { major: '', degree: 'S1', location: '' },
+  skbTarget: null, skbModules: {}, skbRuns: [],
 })
 
 const read = (k) => {
@@ -90,8 +91,22 @@ export function mergeStates(current, data, { preferIncoming = false } = {}) {
   const vacancies = [...(current.vacancies ?? []), ...(Array.isArray(data.vacancies) ? data.vacancies.filter((x) => x && typeof x.id === 'string' && !vIds.has(x.id)) : [])]
   const inAgent = data.agent && typeof data.agent === 'object' ? data.agent : {}
   const agent = current.agent?.major && !preferIncoming ? current.agent : { ...(current.agent ?? {}), ...inAgent }
+  // Modul SKB: gabung per kunci jabatan; soal digabung per id (yang sudah ada menang), kisi-kisi dari current bila terisi.
+  const inMods = data.skbModules && typeof data.skbModules === 'object' && !Array.isArray(data.skbModules) ? data.skbModules : {}
+  const skbModules = { ...(current.skbModules ?? {}) }
+  for (const [k, m] of Object.entries(inMods).slice(0, 20)) {
+    if (!m || typeof m !== 'object' || !Array.isArray(m.questions)) continue
+    const cur = skbModules[k]
+    if (!cur) { skbModules[k] = m; continue }
+    const ids = new Set(cur.questions.map((q) => q.id))
+    skbModules[k] = { ...cur, kisi: cur.kisi?.length ? cur.kisi : m.kisi ?? [], questions: [...cur.questions, ...m.questions.filter((q) => q && typeof q.id === 'string' && !ids.has(q.id))].slice(0, 400) }
+  }
+  const runIds = new Set((current.skbRuns ?? []).map((r) => r.id))
+  const skbRuns = [...(current.skbRuns ?? []), ...(Array.isArray(data.skbRuns) ? data.skbRuns.filter((r) => r && typeof r.id === 'string' && !runIds.has(r.id)) : [])]
+    .sort((a, b) => String(a.date).localeCompare(String(b.date))).slice(-40)
+  const skbTarget = current.skbTarget ?? (data.skbTarget && typeof data.skbTarget === 'object' ? data.skbTarget : null)
   return {
-    state: { ...current, attempts, notes, bookmarks: uniq(current.bookmarks, data.bookmarks), verified: uniq(current.verified, data.verified), skb, plan, vacancies, agent },
+    state: { ...current, attempts, notes, bookmarks: uniq(current.bookmarks, data.bookmarks), verified: uniq(current.verified, data.verified), skb, plan, vacancies, agent, skbModules, skbRuns, skbTarget },
     addedAttempts: incoming.length,
   }
 }

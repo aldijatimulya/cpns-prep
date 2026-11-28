@@ -27,6 +27,10 @@ const faqs = [
     a: 'Semua soal berstatus draft buatan sendiri sampai Anda memverifikasinya. Komposisi ujian (110 soal, 100 menit) dan ambang batas (umum: TWK 65, TIU 80, TKP 166; khusus: kumulatif 311/286 dan TIU 85/60) berasal dari Kepmenpan-RB No. 674 Tahun 2026. Isi soal tetap buatan sendiri karena SK hanya memuat aspek dan tujuan tiap subtes. Skor simulasi hanyalah alat ukur belajar, bukan prediksi kelulusan. Cek ketentuan terbaru di sscasn.bkn.go.id.',
   },
   {
+    q: 'Bagaimana memakai formasi SSCASN dan SKB di aplikasi ini?',
+    a: 'Aplikasi belum tersambung otomatis ke SSCASN. Di Agent AI, unggah berkas formasi (CSV/JSON) atau muat dari alamat JSON/CSV, lalu pilih "Jadikan formasi target". Di menu Simulasi SKB, isi kisi-kisi dari pengumuman instansi tujuan dan tambahkan soal sendiri (unggah JSON atau draf AI). Materi SKB tidak disediakan aplikasi karena disusun instansi pembina jabatan.',
+  },
+  {
     q: 'Apakah ini aplikasi resmi pemerintah?',
     a: 'Bukan. CPNS Prep adalah alat bantu belajar pribadi dan tidak berafiliasi dengan BKN, KemenPANRB, atau instansi mana pun.',
   },

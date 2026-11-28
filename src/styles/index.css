@@ -186,3 +186,4 @@ table.heat th small, table.heat td small { font-weight: 400; }
 .chat li span{white-space:pre-wrap;overflow-wrap:anywhere}
 .chat li.user b{color:#1f7a6b}
 .tutor-err{color:#a3261d;margin:0}
+.grow { flex: 1 1 280px; }

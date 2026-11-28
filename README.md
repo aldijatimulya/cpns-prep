@@ -70,3 +70,8 @@ Bank soal SKB (menunggu isi SKB resmi). Login Google/Microsoft (bisa ditambah le
 - Konfigurasi ujian, ambang umum dan khusus, kisi-kisi, materi, dan simulasi CAT diperbarui. Rincian dan tabel perubahan: `docs/09-pembaruan-kisi-2026.md`.
 - Baru: Penalaran induktif dan Penalaran matriks (materi + soal). Soal analogi verbal dan ketidaksamaan gambar diarsipkan.
 - Simulasi CAT: pilih jenis kebutuhan (umum, cum laude/diaspora, disabilitas/Papua) dan opsi durasi 130 menit untuk netra.
+
+## v3.6: Formasi, SKB, dan Agent AI
+- Impor formasi mengenali nama kolom SSCASN, memisahkan CPNS/PPPK, membaca jenjang dari nama pendidikan, dan memetakan jenis formasi ke ambang SKD.
+- Agent AI: filter jenis formasi, kuota SKB (3x kebutuhan), kesiapan terhadap ambang jenis formasi, formasi target.
+- Menu baru Simulasi SKB (format resmi, modul per jabatan, soal sendiri/draf AI). Rincian: `docs/10-formasi-dan-skb.md`.

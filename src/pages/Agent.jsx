@@ -4,12 +4,14 @@ import { Compass, Download, ExternalLink, Sparkles, Trash2, Upload } from 'lucid
 import PageHero from '../components/ui/PageHero'
 import MiniMarkdown from '../components/MiniMarkdown'
 import { useStore } from '../contexts/StoreContext'
-import { examConfig } from '../data'
+import { examConfig, needTypes } from '../data'
 import { askAI, loadTutorConfig, hasAI } from '../services/tutor'
 import { AGENT_SYSTEM, agentBrief, recommend, strategy, untriedIndicators, weakIndicators } from '../utils/agent'
 import { TEMPLATE_CSV, parseVacancyFile } from '../utils/vacancies'
+import { moduleKey } from '../utils/skb'
 
 const DEGREES = ['D3', 'S1', 'S2', 'S3']
+const summary = (items, skipped, pppk, truncated) => `${items.length} formasi CPNS dibaca${pppk ? `, ${pppk} formasi PPPK dilewati` : ''}${skipped ? `, ${skipped} baris dilewati (tidak lengkap atau ganda)` : ''}${truncated ? '. Hanya 2000 baris pertama yang dibaca; saring dulu datanya' : ''}.`
 
 function download(name, text, type) {
   const url = URL.createObjectURL(new Blob([text], { type }))
@@ -20,7 +22,7 @@ function download(name, text, type) {
 }
 
 export default function Agent() {
-  const { state, setAgent, importVacancies, removeVacancy, clearVacancies } = useStore()
+  const { state, setAgent, importVacancies, removeVacancy, clearVacancies, setSkbTarget } = useStore()
   const agent = state.agent ?? { major: '', degree: 'S1', location: '' }
   const vacancies = state.vacancies ?? []
   const fileRef = useRef(null)
@@ -29,11 +31,17 @@ export default function Agent() {
   const [busy, setBusy] = useState(false)
   const [err, setErr] = useState('')
   const [showEx, setShowEx] = useState(false)
+  const [jenisFilter, setJenisFilter] = useState('semua')
+  const [q, setQ] = useState('')
+  const [url, setUrl] = useState('')
+  const [loadingUrl, setLoadingUrl] = useState(false)
+  const target = state.skbTarget
 
   const weak = useMemo(() => weakIndicators(state.attempts), [state.attempts])
   const untried = useMemo(() => untriedIndicators(state.attempts), [state.attempts])
   const result = useMemo(() => recommend(vacancies, agent, state.attempts), [vacancies, agent, state.attempts])
-  const { rd, eligible, excluded } = result
+  const { rd, excluded } = result
+  const eligible = useMemo(() => result.eligible.filter((e) => (jenisFilter === 'semua' || (e.v.jenis_key ?? 'umum') === jenisFilter) && (!q.trim() || `${e.v.jabatan} ${e.v.instansi} ${e.v.lokasi}`.toLowerCase().includes(q.trim().toLowerCase()))), [result.eligible, jenisFilter, q])
   const steps = useMemo(() => strategy({ rd, weak, untried, plan: state.plan, top: eligible[0] }), [rd, weak, untried, state.plan, eligible])
   const hasKey = hasAI()
 
@@ -42,13 +50,29 @@ export default function Agent() {
     e.target.value = ''
     if (!f) return
     try {
-      const { items, skipped } = parseVacancyFile(await f.text(), f.name)
+      const { items, skipped, pppk, truncated } = parseVacancyFile(await f.text(), f.name)
       if (!items.length) throw new Error('Tidak ada baris lowongan yang valid (instansi dan jabatan wajib).')
       const replace = vacancies.length > 0 && window.confirm(`Sudah ada ${vacancies.length} lowongan. OK = ganti semuanya dengan isi file ini. Batal = gabungkan (lowongan yang sama dilewati).`)
       importVacancies(items, replace)
-      setMsg(`${items.length} lowongan dibaca${skipped ? `, ${skipped} baris dilewati (tidak lengkap atau ganda)` : ''}.`)
+      setMsg(summary(items, skipped, pppk, truncated))
     } catch (er) { setMsg(er.message) }
   }
+
+  const onUrl = async () => {
+    if (!/^https:\/\//i.test(url.trim())) { setMsg('Alamat harus diawali https://'); return }
+    setLoadingUrl(true); setMsg('')
+    try {
+      let res
+      try { res = await fetch(url.trim(), { headers: { accept: 'application/json, text/csv, text/plain' } }) } catch { throw new Error('Tidak bisa mengambil alamat itu. Kemungkinan situs tujuan memblokir akses dari browser (CORS). Gunakan berkas yang Anda unduh sendiri, atau alamat berkas JSON/CSV di repo Anda (GitHub raw).') }
+      if (!res.ok) throw new Error(`Alamat mengembalikan kode ${res.status}.`)
+      const { items, skipped, pppk, truncated } = parseVacancyFile(await res.text(), url.split('?')[0])
+      if (!items.length) throw new Error('Tidak ada baris formasi yang valid (instansi dan jabatan wajib).')
+      importVacancies(items, true)
+      setMsg(`${summary(items, skipped, pppk, truncated)} Daftar sebelumnya diganti.`)
+    } catch (er) { setMsg(er.message) } finally { setLoadingUrl(false) }
+  }
+
+  const pickTarget = (v) => setSkbTarget({ key: moduleKey(v.jabatan), vacancyId: v.id, jabatan: v.jabatan, instansi: v.instansi, lokasi: v.lokasi, kuota: v.kuota, jenis: v.jenis, jenis_key: v.jenis_key ?? 'umum', dominanHitung: false, netra: false })
 
   const ask = async () => {
     setBusy(true); setErr(''); setAi('')
@@ -70,7 +94,7 @@ export default function Agent() {
       />
 
       <div className="banner" role="note">
-        <p>Aplikasi ini tidak terhubung ke portal resmi. Lowongan hanya berasal dari file yang Anda unggah, jadi pastikan datanya disalin dari pengumuman resmi (SSCASN atau situs instansi). Kelinearan jurusan di sini adalah pencocokan teks; keputusan akhir ada pada daftar resmi di pengumuman formasi.</p>
+        <p>Aplikasi ini belum tersambung otomatis ke SSCASN. Formasi berasal dari berkas atau alamat JSON/CSV yang Anda muat, jadi data bisa tertinggal dari daftar resmi yang terus diperbarui; cek ulang di sscasn.bkn.go.id sebelum memilih. Kelinearan jurusan di sini adalah pencocokan teks; keputusan akhir ada pada daftar resmi di pengumuman formasi.</p>
       </div>
 
       <section className="card form">
@@ -90,12 +114,18 @@ export default function Agent() {
 
       <section className="card">
         <h2>2. Data lowongan ({vacancies.length})</h2>
-        <p className="muted">Unggah file CSV atau JSON. Kolom: instansi, jabatan, lokasi, jenjang, jurusan (pisahkan dengan titik koma), kuota, pelamar (opsional), jenis_formasi, tanggal_tutup, tautan, catatan.</p>
+        <p className="muted">Unggah file CSV atau JSON. Nama kolom SSCASN dikenali: nama jabatan, instansi, lokasi formasi, jenis formasi, nama pendidikan (jenjang diambil otomatis dari "S-1 ...", "D-IV ..."), kebutuhan. Pisahkan beberapa jurusan dengan titik koma. Formasi PPPK dilewati. Jenis formasi (umum, cum laude, disabilitas, Papua, diaspora) menentukan ambang batas SKD yang dipakai.</p>
         <div className="row actions">
           <input ref={fileRef} type="file" accept=".csv,.json,text/csv,application/json" className="sr-only" aria-label="Unggah file lowongan" onChange={onFile} />
           <button className="btn" onClick={() => fileRef.current?.click()}><Upload size={16} aria-hidden="true" /> Unggah file lowongan</button>
           <button className="btn ghost" onClick={() => download('templat-lowongan.csv', TEMPLATE_CSV, 'text/csv')}><Download size={16} aria-hidden="true" /> Unduh templat CSV</button>
           {vacancies.length > 0 && <button className="btn ghost" onClick={() => window.confirm('Hapus semua lowongan?') && clearVacancies()}><Trash2 size={16} aria-hidden="true" /> Hapus semua</button>}
+        </div>
+        <div className="row actions">
+          <label className="grow">Atau muat dari alamat (JSON/CSV)
+            <input value={url} placeholder="https://raw.githubusercontent.com/.../formasi.json" onChange={(e) => setUrl(e.target.value)} />
+          </label>
+          <button className="btn ghost" disabled={loadingUrl || !url.trim()} onClick={onUrl}>{loadingUrl ? 'Memuat…' : 'Muat dari alamat'}</button>
         </div>
         {msg && <p role="status">{msg}</p>}
       </section>
@@ -129,6 +159,19 @@ export default function Agent() {
           : !agent.major.trim() ? <p className="muted">Isi jurusan Anda di langkah 1.</p>
             : eligible.length === 0 ? <p className="muted">Tidak ada lowongan yang cocok dengan jurusan dan jenjang Anda dari {vacancies.length} lowongan yang diunggah.</p>
               : (
+                <>
+                  <div className="agent-form">
+                    <label>Jenis formasi
+                      <select value={jenisFilter} onChange={(e) => setJenisFilter(e.target.value)}>
+                        <option value="semua">Semua</option>
+                        {Object.entries(needTypes).map(([k, n]) => <option key={k} value={k}>{n.label.replace(/^Khusus: /, '')}</option>)}
+                      </select>
+                    </label>
+                    <label>Cari jabatan / instansi / lokasi
+                      <input value={q} onChange={(e) => setQ(e.target.value.slice(0, 60))} placeholder="mis. analis, BSSN, Palembang" />
+                    </label>
+                  </div>
+                  <p className="muted">Menampilkan {eligible.length} dari {result.eligible.length} formasi yang cocok.</p>
                 <ol className="vac-list">
                   {eligible.map((e, i) => (
                     <li key={e.v.id} className="vac">
@@ -145,12 +188,15 @@ export default function Agent() {
                       <small className="muted">{[e.v.tutup && `Tutup: ${e.v.tutup}`, e.v.catatan].filter(Boolean).join(' · ')}</small>
                       <div className="row actions">
                         {e.v.tautan && <a className="btn small ghost" href={e.v.tautan} target="_blank" rel="noreferrer noopener"><ExternalLink size={14} aria-hidden="true" /> Pengumuman</a>}
+                        <button className={target?.vacancyId === e.v.id ? 'btn small' : 'btn small ghost'} onClick={() => pickTarget(e.v)}>{target?.vacancyId === e.v.id ? 'Formasi target ✓' : 'Jadikan formasi target'}</button>
                         <button className="btn small ghost" onClick={() => window.confirm('Hapus lowongan ini dari daftar?') && removeVacancy(e.v.id)}>Hapus</button>
                       </div>
                     </li>
                   ))}
                 </ol>
+                </>
               )}
+        {target && <p role="status">Formasi target: <b>{target.jabatan}</b> ({target.instansi}). Siapkan materinya di <Link to="/skb">Simulasi SKB</Link>.</p>}
         {excluded.length > 0 && agent.major.trim() && (
           <>
             <button className="link-btn" onClick={() => setShowEx(!showEx)}>{showEx ? 'Sembunyikan' : 'Lihat'} {excluded.length} lowongan yang tidak cocok</button>
